@@ -1,0 +1,165 @@
+﻿namespace Mehr.Presentation_Layers
+{
+    partial class frmAnbarView
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAnbarView));
+            this.btnexit = new System.Windows.Forms.Button();
+            this.grdDataViewer = new System.Windows.Forms.DataGridView();
+            this.btndel = new System.Windows.Forms.Button();
+            this.btnadd = new System.Windows.Forms.Button();
+            this.btnedit = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.grdDataViewer)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnexit
+            // 
+            this.btnexit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnexit.BackColor = System.Drawing.SystemColors.Control;
+            this.btnexit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnexit.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.btnexit.Image = ((System.Drawing.Image)(resources.GetObject("btnexit.Image")));
+            this.btnexit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnexit.Location = new System.Drawing.Point(12, 230);
+            this.btnexit.Name = "btnexit";
+            this.btnexit.Size = new System.Drawing.Size(96, 42);
+            this.btnexit.TabIndex = 30;
+            this.btnexit.Text = "خروج";
+            this.btnexit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnexit.UseVisualStyleBackColor = true;
+            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
+            // 
+            // grdDataViewer
+            // 
+            this.grdDataViewer.AllowUserToAddRows = false;
+            this.grdDataViewer.AllowUserToDeleteRows = false;
+            this.grdDataViewer.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.grdDataViewer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdDataViewer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grdDataViewer.Location = new System.Drawing.Point(0, 0);
+            this.grdDataViewer.MultiSelect = false;
+            this.grdDataViewer.Name = "grdDataViewer";
+            this.grdDataViewer.ReadOnly = true;
+            this.grdDataViewer.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.grdDataViewer.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.grdDataViewer.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdDataViewer.Size = new System.Drawing.Size(494, 222);
+            this.grdDataViewer.TabIndex = 31;
+            // 
+            // btndel
+            // 
+            this.btndel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btndel.BackColor = System.Drawing.SystemColors.Control;
+            this.btndel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btndel.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btndel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btndel.Image = ((System.Drawing.Image)(resources.GetObject("btndel.Image")));
+            this.btndel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndel.Location = new System.Drawing.Point(187, 230);
+            this.btndel.Name = "btndel";
+            this.btndel.Size = new System.Drawing.Size(96, 42);
+            this.btndel.TabIndex = 41;
+            this.btndel.Text = "حذف";
+            this.btndel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btndel.UseVisualStyleBackColor = true;
+            this.btndel.Click += new System.EventHandler(this.btndel_Click);
+            // 
+            // btnadd
+            // 
+            this.btnadd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnadd.BackColor = System.Drawing.SystemColors.Control;
+            this.btnadd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnadd.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnadd.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnadd.Image = ((System.Drawing.Image)(resources.GetObject("btnadd.Image")));
+            this.btnadd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnadd.Location = new System.Drawing.Point(391, 230);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(96, 42);
+            this.btnadd.TabIndex = 40;
+            this.btnadd.Text = "اضافه";
+            this.btnadd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
+            // 
+            // btnedit
+            // 
+            this.btnedit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnedit.BackColor = System.Drawing.SystemColors.Control;
+            this.btnedit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnedit.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnedit.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnedit.Image = ((System.Drawing.Image)(resources.GetObject("btnedit.Image")));
+            this.btnedit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnedit.Location = new System.Drawing.Point(289, 230);
+            this.btnedit.Name = "btnedit";
+            this.btnedit.Size = new System.Drawing.Size(96, 42);
+            this.btnedit.TabIndex = 42;
+            this.btnedit.Text = "ویرایش";
+            this.btnedit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnedit.UseVisualStyleBackColor = true;
+            this.btnedit.Click += new System.EventHandler(this.btnedit_Click);
+            // 
+            // frmAnbarView
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.CancelButton = this.btnexit;
+            this.ClientSize = new System.Drawing.Size(494, 279);
+            this.Controls.Add(this.btnedit);
+            this.Controls.Add(this.btndel);
+            this.Controls.Add(this.btnadd);
+            this.Controls.Add(this.btnexit);
+            this.Controls.Add(this.grdDataViewer);
+            this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.KeyPreview = true;
+            this.MaximizeBox = false;
+            this.Name = "frmAnbarView";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "نمایش اطلاعات داروها";
+            this.Load += new System.EventHandler(this.frmAnbarView_Load);
+            this.Activated += new System.EventHandler(this.frmAnbarView_Activated);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.grdDataViewer)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnexit;
+        private System.Windows.Forms.DataGridView grdDataViewer;
+        private System.Windows.Forms.Button btndel;
+        private System.Windows.Forms.Button btnadd;
+        private System.Windows.Forms.Button btnedit;
+    }
+}

@@ -1,0 +1,158 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace Mehr.Presentation_Layers
+{
+    public partial class frmContact_AnbarView : Form
+    {
+        public frmContact_AnbarView()
+        {
+            InitializeComponent();
+        }
+
+        public string cur_date = "";
+
+        private void frmContact_AnbarView_Load(object sender, EventArgs e)
+        {
+
+            System.Globalization.CultureInfo inp = new System.Globalization.CultureInfo("fa-IR");
+            InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(inp);
+
+            contact_anbar an = new contact_anbar();
+            an.contactid = txtcontactid.Text;
+            DataTable dt = new DataTable();
+            dt = an.Select();
+
+            grdDataViewer.DataSource = dt;
+
+            DataGridViewCellStyle objAlternatingCellStyle = new DataGridViewCellStyle();
+            objAlternatingCellStyle.BackColor = Color.PaleGreen;
+            grdDataViewer.AlternatingRowsDefaultCellStyle = objAlternatingCellStyle;
+
+            contact co = new contact();
+            DataTable condt = co.Select();
+
+            txtcontactname.DataSource = condt;
+            txtcontactname.DisplayMember = "fullname";
+            txtcontactname.ValueMember = "fullname";
+
+            txtcontactid.DataBindings.Add("Text", condt, "id");
+        }
+
+
+        private void btnexit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnedit_Click(object sender, EventArgs e)
+        {
+            //Boolean alldone = false;
+
+            //foreach (DataGridViewRow dgvr in grdDataViewer.SelectedRows)
+            //{
+            //    try
+            //    {
+            //        string mandeh = dgvr.Cells["mandeh"].Value.ToString();
+
+            //        if (float.Parse(mandeh) > 0)
+            //        {
+            //            tajviz_anbar_history dar = new tajviz_anbar_history();
+            //            dar.id = long.Parse(new tajviz_anbar_history().Selectmaxid().ToString());
+            //            dar.date = cur_date;
+            //            dar.contactname = "پرستار";
+            //            dar.contactid = "0000";
+            //            dar.daru_name = dgvr.Cells["daru_name"].Value.ToString();
+            //            dar.tedad = float.Parse(mandeh);
+            //            dar.comments = "برگشت دارو از بانک دارویی پرستار";
+            //            dar.Add();
+
+            //            // Updating the Data to the DataBase Anbar
+            //            tajviz_anbar an = new tajviz_anbar();
+            //            an.mandeh = float.Parse(mandeh);
+            //            an.daru_name = dgvr.Cells["daru_name"].Value.ToString();
+            //            an.UpdateAfterFactor();
+            //            // End of Updating Data to the DataBase
+                        
+            //            parastar_anbar pa = new parastar_anbar();
+            //            pa.daru_name = dgvr.Cells["daru_name"].Value.ToString();
+            //            pa.mandeh = -float.Parse(mandeh);
+            //            pa.MojoodiInc();
+
+            //            alldone = true;
+                       
+            //        }
+            //    }
+            //    catch
+            //    {
+            //        MessageBox.Show("انجام عملیات با مشکل مواجه شد", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    }
+            //}
+
+            //if (alldone)
+            //    MessageBox.Show("انجام عملیات با موفقیت به پایان رسید", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+            //parastar_anbar pm = new parastar_anbar();
+            //DataTable dt = new DataTable();
+            //dt = pm.Select();
+            //grdDataViewer.DataSource = dt;
+        }
+
+        private void Form_KeyDown(object sender, KeyEventArgs e)
+        {
+            //if (e.KeyCode == Keys.E && e.Modifiers == Keys.Control)
+            //{
+            //    btnedit.PerformClick();
+            //    e.SuppressKeyPress = true;
+            //}
+        }
+
+        private void grdDataViewer_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 0)
+            {
+                string mandeh = grdDataViewer["mandeh", e.RowIndex].Value.ToString();
+                if (float.Parse(mandeh) > 0)
+                {
+                    frmDaruReturnTedad fdrt = new frmDaruReturnTedad();
+                    fdrt.maxcanreturn = mandeh;
+                    fdrt.daru_name = grdDataViewer["daru_name", e.RowIndex].Value.ToString();
+                    fdrt.cur_date = this.cur_date;
+                    fdrt.type = "مخاطب";
+                    fdrt.cname = grdDataViewer["contactname", e.RowIndex].Value.ToString();
+                    fdrt.cid = grdDataViewer["contactid", e.RowIndex].Value.ToString();
+                    fdrt.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("مقدار مانده ی داروی انتخاب شده صفر می باشد");
+                }
+
+
+                contact_anbar pm = new contact_anbar();
+                pm.contactid = txtcontactid.Text;
+                DataTable dt = new DataTable();
+                dt = pm.Select();
+                grdDataViewer.DataSource = dt;
+
+                grdDataViewer.CurrentCell = grdDataViewer[0, e.RowIndex];
+            }
+        }
+
+        private void btnfilter_Click(object sender, EventArgs e)
+        {
+            contact_anbar pm = new contact_anbar();
+            pm.contactid = txtcontactid.Text;
+            DataTable dt = new DataTable();
+            dt = pm.Select();
+            grdDataViewer.DataSource = dt;
+
+        }
+    }
+}

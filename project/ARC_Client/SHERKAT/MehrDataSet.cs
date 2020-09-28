@@ -1,19 +1,21 @@
-﻿namespace Mehr {
-    
-    
-    public partial class MehrDataSet {
+﻿namespace Mehr
+{
+
+
+    public partial class MehrDataSet
+    {
         partial class MAP_ADataTable
         {
         }
-    
+
         partial class kolDataTable
         {
         }
-    
+
         partial class tanzimdozDataTable
         {
         }
-    
+
         partial class hazineh_chartDataTable
         {
         }
