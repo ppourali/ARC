@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network Error Handler", "Network Error Handler\Network Error Handler.csproj", "{FEFFBBF9-6675-4E71-A616-2A343A221D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEFFBBF9-6675-4E71-A616-2A343A221D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFFBBF9-6675-4E71-A616-2A343A221D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFFBBF9-6675-4E71-A616-2A343A221D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFFBBF9-6675-4E71-A616-2A343A221D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

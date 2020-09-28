@@ -1,0 +1,1 @@
+update sicks set id='00000000000'+id

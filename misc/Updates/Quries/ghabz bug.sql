@@ -1,0 +1,1 @@
+UPDATE ghabz SET mablagh=(select bedehkari from sick_history where (ghabz.ghabz_id=sick_history.ghabz_id and sick_history.bestankari=0 ))

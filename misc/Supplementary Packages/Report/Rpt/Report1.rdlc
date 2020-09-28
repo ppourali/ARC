@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="mehrConnectionString">
+      <rd:DataSourceID>29e0d336-8ef2-4041-a0b0-394f6f7a3f9d</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=.\sqlexpress;Initial Catalog=mehr;Integrated Security=True</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="Report_Parameter_0">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value>60</Value>
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:GridSpacing>0.25cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>1cm</RightMargin>
+  <LeftMargin>1cm</LeftMargin>
+  <BottomMargin>1cm</BottomMargin>
+  <rd:ReportID>0523639c-07c5-4747-8bce-5da6c106c89f</rd:ReportID>
+  <PageWidth>29.7cm</PageWidth>
+  <DataSets>
+    <DataSet Name="mehrDataSet_DataTable1">
+      <Fields>
+        <Field Name="id_no">
+          <DataField>id_no</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="id">
+          <DataField>id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="name">
+          <DataField>name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ravesh_tark">
+          <DataField>ravesh_tark</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="date">
+          <DataField>date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="daru_name">
+          <DataField>daru_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="tedad">
+          <DataField>tedad</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="darman_date">
+          <DataField>darman_date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="father_name">
+          <DataField>father_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="age">
+          <DataField>age</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="city">
+          <DataField>city</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="sex">
+          <DataField>sex</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="masrafi_type">
+          <DataField>masrafi_type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>mehrConnectionString</DataSourceName>
+        <CommandText>select sicks.*,tahvil.* from sicks, tahvil where (sicks.id=tahvil.id)</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>mehrDataSet</rd:DataSetName>
+        <rd:TableName>DataTable1</rd:TableName>
+        <rd:TableAdapterName>DataTable1TableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>9.5cm</Width>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Matrix Name="matrix1">
+        <MatrixColumns>
+          <MatrixColumn>
+            <Width>0.6cm</Width>
+          </MatrixColumn>
+        </MatrixColumns>
+        <DataSetName>mehrDataSet_DataTable1</DataSetName>
+        <RowGroupings>
+          <RowGrouping>
+            <Width>2.53968cm</Width>
+            <DynamicRows>
+              <Grouping Name="matrix1_RowGroup4">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!name.Value</GroupExpression>
+                  <GroupExpression>=Fields!id_no.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <ReportItems>
+                <Textbox Name="textbox5">
+                  <rd:DefaultName>textbox5</rd:DefaultName>
+                  <Style>
+                    <BackgroundColor>White</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <BorderWidth>
+                      <Default>2pt</Default>
+                    </BorderWidth>
+                    <FontFamily>b lotus</FontFamily>
+                    <FontSize>9pt</FontSize>
+                    <TextAlign>Center</TextAlign>
+                    <PaddingLeft>0.5pt</PaddingLeft>
+                    <PaddingRight>0.5pt</PaddingRight>
+                    <PaddingTop>0.5pt</PaddingTop>
+                    <PaddingBottom>0.5pt</PaddingBottom>
+                    <Direction>RTL</Direction>
+                  </Style>
+                  <ZIndex>5</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!name.Value+"میرزا کیادهی"+vbCrLf+Fields!id_no.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicRows>
+          </RowGrouping>
+          <RowGrouping>
+            <Width>1.75cm</Width>
+            <DynamicRows>
+              <Grouping Name="matrix1_RowGroup6">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!id.Value</GroupExpression>
+                  <GroupExpression>=Fields!father_name.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <ReportItems>
+                <Textbox Name="textbox6">
+                  <rd:DefaultName>textbox6</rd:DefaultName>
+                  <Style>
+                    <BackgroundColor>White</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <BorderWidth>
+                      <Default>2pt</Default>
+                    </BorderWidth>
+                    <FontFamily>b lotus</FontFamily>
+                    <FontSize>9pt</FontSize>
+                    <TextAlign>Center</TextAlign>
+                    <PaddingLeft>0.5pt</PaddingLeft>
+                    <PaddingRight>0.5pt</PaddingRight>
+                    <PaddingTop>0.5pt</PaddingTop>
+                    <PaddingBottom>0.5pt</PaddingBottom>
+                  </Style>
+                  <ZIndex>4</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!id.Value+vbCrLf+Fields!father_name.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicRows>
+          </RowGrouping>
+          <RowGrouping>
+            <Width>2.25cm</Width>
+            <DynamicRows>
+              <Grouping Name="matrix1_id1">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!masrafi_type.Value</GroupExpression>
+                  <GroupExpression>=Fields!darman_date.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Sorting>
+                <SortBy>
+                  <SortExpression>=Fields!id.Value</SortExpression>
+                  <Direction>Ascending</Direction>
+                </SortBy>
+              </Sorting>
+              <ReportItems>
+                <Textbox Name="id1">
+                  <rd:DefaultName>id1</rd:DefaultName>
+                  <Style>
+                    <BackgroundColor>White</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <BorderWidth>
+                      <Default>2pt</Default>
+                    </BorderWidth>
+                    <FontFamily>b lotus</FontFamily>
+                    <FontSize>9pt</FontSize>
+                    <TextAlign>Center</TextAlign>
+                    <PaddingLeft>0.5pt</PaddingLeft>
+                    <PaddingRight>0.5pt</PaddingRight>
+                    <PaddingTop>0.5pt</PaddingTop>
+                    <PaddingBottom>0.5pt</PaddingBottom>
+                    <Direction>RTL</Direction>
+                  </Style>
+                  <ZIndex>3</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!masrafi_type.Value+vbCrLf+Fields!darman_date.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicRows>
+          </RowGrouping>
+          <RowGrouping>
+            <Width>1.25cm</Width>
+            <DynamicRows>
+              <Grouping Name="matrix1_name">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!city.Value</GroupExpression>
+                  <GroupExpression>=Fields!age.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Sorting>
+                <SortBy>
+                  <SortExpression>=Fields!name.Value</SortExpression>
+                  <Direction>Ascending</Direction>
+                </SortBy>
+              </Sorting>
+              <ReportItems>
+                <Textbox Name="name">
+                  <rd:DefaultName>name</rd:DefaultName>
+                  <Style>
+                    <BackgroundColor>White</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <BorderWidth>
+                      <Default>2pt</Default>
+                    </BorderWidth>
+                    <FontFamily>b lotus</FontFamily>
+                    <FontSize>9pt</FontSize>
+                    <TextAlign>Center</TextAlign>
+                    <PaddingLeft>0.5pt</PaddingLeft>
+                    <PaddingRight>0.5pt</PaddingRight>
+                    <PaddingTop>0.5pt</PaddingTop>
+                    <PaddingBottom>0.5pt</PaddingBottom>
+                    <Direction>RTL</Direction>
+                  </Style>
+                  <ZIndex>2</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!city.Value+vbCrLf+Fields!age.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicRows>
+          </RowGrouping>
+          <RowGrouping>
+            <Width>1cm</Width>
+            <DynamicRows>
+              <Grouping Name="matrix1_RowGroup5">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!daru_name.Value</GroupExpression>
+                </GroupExpressions>
+                <Parent>=Fields!id.Value</Parent>
+              </Grouping>
+              <ReportItems>
+                <Textbox Name="textbox4">
+                  <rd:DefaultName>textbox4</rd:DefaultName>
+                  <Style>
+                    <BackgroundColor>White</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <BorderWidth>
+                      <Default>2pt</Default>
+                    </BorderWidth>
+                    <FontSize>9pt</FontSize>
+                    <TextAlign>Center</TextAlign>
+                    <PaddingLeft>0.5pt</PaddingLeft>
+                    <PaddingRight>0.5pt</PaddingRight>
+                    <PaddingTop>0.5pt</PaddingTop>
+                    <PaddingBottom>0.5pt</PaddingBottom>
+                  </Style>
+                  <ZIndex>1</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!daru_name.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicRows>
+          </RowGrouping>
+        </RowGroupings>
+        <KeepTogether>true</KeepTogether>
+        <ColumnGroupings>
+          <ColumnGrouping>
+            <Height>1.25cm</Height>
+            <DynamicColumns>
+              <Grouping Name="matrix1_date">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!date.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Sorting>
+                <SortBy>
+                  <SortExpression>=Fields!date.Value</SortExpression>
+                  <Direction>Ascending</Direction>
+                </SortBy>
+              </Sorting>
+              <ReportItems>
+                <Textbox Name="date">
+                  <rd:DefaultName>date</rd:DefaultName>
+                  <Style>
+                    <BackgroundColor>LightGrey</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <BorderWidth>
+                      <Default>2pt</Default>
+                    </BorderWidth>
+                    <FontFamily>b lotus</FontFamily>
+                    <FontSize>9pt</FontSize>
+                    <FontWeight>700</FontWeight>
+                    <TextAlign>Center</TextAlign>
+                    <VerticalAlign>Middle</VerticalAlign>
+                    <PaddingLeft>0.5pt</PaddingLeft>
+                    <PaddingRight>0.5pt</PaddingRight>
+                    <PaddingTop>0.5pt</PaddingTop>
+                    <PaddingBottom>0.5pt</PaddingBottom>
+                    <Direction>RTL</Direction>
+                    <WritingMode>tb-rl</WritingMode>
+                  </Style>
+                  <ZIndex>6</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!date.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicColumns>
+          </ColumnGrouping>
+        </ColumnGroupings>
+        <Width>9.38968cm</Width>
+        <Corner>
+          <ReportItems>
+            <Textbox Name="textbox3">
+              <rd:DefaultName>textbox3</rd:DefaultName>
+              <Style>
+                <BackgroundColor>LightGrey</BackgroundColor>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+                <BorderWidth>
+                  <Default>2pt</Default>
+                </BorderWidth>
+                <FontFamily>b lotus</FontFamily>
+                <TextAlign>Right</TextAlign>
+                <PaddingLeft>0.5pt</PaddingLeft>
+                <PaddingRight>0.5pt</PaddingRight>
+                <PaddingTop>0.5pt</PaddingTop>
+                <PaddingBottom>0.5pt</PaddingBottom>
+              </Style>
+              <ZIndex>7</ZIndex>
+              <CanGrow>true</CanGrow>
+              <Value>="نام و نام خانوادگی"+Space(5)+"شماره پرونده"+Space(5)+"مخدر مصرفی"+Space(5)+"شهر"+vbCrLf +"شماره ملی"+Space(5)+"نام پدر"+Space(5)+"شروع ترک"+Space(5)+"سن"</Value>
+            </Textbox>
+          </ReportItems>
+        </Corner>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>2pt</Default>
+          </BorderWidth>
+          <FontFamily>b lotus</FontFamily>
+        </Style>
+        <MatrixRows>
+          <MatrixRow>
+            <Height>0.53333cm</Height>
+            <MatrixCells>
+              <MatrixCell>
+                <ReportItems>
+                  <Textbox Name="textbox1">
+                    <Style>
+                      <BorderStyle>
+                        <Default>Solid</Default>
+                      </BorderStyle>
+                      <FontFamily>b lotus</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <TextAlign>Center</TextAlign>
+                      <VerticalAlign>Middle</VerticalAlign>
+                      <PaddingLeft>0.5pt</PaddingLeft>
+                      <PaddingRight>0.5pt</PaddingRight>
+                      <PaddingTop>0.5pt</PaddingTop>
+                      <PaddingBottom>0.5pt</PaddingBottom>
+                      <Direction>RTL</Direction>
+                    </Style>
+                    <CanGrow>true</CanGrow>
+                    <Value>=Fields!tedad.Value</Value>
+                  </Textbox>
+                </ReportItems>
+              </MatrixCell>
+            </MatrixCells>
+          </MatrixRow>
+        </MatrixRows>
+      </Matrix>
+    </ReportItems>
+    <Height>1.78333cm</Height>
+  </Body>
+  <Language>en-US</Language>
+  <PageFooter>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Textbox Name="textbox2">
+        <rd:DefaultName>textbox2</rd:DefaultName>
+        <Width>0.74999cm</Width>
+        <Style>
+          <BorderColor>
+            <Default>LightGrey</Default>
+          </BorderColor>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontFamily>b lotus</FontFamily>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>0.5pt</PaddingLeft>
+          <PaddingRight>0.5pt</PaddingRight>
+          <PaddingTop>0.5pt</PaddingTop>
+          <PaddingBottom>0.5pt</PaddingBottom>
+          <Direction>RTL</Direction>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>4.75cm</Left>
+        <Height>0.53756cm</Height>
+        <Value>=Parameters!Report_Parameter_0.Value</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>0.75cm</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageFooter>
+  <TopMargin>1cm</TopMargin>
+  <PageHeight>21cm</PageHeight>
+</Report>

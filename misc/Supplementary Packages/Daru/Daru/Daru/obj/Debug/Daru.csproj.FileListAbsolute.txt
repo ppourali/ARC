@@ -1,0 +1,34 @@
+D:\Solutions\Daru\Daru\Daru\obj\Debug\ResolveAssemblyReference.cache
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Properties.Resources.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.csproj.GenerateResource.Cache
+D:\Solutions\Daru\Daru\Daru\bin\Debug\Daru.exe
+D:\Solutions\Daru\Daru\Daru\bin\Debug\Daru.pdb
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.exe
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.pdb
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmDaruInp.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmDaruEdit.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmDaruView.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmMain.resources
+D:\Solutions\Daru\Daru\Daru\bin\Debug\Daru.exe.config
+D:\Solutions\Daru\Daru\Daru\obj\Debug\RdlCompile.cache
+D:\Solutions\Daru\Daru\Daru\obj\Debug\RdlCompile.compiled
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmDaruPrintViewer.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmChpass.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmLogin.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmContactInp.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmContactEdit.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmContactView.resources
+D:\Solutions\Daru\Daru\Daru\bin\Debug\Daru.exe.manifest
+D:\Solutions\Daru\Daru\Daru\bin\Debug\Daru.application
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.TrustInfo.xml
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.exe.manifest
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.application
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmAnbarEdit.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmAnbarInp.resources
+D:\Solutions\Daru\Daru\Daru\obj\Debug\Daru.Presentation_Layers.frmAnbarView.resources
+D:\Solutions\Mehr A.R.C\Daru\Daru\Daru\bin\Debug\Daru.exe.config
+D:\Solutions\Mehr A.R.C\Daru\Daru\Daru\obj\Debug\Daru.exe
+D:\Solutions\Mehr A.R.C\Daru\Daru\Daru\obj\Debug\Daru.pdb
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\Daru\Daru\Daru\bin\Debug\Daru.exe.config
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\Daru\Daru\Daru\obj\Debug\Daru.exe
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\Daru\Daru\Daru\obj\Debug\Daru.pdb

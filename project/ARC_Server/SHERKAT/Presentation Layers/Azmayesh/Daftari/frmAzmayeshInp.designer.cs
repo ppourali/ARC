@@ -1,0 +1,800 @@
+﻿namespace Mehr.Presentation_Layers
+{
+    partial class frmAzmayeshInp
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAzmayeshInp));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.btnSabegheh = new System.Windows.Forms.Button();
+            this.grpinfo_box = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtnemooneh = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtcomments = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtcode = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtresult = new System.Windows.Forms.ComboBox();
+            this.txttype = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtdate = new Mehr.DateMaskedTextbox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtfather_name = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtname = new System.Windows.Forms.ComboBox();
+            this.idsearch = new System.Windows.Forms.Button();
+            this.txtdarman_date = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txtsick_id = new Mehr.IDTextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pre_text = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.statusStrip1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.grpinfo_box.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(123, 17);
+            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.SystemColors.Control;
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 512);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(16, 0, 1, 0);
+            this.statusStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.statusStrip1.Size = new System.Drawing.Size(600, 22);
+            this.statusStrip1.TabIndex = 52;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.Color.White;
+            this.btnAdd.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
+            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdd.Location = new System.Drawing.Point(156, 31);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnAdd.Size = new System.Drawing.Size(114, 55);
+            this.btnAdd.TabIndex = 7;
+            this.btnAdd.Text = "ثبت";
+            this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.White;
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnCancel.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.Image")));
+            this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancel.Location = new System.Drawing.Point(32, 31);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnCancel.Size = new System.Drawing.Size(114, 55);
+            this.btnCancel.TabIndex = 8;
+            this.btnCancel.Text = "انصراف";
+            this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.checkBox4);
+            this.groupBox2.Controls.Add(this.btnAdd);
+            this.groupBox2.Controls.Add(this.btnSabegheh);
+            this.groupBox2.Controls.Add(this.btnCancel);
+            this.groupBox2.Location = new System.Drawing.Point(85, 303);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.groupBox2.Size = new System.Drawing.Size(429, 94);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Checked = true;
+            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox4.Font = new System.Drawing.Font("Tahoma", 7.5F);
+            this.checkBox4.Location = new System.Drawing.Point(165, 11);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.checkBox4.Size = new System.Drawing.Size(105, 16);
+            this.checkBox4.TabIndex = 70;
+            this.checkBox4.Text = "چاپ همزمان با ثبت";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // btnSabegheh
+            // 
+            this.btnSabegheh.BackColor = System.Drawing.SystemColors.Control;
+            this.btnSabegheh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSabegheh.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btnSabegheh.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSabegheh.Image = ((System.Drawing.Image)(resources.GetObject("btnSabegheh.Image")));
+            this.btnSabegheh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSabegheh.Location = new System.Drawing.Point(276, 32);
+            this.btnSabegheh.Name = "btnSabegheh";
+            this.btnSabegheh.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnSabegheh.Size = new System.Drawing.Size(114, 54);
+            this.btnSabegheh.TabIndex = 9;
+            this.btnSabegheh.TabStop = false;
+            this.btnSabegheh.Text = "سوابق آزمایشات بیمار";
+            this.btnSabegheh.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSabegheh.UseVisualStyleBackColor = true;
+            this.btnSabegheh.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // grpinfo_box
+            // 
+            this.grpinfo_box.BackColor = System.Drawing.Color.Transparent;
+            this.grpinfo_box.Controls.Add(this.checkBox1);
+            this.grpinfo_box.Controls.Add(this.checkBox3);
+            this.grpinfo_box.Controls.Add(this.pictureBox1);
+            this.grpinfo_box.Controls.Add(this.txtnemooneh);
+            this.grpinfo_box.Controls.Add(this.label2);
+            this.grpinfo_box.Controls.Add(this.txtcomments);
+            this.grpinfo_box.Controls.Add(this.label4);
+            this.grpinfo_box.Controls.Add(this.txtcode);
+            this.grpinfo_box.Controls.Add(this.label3);
+            this.grpinfo_box.Controls.Add(this.txtresult);
+            this.grpinfo_box.Controls.Add(this.txttype);
+            this.grpinfo_box.Controls.Add(this.label1);
+            this.grpinfo_box.Controls.Add(this.txtdate);
+            this.grpinfo_box.Controls.Add(this.label14);
+            this.grpinfo_box.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.grpinfo_box.Location = new System.Drawing.Point(9, 102);
+            this.grpinfo_box.Margin = new System.Windows.Forms.Padding(0);
+            this.grpinfo_box.Name = "grpinfo_box";
+            this.grpinfo_box.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grpinfo_box.Size = new System.Drawing.Size(575, 201);
+            this.grpinfo_box.TabIndex = 1;
+            this.grpinfo_box.TabStop = false;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(253, 172);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.checkBox1.Size = new System.Drawing.Size(205, 18);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "ثبت این شرح آزمایش به عنوان نمونه";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.Leave += new System.EventHandler(this.Leave_Action);
+            this.checkBox1.Enter += new System.EventHandler(this.Enter_Action);
+            this.checkBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(464, 81);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.checkBox3.Size = new System.Drawing.Size(86, 18);
+            this.checkBox3.TabIndex = 4;
+            this.checkBox3.Text = "نمونه دستور";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.Leave += new System.EventHandler(this.Leave_Action);
+            this.checkBox3.Enter += new System.EventHandler(this.Enter_Action);
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            this.checkBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(15, 80);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(26, 21);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 71;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // txtnemooneh
+            // 
+            this.txtnemooneh.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.txtnemooneh.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.txtnemooneh.BackColor = System.Drawing.Color.White;
+            this.txtnemooneh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtnemooneh.Enabled = false;
+            this.txtnemooneh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtnemooneh.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.txtnemooneh.ForeColor = System.Drawing.Color.Black;
+            this.txtnemooneh.FormattingEnabled = true;
+            this.txtnemooneh.Location = new System.Drawing.Point(47, 80);
+            this.txtnemooneh.Name = "txtnemooneh";
+            this.txtnemooneh.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtnemooneh.Size = new System.Drawing.Size(411, 21);
+            this.txtnemooneh.TabIndex = 4;
+            this.txtnemooneh.SelectedIndexChanged += new System.EventHandler(this.txtnemooneh_TextChanged);
+            this.txtnemooneh.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtnemooneh.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtnemooneh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtnemooneh.TextChanged += new System.EventHandler(this.txtnemooneh_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(170, 53);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 14);
+            this.label2.TabIndex = 60;
+            this.label2.Text = "نتیجه آزمایش";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtcomments
+            // 
+            this.txtcomments.BackColor = System.Drawing.Color.White;
+            this.txtcomments.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtcomments.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtcomments.ForeColor = System.Drawing.Color.Black;
+            this.txtcomments.Location = new System.Drawing.Point(12, 108);
+            this.txtcomments.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtcomments.Multiline = true;
+            this.txtcomments.Name = "txtcomments";
+            this.txtcomments.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtcomments.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtcomments.Size = new System.Drawing.Size(446, 57);
+            this.txtcomments.TabIndex = 5;
+            this.txtcomments.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtcomments.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtcomments.Enter += new System.EventHandler(this.Enter_Action);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(466, 110);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 14);
+            this.label4.TabIndex = 59;
+            this.label4.Text = "ملاحظات";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtcode
+            // 
+            this.txtcode.BackColor = System.Drawing.Color.White;
+            this.txtcode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtcode.Enabled = false;
+            this.txtcode.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtcode.ForeColor = System.Drawing.Color.Black;
+            this.txtcode.Location = new System.Drawing.Point(360, 22);
+            this.txtcode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtcode.MaxLength = 4;
+            this.txtcode.Name = "txtcode";
+            this.txtcode.ReadOnly = true;
+            this.txtcode.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtcode.Size = new System.Drawing.Size(98, 22);
+            this.txtcode.TabIndex = 0;
+            this.txtcode.TabStop = false;
+            this.txtcode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtcode.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtcode.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtcode.Enter += new System.EventHandler(this.Enter_Action);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(464, 25);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 14);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "مشخصه";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtresult
+            // 
+            this.txtresult.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.txtresult.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.txtresult.BackColor = System.Drawing.Color.White;
+            this.txtresult.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtresult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtresult.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.txtresult.ForeColor = System.Drawing.Color.Black;
+            this.txtresult.FormattingEnabled = true;
+            this.txtresult.Items.AddRange(new object[] {
+            "----",
+            "منفی",
+            "مثبت"});
+            this.txtresult.Location = new System.Drawing.Point(15, 51);
+            this.txtresult.Name = "txtresult";
+            this.txtresult.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtresult.Size = new System.Drawing.Size(149, 21);
+            this.txtresult.TabIndex = 3;
+            this.txtresult.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtresult.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtresult.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtresult.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            // 
+            // txttype
+            // 
+            this.txttype.BackColor = System.Drawing.Color.White;
+            this.txttype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txttype.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txttype.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txttype.ForeColor = System.Drawing.Color.Black;
+            this.txttype.Items.AddRange(new object[] {
+            "U/A",
+            "LFT/CBC"});
+            this.txttype.Location = new System.Drawing.Point(308, 51);
+            this.txttype.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txttype.MaxLength = 50;
+            this.txttype.Name = "txttype";
+            this.txttype.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txttype.Size = new System.Drawing.Size(150, 22);
+            this.txttype.TabIndex = 2;
+            this.txttype.SelectedIndexChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txttype.Leave += new System.EventHandler(this.Leave_Action);
+            this.txttype.Enter += new System.EventHandler(this.Enter_Action);
+            this.txttype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txttype.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(466, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 14);
+            this.label1.TabIndex = 50;
+            this.label1.Text = "نوع آزمایش";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtdate
+            // 
+            this.txtdate.BackColor = System.Drawing.Color.White;
+            this.txtdate.BeepOnError = true;
+            this.txtdate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtdate.Font = new System.Drawing.Font("Tahoma", 9F);
+            this.txtdate.ForeColor = System.Drawing.Color.Black;
+            this.txtdate.Location = new System.Drawing.Point(15, 22);
+            this.txtdate.Mask = "1300/00/00";
+            this.txtdate.Name = "txtdate";
+            this.txtdate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtdate.Size = new System.Drawing.Size(149, 22);
+            this.txtdate.TabIndex = 1;
+            this.txtdate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtdate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtdate.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtdate.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtdate.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(170, 25);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(69, 14);
+            this.label14.TabIndex = 57;
+            this.label14.Text = "تاریخ آزمایش";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.txtfather_name);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.txtname);
+            this.groupBox1.Controls.Add(this.idsearch);
+            this.groupBox1.Controls.Add(this.txtdarman_date);
+            this.groupBox1.Controls.Add(this.label15);
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.txtsick_id);
+            this.groupBox1.Controls.Add(this.label17);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.groupBox1.Location = new System.Drawing.Point(9, 13);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.groupBox1.Size = new System.Drawing.Size(575, 89);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "اطلاعات پایه بیمار";
+            // 
+            // txtfather_name
+            // 
+            this.txtfather_name.BackColor = System.Drawing.Color.White;
+            this.txtfather_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtfather_name.Enabled = false;
+            this.txtfather_name.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtfather_name.ForeColor = System.Drawing.Color.Black;
+            this.txtfather_name.Location = new System.Drawing.Point(100, 51);
+            this.txtfather_name.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtfather_name.MaxLength = 30;
+            this.txtfather_name.Name = "txtfather_name";
+            this.txtfather_name.ReadOnly = true;
+            this.txtfather_name.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtfather_name.Size = new System.Drawing.Size(113, 22);
+            this.txtfather_name.TabIndex = 47;
+            this.txtfather_name.TabStop = false;
+            this.txtfather_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(221, 54);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 14);
+            this.label5.TabIndex = 48;
+            this.label5.Text = "نام پدر";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtname
+            // 
+            this.txtname.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.txtname.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.txtname.BackColor = System.Drawing.Color.White;
+            this.txtname.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtname.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.txtname.ForeColor = System.Drawing.Color.Black;
+            this.txtname.FormattingEnabled = true;
+            this.txtname.Location = new System.Drawing.Point(309, 23);
+            this.txtname.Name = "txtname";
+            this.txtname.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtname.Size = new System.Drawing.Size(149, 21);
+            this.txtname.TabIndex = 0;
+            this.txtname.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtname.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDownforSearch);
+            // 
+            // idsearch
+            // 
+            this.idsearch.BackColor = System.Drawing.Color.Transparent;
+            this.idsearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.idsearch.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.idsearch.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.idsearch.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.idsearch.ForeColor = System.Drawing.Color.Black;
+            this.idsearch.Image = ((System.Drawing.Image)(resources.GetObject("idsearch.Image")));
+            this.idsearch.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.idsearch.Location = new System.Drawing.Point(9, 23);
+            this.idsearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.idsearch.Name = "idsearch";
+            this.idsearch.Size = new System.Drawing.Size(81, 50);
+            this.idsearch.TabIndex = 0;
+            this.idsearch.TabStop = false;
+            this.idsearch.Text = "تــاییـــد";
+            this.idsearch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.idsearch.UseVisualStyleBackColor = true;
+            this.idsearch.Click += new System.EventHandler(this.idsearch_Click);
+            // 
+            // txtdarman_date
+            // 
+            this.txtdarman_date.BackColor = System.Drawing.Color.White;
+            this.txtdarman_date.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtdarman_date.Enabled = false;
+            this.txtdarman_date.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtdarman_date.ForeColor = System.Drawing.Color.Black;
+            this.txtdarman_date.Location = new System.Drawing.Point(308, 51);
+            this.txtdarman_date.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtdarman_date.MaxLength = 10;
+            this.txtdarman_date.Name = "txtdarman_date";
+            this.txtdarman_date.ReadOnly = true;
+            this.txtdarman_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtdarman_date.Size = new System.Drawing.Size(150, 22);
+            this.txtdarman_date.TabIndex = 2;
+            this.txtdarman_date.TabStop = false;
+            this.txtdarman_date.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(464, 54);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(94, 14);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "تاریخ شروع درمان";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(464, 25);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(99, 14);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "نام و نام خانوادگی";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtsick_id
+            // 
+            this.txtsick_id.BackColor = System.Drawing.Color.White;
+            this.txtsick_id.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtsick_id.Enabled = false;
+            this.txtsick_id.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.txtsick_id.ForeColor = System.Drawing.Color.Black;
+            this.txtsick_id.Location = new System.Drawing.Point(100, 23);
+            this.txtsick_id.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtsick_id.MaxLength = 15;
+            this.txtsick_id.Name = "txtsick_id";
+            this.txtsick_id.ReadOnly = true;
+            this.txtsick_id.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtsick_id.Size = new System.Drawing.Size(113, 22);
+            this.txtsick_id.TabIndex = 1;
+            this.txtsick_id.TabStop = false;
+            this.txtsick_id.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtsick_id.TextChanged += new System.EventHandler(this.txtsick_id_TextChanged);
+            this.txtsick_id.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDownforSearch);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(219, 26);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(73, 14);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "شماره پرونده";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.groupBox3.Location = new System.Drawing.Point(12, 400);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.groupBox3.Size = new System.Drawing.Size(575, 100);
+            this.groupBox3.TabIndex = 1002;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "آخرین دستور پزشک";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.date,
+            this.pre_text});
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle8;
+            this.dataGridView1.Location = new System.Drawing.Point(6, 19);
+            this.dataGridView1.MultiSelect = false;
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.RowHeadersWidth = 15;
+            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dataGridView1.ShowCellErrors = false;
+            this.dataGridView1.ShowCellToolTips = false;
+            this.dataGridView1.ShowEditingIcon = false;
+            this.dataGridView1.ShowRowErrors = false;
+            this.dataGridView1.Size = new System.Drawing.Size(554, 71);
+            this.dataGridView1.TabIndex = 53;
+            this.dataGridView1.TabStop = false;
+            // 
+            // date
+            // 
+            this.date.DataPropertyName = "date";
+            this.date.HeaderText = "تاریخ";
+            this.date.Name = "date";
+            this.date.ReadOnly = true;
+            this.date.Width = 80;
+            // 
+            // pre_text
+            // 
+            this.pre_text.DataPropertyName = "pre_text";
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Azure;
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Red;
+            this.pre_text.DefaultCellStyle = dataGridViewCellStyle7;
+            this.pre_text.HeaderText = "شرح دستور";
+            this.pre_text.Name = "pre_text";
+            this.pre_text.ReadOnly = true;
+            this.pre_text.Width = 455;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.ErrorImage")));
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 368);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1003;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // frmAzmayeshInp
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.btnCancel;
+            this.ClientSize = new System.Drawing.Size(600, 534);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.grpinfo_box);
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.groupBox2);
+            this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
+            this.Name = "frmAzmayeshInp";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ثبت آزمایش بیمار";
+            this.Load += new System.EventHandler(this.frmAzmayeshInp_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.grpinfo_box.ResumeLayout(false);
+            this.grpinfo_box.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox grpinfo_box;
+        private System.Windows.Forms.GroupBox groupBox1;
+        public System.Windows.Forms.Button idsearch;
+        private System.Windows.Forms.Label label16;
+        private IDTextBox txtsick_id;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txtdarman_date;
+        private System.Windows.Forms.Label label15;
+        private DateMaskedTextbox txtdate;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button btnSabegheh;
+        private System.Windows.Forms.TextBox txtfather_name;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox txtresult;
+        private System.Windows.Forms.TextBox txtcomments;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtcode;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox txttype;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn date;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pre_text;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.ComboBox txtname;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox txtnemooneh;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox4;
+    }
+}

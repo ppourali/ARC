@@ -1,0 +1,103 @@
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\SHOP.csproj.GenerateResource.Cache
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\SHOP.chpass.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\bin\Debug\SHOP.exe
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\bin\Debug\SHOP.pdb
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\SHOP.exe
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\SHOP.pdb
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmMain.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.loginfrm.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaInp.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\projects\SHOP\SHOP\bin\Debug\BarcodeLib.dll
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaShow.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactor.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.repform.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.exe
+J:\SHOP\SHOP\obj\Debug\SHOP.pdb
+J:\SHOP\SHOP\obj\Debug\ResolveAssemblyReference.cache
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactor.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmMain.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.chpass.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.loginfrm.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaInp.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.csproj.GenerateResource.Cache
+J:\SHOP\SHOP\bin\Debug\SHOP.exe
+J:\SHOP\SHOP\bin\Debug\SHOP.pdb
+J:\SHOP\SHOP\bin\Debug\BarcodeLib.dll
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorsShow.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaShow.resources
+J:\SHOP\SHOP\obj\Debug\RdlCompile.cache
+J:\SHOP\SHOP\obj\Debug\RdlCompile.compiled
+J:\SHOP\SHOP\bin\Debug\SHOP.exe.config
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.factorprintviewer.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.factorreviewer.resources
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaEdit.resources
+J:\SHOP\SHOP\bin\Debug\fa\SHOP.resources.dll
+J:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorsShow.fa.resources
+J:\SHOP\SHOP\obj\Debug\fa\SHOP.resources.dll
+G:\SHOP\SHOP\bin\Debug\SHOP.exe.config
+G:\SHOP\SHOP\obj\Debug\SHOP.exe
+G:\SHOP\SHOP\obj\Debug\SHOP.pdb
+G:\SHOP\SHOP\bin\Debug\SHOP.exe
+G:\SHOP\SHOP\bin\Debug\SHOP.pdb
+G:\SHOP\SHOP\bin\Debug\fa\SHOP.resources.dll
+G:\SHOP\SHOP\bin\Debug\BarcodeLib.dll
+G:\SHOP\SHOP\obj\Debug\ResolveAssemblyReference.cache
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.factorreviewer.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorsShow.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactor.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmMain.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaInp.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaShow.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.factorprintviewer.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaEdit.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorsShow.fa.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.csproj.GenerateResource.Cache
+G:\SHOP\SHOP\obj\Debug\RdlCompile.cache
+G:\SHOP\SHOP\obj\Debug\RdlCompile.compiled
+G:\SHOP\SHOP\obj\Debug\fa\SHOP.resources.dll
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmMojoodiInc.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmChpass.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmLogin.resources
+G:\SHOP\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorEdit.resources
+G:\SHOP\SHOP\obj\Debug\Shop.Presentation_Layers.frmFactorEditSearch.resources
+G:\SHOP - Copy\SHOP\bin\Debug\SHOP.exe.config
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.exe
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.pdb
+G:\SHOP - Copy\SHOP\bin\Debug\SHOP.exe
+G:\SHOP - Copy\SHOP\bin\Debug\SHOP.pdb
+G:\SHOP - Copy\SHOP\bin\Debug\fa\SHOP.resources.dll
+G:\SHOP - Copy\SHOP\bin\Debug\BarcodeLib.dll
+G:\SHOP - Copy\SHOP\obj\Debug\ResolveAssemblyReference.cache
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorEdit.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorEditSearch.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmMojoodiInc.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.factorreviewer.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorsShow.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactor.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmMain.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaInp.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaShow.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.factorprintviewer.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmKalaEdit.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmChpass.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmLogin.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Properties.Resources.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmFactorsShow.fa.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.csproj.GenerateResource.Cache
+G:\SHOP - Copy\SHOP\obj\Debug\RdlCompile.cache
+G:\SHOP - Copy\SHOP\obj\Debug\RdlCompile.compiled
+G:\SHOP - Copy\SHOP\obj\Debug\fa\SHOP.resources.dll
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmHaraj.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmRptForoosh.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmRptMarjooee.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.factoreditor.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.frmaddshop.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.rptprofprint.resources
+G:\SHOP - Copy\SHOP\obj\Debug\SHOP.Presentation_Layers.rptmarjprint.resources
+G:\Sherkat\SHOP\bin\Debug\SHOP.exe.config
+G:\Sherkat\SHOP\obj\Debug\SHOP.exe
+G:\Sherkat\SHOP\obj\Debug\SHOP.pdb

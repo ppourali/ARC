@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="MehrConnectionString">
+      <rd:DataSourceID>520f96aa-6ce1-4294-9959-6b5f7454254b</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>
+        </DataProvider>
+        <ConnectString>
+        </ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="darmangah_name">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>1.5cm</RightMargin>
+  <LeftMargin>1.5cm</LeftMargin>
+  <BottomMargin>1.5cm</BottomMargin>
+  <rd:ReportID>369e04db-1b82-4619-b2fd-a1ceec049a32</rd:ReportID>
+  <PageWidth>21cm</PageWidth>
+  <DataSets>
+    <DataSet Name="MehrDataSet_Sicks">
+      <Fields>
+        <Field Name="id">
+          <DataField>id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="darman_date">
+          <DataField>darman_date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="name">
+          <DataField>name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="father_name">
+          <DataField>father_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="age">
+          <DataField>age</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="city">
+          <DataField>city</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="id_no">
+          <DataField>id_no</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="home">
+          <DataField>home</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="mobile">
+          <DataField>mobile</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="masrafi_type">
+          <DataField>masrafi_type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ravesh_tark">
+          <DataField>ravesh_tark</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="address">
+          <DataField>address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>MehrConnectionString</DataSourceName>
+        <CommandText>SELECT id, darman_date, name, father_name, age, city, id_no, home, mobile, masrafi_type, ravesh_tark, address FROM dbo.Sicks</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>MehrDataSet</rd:DataSetName>
+        <rd:TableName>Sicks</rd:TableName>
+        <rd:TableAdapterName>SicksTableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>16.8254cm</Width>
+  <Body>
+    <ReportItems>
+      <List Name="List1">
+        <Sorting>
+          <SortBy>
+            <SortExpression>=Fields!id.Value</SortExpression>
+            <Direction>Ascending</Direction>
+          </SortBy>
+        </Sorting>
+        <DataSetName>MehrDataSet_Sicks</DataSetName>
+        <ReportItems>
+          <Textbox Name="textbox1">
+            <Top>0.625in</Top>
+            <Width>1.5in</Width>
+            <Style>
+              <FontFamily>B Lotus</FontFamily>
+              <FontSize>12pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Direction>RTL</Direction>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.25in</Left>
+            <Height>0.375in</Height>
+            <Value>تاریخ:</Value>
+          </Textbox>
+          <Textbox Name="textbox2">
+            <Top>0.125in</Top>
+            <Width>2.5in</Width>
+            <Style>
+              <FontFamily>B Lotus</FontFamily>
+              <FontSize>22pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.375in</Left>
+            <Height>0.5in</Height>
+            <Value>تعهد نامه درمان</Value>
+          </Textbox>
+          <Textbox Name="id">
+            <rd:DefaultName>id</rd:DefaultName>
+            <Top>1.25in</Top>
+            <Style>
+              <FontFamily>B Lotus</FontFamily>
+              <FontSize>13pt</FontSize>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Direction>RTL</Direction>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Value>="اينجانب "+fields!name.Value+" فرزند "+fields!father_name.Value +" شماره شناسنامه "+fields!id_no.Value +" به نشاني و شماره تلفن "+fields!address.Value+"-"+fields!home.Value +" كه از تاريخ "+fields!darman_date.Value +" تحت درمان سوءمصرف مواد افيوني در مركز درماني "+Parameters!darmangah_name.Value+" قرار گرفته‎ام، متعهد مي‎شوم تمام مواردي كه در 8 بند ذيل ذكر شده را كاملاً رعايت كنم. در صورت نقض هر يك از موارد، مركز مجاز خواهد بود بر اساس قوانين و راي كميسيون درماني با من برخورد كند و مسئوليت هرگونه برخورد قانوني و اخراج از درمان بر عهده اينجانب خواهد بود."+vbCrLf +
+"1. مرجع تصميم‎گيرنده در خصوص روش درمان و نحوه مصرف دارو، اعضاي گروه درماني كلينيك (شامل روانپزشك، پزشك، روانشناس، پرستار و ساير پرسنل درماني درمانگاه) مي‎باشد و پيروي از هرگونه توصيه و پيشنهادي كه توسط بيماران يا ساير افرادغیر مسئول ارائه شود، غير مجاز و خطرناك خواهد بود."+vbCrLf +
+"2. مراجعه به درمانگاه جهت گرفتن وقت پذيرش، ويزيت‎هاي پزشكي، شركت در جلسات روان‎درماني (شامل گروه‎درماني، روان‎درماني فردي و خانوادگي)، اطلاع‎رساني، خودياري، آزمايش خون و ادرار، گرفتن يا خوردن دارو يا ساير مداخلات درماني مستلزم رعايت انضباط، نظم و ترتيب بوده و همه‌ افراد موظف به رعايت آن خواهند بود."+vbCrLf +
+"3. رعايت بهداشت و پاكيزگي درمانگاه الزاميست و هرگونه رفتار مغاير آن نظير انداختن آب دهان،‌ ته سيگار، ليوان مصرف شده و همچنين استعمال سيگار در فضاي درمانگاه ممنوع است."+vbCrLf +
+"4. هرگونه درگيري كلامي و فيزيكي با پرسنل درمانگاه يا ساير بيماران ممنوع است و با متخلفين برخورد خواهد شد."+vbCrLf +
+"5. خريد و فروش متادون، هر نوع دارو، هرگونه مواد مخدر، هر نوع ماده شيميايي يا اجناس ديگر در درمانگاه و محوطه اطراف آن غيرقانوني است و فرد متخلف علاوه بر اخراج از درمان مورد پيگرد قانوني قرار خواهد گرفت."+vbCrLf +
+"6. ايجاد هرگونه مزاحمت براي پرسنل درمانگاه، بيماران و خانواده‎ها يا همراهان غيرمجاز بوده و با متخلف برابر قوانين برخورد خواهد شد."+vbCrLf +
+"7. هرگونه شكايت يا اعتراض نسبت به نحوه درمان يا طرز رفتار پرسنل درمانگاه يا ساير بيماران مي‎بايست كتباً به مسئول فني مركز ارائه گردد. قطعاً مركز موظف است به اين شكايات رسيدگي، و نتيجه را به بيمار منعكس نمايد."+vbCrLf +
+"8. ارائه هرگونه اطلاعات غلط، ابهام انگيز و بدون مشورت با واحد اطلاع‎رساني، ارائه توصيه درماني، تجويز دارو، پيشنهاد مصرف دارو يا دادن دارو به بيماران، خانواده‎هاي بيماران يا ساير مراجعان درمانگاه به هيچ وجه جايز نبوده و به دليل بوجود آمدن خطرات جسمي‎ـ رواني و حتي جاني، فرد متخلف علاوه بر اخراج از درمان مورد پيگيري قانوني قرار خواهد گرفت."+vbCrLf +
+vbCrLf +vbCrLf +
+"نام و نام‎خانوادگي مراجعه کننده                                               امضاء"</Value>
+          </Textbox>
+        </ReportItems>
+        <PageBreakAtEnd>true</PageBreakAtEnd>
+        <Grouping Name="list1_id">
+          <GroupExpressions>
+            <GroupExpression>=Fields!id.Value</GroupExpression>
+          </GroupExpressions>
+        </Grouping>
+      </List>
+    </ReportItems>
+    <Height>7.25in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>1.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

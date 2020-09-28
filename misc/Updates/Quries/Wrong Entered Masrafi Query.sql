@@ -1,0 +1,1 @@
+SELECT a.tahvil_date,a.daru_name,a.code,a.id,a.date, a.tedad,b.daru_name,b.code,b.id, b.date,b.tedad,b.tahvil_date FROM tahvil as a, tahvil as b where (a.id=b.id and a.date=b.date and a.code!=b.code and a.daru_name=N'ÔÑÈÊ ãÊÇÏæä' and a.daru_name=b.daru_name)

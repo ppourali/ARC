@@ -1,0 +1,4 @@
+# sql files
+*.mdf
+*.ldf
+*.bak

@@ -1,0 +1,34 @@
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.Form1.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.Properties.Resources.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.csproj.GenerateResource.Cache
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\bin\Debug\BugForNowrouz.exe
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\bin\Debug\BugForNowrouz.pdb
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.exe
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.pdb
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.frmTahvilEdit.resources
+D:\Solutions\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.exe
+D:\Solutions\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.pdb
+D:\Solutions\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.exe
+D:\Solutions\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.pdb
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.exe
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.pdb
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\bin\Debug\BugForNowrouz.exe
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\bin\Debug\BugForNowrouz.pdb
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\ResolveAssemblyReference.cache
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.Form1.resources
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.frmTahvilEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.main.resources
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.Properties.Resources.resources
+D:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.csproj.GenerateResource.Cache
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.exe
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.pdb
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\bin\Debug\BugForNowrouz.exe
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\bin\Debug\BugForNowrouz.pdb
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\ResolveAssemblyReference.cache
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.Form1.resources
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.frmTahvilEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.main.resources
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.Properties.Resources.resources
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.csproj.GenerateResource.Cache
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\BugForNowrouz\BugForNowrouz\obj\Debug\BugForNowrouz.FormtoUpdateCurrenctSicksIDs.resources

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ClinicSetup", "ClinicSetup\ClinicSetup.vdproj", "{EE1DBE04-0DC0-4510-9088-676AB5CC9D4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE1DBE04-0DC0-4510-9088-676AB5CC9D4F}.Debug|Default.ActiveCfg = Debug
+		{EE1DBE04-0DC0-4510-9088-676AB5CC9D4F}.Debug|Default.Build.0 = Debug
+		{EE1DBE04-0DC0-4510-9088-676AB5CC9D4F}.Release|Default.ActiveCfg = Release
+		{EE1DBE04-0DC0-4510-9088-676AB5CC9D4F}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,104 @@
+
+Log Entry : 2:36:58 PM Sunday, March 10, 2013
+  :
+  :Violation of PRIMARY KEY constraint 'PK_Customers'. Cannot insert duplicate key in object 'dbo.Sicks'.
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 2:36:58 PM Sunday, March 10, 2013
+  :
+  :Violation of PRIMARY KEY constraint 'PK_Customers'. Cannot insert duplicate key in object 'dbo.Sicks'.
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 2:38:26 PM Sunday, March 10, 2013
+  :
+  :Violation of PRIMARY KEY constraint 'PK_Customers'. Cannot insert duplicate key in object 'dbo.Sicks'.
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 2:38:49 PM Sunday, March 10, 2013
+  :
+  :Violation of PRIMARY KEY constraint 'PK_Customers'. Cannot insert duplicate key in object 'dbo.Sicks'.
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 2:59:26 PM Monday, April 01, 2013 :
+SQL Command ::  insert into acc (user_codes,pass,fname,lname,tel,address,semat) Values (N'6',N'6',N'قثق',N'ثقثص',N'',N'',N'پزشک')
+
+Error Msg   ::  Invalid column name 'user_codes'.
+-------------------------------
+
+Log Entry : 10:41:47 AM August-18-13 :
+SQL Command ::  BACKUP DATABASE [ARC] TO  DISK = N'E:\Solutions\Mehr A.R.C\Mehr\SHERKAT\bin\Debug\Backup\1392.05.27.bak' WITH RETAINDAYS = 60, NOFORMAT, NOINIT,  NAME = N'1392/05/27-10:41:43', SKIP, NOREWIND, NOUNLOAD,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Access is denied due to a password failure
+BACKUP DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 10:42:05 AM August-18-13 :
+SQL Command ::  BACKUP DATABASE [ARC] TO  DISK = N'E:\Solutions\Mehr A.R.C\Mehr\SHERKAT\bin\Debug\Backup\1392.05.27.bak' WITH RETAINDAYS = 60, NOFORMAT, NOINIT,  NAME = N'1392/05/27-10:42:05', SKIP, NOREWIND, NOUNLOAD,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Access is denied due to a password failure
+BACKUP DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 10:44:21 AM August-18-13 :
+SQL Command ::  BACKUP DATABASE [ARC] TO  DISK = N'E:\Solutions\Mehr A.R.C\Mehr\SHERKAT\bin\Debug\Backup\1392.05.27.bak' WITH RETAINDAYS = 60, NOFORMAT, NOINIT,  NAME = N'1392/05/27-10:44:20', SKIP, NOREWIND, NOUNLOAD,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Access is denied due to a password failure
+BACKUP DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 10:48:54 AM August-18-13 :
+SQL Command ::  BACKUP DATABASE [ARC] TO  DISK = N'E:\Solutions\Mehr A.R.C\Mehr\SHERKAT\bin\Debug\Backup\1392.05.27.bak' WITH RETAINDAYS = 60, NOFORMAT, NOINIT,  NAME = N'1392/05/27-10:48:53', SKIP, NOREWIND, NOUNLOAD,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Access is denied due to a password failure
+BACKUP DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 10:59:15 AM August-18-13 :
+SQL Command ::  BACKUP DATABASE [ARC] TO  DISK = N'E:\Solutions\Mehr A.R.C\Mehr\SHERKAT\bin\Debug\Backup\1392.05.27.bak' WITH RETAINDAYS = 60, NOFORMAT, NOINIT,  NAME = N'1392/05/27-10:59:14', SKIP, NOREWIND, NOUNLOAD,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Access is denied due to a password failure
+BACKUP DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 11:04:52 AM August-18-13 :
+SQL Command ::  BACKUP DATABASE [ARC] TO  DISK = N'E:\Solutions\Mehr A.R.C\Mehr\SHERKAT\bin\Debug\Backup\1392.05.27.bak' WITH RETAINDAYS = 60, NOFORMAT, NOINIT,  NAME = N'1392/05/27-11:04:51', SKIP, NOREWIND, NOUNLOAD,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Access is denied due to a password failure
+BACKUP DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 11:29:46 AM August-18-13 :
+SQL Command ::  BACKUP DATABASE [ARC] TO  DISK = N'E:\Solutions\Mehr A.R.C\Mehr\SHERKAT\bin\Debug\Backup\1392.05.27.bak' WITH RETAINDAYS = 60, NOFORMAT, NOINIT,  NAME = N'1392/05/27-11:29:45', SKIP, NOREWIND, NOUNLOAD,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Access is denied due to a password failure
+BACKUP DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 11:31:30 AM August-18-13 :
+SQL Command ::  BACKUP DATABASE [ARC] TO  DISK = N'E:\Solutions\Mehr A.R.C\Mehr\SHERKAT\bin\Debug\Backup\1392.05.27.bak' WITH RETAINDAYS = 60, NOFORMAT, NOINIT,  NAME = N'1392/05/27-11:31:09', SKIP, NOREWIND, NOUNLOAD,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Access is denied due to a password failure
+BACKUP DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 1:13:45 AM September-02-13 :
+SQL Command ::  RESTORE DATABASE [ARC] FROM  DISK = N'E:\large backup to test\ARC.bak' WITH  FILE = 1,  NOUNLOAD,  REPLACE,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+100 percent processed.
+Processed 26880 pages for database 'ARC', file 'ARC' on file 1.
+Processed 1 pages for database 'ARC', file 'ARC_log' on file 1.
+-------------------------------

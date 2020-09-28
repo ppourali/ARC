@@ -1,0 +1,2 @@
+select sicks.id,sicks.name,tajviz_koli.id, tajviz_koli.name, tajviz_date  from tajviz_koli,sicks where sicks.id=tajviz_koli.id and sicks.name!=tajviz_koli.name
+select sicks.id,sicks.name,tahvil_koli.id, tahvil_koli.name, tahvil_date  from tahvil_koli,sicks where sicks.id=tahvil_koli.id and sicks.name!=tahvil_koli.name

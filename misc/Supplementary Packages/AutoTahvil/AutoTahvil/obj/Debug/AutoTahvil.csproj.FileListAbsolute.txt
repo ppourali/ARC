@@ -1,0 +1,12 @@
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.Form1.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.Presentation_Layers.frmAbsentSicksView.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.Presentation_Layers.frmTahvilInput.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.Properties.Resources.resources
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.csproj.GenerateResource.Cache
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\bin\Debug\AutoTahvil.exe
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\bin\Debug\AutoTahvil.pdb
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.exe
+C:\Users\Parsa\Documents\Visual Studio 2008\Projects\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.pdb
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.exe
+E:\Solutions\Mehr A.R.C\Mehr_Supplementary\AutoTahvil\AutoTahvil\obj\Debug\AutoTahvil.pdb

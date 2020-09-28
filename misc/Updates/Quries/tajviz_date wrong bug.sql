@@ -1,0 +1,1 @@
+select tajviz.code tcode, tajviz_koli.code tkcode, tajviz.tajviz_date tdate, tajviz_koli.tajviz_date tkdate from tajviz, tajviz_koli where (tajviz.code=tajviz_koli.code and tajviz.tajviz_date!=tajviz_koli.tajviz_date)
