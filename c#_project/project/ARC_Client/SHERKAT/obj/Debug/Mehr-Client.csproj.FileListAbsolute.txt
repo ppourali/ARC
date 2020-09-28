@@ -1,0 +1,1022 @@
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ResolveAssemblyReference.cache
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectServers.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAbsentSicksView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubDaftarShow.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopDaftarShow.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftarPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetDaftarShow.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilInput.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajBoopDaftarShow.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajDaftarPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajMetDaftarShow.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajSubDaftarShow.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmResultView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectBoop.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectMet.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectSub.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabz_koliPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSabeghehView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_koliPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajviz_koliPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizInput.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTajvizView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubTahvilPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSub.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopTahvilPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoop.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMet.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaryaft.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksGroupPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksIndiPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMain.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmadddarmangah.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTahvilView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetTahvilPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmChpass.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLogin.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Properties.Resources.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr-Client.csproj.GenerateResource.Cache
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.cache
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.compiled
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLastTajvizView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmarKoliView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzJoinTajviz.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahodPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilAdam.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizAdam.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTodayComersView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmIncomePrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmNafarPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmِDarueePrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksHesabPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelSicksFor.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickSelPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzEslah.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMasrafiPeygiriPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\Mehr-Client.exe.config
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\Mehr-Client.exe
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\Mehr-Client.pdb
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ResolveAssemblyReference.cache
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmarKoliView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmIncomePrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmNafarPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmِDarueePrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMasrafiPeygiriPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectServers.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzEslah.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzJoinTajviz.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAbsentSicksView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelSicksFor.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickSelPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksHesabPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahodPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTodayComersView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubDaftarShow.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopDaftarShow.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftarPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetDaftarShow.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilAdam.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilInput.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLastTajvizView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajBoopDaftarShow.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajDaftarPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajMetDaftarShow.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajSubDaftarShow.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizAdam.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmResultView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectBoop.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectMet.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectSub.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabz_koliPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSabeghehView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_koliPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajviz_koliPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizInput.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTajvizView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubTahvilPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSub.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopTahvilPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoop.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMet.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaryaft.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksGroupPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksIndiPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMain.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmadddarmangah.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTahvilView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetTahvilPrintViewer.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmChpass.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLogin.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Properties.Resources.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr-Client.csproj.GenerateResource.Cache
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.cache
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.compiled
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr-Client.exe
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr-Client.pdb
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriInp.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasEdit.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasHisView.resources
+I:\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasHisView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasInp.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariTodayComersView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPattern.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehPeygiri.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe.config
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.pdb
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.exe
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.pdb
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehEnferadiPeygiri.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMotevasetHazinehPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTahvilView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTajvizView.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe.config
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.exe
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.pdb
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.pdb
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ResolveAssemblyReference.cache
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmarKoliView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmIncomePrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMotevasetHazinehPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmNafarPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmِDarueePrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPattern.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehEnferadiPeygiri.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehPeygiri.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMasrafiPeygiriPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectServers.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzEslah.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzJoinTajviz.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAbsentSicksView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariTodayComersView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelSicksFor.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickSelPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksHesabPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahodPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTodayComersView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTahvilView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubDaftarShow.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopDaftarShow.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftarPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetDaftarShow.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilAdam.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilInput.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTajvizView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLastTajvizView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajBoopDaftarShow.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajDaftarPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajMetDaftarShow.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajSubDaftarShow.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizAdam.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmResultView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectBoop.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectMet.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectSub.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabz_koliPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSabeghehView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_koliPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajviz_koliPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizInput.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTajvizView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubTahvilPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSub.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopTahvilPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoop.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMet.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaryaft.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksGroupPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksIndiPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksEdit.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickInp.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMain.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmadddarmangah.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTahvilView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetTahvilPrintViewer.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilView.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmChpass.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLogin.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Properties.Resources.resources
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr-Client.csproj.GenerateResource.Cache
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.cache
+G:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.compiled
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.frmAuthurize.resources
+I:\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe.config
+I:\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.exe
+I:\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.pdb
+I:\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe
+I:\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.pdb
+I:\Mehr - Client\SHERKAT\obj\Debug\ResolveAssemblyReference.cache
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.frmAuthurize.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmarKoliView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmIncomePrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMotevasetHazinehPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmNafarPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmِDarueePrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPattern.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehEnferadiPeygiri.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehPeygiri.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMasrafiPeygiriPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectServers.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzEslah.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzJoinTajviz.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAbsentSicksView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariTodayComersView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelSicksFor.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickSelPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksHesabPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahodPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTodayComersView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTahvilView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubDaftarShow.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopDaftarShow.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftarPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetDaftarShow.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilAdam.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilInput.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTajvizView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLastTajvizView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajBoopDaftarShow.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajDaftarPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajMetDaftarShow.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajSubDaftarShow.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizAdam.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmResultView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectBoop.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectMet.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectSub.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabz_koliPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSabeghehView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_koliPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajviz_koliPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizInput.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTajvizView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubTahvilPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSub.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopTahvilPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoop.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMet.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaryaft.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksGroupPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksIndiPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksEdit.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickInp.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMain.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmadddarmangah.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTahvilView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetTahvilPrintViewer.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilView.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmChpass.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLogin.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr.Properties.Resources.resources
+I:\Mehr - Client\SHERKAT\obj\Debug\Mehr-Client.csproj.GenerateResource.Cache
+I:\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.cache
+I:\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.compiled
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe.config
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.exe
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.pdb
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.pdb
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\ResolveAssemblyReference.cache
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.frmAuthurize.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmarKoliView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmIncomePrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMotevasetHazinehPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmNafarPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmِDarueePrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPattern.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehEnferadiPeygiri.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehPeygiri.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMasrafiPeygiriPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectServers.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzEslah.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzJoinTajviz.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAbsentSicksView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariTodayComersView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelSicksFor.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickSelPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksHesabPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahodPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTodayComersView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTahvilView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubDaftarShow.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopDaftarShow.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftarPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetDaftarShow.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilAdam.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilInput.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTajvizView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLastTajvizView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajBoopDaftarShow.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajDaftarPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajMetDaftarShow.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajSubDaftarShow.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizAdam.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmResultView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectBoop.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectMet.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectSub.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabz_koliPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSabeghehView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_koliPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajviz_koliPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizInput.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTajvizView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubTahvilPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSub.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopTahvilPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoop.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMet.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaryaft.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksGroupPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksIndiPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksEdit.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickInp.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMain.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmadddarmangah.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTahvilView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetTahvilPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilView.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmChpass.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLogin.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Properties.Resources.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr-Client.csproj.GenerateResource.Cache
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.cache
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.compiled
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeyvast.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeyvastPrintViewer.resources
+D:\Solutions\Mehr A.R.C\new mehr\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickMandehEdit.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeyvast.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeyvastPrintViewer.resources
+D:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickMandehEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe.config
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.exe
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\bin\Debug\ARC-Client.pdb
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ResolveAssemblyReference.cache
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.frmAuthurize.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.IDTextBox.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmActionLogsPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAction_LogsView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.frmContactAdmin.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAssessmentEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAssessmentInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAssessmentprintviewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAssessmentView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTakhfifInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmOnLineAzmayeshPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBlackListPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBlackListView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmContactEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmContactInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmContactView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmContact_AnbarView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmarKoliView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmar_koliPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmar_RecordsView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmEditPassInput.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorOnLinePrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAverageHazinehChartPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmIncomePrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMarkazHazinehPeygiri.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMotevasetHazinehPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmNafarPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmِDarueePrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopYearTahvilPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPattern.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewerAllInOne.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewerEntekhaabi.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehEnferadiPeygiri.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehPeygiri.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMasrafiPeygiriPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetYearTahvilPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPatternPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeyvast.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeyvastPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoopYear.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMetYear.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSubYear.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubYearTahvilPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTanzimPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.frmCalender.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGen_Settings.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectServers.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzEslah.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzJoinTajviz.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaftariDaryaft.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaftariEslah.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaftariView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmShortHazinehInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaruReturnTedad.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmParastar_AnbarInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmParastar_AnbarView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasOnLinePrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAbsentSicksView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariTodayComersView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelSicksFor.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickDaftariHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickMandehEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickMandehEditDaftari.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksAbsentsPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksAzmayeshPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksDastoorPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksDocPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksHesabPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksRavanshenasPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksStatusView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksTanzimParastarPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksTanzimParastarPrintViewerAllInOne.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksTanzimPezeshkPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksTanzimPezeshkPrintViewerAllInOne.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahodPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTodayComersView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTahvilView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmOnLineResidPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubDaftarShow.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopDaftarShow.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftarPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetDaftarShow.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilAdam.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilInput.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_ResidPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_Resid_Empty_PrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTanzimdozePrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTanzimPrintViewerOnline.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTajvizView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLastTajvizView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajBoopDaftarShow.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajDaftarPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajMetDaftarShow.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajSubDaftarShow.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizAdam.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTaj_Anbar_HistoryPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmtaj_anbar_historyView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmResultView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectBoop.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectMet.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectSub.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabz_koliPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSabeghehView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_koliPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajviz_koliPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizInput.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTajvizView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubTahvilPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSub.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopTahvilPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoop.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMet.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaryaft.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksGroupPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksIndiPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksEdit.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickInp.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMain.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmadddarmangah.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTahvilView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetTahvilPrintViewer.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilView.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmChpass.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLogin.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr.Properties.Resources.resources
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\Mehr-Client.csproj.GenerateResource.Cache
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.cache
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\RdlCompile.compiled
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.exe
+E:\Solutions\Mehr A.R.C\Mehr - Client\SHERKAT\obj\Debug\ARC-Client.pdb
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr-Client.csprojAssemblyReference.cache
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.frmAuthurize.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.IDTextBox.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmActionLogsPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAction_LogsView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.frmContactAdmin.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAssessmentEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAssessmentInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAssessmentprintviewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAssessmentView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTakhfifInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAzmayeshPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmOnLineAzmayeshPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealAzmayeshView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBlackListPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBlackListView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmContactEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmContactInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmContactView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmContact_AnbarView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmarKoliView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmar_koliPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmar_RecordsView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmEditPassInput.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmdastoor_pezeshkInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorOnLinePrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDastoorPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealDastoorView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealdastoor_pezeshkInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAverageHazinehChartPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmIncomePrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMarkazHazinehPeygiri.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMotevasetHazinehPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmNafarPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmِDarueePrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopYearTahvilPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPattern.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewerAllInOne.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariPeygiriPrintViewerEntekhaabi.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehEnferadiPeygiri.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehPeygiri.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMasrafiPeygiriPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetYearTahvilPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPatternPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeyvast.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeyvastPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoopYear.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMetYear.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSubYear.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubYearTahvilPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTanzimPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.frmCalender.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGen_Settings.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectServers.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAnbarEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzEslah.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzJoinTajviz.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaftariDaryaft.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaftariEslah.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaftariView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmShortHazinehInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaruReturnTedad.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmParastar_AnbarInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmParastar_AnbarView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmPeygiriPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealPeygiriInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasOnLinePrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRavanshenasPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRealRavanshenasView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAbsentSicksView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftariTodayComersView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelSicksFor.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickDaftariHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickMandehEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickMandehEditDaftari.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksAbsentsPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksAzmayeshPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksDastoorPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksDocPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksHesabPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksRavanshenasPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksStatusView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksTanzimParastarPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksTanzimParastarPrintViewerAllInOne.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksTanzimPezeshkPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksTanzimPezeshkPrintViewerAllInOne.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahodPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTodayComersView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTahvilView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmOnLineResidPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubDaftarShow.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopDaftarShow.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmDaftarPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetDaftarShow.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilAdam.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilInput.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_ResidPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_Resid_Empty_PrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTanzimdozePrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTanzimPrintViewerOnline.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAdamTajvizView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLastTajvizView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajBoopDaftarShow.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajDaftarPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajMetDaftarShow.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajSubDaftarShow.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizAdam.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTaj_Anbar_HistoryPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmtaj_anbar_historyView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajFactorView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajAnbarView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmResultView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectBoop.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectMet.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizSelectSub.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabz_koliPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickHisView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSabeghehView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvil_koliPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajviz_koliPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizInput.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTajvizView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmFactorView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSubTahvilPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectSub.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmBoopTahvilPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectBoop.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectMet.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzDaryaft.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmGhabzView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosahebehInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMosPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksGroupPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksIndiPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksEdit.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickInp.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSicksView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMain.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmadddarmangah.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmRizTahvilView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmMetTahvilPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTahvilView.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmChpass.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmLogin.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr.Properties.Resources.resources
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr-Client.csproj.GenerateResource.cache
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\Mehr-Client.csproj.CoreCompileInputs.cache
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\ARC-Client.exe
+C:\Users\Parsaa\source\repos\ARC\project\ARC_Client\SHERKAT\obj\Debug\ARC-Client.pdb
+C:\Users\Parsaa\Source\Repos\ARC\project\ARC_Client\SHERKAT\bin\Debug\ARC-Client.exe.config
+C:\Users\Parsaa\Source\Repos\ARC\project\ARC_Client\SHERKAT\bin\Debug\ARC-Client.exe
+C:\Users\Parsaa\Source\Repos\ARC\project\ARC_Client\SHERKAT\bin\Debug\ARC-Client.pdb
