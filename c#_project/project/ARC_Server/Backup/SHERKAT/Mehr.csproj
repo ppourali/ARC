@@ -1,0 +1,2154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C059DECE-365B-467E-83E3-626C360E76CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mehr</RootNamespace>
+    <AssemblyName>ARC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>pills_4.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business Layers\anbar.cs" />
+    <Compile Include="Business Layers\azmayesh.cs" />
+    <Compile Include="Business Layers\azmayesh_real.cs" />
+    <Compile Include="Business Layers\action_logs.cs" />
+    <Compile Include="Business Layers\assessment.cs" />
+    <Compile Include="Business Layers\black_list.cs" />
+    <Compile Include="Business Layers\amar_records.cs" />
+    <Compile Include="Business Layers\contact.cs" />
+    <Compile Include="Business Layers\contact_anbar.cs" />
+    <Compile Include="Business Layers\sick_history_daftari.cs" />
+    <Compile Include="Business Layers\ghabz_daftari.cs" />
+    <Compile Include="Business Layers\parastar_anbar.cs" />
+    <Compile Include="Business Layers\Gen_settings.cs" />
+    <Compile Include="Business Layers\tajviz_anbar_history.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business Layers\takhfif.cs" />
+    <Compile Include="Business Layers\Hazineh.cs" />
+    <Compile Include="Business Layers\hazineh_types.cs" />
+    <Compile Include="Business Layers\Peygiri_real.cs" />
+    <Compile Include="Business Layers\ravanshenas_real.cs" />
+    <Compile Include="Business Layers\dastoor_pezeshk_real.cs" />
+    <Compile Include="Business Layers\Peygiri.cs" />
+    <Compile Include="Business Layers\nemooneh.cs" />
+    <Compile Include="Business Layers\ravanshenas.cs" />
+    <Compile Include="Business Layers\dastoor_pezeshk.cs" />
+    <Compile Include="Business Layers\tajviz_factors.cs" />
+    <Compile Include="Business Layers\tajviz_anbar.cs" />
+    <Compile Include="Business Layers\sick_history.cs" />
+    <Compile Include="Business Layers\tajviz_koli.cs" />
+    <Compile Include="Business Layers\tajviz.cs" />
+    <Compile Include="Business Layers\tahvil_koli.cs" />
+    <Compile Include="Business Layers\tahvil.cs" />
+    <Compile Include="Business Layers\factors.cs" />
+    <Compile Include="Business Layers\ghabz.cs" />
+    <Compile Include="Business Layers\map_history.cs" />
+    <Compile Include="Business Layers\map_a.cs" />
+    <Compile Include="Business Layers\mos_list.cs" />
+    <Compile Include="Business Layers\MAP_BtoG.cs" />
+    <Compile Include="Business Layers\Sicks.cs" />
+    <Compile Include="Business Layers\darmangah.cs" />
+    <Compile Include="IDTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IDTextBox.Designer.cs">
+      <DependentUpon>IDTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrencyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CurrencyTextBox.Designer.cs">
+      <DependentUpon>CurrencyTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateMaskedTextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateMaskedTextbox.Designer.cs">
+      <DependentUpon>DateMaskedTextbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAuthurize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAuthurize.Designer.cs">
+      <DependentUpon>frmAuthurize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyGen.cs" />
+    <Compile Include="MehrDataSet.cs">
+      <DependentUpon>MehrDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MehrDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MehrDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Action_Logs\frmAction_LogsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Action_Logs\frmAction_LogsView.designer.cs">
+      <DependentUpon>frmAction_LogsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Action_Logs\frmActionLogsPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Action_Logs\frmActionLogsPrintViewer.designer.cs">
+      <DependentUpon>frmActionLogsPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\AdmContactMsg\InternetCS.cs" />
+    <Compile Include="Presentation Layers\anbar\frmAnbarInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\anbar\frmAnbarInp.designer.cs">
+      <DependentUpon>frmAnbarInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\anbar\frmAnbarView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\anbar\frmAnbarView.designer.cs">
+      <DependentUpon>frmAnbarView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\anbar\frmAnbarEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\anbar\frmAnbarEdit.designer.cs">
+      <DependentUpon>frmAnbarEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmAssessmentEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmAssessmentEdit.designer.cs">
+      <DependentUpon>frmAssessmentEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmAssessmentInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmAssessmentInp.designer.cs">
+      <DependentUpon>frmAssessmentInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmAssessmentView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmAssessmentView.designer.cs">
+      <DependentUpon>frmAssessmentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmAssessmentprintviewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmAssessmentprintviewer.designer.cs">
+      <DependentUpon>frmAssessmentprintviewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmTakhfifInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Assessment\frmTakhfifInp.designer.cs">
+      <DependentUpon>frmTakhfifInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshView.designer.cs">
+      <DependentUpon>frmAzmayeshView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshHisView.designer.cs">
+      <DependentUpon>frmAzmayeshHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshEdit.designer.cs">
+      <DependentUpon>frmAzmayeshEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshInp.designer.cs">
+      <DependentUpon>frmAzmayeshInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\frmAzmayeshPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\frmAzmayeshPrintViewer.designer.cs">
+      <DependentUpon>frmAzmayeshPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\frmOnLineAzmayeshPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\frmOnLineAzmayeshPrintViewer.designer.cs">
+      <DependentUpon>frmOnLineAzmayeshPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshView.designer.cs">
+      <DependentUpon>frmRealAzmayeshView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshInp.designer.cs">
+      <DependentUpon>frmRealAzmayeshInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshEdit.designer.cs">
+      <DependentUpon>frmRealAzmayeshEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshHisView.designer.cs">
+      <DependentUpon>frmRealAzmayeshHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\BlackList\frmBlackListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\BlackList\frmBlackListView.designer.cs">
+      <DependentUpon>frmBlackListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\BlackList\frmBlackListPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\BlackList\frmBlackListPrintViewer.designer.cs">
+      <DependentUpon>frmBlackListPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\contact\frmContactEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\contact\frmContactEdit.designer.cs">
+      <DependentUpon>frmContactEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\contact\frmContactInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\contact\frmContactInp.designer.cs">
+      <DependentUpon>frmContactInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\contact\frmContactView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\contact\frmContactView.designer.cs">
+      <DependentUpon>frmContactView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\contact\frmContact_AnbarView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\contact\frmContact_AnbarView.designer.cs">
+      <DependentUpon>frmContact_AnbarView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\darmangah\frmRestorePassInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\darmangah\frmRestorePassInput.Designer.cs">
+      <DependentUpon>frmRestorePassInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\AdmContactMsg\frmContactAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\AdmContactMsg\frmContactAdmin.Designer.cs">
+      <DependentUpon>frmContactAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariDaryaft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariDaryaft.designer.cs">
+      <DependentUpon>frmGhabzDaftariDaryaft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariEslah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariEslah.designer.cs">
+      <DependentUpon>frmGhabzDaftariEslah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariView.designer.cs">
+      <DependentUpon>frmGhabzDaftariView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Daily\frmAmar_RecordsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Daily\frmAmar_RecordsView.designer.cs">
+      <DependentUpon>frmAmar_RecordsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Daily\frmAmar_koliPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Daily\frmAmar_koliPrintViewer.designer.cs">
+      <DependentUpon>frmAmar_koliPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\DirectPrint.cs" />
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmAverageHazinehChartPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmAverageHazinehChartPrintViewer.designer.cs">
+      <DependentUpon>frmAverageHazinehChartPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewerAllInOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewerAllInOne.designer.cs">
+      <DependentUpon>frmDaftariPeygiriPrintViewerAllInOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewerEntekhaabi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewerEntekhaabi.designer.cs">
+      <DependentUpon>frmDaftariPeygiriPrintViewerEntekhaabi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmBoopYearTahvilPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmBoopYearTahvilPrintViewer.designer.cs">
+      <DependentUpon>frmBoopYearTahvilPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSubYearTahvilPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSubYearTahvilPrintViewer.designer.cs">
+      <DependentUpon>frmSubYearTahvilPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectBoopYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectBoopYear.designer.cs">
+      <DependentUpon>frmSelectBoopYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectSubYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectSubYear.designer.cs">
+      <DependentUpon>frmSelectSubYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmMetYearTahvilPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmMetYearTahvilPrintViewer.designer.cs">
+      <DependentUpon>frmMetYearTahvilPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectMetYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectMetYear.designer.cs">
+      <DependentUpon>frmSelectMetYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmPeygiriPatternPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmPeygiriPatternPrintViewer.designer.cs">
+      <DependentUpon>frmPeygiriPatternPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\NetworkErrorHandler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\NetworkErrorHandler.designer.cs">
+      <DependentUpon>NetworkErrorHandler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Parastar_anbar\frmDaruReturnTedad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Parastar_anbar\frmDaruReturnTedad.Designer.cs">
+      <DependentUpon>frmDaruReturnTedad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Parastar_anbar\frmParastar_AnbarView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Parastar_anbar\frmParastar_AnbarView.designer.cs">
+      <DependentUpon>frmParastar_AnbarView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Parastar_anbar\frmParastar_AnbarInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Parastar_anbar\frmParastar_AnbarInp.designer.cs">
+      <DependentUpon>frmParastar_AnbarInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Daftari\frmDastoorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Daftari\frmDastoorView.designer.cs">
+      <DependentUpon>frmDastoorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Daftari\frmDastoorHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Daftari\frmDastoorHisView.designer.cs">
+      <DependentUpon>frmDastoorHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Daftari\frmdastoor_pezeshkEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Daftari\frmdastoor_pezeshkEdit.designer.cs">
+      <DependentUpon>frmdastoor_pezeshkEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Daftari\frmdastoor_pezeshkInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Daftari\frmdastoor_pezeshkInp.designer.cs">
+      <DependentUpon>frmdastoor_pezeshkInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\frmDastoorOnLinePrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\frmDastoorOnLinePrintViewer.designer.cs">
+      <DependentUpon>frmDastoorOnLinePrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Real\frmRealDastoorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Real\frmRealDastoorView.designer.cs">
+      <DependentUpon>frmRealDastoorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Factors\frmFactorEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Factors\frmFactorEdit.designer.cs">
+      <DependentUpon>frmFactorEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmMotevasetHazinehPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmMotevasetHazinehPrintViewer.designer.cs">
+      <DependentUpon>frmMotevasetHazinehPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmMarkazHazinehPeygiri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmMarkazHazinehPeygiri.designer.cs">
+      <DependentUpon>frmMarkazHazinehPeygiri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmTanzimPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmTanzimPrintViewer.designer.cs">
+      <DependentUpon>frmTanzimPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmPeyvastPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmPeyvastPrintViewer.designer.cs">
+      <DependentUpon>frmPeyvastPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmPeyvast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmPeyvast.designer.cs">
+      <DependentUpon>frmPeyvast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmHazinehEnferadiPeygiri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmHazinehEnferadiPeygiri.designer.cs">
+      <DependentUpon>frmHazinehEnferadiPeygiri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmHazinehPeygiri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmHazinehPeygiri.designer.cs">
+      <DependentUpon>frmHazinehPeygiri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmDaftariPeygiriPattern.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmDaftariPeygiriPattern.designer.cs">
+      <DependentUpon>frmDaftariPeygiriPattern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\frmCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\frmCalender.Designer.cs">
+      <DependentUpon>frmCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\frmGen_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\frmGen_Settings.Designer.cs">
+      <DependentUpon>frmGen_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehEdit.designer.cs">
+      <DependentUpon>frmHazinehEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehInp.designer.cs">
+      <DependentUpon>frmHazinehInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehprintviewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehprintviewer.designer.cs">
+      <DependentUpon>frmHazinehprintviewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehView.designer.cs">
+      <DependentUpon>frmHazinehView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmShortHazinehInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Hazineh\frmShortHazinehInp.Designer.cs">
+      <DependentUpon>frmShortHazinehInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Daftari\frmPeygiriEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Daftari\frmPeygiriEdit.designer.cs">
+      <DependentUpon>frmPeygiriEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Daftari\frmPeygiriHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Daftari\frmPeygiriHisView.designer.cs">
+      <DependentUpon>frmPeygiriHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Daftari\frmPeygiriInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Daftari\frmPeygiriInp.designer.cs">
+      <DependentUpon>frmPeygiriInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Real\frmRealPeygiriEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Real\frmRealPeygiriEdit.designer.cs">
+      <DependentUpon>frmRealPeygiriEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Real\frmRealPeygiriHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Real\frmRealPeygiriHisView.designer.cs">
+      <DependentUpon>frmRealPeygiriHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Real\frmRealPeygiriInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\Real\frmRealPeygiriInp.designer.cs">
+      <DependentUpon>frmRealPeygiriInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\frmPeygiriPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Peygiri\frmPeygiriPrintViewer.designer.cs">
+      <DependentUpon>frmPeygiriPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Factors\frmFactorPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Factors\frmFactorPrintViewer.designer.cs">
+      <DependentUpon>frmFactorPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmNafarPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmNafarPrintViewer.designer.cs">
+      <DependentUpon>frmNafarPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmِDarueePrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmِDarueePrintViewer.designer.cs">
+      <DependentUpon>frmِDarueePrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmIncomePrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\ChartsForm\frmIncomePrintViewer.designer.cs">
+      <DependentUpon>frmIncomePrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewer.designer.cs">
+      <DependentUpon>frmDaftariPeygiriPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmMasrafiPeygiriPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmMasrafiPeygiriPrintViewer.designer.cs">
+      <DependentUpon>frmMasrafiPeygiriPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabzEslah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabzEslah.designer.cs">
+      <DependentUpon>frmGhabzEslah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabzJoinTajviz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabzJoinTajviz.designer.cs">
+      <DependentUpon>frmGhabzJoinTajviz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasView.designer.cs">
+      <DependentUpon>frmRavanshenasView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\frmRavanshenasOnLinePrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\frmRavanshenasOnLinePrintViewer.designer.cs">
+      <DependentUpon>frmRavanshenasOnLinePrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasEdit.designer.cs">
+      <DependentUpon>frmRavanshenasEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasHisView.designer.cs">
+      <DependentUpon>frmRavanshenasHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasInp.designer.cs">
+      <DependentUpon>frmRavanshenasInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\frmRavanshenasPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\frmRavanshenasPrintViewer.designer.cs">
+      <DependentUpon>frmRavanshenasPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasView.designer.cs">
+      <DependentUpon>frmRealRavanshenasView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasHisView.designer.cs">
+      <DependentUpon>frmRealRavanshenasHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasEdit.designer.cs">
+      <DependentUpon>frmRealRavanshenasEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasInp.designer.cs">
+      <DependentUpon>frmRealRavanshenasInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Daily\frmAmarKoliView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Daily\frmAmarKoliView.designer.cs">
+      <DependentUpon>frmAmarKoliView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Real\frmRealdastoor_pezeshkEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Real\frmRealdastoor_pezeshkEdit.designer.cs">
+      <DependentUpon>frmRealdastoor_pezeshkEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Real\frmRealDastoorHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Real\frmRealDastoorHisView.designer.cs">
+      <DependentUpon>frmRealDastoorHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\frmDastoorPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\frmDastoorPrintViewer.designer.cs">
+      <DependentUpon>frmDastoorPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickMandehEditDaftari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickMandehEditDaftari.designer.cs">
+      <DependentUpon>frmSickMandehEditDaftari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickDaftariHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickDaftariHisView.designer.cs">
+      <DependentUpon>frmSickDaftariHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksStatusView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksStatusView.designer.cs">
+      <DependentUpon>frmSicksStatusView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksAbsentsPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksAbsentsPrintViewer.designer.cs">
+      <DependentUpon>frmSicksAbsentsPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSelSicksFor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSelSicksFor.designer.cs">
+      <DependentUpon>frmSelSicksFor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksTanzimParastarPrintViewerAllInOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksTanzimParastarPrintViewerAllInOne.designer.cs">
+      <DependentUpon>frmSicksTanzimParastarPrintViewerAllInOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksTanzimPezeshkPrintViewerAllInOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksTanzimPezeshkPrintViewerAllInOne.designer.cs">
+      <DependentUpon>frmSicksTanzimPezeshkPrintViewerAllInOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksTanzimParastarPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksTanzimParastarPrintViewer.designer.cs">
+      <DependentUpon>frmSicksTanzimParastarPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksTanzimPezeshkPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksTanzimPezeshkPrintViewer.designer.cs">
+      <DependentUpon>frmSicksTanzimPezeshkPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksAzmayeshPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksAzmayeshPrintViewer.designer.cs">
+      <DependentUpon>frmSicksAzmayeshPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksDastoorPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksDastoorPrintViewer.designer.cs">
+      <DependentUpon>frmSicksDastoorPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksDocPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksDocPrintViewer.designer.cs">
+      <DependentUpon>frmSicksDocPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickMandehEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickMandehEdit.designer.cs">
+      <DependentUpon>frmSickMandehEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmDaftariTodayComersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmDaftariTodayComersView.designer.cs">
+      <DependentUpon>frmDaftariTodayComersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksHesabPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksHesabPrintViewer.designer.cs">
+      <DependentUpon>frmSicksHesabPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksRavanshenasPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksRavanshenasPrintViewer.designer.cs">
+      <DependentUpon>frmSicksRavanshenasPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmTodayComersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmTodayComersView.designer.cs">
+      <DependentUpon>frmTodayComersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmTahodPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmTahodPrintViewer.designer.cs">
+      <DependentUpon>frmTahodPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmAbsentSicksView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmAbsentSicksView.designer.cs">
+      <DependentUpon>frmAbsentSicksView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Real\frmRealdastoor_pezeshkInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Dastoor\Real\frmRealdastoor_pezeshkInp.designer.cs">
+      <DependentUpon>frmRealdastoor_pezeshkInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickHisPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickHisPrintViewer.designer.cs">
+      <DependentUpon>frmSickHisPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmOnLineResidPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmOnLineResidPrintViewer.designer.cs">
+      <DependentUpon>frmOnLineResidPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvil_Resid_Empty_PrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvil_Resid_Empty_PrintViewer.designer.cs">
+      <DependentUpon>frmTahvil_Resid_Empty_PrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvil_ResidPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvil_ResidPrintViewer.designer.cs">
+      <DependentUpon>frmTahvil_ResidPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmAdamTahvilView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmAdamTahvilView.designer.cs">
+      <DependentUpon>frmAdamTahvilView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilAdam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilAdam.designer.cs">
+      <DependentUpon>frmTahvilAdam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmSubDaftarShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmSubDaftarShow.designer.cs">
+      <DependentUpon>frmSubDaftarShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmBoopDaftarShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmBoopDaftarShow.designer.cs">
+      <DependentUpon>frmBoopDaftarShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmDaftarPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmDaftarPrintViewer.designer.cs">
+      <DependentUpon>frmDaftarPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmMetDaftarShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmMetDaftarShow.designer.cs">
+      <DependentUpon>frmMetDaftarShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilEdit.designer.cs">
+      <DependentUpon>frmTahvilEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilInp.designer.cs">
+      <DependentUpon>frmTahvilInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilPrintViewer.designer.cs">
+      <DependentUpon>frmTahvilPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTanzimPrintViewerOnline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTanzimPrintViewerOnline.designer.cs">
+      <DependentUpon>frmTanzimPrintViewerOnline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmAdamTajvizView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmAdamTajvizView.designer.cs">
+      <DependentUpon>frmAdamTajvizView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizAdam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizAdam.designer.cs">
+      <DependentUpon>frmTajvizAdam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmLastTajvizView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmLastTajvizView.designer.cs">
+      <DependentUpon>frmLastTajvizView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajBoopDaftarShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajBoopDaftarShow.designer.cs">
+      <DependentUpon>frmTajBoopDaftarShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajDaftarPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajDaftarPrintViewer.designer.cs">
+      <DependentUpon>frmTajDaftarPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajMetDaftarShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajMetDaftarShow.designer.cs">
+      <DependentUpon>frmTajMetDaftarShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajSubDaftarShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajSubDaftarShow.designer.cs">
+      <DependentUpon>frmTajSubDaftarShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizEdit.designer.cs">
+      <DependentUpon>frmTajvizEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\darmangah\frmEditPassInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\darmangah\frmEditPassInput.Designer.cs">
+      <DependentUpon>frmEditPassInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmTaj_Anbar_HistoryPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmTaj_Anbar_HistoryPrintViewer.designer.cs">
+      <DependentUpon>frmTaj_Anbar_HistoryPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmtaj_anbar_historyView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmtaj_anbar_historyView.designer.cs">
+      <DependentUpon>frmtaj_anbar_historyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz_Factors\frmTajFactorEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz_Factors\frmTajFactorEdit.designer.cs">
+      <DependentUpon>frmTajFactorEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz_Factors\frmTajFactorInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz_Factors\frmTajFactorInp.designer.cs">
+      <DependentUpon>frmTajFactorInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz_Factors\frmTajFactorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz_Factors\frmTajFactorView.designer.cs">
+      <DependentUpon>frmTajFactorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmTajAnbarEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmTajAnbarEdit.designer.cs">
+      <DependentUpon>frmTajAnbarEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmTajAnbarInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmTajAnbarInp.designer.cs">
+      <DependentUpon>frmTajAnbarInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmTajAnbarView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\tajviz_anbar\frmTajAnbarView.designer.cs">
+      <DependentUpon>frmTajAnbarView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Daily\frmResultView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Daily\frmResultView.designer.cs">
+      <DependentUpon>frmResultView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmTajvizSelectBoop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmTajvizSelectBoop.designer.cs">
+      <DependentUpon>frmTajvizSelectBoop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmTajvizSelectMet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmTajvizSelectMet.designer.cs">
+      <DependentUpon>frmTajvizSelectMet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmTajvizSelectSub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmTajvizSelectSub.designer.cs">
+      <DependentUpon>frmTajvizSelectSub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\frmBackupView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\frmBackupView.designer.cs">
+      <DependentUpon>frmBackupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabz_koliPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabz_koliPrintViewer.designer.cs">
+      <DependentUpon>frmGhabz_koliPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickHisView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickHisView.designer.cs">
+      <DependentUpon>frmSickHisView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSabeghehView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSabeghehView.designer.cs">
+      <DependentUpon>frmSabeghehView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvil_koliPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvil_koliPrintViewer.designer.cs">
+      <DependentUpon>frmTahvil_koliPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizPrintViewer.designer.cs">
+      <DependentUpon>frmTajvizPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajviz_koliPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajviz_koliPrintViewer.designer.cs">
+      <DependentUpon>frmTajviz_koliPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizInp.designer.cs">
+      <DependentUpon>frmTajvizInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmRizTajvizView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmRizTajvizView.designer.cs">
+      <DependentUpon>frmRizTajvizView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tajviz\frmTajvizView.designer.cs">
+      <DependentUpon>frmTajvizView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Factors\frmFactorInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Factors\frmFactorInp.designer.cs">
+      <DependentUpon>frmFactorInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Factors\frmFactorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Factors\frmFactorView.designer.cs">
+      <DependentUpon>frmFactorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSubTahvilPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSubTahvilPrintViewer.designer.cs">
+      <DependentUpon>frmSubTahvilPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectSub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectSub.designer.cs">
+      <DependentUpon>frmSelectSub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmBoopTahvilPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmBoopTahvilPrintViewer.designer.cs">
+      <DependentUpon>frmBoopTahvilPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectBoop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectBoop.designer.cs">
+      <DependentUpon>frmSelectBoop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectMet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmSelectMet.designer.cs">
+      <DependentUpon>frmSelectMet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabzDaryaft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabzDaryaft.designer.cs">
+      <DependentUpon>frmGhabzDaryaft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabzView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\ghabz\frmGhabzView.designer.cs">
+      <DependentUpon>frmGhabzView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Mosahebeh\frmMosahebehEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Mosahebeh\frmMosahebehEdit.designer.cs">
+      <DependentUpon>frmMosahebehEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Mosahebeh\frmMosahebehInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Mosahebeh\frmMosahebehInp.designer.cs">
+      <DependentUpon>frmMosahebehInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Mosahebeh\frmMosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Mosahebeh\frmMosView.designer.cs">
+      <DependentUpon>frmMosView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Mosahebeh\frmMosPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Mosahebeh\frmMosPrintViewer.designer.cs">
+      <DependentUpon>frmMosPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksGroupPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksGroupPrintViewer.designer.cs">
+      <DependentUpon>frmSicksGroupPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksIndiPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksIndiPrintViewer.designer.cs">
+      <DependentUpon>frmSicksIndiPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksEdit.designer.cs">
+      <DependentUpon>frmSicksEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSickInp.designer.cs">
+      <DependentUpon>frmSickInp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Sicks\frmSicksView.designer.cs">
+      <DependentUpon>frmSicksView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Layers\acc.cs" />
+    <Compile Include="Business Layers\DB.cs" />
+    <Compile Include="Presentation Layers\darmangah\frmadddarmangah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\darmangah\frmadddarmangah.Designer.cs">
+      <DependentUpon>frmadddarmangah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmRizTahvilView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmRizTahvilView.designer.cs">
+      <DependentUpon>frmRizTahvilView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmMetTahvilPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Forms\frmMetTahvilPrintViewer.designer.cs">
+      <DependentUpon>frmMetTahvilPrintViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Tahvil\frmTahvilView.designer.cs">
+      <DependentUpon>frmTahvilView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Users\frmChpass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Users\frmChpass.designer.cs">
+      <DependentUpon>frmChpass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Users\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Users\frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAuthurize.resx">
+      <DependentUpon>frmAuthurize.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDTextBox.resx">
+      <DependentUpon>IDTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Action_Logs\frmAction_LogsView.resx">
+      <DependentUpon>frmAction_LogsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Action_Logs\frmActionLogsPrintViewer.resx">
+      <DependentUpon>frmActionLogsPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\anbar\frmAnbarInp.resx">
+      <DependentUpon>frmAnbarInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\anbar\frmAnbarView.resx">
+      <DependentUpon>frmAnbarView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\anbar\frmAnbarEdit.resx">
+      <DependentUpon>frmAnbarEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Assessment\frmAssessmentEdit.resx">
+      <DependentUpon>frmAssessmentEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Assessment\frmAssessmentInp.resx">
+      <DependentUpon>frmAssessmentInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Assessment\frmAssessmentView.resx">
+      <DependentUpon>frmAssessmentView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Assessment\frmAssessmentprintviewer.resx">
+      <DependentUpon>frmAssessmentprintviewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Assessment\frmTakhfifInp.resx">
+      <DependentUpon>frmTakhfifInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshView.resx">
+      <DependentUpon>frmAzmayeshView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshHisView.resx">
+      <DependentUpon>frmAzmayeshHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshEdit.resx">
+      <DependentUpon>frmAzmayeshEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\Daftari\frmAzmayeshInp.resx">
+      <DependentUpon>frmAzmayeshInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\frmAzmayeshPrintViewer.resx">
+      <DependentUpon>frmAzmayeshPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\frmOnLineAzmayeshPrintViewer.resx">
+      <DependentUpon>frmOnLineAzmayeshPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshView.resx">
+      <DependentUpon>frmRealAzmayeshView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshInp.resx">
+      <DependentUpon>frmRealAzmayeshInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshEdit.resx">
+      <DependentUpon>frmRealAzmayeshEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Azmayesh\Real\frmRealAzmayeshHisView.resx">
+      <DependentUpon>frmRealAzmayeshHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\BlackList\frmBlackListView.resx">
+      <DependentUpon>frmBlackListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\BlackList\frmBlackListPrintViewer.resx">
+      <DependentUpon>frmBlackListPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\contact\frmContactEdit.resx">
+      <DependentUpon>frmContactEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\contact\frmContactInp.resx">
+      <DependentUpon>frmContactInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\contact\frmContactView.resx">
+      <DependentUpon>frmContactView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\contact\frmContact_AnbarView.resx">
+      <DependentUpon>frmContact_AnbarView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\darmangah\frmRestorePassInput.resx">
+      <DependentUpon>frmRestorePassInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\AdmContactMsg\frmContactAdmin.resx">
+      <DependentUpon>frmContactAdmin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariDaryaft.resx">
+      <DependentUpon>frmGhabzDaftariDaryaft.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariEslah.resx">
+      <DependentUpon>frmGhabzDaftariEslah.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\ghabz_daftari\frmGhabzDaftariView.resx">
+      <DependentUpon>frmGhabzDaftariView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Daily\frmAmar_RecordsView.resx">
+      <DependentUpon>frmAmar_RecordsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Daily\frmAmar_koliPrintViewer.resx">
+      <DependentUpon>frmAmar_koliPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\ChartsForm\frmAverageHazinehChartPrintViewer.resx">
+      <DependentUpon>frmAverageHazinehChartPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewerAllInOne.resx">
+      <DependentUpon>frmDaftariPeygiriPrintViewerAllInOne.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewerEntekhaabi.resx">
+      <DependentUpon>frmDaftariPeygiriPrintViewerEntekhaabi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmBoopYearTahvilPrintViewer.resx">
+      <DependentUpon>frmBoopYearTahvilPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmSubYearTahvilPrintViewer.resx">
+      <DependentUpon>frmSubYearTahvilPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmSelectBoopYear.resx">
+      <DependentUpon>frmSelectBoopYear.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmSelectSubYear.resx">
+      <DependentUpon>frmSelectSubYear.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmMetYearTahvilPrintViewer.resx">
+      <DependentUpon>frmMetYearTahvilPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmSelectMetYear.resx">
+      <DependentUpon>frmSelectMetYear.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmPeygiriPatternPrintViewer.resx">
+      <DependentUpon>frmPeygiriPatternPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\NetworkErrorHandler.resx">
+      <DependentUpon>NetworkErrorHandler.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Parastar_anbar\frmDaruReturnTedad.resx">
+      <DependentUpon>frmDaruReturnTedad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Parastar_anbar\frmParastar_AnbarView.resx">
+      <DependentUpon>frmParastar_AnbarView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Parastar_anbar\frmParastar_AnbarInp.resx">
+      <DependentUpon>frmParastar_AnbarInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\Daftari\frmDastoorView.resx">
+      <DependentUpon>frmDastoorView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\Daftari\frmDastoorHisView.resx">
+      <DependentUpon>frmDastoorHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\Daftari\frmdastoor_pezeshkEdit.resx">
+      <DependentUpon>frmdastoor_pezeshkEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\Daftari\frmdastoor_pezeshkInp.resx">
+      <DependentUpon>frmdastoor_pezeshkInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\frmDastoorOnLinePrintViewer.resx">
+      <DependentUpon>frmDastoorOnLinePrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\Real\frmRealDastoorView.resx">
+      <DependentUpon>frmRealDastoorView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Factors\frmFactorEdit.resx">
+      <DependentUpon>frmFactorEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\ChartsForm\frmMotevasetHazinehPrintViewer.resx">
+      <DependentUpon>frmMotevasetHazinehPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\ChartsForm\frmMarkazHazinehPeygiri.resx">
+      <DependentUpon>frmMarkazHazinehPeygiri.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmTanzimPrintViewer.resx">
+      <DependentUpon>frmTanzimPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmPeyvastPrintViewer.resx">
+      <DependentUpon>frmPeyvastPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmPeyvast.resx">
+      <DependentUpon>frmPeyvast.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmHazinehEnferadiPeygiri.resx">
+      <DependentUpon>frmHazinehEnferadiPeygiri.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmHazinehPeygiri.resx">
+      <DependentUpon>frmHazinehPeygiri.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmDaftariPeygiriPattern.resx">
+      <DependentUpon>frmDaftariPeygiriPattern.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\frmCalender.resx">
+      <DependentUpon>frmCalender.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\frmGen_Settings.resx">
+      <DependentUpon>frmGen_Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Hazineh\frmHazinehEdit.resx">
+      <DependentUpon>frmHazinehEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Hazineh\frmHazinehInp.resx">
+      <DependentUpon>frmHazinehInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Hazineh\frmHazinehprintviewer.resx">
+      <DependentUpon>frmHazinehprintviewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Hazineh\frmHazinehView.resx">
+      <DependentUpon>frmHazinehView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Hazineh\frmShortHazinehInp.resx">
+      <DependentUpon>frmShortHazinehInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Peygiri\Daftari\frmPeygiriEdit.resx">
+      <DependentUpon>frmPeygiriEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Peygiri\Daftari\frmPeygiriHisView.resx">
+      <DependentUpon>frmPeygiriHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Peygiri\Daftari\frmPeygiriInp.resx">
+      <DependentUpon>frmPeygiriInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Peygiri\Real\frmRealPeygiriEdit.resx">
+      <DependentUpon>frmRealPeygiriEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Peygiri\Real\frmRealPeygiriHisView.resx">
+      <DependentUpon>frmRealPeygiriHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Peygiri\Real\frmRealPeygiriInp.resx">
+      <DependentUpon>frmRealPeygiriInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Peygiri\frmPeygiriPrintViewer.resx">
+      <DependentUpon>frmPeygiriPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Factors\frmFactorPrintViewer.resx">
+      <DependentUpon>frmFactorPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\ChartsForm\frmNafarPrintViewer.resx">
+      <DependentUpon>frmNafarPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\ChartsForm\frmِDarueePrintViewer.resx">
+      <DependentUpon>frmِDarueePrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\ChartsForm\frmIncomePrintViewer.resx">
+      <DependentUpon>frmIncomePrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmDaftariPeygiriPrintViewer.resx">
+      <DependentUpon>frmDaftariPeygiriPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmMasrafiPeygiriPrintViewer.resx">
+      <DependentUpon>frmMasrafiPeygiriPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\ghabz\frmGhabzEslah.resx">
+      <DependentUpon>frmGhabzEslah.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\ghabz\frmGhabzJoinTajviz.resx">
+      <DependentUpon>frmGhabzJoinTajviz.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasView.resx">
+      <DependentUpon>frmRavanshenasView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\frmRavanshenasOnLinePrintViewer.resx">
+      <DependentUpon>frmRavanshenasOnLinePrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasEdit.resx">
+      <DependentUpon>frmRavanshenasEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasHisView.resx">
+      <DependentUpon>frmRavanshenasHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\Daftari\frmRavanshenasInp.resx">
+      <DependentUpon>frmRavanshenasInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\frmRavanshenasPrintViewer.resx">
+      <DependentUpon>frmRavanshenasPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasView.resx">
+      <DependentUpon>frmRealRavanshenasView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasHisView.resx">
+      <DependentUpon>frmRealRavanshenasHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasEdit.resx">
+      <DependentUpon>frmRealRavanshenasEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Ravanshenas\Real\frmRealRavanshenasInp.resx">
+      <DependentUpon>frmRealRavanshenasInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Daily\frmAmarKoliView.resx">
+      <DependentUpon>frmAmarKoliView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\Real\frmRealdastoor_pezeshkEdit.resx">
+      <DependentUpon>frmRealdastoor_pezeshkEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\Real\frmRealDastoorHisView.resx">
+      <DependentUpon>frmRealDastoorHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\frmDastoorPrintViewer.resx">
+      <DependentUpon>frmDastoorPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Reports\Charts\rptAverageHazineh_Chart.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\Charts\rptMarkazHazineh_Chart.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\Charts\rptHazineh_Chart.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\Charts\rptNafar_Chart.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\Charts\rptDaruee_Chart.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTahvil_Resid_DateOnLine.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTahvil_Resid_Empty.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTahvil_Resid_Id.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTahvil_Resid_Date.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptPeygiriAllInOne.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptSubYear.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptBoopYear.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptMetYear.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptPeygiriPattern.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptAbsents.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTaj_Anbar_History.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTanzimDoctorOnLine.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTanzimdozeDoctorAllInOne.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTanzimdozeNurseAllInOne.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTanzimNurseOnLine.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTanzimdozeDoctor.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTanzimdozeNurse.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptActionLogs.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptAzmayeshOnLine.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptRavanshenasOnLine.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptDastoorOnLine.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTajviz_koli.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptBlackList.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptAssessment.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptAll.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptAmar_Koli.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptHazineh.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptPeyvast.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptPeygiriSicks.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptSickSel.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptHesabSicks.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptPeygiri.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptSickhistory.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptFactors.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptAzmayesh.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptRavanshenas.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptDastoor.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptSubDaftar.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptBoopDaftar.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTahvil.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSickMandehEditDaftari.resx">
+      <DependentUpon>frmSickMandehEditDaftari.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSickDaftariHisView.resx">
+      <DependentUpon>frmSickDaftariHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksStatusView.resx">
+      <DependentUpon>frmSicksStatusView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksAbsentsPrintViewer.resx">
+      <DependentUpon>frmSicksAbsentsPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSelSicksFor.resx">
+      <DependentUpon>frmSelSicksFor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksTanzimParastarPrintViewerAllInOne.resx">
+      <DependentUpon>frmSicksTanzimParastarPrintViewerAllInOne.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksTanzimPezeshkPrintViewerAllInOne.resx">
+      <DependentUpon>frmSicksTanzimPezeshkPrintViewerAllInOne.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksTanzimParastarPrintViewer.resx">
+      <DependentUpon>frmSicksTanzimParastarPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksTanzimPezeshkPrintViewer.resx">
+      <DependentUpon>frmSicksTanzimPezeshkPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksAzmayeshPrintViewer.resx">
+      <DependentUpon>frmSicksAzmayeshPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksDastoorPrintViewer.resx">
+      <DependentUpon>frmSicksDastoorPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksDocPrintViewer.resx">
+      <DependentUpon>frmSicksDocPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSickMandehEdit.resx">
+      <DependentUpon>frmSickMandehEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmDaftariTodayComersView.resx">
+      <DependentUpon>frmDaftariTodayComersView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksHesabPrintViewer.resx">
+      <DependentUpon>frmSicksHesabPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksRavanshenasPrintViewer.resx">
+      <DependentUpon>frmSicksRavanshenasPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmTodayComersView.resx">
+      <DependentUpon>frmTodayComersView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmTahodPrintViewer.resx">
+      <DependentUpon>frmTahodPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmAbsentSicksView.resx">
+      <DependentUpon>frmAbsentSicksView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Dastoor\Real\frmRealdastoor_pezeshkInp.resx">
+      <DependentUpon>frmRealdastoor_pezeshkInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSickHisPrintViewer.resx">
+      <DependentUpon>frmSickHisPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmOnLineResidPrintViewer.resx">
+      <DependentUpon>frmOnLineResidPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTahvil_Resid_Empty_PrintViewer.resx">
+      <DependentUpon>frmTahvil_Resid_Empty_PrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTahvil_ResidPrintViewer.resx">
+      <DependentUpon>frmTahvil_ResidPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmAdamTahvilView.resx">
+      <DependentUpon>frmAdamTahvilView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTahvilAdam.resx">
+      <DependentUpon>frmTahvilAdam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmSubDaftarShow.resx">
+      <DependentUpon>frmSubDaftarShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmBoopDaftarShow.resx">
+      <DependentUpon>frmBoopDaftarShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmDaftarPrintViewer.resx">
+      <DependentUpon>frmDaftarPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmMetDaftarShow.resx">
+      <DependentUpon>frmMetDaftarShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTahvilEdit.resx">
+      <DependentUpon>frmTahvilEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTahvilInp.resx">
+      <DependentUpon>frmTahvilInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTahvilPrintViewer.resx">
+      <DependentUpon>frmTahvilPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTanzimPrintViewerOnline.resx">
+      <DependentUpon>frmTanzimPrintViewerOnline.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmAdamTajvizView.resx">
+      <DependentUpon>frmAdamTajvizView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajMetDaftarShow.af.resx">
+      <DependentUpon>frmTajMetDaftarShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajvizAdam.resx">
+      <DependentUpon>frmTajvizAdam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmLastTajvizView.resx">
+      <DependentUpon>frmLastTajvizView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajBoopDaftarShow.resx">
+      <DependentUpon>frmTajBoopDaftarShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajDaftarPrintViewer.resx">
+      <DependentUpon>frmTajDaftarPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajMetDaftarShow.resx">
+      <DependentUpon>frmTajMetDaftarShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajSubDaftarShow.resx">
+      <DependentUpon>frmTajSubDaftarShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajvizEdit.resx">
+      <DependentUpon>frmTajvizEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\darmangah\frmEditPassInput.resx">
+      <DependentUpon>frmEditPassInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\tajviz_anbar\frmTaj_Anbar_HistoryPrintViewer.resx">
+      <DependentUpon>frmTaj_Anbar_HistoryPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\tajviz_anbar\frmtaj_anbar_historyView.resx">
+      <DependentUpon>frmtaj_anbar_historyView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz_Factors\frmTajFactorEdit.resx">
+      <DependentUpon>frmTajFactorEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz_Factors\frmTajFactorInp.resx">
+      <DependentUpon>frmTajFactorInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz_Factors\frmTajFactorView.resx">
+      <DependentUpon>frmTajFactorView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\tajviz_anbar\frmTajAnbarEdit.resx">
+      <DependentUpon>frmTajAnbarEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\tajviz_anbar\frmTajAnbarInp.resx">
+      <DependentUpon>frmTajAnbarInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\tajviz_anbar\frmTajAnbarView.resx">
+      <DependentUpon>frmTajAnbarView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Daily\frmResultView.resx">
+      <DependentUpon>frmResultView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmTajvizSelectBoop.resx">
+      <DependentUpon>frmTajvizSelectBoop.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmTajvizSelectMet.resx">
+      <DependentUpon>frmTajvizSelectMet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmTajvizSelectSub.resx">
+      <DependentUpon>frmTajvizSelectSub.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\frmBackupView.resx">
+      <DependentUpon>frmBackupView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\ghabz\frmGhabz_koliPrintViewer.resx">
+      <DependentUpon>frmGhabz_koliPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Reports\rptGhabz.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTajviz.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSickHisView.resx">
+      <DependentUpon>frmSickHisView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSabeghehView.resx">
+      <DependentUpon>frmSabeghehView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTahvil_koliPrintViewer.resx">
+      <DependentUpon>frmTahvil_koliPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajvizPrintViewer.resx">
+      <DependentUpon>frmTajvizPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajviz_koliPrintViewer.resx">
+      <DependentUpon>frmTajviz_koliPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajvizInp.resx">
+      <DependentUpon>frmTajvizInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmRizTajvizView.resx">
+      <DependentUpon>frmRizTajvizView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tajviz\frmTajvizView.resx">
+      <DependentUpon>frmTajvizView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Factors\frmFactorInp.resx">
+      <DependentUpon>frmFactorInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Factors\frmFactorView.resx">
+      <DependentUpon>frmFactorView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmSubTahvilPrintViewer.resx">
+      <DependentUpon>frmSubTahvilPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmSelectSub.resx">
+      <DependentUpon>frmSelectSub.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmBoopTahvilPrintViewer.resx">
+      <DependentUpon>frmBoopTahvilPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmSelectBoop.resx">
+      <DependentUpon>frmSelectBoop.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmSelectMet.resx">
+      <DependentUpon>frmSelectMet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\ghabz\frmGhabzDaryaft.resx">
+      <DependentUpon>frmGhabzDaryaft.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\ghabz\frmGhabzView.resx">
+      <DependentUpon>frmGhabzView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Mosahebeh\frmMosahebehEdit.resx">
+      <DependentUpon>frmMosahebehEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Mosahebeh\frmMosahebehInp.resx">
+      <DependentUpon>frmMosahebehInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Mosahebeh\frmMosView.resx">
+      <DependentUpon>frmMosView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Mosahebeh\frmMosPrintViewer.resx">
+      <DependentUpon>frmMosPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Reports\rptSub.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptBoopre.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptMosahebeh.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksGroupPrintViewer.resx">
+      <DependentUpon>frmSicksGroupPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksIndiPrintViewer.resx">
+      <DependentUpon>frmSicksIndiPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksEdit.resx">
+      <DependentUpon>frmSicksEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSickInp.resx">
+      <DependentUpon>frmSickInp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Sicks\frmSicksView.resx">
+      <DependentUpon>frmSicksView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\darmangah\frmadddarmangah.resx">
+      <DependentUpon>frmadddarmangah.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmRizTahvilView.resx">
+      <DependentUpon>frmRizTahvilView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Forms\frmMetTahvilPrintViewer.resx">
+      <DependentUpon>frmMetTahvilPrintViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Tahvil\frmTahvilView.resx">
+      <DependentUpon>frmTahvilView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Users\frmChpass.resx">
+      <DependentUpon>frmChpass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Users\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layers\Reports\rptIndivSicks.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptGroupSicks.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptMet.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTahvil_koli.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptGhabz_Koli.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptMetDaftar.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\rptTahod.rdlc" />
+    <EmbeddedResource Include="Presentation Layers\Reports\Charts\rptIncome_Chart.rdlc" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="MehrDataSet.xsc">
+      <DependentUpon>MehrDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MehrDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MehrDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MehrDataSet.xss">
+      <DependentUpon>MehrDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Service Layers\mydataaccess.cs" />
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pills_4.ico" />
+    <None Include="Resources\bg5.jpg" />
+    <None Include="Resources\bg4.jpg" />
+    <None Include="Resources\bg3.jpg" />
+    <None Include="Resources\bg2.jpg" />
+    <None Include="Resources\bg1.jpg" />
+    <None Include="app.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\lastbg.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
