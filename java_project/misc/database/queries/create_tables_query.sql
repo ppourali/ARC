@@ -253,7 +253,7 @@ GO
 CREATE TABLE [dbo].[depot_real_history](
 	[id] [bigint] NOT NULL,
 	[contact_id] [nchar](4) NOT NULL,
-	[contact name] [nvarchar](100) NULL,
+	[contact_name] [nvarchar](100) NULL,
 	[date] [nchar](10) NOT NULL,
 	[drug_name] [nvarchar](50) NOT NULL,
 	[count] [float] NOT NULL,
@@ -942,7 +942,7 @@ ALTER TABLE [dbo].[depot_real] ADD  CONSTRAINT [DF_tajviz_anbar_fee]  DEFAULT ((
 GO
 ALTER TABLE [dbo].[depot_real_history] ADD  CONSTRAINT [DF_tajviz_anbar_history_contactid]  DEFAULT ((0)) FOR [contact_id]
 GO
-ALTER TABLE [dbo].[depot_real_history] ADD  CONSTRAINT [DF_tajviz_anbar_history_contactname]  DEFAULT (N'پرستار') FOR [contact name]
+ALTER TABLE [dbo].[depot_real_history] ADD  CONSTRAINT [DF_tajviz_anbar_history_contactname]  DEFAULT (N'پرستار') FOR [contact_name]
 GO
 ALTER TABLE [dbo].[dispensed_items] ADD  CONSTRAINT [DF_tahvil_koli_code]  DEFAULT ((0)) FOR [id]
 GO

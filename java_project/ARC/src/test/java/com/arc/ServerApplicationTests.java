@@ -23,9 +23,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.techprimers.controller.UsersController;
-import com.techprimers.model.User;
-import com.techprimers.repository.UserJpaRespository;
+import com.arc.controller.UsersController;
+import com.arc.model.User;
+import com.arc.repository.UserJpaRespository;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(UsersController.class)

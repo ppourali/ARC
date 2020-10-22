@@ -1,7 +1,7 @@
 package com.arc.controller;
 
-import com.techprimers.model.User;
-import com.techprimers.repository.UserJpaRespository;
+import com.arc.model.User;
+import com.arc.repository.UserJpaRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
