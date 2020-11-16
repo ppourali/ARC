@@ -149,7 +149,7 @@
             this.txttodate.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txttodate.ForeColor = System.Drawing.Color.Black;
             this.txttodate.Location = new System.Drawing.Point(233, 48);
-            this.txttodate.Mask = "1300/00/00";
+            
             this.txttodate.Name = "txttodate";
             this.txttodate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txttodate.Size = new System.Drawing.Size(130, 22);
@@ -181,7 +181,7 @@
             this.txtmos_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtmos_date.ForeColor = System.Drawing.Color.Black;
             this.txtmos_date.Location = new System.Drawing.Point(233, 17);
-            this.txtmos_date.Mask = "1300/00/00";
+
             this.txtmos_date.Name = "txtmos_date";
             this.txtmos_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtmos_date.Size = new System.Drawing.Size(130, 22);

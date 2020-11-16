@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mehr.Utils;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,47 +51,7 @@ namespace Mehr.Presentation_Layers
 
         private bool bazrasmode = false;
 
-        public string Shamsi(string date)
-        {
-            int[] arrMonths = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-            int[] arrStart = { 21, 20, 21, 21, 22, 22, 23, 23, 23, 23, 22, 22 };
-            char[] sep = { '/' };
-            string[] arrDate = date.Split(sep);
-            int year = Convert.ToInt32(arrDate[0]);
-            int month = Convert.ToInt32(arrDate[1]);
-            int day = Convert.ToInt32(arrDate[2]);
-            if (year % 4 == 0)
-            {
-                for (int i = 2; i < 12; i++)
-                    arrStart[i]--;
-                arrMonths[1]++;
-                if (month == 1) arrStart[11]++;
-            }
-            else if (year % 4 == 1)
-            {
-                arrStart[0]--;
-                arrStart[1]--;
-                if (month == 1) arrStart[11]--;
-            }
-            year = month <= 3 ? year - 622 : year - 621;
-            if (month == 3 && day >= arrStart[2]) year++;
-            if (day < arrStart[month - 1])
-            {
-                int i = month == 1 ? 11 : month - 2;
-                day = day - arrStart[i] + arrMonths[i] + 1;
-                month -= 3;
-            }
-            else
-            {
-                day = day - arrStart[month - 1] + 1;
-                month -= 2;
-            }
-            if (month <= 0) month += 12;
-            return year + "/" + Convert.ToString(month).PadLeft(2, '0') + "/" +
-            Convert.ToString(day).PadLeft(2, '0');
-
-
-        }
+        
 
         private InputLanguage GetFarsiLanguage()
         {
@@ -106,16 +67,11 @@ namespace Mehr.Presentation_Layers
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-           
-            string d, m, y;
-            d = DateTime.Today.Date.Day.ToString();
-            m = DateTime.Today.Date.Month.ToString();
-            y = DateTime.Today.Date.Year.ToString();
-            toolStripStatusLabel1.Text = DateTime.Now.ToLongTimeString();
-            toolStripStatusLabel2.Text = Shamsi(y + '/' + m + '/' + d);
+            toolStripStatusLabel1.Text = DateUtils.Georgian();
+            toolStripStatusLabel2.Text = DateUtils.Shamsi();
 
             fc.MdiParent = this;
-            fc.cur_date = toolStripStatusLabel2.Text;
+            fc.cur_date = DateUtils.Shamsi();
             Point p = new Point(20, this.Height - 320);
             fc.Location = p;
             fc.Show();
@@ -435,7 +391,7 @@ namespace Mehr.Presentation_Layers
                 {
                     DB back = new DB();
                     back.path = a;
-                    back.Backup_name = toolStripStatusLabel2.Text + "-" + DateTime.Now.ToLongTimeString().Substring(0, 8);
+                    back.Backup_name = DateUtils.Shamsi() + "-" + DateTime.Now.ToLongTimeString().Substring(0, 8);
                     back.CreateBackup();
 
                     new action_logs().Add("تهیه ی فایل پشتیبان از پایگاه داده");
@@ -487,7 +443,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmSickInp fsi = new frmSickInp();
-                fsi.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsi.cur_date = DateUtils.Shamsi();
                 fsi.MdiParent = this;
                 fsi.Show();
             }
@@ -533,7 +489,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmSicksView fsv = new frmSicksView();
-                fsv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsv.cur_date = DateUtils.Shamsi();
                 fsv.MdiParent = this;
                 fsv.Show();
             }
@@ -556,7 +512,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmMosahebehInp fmi = new frmMosahebehInp();
-                fmi.cur_date = toolStripStatusLabel2.Text.Trim();
+                fmi.cur_date = DateUtils.Shamsi();
                 fmi.MdiParent = this;
                 fmi.Show();
             }
@@ -580,7 +536,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmMosView fmv = new frmMosView();
-                fmv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fmv.cur_date = DateUtils.Shamsi();
                 fmv.MdiParent = this;
                 fmv.Show();
             }
@@ -603,7 +559,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmGhabzDaryaft fgs = new frmGhabzDaryaft();
-                fgs.cur_date = toolStripStatusLabel2.Text.Trim();
+                fgs.cur_date = DateUtils.Shamsi();
                 fgs.MdiParent = this;
                 fgs.Show();
             }
@@ -626,7 +582,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmGhabzView fgv = new frmGhabzView();
-                fgv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fgv.cur_date = DateUtils.Shamsi();
                 fgv.MdiParent = this;
                 fgv.Show();
             }
@@ -759,7 +715,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTahvilInput fti = new frmTahvilInput();
-                fti.cur_date = toolStripStatusLabel2.Text.Trim();
+                fti.cur_date = DateUtils.Shamsi();
                 fti.MdiParent = this;
                 fti.Show();
             }
@@ -782,7 +738,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTahvilView ftv = new frmTahvilView();
-                ftv.cur_date = toolStripStatusLabel2.Text.Trim();
+                ftv.cur_date = DateUtils.Shamsi();
                 ftv.MdiParent = this;
                 ftv.Show();
             }
@@ -806,8 +762,8 @@ namespace Mehr.Presentation_Layers
             {
                 frmSelectMet fsm = new frmSelectMet();
                 fsm.MdiParent = this;
-                fsm.txtmonth.SelectedIndex = int.Parse(toolStripStatusLabel2.Text.Trim().Substring(5, 2)) - 1;
-                fsm.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsm.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
+                fsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsm.Show();
             }
         }
@@ -852,8 +808,8 @@ namespace Mehr.Presentation_Layers
             {
                 frmSelectBoop fsb = new frmSelectBoop();
                 fsb.MdiParent = this;
-                fsb.txtmonth.SelectedIndex = int.Parse(toolStripStatusLabel2.Text.Trim().Substring(5, 2)) - 1;
-                fsb.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsb.txtmonth.SelectedIndex = DateUtils.MonthIndex();
+                fsb.txtyear.Value = DateUtils.YearValue();
                 fsb.Show();
             }
         }
@@ -876,8 +832,8 @@ namespace Mehr.Presentation_Layers
             {
                 frmSelectSub fss = new frmSelectSub();
                 fss.MdiParent = this;
-                fss.txtmonth.SelectedIndex = int.Parse(toolStripStatusLabel2.Text.Trim().Substring(5, 2)) - 1;
-                fss.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fss.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
+                fss.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fss.Show();
             }
         }
@@ -899,7 +855,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTajvizView ftv = new frmTajvizView();
-                ftv.cur_date = toolStripStatusLabel2.Text.Trim();
+                ftv.cur_date = DateUtils.Shamsi();
                 ftv.MdiParent = this;
                 ftv.Show();
             }
@@ -923,7 +879,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTajvizInput fti = new frmTajvizInput();
-                fti.cur_date = toolStripStatusLabel2.Text.Trim();
+                fti.cur_date = DateUtils.Shamsi();
                 fti.MdiParent = this;
                 fti.Show();
             }
@@ -947,8 +903,8 @@ namespace Mehr.Presentation_Layers
             {
                 frmTajvizSelectMet ftsm = new frmTajvizSelectMet();
                 ftsm.MdiParent = this;
-                ftsm.txtmonth.SelectedIndex = int.Parse(toolStripStatusLabel2.Text.Trim().Substring(5, 2)) - 1;
-                ftsm.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                ftsm.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
+                ftsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 ftsm.Show();
             }
         }
@@ -971,8 +927,8 @@ namespace Mehr.Presentation_Layers
             {
                 frmTajvizSelectBoop ftsb = new frmTajvizSelectBoop();
                 ftsb.MdiParent = this;
-                ftsb.txtmonth.SelectedIndex = int.Parse(toolStripStatusLabel2.Text.Trim().Substring(5, 2)) - 1;
-                ftsb.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                ftsb.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
+                ftsb.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 ftsb.Show();
             }
         }
@@ -995,8 +951,8 @@ namespace Mehr.Presentation_Layers
             {
                 frmTajvizSelectSub ftss = new frmTajvizSelectSub();
                 ftss.MdiParent = this;
-                ftss.txtmonth.SelectedIndex = int.Parse(toolStripStatusLabel2.Text.Trim().Substring(5, 2)) - 1;
-                ftss.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                ftss.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
+                ftss.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 ftss.Show();
             }
         }
@@ -1020,8 +976,8 @@ namespace Mehr.Presentation_Layers
 
                 frmResultView frv = new frmResultView();
                 frv.MdiParent = this;
-                frv.txtfromdate.Text = toolStripStatusLabel2.Text.Trim();
-                frv.txttodate.Text = toolStripStatusLabel2.Text.Trim();
+                frv.txtfromdate.Text = DateUtils.Shamsi();
+                frv.txttodate.Text = DateUtils.Shamsi();
                 frv.btnfilter_Click(null, null);
                 frv.Show();
             }
@@ -1045,8 +1001,8 @@ namespace Mehr.Presentation_Layers
             {
                 frmAmarKoliView fav = new frmAmarKoliView();
                 fav.MdiParent = this;
-                fav.cur_date = toolStripStatusLabel2.Text.Trim();
-                fav.txtdate.Text = toolStripStatusLabel2.Text.Trim();
+                fav.cur_date = DateUtils.Shamsi();
+                fav.txtdate.Text = DateUtils.Shamsi();
                 //fav.btnfilter_Click(null, null);
                 fav.Show();
             }
@@ -1067,13 +1023,13 @@ namespace Mehr.Presentation_Layers
 
                 if (System.IO.Directory.Exists(Application.StartupPath + @"\Backup"))
                 {
-                    string a = Application.StartupPath + "\\Backup\\" + toolStripStatusLabel2.Text.Trim().Replace('/', '.') + ".bak";
+                    string a = Application.StartupPath + "\\Backup\\" + DateUtils.Shamsi().Replace('/', '.') + ".bak";
 
                     try
                     {
                         DB back = new DB();
                         back.path = a;
-                        back.Backup_name = toolStripStatusLabel2.Text + "-" + DateTime.Now.ToLongTimeString().Substring(0, 8);
+                        back.Backup_name = DateUtils.Shamsi() + "-" + DateTime.Now.ToLongTimeString().Substring(0, 8);
                         back.CreateBackup();
 
                     }
@@ -1085,13 +1041,13 @@ namespace Mehr.Presentation_Layers
                 else
                 {
                     System.IO.Directory.CreateDirectory(Application.StartupPath + @"\Backup");
-                    string a = Application.StartupPath + "\\Backup\\" + toolStripStatusLabel2.Text.Trim().Replace('/', '.') + ".bak";
+                    string a = Application.StartupPath + "\\Backup\\" + DateUtils.Shamsi().Replace('/', '.') + ".bak";
 
                     try
                     {
                         DB back = new DB();
                         back.path = a;
-                        back.Backup_name = toolStripStatusLabel2.Text + "-" + DateTime.Now.ToLongTimeString().Substring(0, 8);
+                        back.Backup_name = DateUtils.Shamsi() + "-" + DateTime.Now.ToLongTimeString().Substring(0, 8);
                         back.CreateBackup();
                     }
                     catch (Exception)
@@ -1141,7 +1097,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTajvizInput fti = new frmTajvizInput();
-                fti.cur_date = toolStripStatusLabel2.Text.Trim();
+                fti.cur_date = DateUtils.Shamsi();
                 fti.MdiParent = this;
                 fti.Show();
             }
@@ -1164,7 +1120,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmSickInp fsi = new frmSickInp();
-                fsi.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsi.cur_date = DateUtils.Shamsi();
                 fsi.MdiParent = this;
                 fsi.Show();
             }
@@ -1187,7 +1143,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmGhabzDaryaft fgs = new frmGhabzDaryaft();
-                fgs.cur_date = toolStripStatusLabel2.Text.Trim();
+                fgs.cur_date = DateUtils.Shamsi();
                 fgs.MdiParent = this;
                 fgs.Show();
             }
@@ -1334,7 +1290,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTahvilInput fti = new frmTahvilInput();
-                fti.cur_date = toolStripStatusLabel2.Text.Trim();
+                fti.cur_date = DateUtils.Shamsi();
                 fti.MdiParent = this;
                 fti.Show();
             }
@@ -1446,7 +1402,7 @@ namespace Mehr.Presentation_Layers
             {
                 frmMetDaftarShow fmdv = new frmMetDaftarShow();
                 fmdv.MdiParent = this;
-                fmdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fmdv.cur_date = DateUtils.Shamsi();
                 fmdv.Show();
             }
         }
@@ -1469,7 +1425,7 @@ namespace Mehr.Presentation_Layers
             {
                 frmBoopDaftarShow fbdv = new frmBoopDaftarShow();
                 fbdv.MdiParent = this;
-                fbdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fbdv.cur_date = DateUtils.Shamsi();
                 fbdv.Show();
             }
         }
@@ -1492,7 +1448,7 @@ namespace Mehr.Presentation_Layers
             {
                 frmSubDaftarShow fsdv = new frmSubDaftarShow();
                 fsdv.MdiParent = this;
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.Show();
             }
         }
@@ -1603,7 +1559,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAbsentSicksView fsdv = new frmAbsentSicksView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -1651,7 +1607,7 @@ namespace Mehr.Presentation_Layers
                 frmLastTajvizView fsdv = new frmLastTajvizView();
                 Point p = new Point(2, this.Height - 500);
                 fsdv.Location = p;
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -1675,7 +1631,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmdastoor_pezeshkInp fsdv = new frmdastoor_pezeshkInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -1698,7 +1654,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmDastoorView fsdv = new frmDastoorView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -1721,7 +1677,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRavanshenasInp fsdv = new frmRavanshenasInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -1745,7 +1701,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRavanshenasView fsdv = new frmRavanshenasView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -1770,7 +1726,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAzmayeshInp fsdv = new frmAzmayeshInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -1793,7 +1749,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAzmayeshView fsdv = new frmAzmayeshView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -1817,7 +1773,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmGhabzJoinTajviz fsdv = new frmGhabzJoinTajviz();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -1841,7 +1797,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTahvilAdam fsdv = new frmTahvilAdam();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -1865,7 +1821,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTajvizAdam fsdv = new frmTajvizAdam();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -1889,7 +1845,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTodayComersView fsdv = new frmTodayComersView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -1913,7 +1869,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmIncomePrintViewer fsm = new frmIncomePrintViewer();
-                fsm.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsm.Show();
             }
         }
@@ -1935,7 +1891,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmِDarueePrintViewer fsm = new frmِDarueePrintViewer();
-                fsm.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsm.Show();
             }
         }
@@ -1957,7 +1913,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmNafarPrintViewer fsm = new frmNafarPrintViewer();
-                fsm.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsm.Show();
             }
         }
@@ -1965,7 +1921,7 @@ namespace Mehr.Presentation_Layers
         private void فرمپیگیریبیمارانToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmMasrafiPeygiriPrintViewer fppv = new frmMasrafiPeygiriPrintViewer();
-            fppv.cur_date = toolStripStatusLabel2.Text.Trim();
+            fppv.cur_date = DateUtils.Shamsi();
             fppv.Show();
         }
 
@@ -1994,7 +1950,7 @@ namespace Mehr.Presentation_Layers
         private void toolStripMenuItem11_Click(object sender, EventArgs e)
         {
             frmDaftariPeygiriPrintViewer fppv = new frmDaftariPeygiriPrintViewer();
-            fppv.cur_date = toolStripStatusLabel2.Text.Trim();
+            fppv.cur_date = DateUtils.Shamsi();
             fppv.Show();
         }
 
@@ -2016,7 +1972,7 @@ namespace Mehr.Presentation_Layers
             {
                 frmPeygiriInp fsm = new frmPeygiriInp();
                 fsm.MdiParent = this;
-                fsm.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsm.cur_date = DateUtils.Shamsi();
                 fsm.Show();
             }
         }
@@ -2039,7 +1995,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmPeygiriHisView fsdv = new frmPeygiriHisView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2064,7 +2020,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmdastoor_pezeshkInp fsdv = new frmdastoor_pezeshkInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2087,7 +2043,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmDastoorView fsdv = new frmDastoorView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2110,7 +2066,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAzmayeshInp fsdv = new frmAzmayeshInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2133,7 +2089,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAzmayeshView fsdv = new frmAzmayeshView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2157,7 +2113,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRavanshenasInp fsdv = new frmRavanshenasInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2181,7 +2137,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRavanshenasView fsdv = new frmRavanshenasView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2207,7 +2163,7 @@ namespace Mehr.Presentation_Layers
             {
                 frmPeygiriInp fsm = new frmPeygiriInp();
                 fsm.MdiParent = this;
-                fsm.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsm.cur_date = DateUtils.Shamsi();
                 fsm.Show();
             }
         }
@@ -2230,7 +2186,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmPeygiriHisView fsdv = new frmPeygiriHisView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2256,7 +2212,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRealdastoor_pezeshkInp fsdv = new frmRealdastoor_pezeshkInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2279,7 +2235,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRealDastoorView fsdv = new frmRealDastoorView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2302,7 +2258,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRealAzmayeshInp fsdv = new frmRealAzmayeshInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2325,7 +2281,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRealAzmayeshView fsdv = new frmRealAzmayeshView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2349,7 +2305,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRealRavanshenasInp fsdv = new frmRealRavanshenasInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2373,7 +2329,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRealRavanshenasView fsdv = new frmRealRavanshenasView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2399,7 +2355,7 @@ namespace Mehr.Presentation_Layers
             {
                 frmRealPeygiriInp fsm = new frmRealPeygiriInp();
                 fsm.MdiParent = this;
-                fsm.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsm.cur_date = DateUtils.Shamsi();
                 fsm.Show();
             }
         }
@@ -2422,7 +2378,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmRealPeygiriHisView fsdv = new frmRealPeygiriHisView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2447,7 +2403,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmDaftariTodayComersView fsdv = new frmDaftariTodayComersView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2471,7 +2427,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmDaftariPeygiriPattern fsdv = new frmDaftariPeygiriPattern();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2495,7 +2451,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmHazinehPeygiri fsdv = new frmHazinehPeygiri();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2520,7 +2476,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAdamTahvilView fsdv = new frmAdamTahvilView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2544,7 +2500,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAdamTajvizView fsdv = new frmAdamTajvizView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2592,10 +2548,10 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmPeyvast fsdv = new frmPeyvast();
-                //fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                //fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
-                fsdv.txtmonth.SelectedIndex = int.Parse(toolStripStatusLabel2.Text.Trim().Substring(5, 2)) - 1;
-                fsdv.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsdv.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
+                fsdv.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsdv.Show();
             }
         }
@@ -2603,7 +2559,7 @@ namespace Mehr.Presentation_Layers
         private void فرمتنظیمدوزتوسطپرستارToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmTanzimPrintViewer ftpv = new frmTanzimPrintViewer();
-            ftpv.cur_date = toolStripStatusLabel2.Text.Trim();
+            ftpv.cur_date = DateUtils.Shamsi();
             ftpv.Show();
         }
 
@@ -2624,7 +2580,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmHazinehInp fsdv = new frmHazinehInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2647,7 +2603,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmHazinehView fsdv = new frmHazinehView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2670,7 +2626,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmMarkazHazinehPeygiri fsdv = new frmMarkazHazinehPeygiri();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.Show();
             }
 
@@ -2722,7 +2678,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAction_LogsView fsdv = new frmAction_LogsView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2746,7 +2702,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmGhabzJoinTajviz fsdv = new frmGhabzJoinTajviz();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2761,7 +2717,7 @@ namespace Mehr.Presentation_Layers
 
         private void frmMain_Shown(object sender, EventArgs e)
         {
-            string cur_date = toolStripStatusLabel2.Text.Trim();
+            string cur_date = DateUtils.Shamsi();
 
             action_logs acl = new action_logs();
             DataTable maxdatedt = acl.SelectMaxDate();
@@ -2795,7 +2751,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAssessmentInp fsdv = new frmAssessmentInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2820,7 +2776,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAssessmentView fsdv = new frmAssessmentView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2844,7 +2800,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmTakhfifInp fsdv = new frmTakhfifInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
 
@@ -2874,7 +2830,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmBlackListView fsdv = new frmBlackListView();
-                //fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                //fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2897,7 +2853,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmAmar_RecordsView fsdv = new frmAmar_RecordsView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2920,7 +2876,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmSelSicksFor fsdv = new frmSelSicksFor();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2943,7 +2899,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmParastar_AnbarInp fsdv = new frmParastar_AnbarInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2966,7 +2922,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmContactInp fsdv = new frmContactInp();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -2989,7 +2945,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmContactView fsdv = new frmContactView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3012,7 +2968,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmParastar_AnbarView fsdv = new frmParastar_AnbarView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3036,7 +2992,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmtaj_anbar_historyView fsdv = new frmtaj_anbar_historyView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3059,7 +3015,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmContact_AnbarView fsdv = new frmContact_AnbarView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3118,7 +3074,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmSelectMetYear fsdv = new frmSelectMetYear();
-                fsdv.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsdv.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3142,7 +3098,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmSelectBoopYear fsdv = new frmSelectBoopYear();
-                fsdv.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsdv.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3166,7 +3122,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmSelectSubYear fsdv = new frmSelectSubYear();
-                fsdv.txtyear.Value = decimal.Parse(toolStripStatusLabel2.Text.Trim().Substring(0, 4));
+                fsdv.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3189,7 +3145,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmSicksStatusView fsdv = new frmSicksStatusView();
-                fsdv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3212,7 +3168,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmGhabzDaftariDaryaft fgs = new frmGhabzDaftariDaryaft();
-                fgs.cur_date = toolStripStatusLabel2.Text.Trim();
+                fgs.cur_date = DateUtils.Shamsi();
                 fgs.MdiParent = this;
                 fgs.Show();
             }
@@ -3257,7 +3213,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
                 frmGhabzDaftariView fgv = new frmGhabzDaftariView();
-                fgv.cur_date = toolStripStatusLabel2.Text.Trim();
+                fgv.cur_date = DateUtils.Shamsi();
                 fgv.MdiParent = this;
                 fgv.Show();
             }

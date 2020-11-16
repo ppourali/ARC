@@ -416,6 +416,9 @@ namespace Mehr.Presentation_Layers
 
         }
 
-       
+        private void txtdarman_date_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

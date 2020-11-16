@@ -337,10 +337,10 @@
             this.txtmonthFee.Text = "0";
             this.txtmonthFee.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtmonthFee.TextChanged += new System.EventHandler(this.TextChanged_Action);
-            this.txtmonthFee.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtmonthFee.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtmonthFee.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
             this.txtmonthFee.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtmonthFee.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtmonthFee.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txtmonthFee.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // label21
             // 
@@ -385,10 +385,10 @@
             this.txtroozaneh.Text = "0";
             this.txtroozaneh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtroozaneh.TextChanged += new System.EventHandler(this.TextChanged_Action);
-            this.txtroozaneh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtroozaneh.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtroozaneh.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
             this.txtroozaneh.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtroozaneh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtroozaneh.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txtroozaneh.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // lblroozaaneh
             // 
@@ -433,10 +433,10 @@
             this.txthesab.Text = "0";
             this.txthesab.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txthesab.TextChanged += new System.EventHandler(this.TextChanged_Action);
-            this.txthesab.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txthesab.Leave += new System.EventHandler(this.Leave_Action);
-            this.txthesab.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
             this.txthesab.Enter += new System.EventHandler(this.Enter_Action);
+            this.txthesab.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txthesab.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txthesab.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // lblbemablagh
             // 
@@ -467,10 +467,10 @@
             this.txtstatus.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtstatus.Size = new System.Drawing.Size(153, 21);
             this.txtstatus.TabIndex = 16;
-            this.txtstatus.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtstatus.TextChanged += new System.EventHandler(this.TextChanged_Action);
             this.txtstatus.Enter += new System.EventHandler(this.Enter_Action);
             this.txtstatus.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtstatus.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtstatus.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // lblvaziathesab
             // 
@@ -513,10 +513,10 @@
             this.txtsex.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtsex.Size = new System.Drawing.Size(149, 22);
             this.txtsex.TabIndex = 8;
-            this.txtsex.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtsex.TextChanged += new System.EventHandler(this.TextChanged_Action);
             this.txtsex.Enter += new System.EventHandler(this.Enter_Action);
             this.txtsex.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtsex.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtsex.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // txtpayan_date
             // 
@@ -526,18 +526,17 @@
             this.txtpayan_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtpayan_date.ForeColor = System.Drawing.Color.Black;
             this.txtpayan_date.Location = new System.Drawing.Point(371, 78);
-            this.txtpayan_date.Mask = "1300/00/00";
             this.txtpayan_date.Name = "txtpayan_date";
             this.txtpayan_date.ResetOnSpace = false;
             this.txtpayan_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtpayan_date.Size = new System.Drawing.Size(149, 22);
             this.txtpayan_date.TabIndex = 2;
             this.txtpayan_date.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtpayan_date.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtpayan_date.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtpayan_date.Enter += new System.EventHandler(this.Enter_Action);
-            this.txtpayan_date.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
             this.txtpayan_date.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtpayan_date.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtpayan_date.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtpayan_date.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txtpayan_date.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // label13
             // 
@@ -560,18 +559,18 @@
             this.txtdarman_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtdarman_date.ForeColor = System.Drawing.Color.Black;
             this.txtdarman_date.Location = new System.Drawing.Point(371, 50);
-            this.txtdarman_date.Mask = "1300/00/00";
             this.txtdarman_date.Name = "txtdarman_date";
             this.txtdarman_date.ResetOnSpace = false;
             this.txtdarman_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtdarman_date.Size = new System.Drawing.Size(149, 22);
             this.txtdarman_date.TabIndex = 1;
             this.txtdarman_date.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtdarman_date.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtdarman_date.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtdarman_date.Enter += new System.EventHandler(this.Enter_Action);
-            this.txtdarman_date.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txtdarman_date.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtdarman_date_MaskInputRejected);
             this.txtdarman_date.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtdarman_date.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtdarman_date.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtdarman_date.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txtdarman_date.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // txtmasrafi_type
             // 
@@ -599,9 +598,9 @@
             this.txtmasrafi_type.TabIndex = 11;
             this.txtmasrafi_type.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtmasrafi_type.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtmasrafi_type.Enter += new System.EventHandler(this.Enter_Action);
             this.txtmasrafi_type.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
             this.txtmasrafi_type.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtmasrafi_type.Enter += new System.EventHandler(this.Enter_Action);
             // 
             // label12
             // 
@@ -629,10 +628,10 @@
             this.txtmobile.TabIndex = 10;
             this.txtmobile.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtmobile.TextChanged += new System.EventHandler(this.TextChanged_Action);
-            this.txtmobile.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtmobile.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtmobile.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
             this.txtmobile.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtmobile.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtmobile.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txtmobile.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // label11
             // 
@@ -660,10 +659,10 @@
             this.txthome.TabIndex = 9;
             this.txthome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txthome.TextChanged += new System.EventHandler(this.TextChanged_Action);
-            this.txthome.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txthome.Leave += new System.EventHandler(this.Leave_Action);
-            this.txthome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
             this.txthome.Enter += new System.EventHandler(this.Enter_Action);
+            this.txthome.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txthome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txthome.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // label9
             // 
@@ -685,18 +684,17 @@
             this.txtb_date.ForeColor = System.Drawing.Color.Black;
             this.txtb_date.Location = new System.Drawing.Point(371, 167);
             this.txtb_date.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtb_date.Mask = "1300/00/00";
             this.txtb_date.Name = "txtb_date";
             this.txtb_date.ResetOnSpace = false;
             this.txtb_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtb_date.Size = new System.Drawing.Size(149, 22);
             this.txtb_date.TabIndex = 5;
             this.txtb_date.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtb_date.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtb_date.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtb_date.Enter += new System.EventHandler(this.Enter_Action);
-            this.txtb_date.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
             this.txtb_date.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtb_date.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtb_date.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtb_date.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txtb_date.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // label10
             // 
@@ -726,9 +724,9 @@
             this.txtfather_name.TabIndex = 4;
             this.txtfather_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtfather_name.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtfather_name.Enter += new System.EventHandler(this.Enter_Action);
             this.txtfather_name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
             this.txtfather_name.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtfather_name.Enter += new System.EventHandler(this.Enter_Action);
             // 
             // label5
             // 
@@ -762,10 +760,10 @@
             this.txtravesh_tark.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtravesh_tark.Size = new System.Drawing.Size(153, 21);
             this.txtravesh_tark.TabIndex = 12;
-            this.txtravesh_tark.Leave += new System.EventHandler(this.Leave_Action);
+            this.txtravesh_tark.TextChanged += new System.EventHandler(this.TextChanged_Action);
             this.txtravesh_tark.Enter += new System.EventHandler(this.Enter_Action);
             this.txtravesh_tark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtravesh_tark.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtravesh_tark.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // label8
             // 
@@ -793,9 +791,9 @@
             this.txtaddress.Size = new System.Drawing.Size(153, 22);
             this.txtaddress.TabIndex = 13;
             this.txtaddress.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtaddress.Enter += new System.EventHandler(this.Enter_Action);
             this.txtaddress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
             this.txtaddress.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtaddress.Enter += new System.EventHandler(this.Enter_Action);
             // 
             // label6
             // 
@@ -823,10 +821,10 @@
             this.txtid_no.TabIndex = 7;
             this.txtid_no.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtid_no.TextChanged += new System.EventHandler(this.TextChanged_Action);
-            this.txtid_no.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
-            this.txtid_no.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtid_no.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
             this.txtid_no.Enter += new System.EventHandler(this.Enter_Action);
+            this.txtid_no.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
+            this.txtid_no.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress_Action);
+            this.txtid_no.Leave += new System.EventHandler(this.Leave_Action);
             // 
             // label7
             // 
@@ -855,9 +853,9 @@
             this.txtname.TabIndex = 3;
             this.txtname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtname.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtname.Enter += new System.EventHandler(this.Enter_Action);
             this.txtname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
             this.txtname.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtname.Enter += new System.EventHandler(this.Enter_Action);
             // 
             // label4
             // 
@@ -930,9 +928,9 @@
             this.txtcity.TabIndex = 6;
             this.txtcity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtcity.TextChanged += new System.EventHandler(this.TextChanged_Action);
+            this.txtcity.Enter += new System.EventHandler(this.Enter_Action);
             this.txtcity.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDown_Action);
             this.txtcity.Leave += new System.EventHandler(this.Leave_Action);
-            this.txtcity.Enter += new System.EventHandler(this.Enter_Action);
             // 
             // label1
             // 
