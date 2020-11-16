@@ -526,7 +526,7 @@
             this.txtpayan_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtpayan_date.ForeColor = System.Drawing.Color.Black;
             this.txtpayan_date.Location = new System.Drawing.Point(371, 78);
-            this.txtpayan_date.Mask = "1300/00/00";
+            
             this.txtpayan_date.Name = "txtpayan_date";
             this.txtpayan_date.ResetOnSpace = false;
             this.txtpayan_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -560,7 +560,7 @@
             this.txtdarman_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtdarman_date.ForeColor = System.Drawing.Color.Black;
             this.txtdarman_date.Location = new System.Drawing.Point(371, 50);
-            this.txtdarman_date.Mask = "1300/00/00";
+            
             this.txtdarman_date.Name = "txtdarman_date";
             this.txtdarman_date.ResetOnSpace = false;
             this.txtdarman_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -685,7 +685,6 @@
             this.txtb_date.ForeColor = System.Drawing.Color.Black;
             this.txtb_date.Location = new System.Drawing.Point(371, 167);
             this.txtb_date.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtb_date.Mask = "1300/00/00";
             this.txtb_date.Name = "txtb_date";
             this.txtb_date.ResetOnSpace = false;
             this.txtb_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

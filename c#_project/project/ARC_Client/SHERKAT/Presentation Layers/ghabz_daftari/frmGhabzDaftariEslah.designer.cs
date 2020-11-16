@@ -477,7 +477,7 @@
             this.txtdate.ForeColor = System.Drawing.Color.Black;
             this.txtdate.Location = new System.Drawing.Point(47, 29);
             this.txtdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtdate.Mask = "1300/00/00";
+            
             this.txtdate.Name = "txtdate";
             this.txtdate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtdate.Size = new System.Drawing.Size(151, 22);

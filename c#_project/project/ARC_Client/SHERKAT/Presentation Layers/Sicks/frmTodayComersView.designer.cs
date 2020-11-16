@@ -147,7 +147,7 @@
             this.txtdarman_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtdarman_date.ForeColor = System.Drawing.Color.Black;
             this.txtdarman_date.Location = new System.Drawing.Point(954, 18);
-            this.txtdarman_date.Mask = "1300/00/00";
+            
             this.txtdarman_date.Name = "txtdarman_date";
             this.txtdarman_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtdarman_date.Size = new System.Drawing.Size(130, 22);

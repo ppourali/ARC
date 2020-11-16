@@ -290,7 +290,7 @@
             this.txtdate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtdate.ForeColor = System.Drawing.Color.Black;
             this.txtdate.Location = new System.Drawing.Point(288, 22);
-            this.txtdate.Mask = "1300/00/00";
+            
             this.txtdate.Name = "txtdate";
             this.txtdate.ResetOnSpace = false;
             this.txtdate.Size = new System.Drawing.Size(149, 22);

@@ -82,7 +82,7 @@
             this.txttodate.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txttodate.ForeColor = System.Drawing.Color.Black;
             this.txttodate.Location = new System.Drawing.Point(549, 16);
-            this.txttodate.Mask = "1300/00/00";
+            
             this.txttodate.Name = "txttodate";
             this.txttodate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txttodate.Size = new System.Drawing.Size(130, 22);
@@ -115,7 +115,7 @@
             this.txtdate.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtdate.ForeColor = System.Drawing.Color.Black;
             this.txtdate.Location = new System.Drawing.Point(764, 16);
-            this.txtdate.Mask = "1300/00/00";
+            
             this.txtdate.Name = "txtdate";
             this.txtdate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtdate.Size = new System.Drawing.Size(130, 22);

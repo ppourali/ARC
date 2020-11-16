@@ -194,7 +194,7 @@
             this.txttajviz_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txttajviz_date.ForeColor = System.Drawing.Color.Black;
             this.txttajviz_date.Location = new System.Drawing.Point(34, 22);
-            this.txttajviz_date.Mask = "1300/00/00";
+            
             this.txttajviz_date.Name = "txttajviz_date";
             this.txttajviz_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txttajviz_date.Size = new System.Drawing.Size(149, 22);
@@ -310,7 +310,7 @@
             this.txtfrom_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtfrom_date.ForeColor = System.Drawing.Color.Black;
             this.txtfrom_date.Location = new System.Drawing.Point(34, 50);
-            this.txtfrom_date.Mask = "1300/00/00";
+            
             this.txtfrom_date.Name = "txtfrom_date";
             this.txtfrom_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtfrom_date.Size = new System.Drawing.Size(149, 22);
@@ -344,7 +344,7 @@
             this.txtto_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtto_date.ForeColor = System.Drawing.Color.Black;
             this.txtto_date.Location = new System.Drawing.Point(34, 78);
-            this.txtto_date.Mask = "1300/00/00";
+            
             this.txtto_date.Name = "txtto_date";
             this.txtto_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtto_date.Size = new System.Drawing.Size(149, 22);

@@ -501,7 +501,7 @@
             this.txtghabzdate.ForeColor = System.Drawing.Color.Black;
             this.txtghabzdate.Location = new System.Drawing.Point(45, 139);
             this.txtghabzdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtghabzdate.Mask = "1300/00/00";
+            
             this.txtghabzdate.Name = "txtghabzdate";
             this.txtghabzdate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtghabzdate.Size = new System.Drawing.Size(151, 22);

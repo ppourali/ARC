@@ -319,7 +319,7 @@
             this.txtass_date.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtass_date.ForeColor = System.Drawing.Color.Black;
             this.txtass_date.Location = new System.Drawing.Point(11, 23);
-            this.txtass_date.Mask = "1300/00/00";
+            
             this.txtass_date.Name = "txtass_date";
             this.txtass_date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtass_date.Size = new System.Drawing.Size(132, 22);

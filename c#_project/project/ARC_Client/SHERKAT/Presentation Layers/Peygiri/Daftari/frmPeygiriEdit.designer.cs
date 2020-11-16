@@ -390,7 +390,7 @@
             this.txtdate.Font = new System.Drawing.Font("Tahoma", 9F);
             this.txtdate.ForeColor = System.Drawing.Color.Black;
             this.txtdate.Location = new System.Drawing.Point(15, 51);
-            this.txtdate.Mask = "1300/00/00";
+            
             this.txtdate.Name = "txtdate";
             this.txtdate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtdate.Size = new System.Drawing.Size(149, 22);

@@ -547,7 +547,6 @@
     </Compile>
     <Compile Include="MehrDataSet.cs">
       <DependentUpon>MehrDataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="MehrDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -1283,6 +1282,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\DateUtils.cs" />
     <EmbeddedResource Include="frmAuthurize.resx">
       <DependentUpon>frmAuthurize.cs</DependentUpon>
     </EmbeddedResource>
