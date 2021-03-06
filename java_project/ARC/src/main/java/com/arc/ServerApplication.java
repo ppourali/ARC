@@ -1,13 +1,15 @@
 package com.arc;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-import org.sql2o.Sql2o;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-//@ComponentScan({"org.sql2o","com.arc"})
-
+@ComponentScan("org.sql2o")
+@EnableJpaRepositories("com.arc.repository")
+@EnableAutoConfiguration
 public class ServerApplication {
 
 	public static void main(String[] args) {
