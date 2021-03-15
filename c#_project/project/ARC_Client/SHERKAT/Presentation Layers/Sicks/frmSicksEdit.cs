@@ -155,7 +155,7 @@ namespace Mehr.Presentation_Layers
         private void TextChanged_Action(object sender, EventArgs e)
         {
             if (txtoldid.Text == "" || txtname.Text.Trim() == "" || txtid_no.Text.Trim() == "" || txtmasrafi_type.Text.Trim() == "" || txtroozaneh.Text=="" || txtmonthFee.Text==""||
-                !txtdarman_date.MaskCompleted ||  (!txtpayan_date.MaskCompleted && txtpayan_date.Text!="13  /  /") || txtsex.Text=="" )
+                !txtdarman_date.MaskCompleted ||  (!txtpayan_date.MaskCompleted && txtpayan_date.Text!="    /  /") || txtsex.Text=="" )
                 btnUpdate.Enabled = false;
             else 
             {

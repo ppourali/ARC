@@ -335,7 +335,7 @@ namespace Mehr.Presentation_Layers
             }
 
             if (txtid.Text == "" || txtname.Text.Trim() == "" || txtid_no.Text.Trim() == "" || txtmasrafi_type.Text.Trim() == "" ||
-                !txtdarman_date.MaskCompleted || (!txtpayan_date.MaskCompleted && txtpayan_date.Text != "13  /  /") || txtsex.Text == "" || txtroozaneh.Text == "" || txtmonthFee.Text == ""  || txthesab.Text == "" || txtstatus.Text == "")
+                !txtdarman_date.MaskCompleted || (!txtpayan_date.MaskCompleted && txtpayan_date.Text != "    /  /") || txtsex.Text == "" || txtroozaneh.Text == "" || txtmonthFee.Text == ""  || txthesab.Text == "" || txtstatus.Text == "")
             {
                 btnAdd.Enabled = false;
             }
