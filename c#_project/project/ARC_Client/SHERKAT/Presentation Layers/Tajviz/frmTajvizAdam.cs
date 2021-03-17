@@ -199,7 +199,7 @@ namespace Mehr.Presentation_Layers
                 grpinfo_box.Focus();
                 txtfrom_date.Focus();
             }
-            else if (payan_darman_check.Trim() != "    /  /" && (string.CompareOrdinal(payan_darman_check.Trim(), txtto_date.Text.Trim()) < 0))
+            else if (txtto_date.isAfter(payan_darman_check.Trim()))
             {
                 MessageBox.Show(" پرونده ی این بیمار در تاریخ " + payan_darman_check + " بسته شده است ");
             }

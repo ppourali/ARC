@@ -22,6 +22,14 @@ namespace Mehr
 
         }
 
+        public Boolean isAfter(String otherDate)
+        {
+            if (otherDate.Trim().Replace(" ", "").Length == 10 && (string.CompareOrdinal(otherDate.Trim(), this.Text.Trim()) < 0))
+                return true;
+
+            return false;
+        }
+
         //protected override void OnEnter(EventArgs e)
         //{
         //    //base.BackColor = Color.Yellow;
