@@ -1,4 +1,5 @@
-﻿using Mehr.Utils;
+﻿using Mehr.Business_Layers;
+using Mehr.Utils;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -3272,5 +3273,25 @@ namespace Mehr.Presentation_Layers
             }
         }
 
+        private void بررسیمجددسروریاکلاینتToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("با انتخاب این گزینه نرم افزار باید مجددا اجرا شود. موافقید؟", "اخطار", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+
+            if (dr == DialogResult.Cancel)
+            {
+                return;
+            }
+
+            Properties.Settings.Default.Location = "";
+            Properties.Settings.Default.Save();
+
+            Application.Exit();
+        }
+
+        private void btnCacheRefresh_Click(object sender, EventArgs e)
+        {
+            Cache.generateContents();
+            MessageBox.Show("اطلاعات حافظه بروزرسانی شد", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

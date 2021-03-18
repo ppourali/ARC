@@ -9,6 +9,7 @@ using System.Data.SqlClient;
 using Microsoft.Reporting.WinForms;
 using System.IO;
 using System.Reflection;
+using Mehr.Utils;
 
 namespace Mehr.Presentation_Layers
 {
@@ -96,7 +97,7 @@ namespace Mehr.Presentation_Layers
             from_date = dtmax.Rows[0]["mindate"].ToString();
             todate = dtmax.Rows[0]["maxdate"].ToString();
 
-            if (from_date.Length != 10 && todate.Length != 10)
+            if (!DateUtils.isCompleteDate(from_date) && !DateUtils.isCompleteDate(todate))
             {
                 from_date = "";
                 todate = "";
@@ -127,7 +128,7 @@ namespace Mehr.Presentation_Layers
                         "Where (t0.id=N'" + id + "'  and t0.daru_name like N'%سوباکسون%' and id=N'" + id + "' and t0.date>=N'" + from_date + "' and t0.date<=N'" + todate + "') order by t0.date");
 
             DataTable all = new DataTable();
-            if (from_date.Length == 10 && todate.Length == 10)
+            if (DateUtils.isCompleteDate(from_date) && DateUtils.isCompleteDate(todate))
             {
                 DataTable lostdays = allMetTahvil.Clone();
                 int minday = int.Parse(from_date.Substring(8, 2));
@@ -188,7 +189,7 @@ namespace Mehr.Presentation_Layers
 
 
             all = new DataTable();
-            if (from_date.Length == 10 && todate.Length == 10)
+            if (DateUtils.isCompleteDate(from_date) && DateUtils.isCompleteDate(todate))
             {
                 DataTable lostdays = allMetTahvil.Clone();
                 int minday = int.Parse(from_date.Substring(8, 2));

@@ -21,7 +21,6 @@ namespace Mehr
 
         static void Main()
         {
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -37,9 +36,6 @@ namespace Mehr
 
             else
             {
-                Properties.Settings.Default.Location = "CLIENT";
-                Properties.Settings.Default.Save();
-
                 if (Properties.Settings.Default.Location == null || (!Properties.Settings.Default.Location.Equals("CLIENT") &&
                     !Properties.Settings.Default.Location.Equals("SERVER")))
                 {
@@ -64,7 +60,13 @@ namespace Mehr
                 else
                 {
                     isServerMachine = false;
-                    runOnClient();
+                    if (!runOnClient())
+                    {
+                        isServerMachine = true;
+                        if (!runOnServer())
+                            Application.Exit();
+                    }
+
                 }         
 
             }
@@ -101,14 +103,20 @@ namespace Mehr
                     {
                         MessageBox.Show("عملیات ثبت کاربر پایگاه داده با مشکل مواجه شد، لطفا عملیات 'بررسی تنظیمات مرتبط با شبکه' را از سیستم سرور پیگیری نمایید و مجددا سعی نمایید", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
                         frmSelectServers fss = new frmSelectServers();
+                        fss.isClient = true;
                         fss.ShowDialog();
+                        if (fss.isClient == false)
+                            return false;
 
                     }
                     else
                     {
                         MessageBox.Show(" نمی باشد" + Properties.Settings.Default.ServerName.ToString() + "سیستم قادر به شناسایی سیستم سرور ", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
                         frmSelectServers fss = new frmSelectServers();
+                        fss.isClient = true;
                         fss.ShowDialog();
+                        if (fss.isClient == false)
+                            return false;
                     }
                 }
                 finally
@@ -198,12 +206,7 @@ namespace Mehr
 
         private static void startApp()
         {
-            Sicks sicks = new Sicks();
-            DataTable allSicks = sicks.Select();
-            Cache.putRecords(allSicks);
-
-            Gen_settings genSettings = new Gen_settings();
-            DataTable settings = genSettings.Select();
+            Cache.generateContents();
 
             Application.Run(new frmMain());
         }

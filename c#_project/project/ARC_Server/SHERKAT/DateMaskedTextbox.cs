@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mehr.Utils;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +25,7 @@ namespace Mehr
 
         public Boolean isAfter(String otherDate)
         {
-            if (otherDate.Trim().Replace(" ","").Length == 10 && (string.CompareOrdinal(otherDate.Trim(), this.Text.Trim()) < 0))
+            if (DateUtils.isCompleteDate(otherDate) && (string.CompareOrdinal(otherDate.Trim(), this.Text.Trim()) < 0))
                 return true;
 
             return false;

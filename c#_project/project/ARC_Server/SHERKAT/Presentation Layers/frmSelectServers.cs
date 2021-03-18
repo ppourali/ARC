@@ -12,6 +12,7 @@ namespace Mehr.Presentation_Layers
 {
     public partial class frmSelectServers : Form
     {
+        public bool isClient = true;
         public frmSelectServers()
         {
             InitializeComponent();
@@ -99,6 +100,14 @@ namespace Mehr.Presentation_Layers
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.isClient = false;
+            Properties.Settings.Default.Location = "SERVER";
+            Properties.Settings.Default.Save();
+            this.Close();
         }
     }
 }

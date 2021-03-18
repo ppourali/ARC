@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Reflection;
+using Mehr.Utils;
 
 namespace Mehr.Business_Layers
 {
@@ -12,11 +13,13 @@ namespace Mehr.Business_Layers
         private static String[] fieldNames = new string[] { "id", "darman_date", "payan_date", "name", "masrafi_type",
             "ravesh_tark", "status" , "hesab", "roozaneh", "monthFee"};
 
-        private static Dictionary<String, Sicks> closedSicksCache = new Dictionary<String, Sicks>();
         private static Dictionary<String, Sicks> openSicksCache = new Dictionary<String, Sicks>();
+        private static Dictionary<String, String> closeDatesCache = new Dictionary<String, String>();
+
         private static bool isDailyReal = false;
         private static bool isMonthlyDaftari = false;
         private static bool isTakhfif = false;
+
          
         public static void putRecords(DataRow[] rows)
         {
@@ -104,17 +107,17 @@ namespace Mehr.Business_Layers
             if (sick == null)
                 return;
 
-            if (sick.payan_date.Replace(" ", "").Length == 10)
+            if (DateUtils.isCompleteDate(sick.payan_date))
             {
-                closedSicksCache[sick.id.ToString()] = sick;
+                closeDatesCache[sick.id.ToString()] = sick.payan_date;
                 if (openSicksCache.ContainsKey(sick.id.ToString()))
                     openSicksCache.Remove(sick.id.ToString());
             }
             else
             {
                 openSicksCache[sick.id.ToString()] = sick;
-                if (closedSicksCache.ContainsKey(sick.id.ToString()))
-                    closedSicksCache.Remove(sick.id.ToString());
+                if (closeDatesCache.ContainsKey(sick.id.ToString()))
+                    closeDatesCache.Remove(sick.id.ToString());
 
             }
         }
@@ -124,23 +127,26 @@ namespace Mehr.Business_Layers
             if (sick == null)
                 return;
 
-            if (sick.payan_date.Replace(" ", "").Length == 10)
+            if (!DateUtils.isCompleteDate(sick.payan_date))
             {
-                closedSicksCache[sick.id.ToString()] = sick;
+                openSicksCache[sick.id.ToString()] = sick;
+                if (closeDatesCache.ContainsKey(sick.id.ToString()))
+                    closeDatesCache.Remove(sick.id.ToString());
+
             }
             else
             {
-                openSicksCache[sick.id.ToString()] = sick;
-
+                closeDatesCache[sick.id.ToString()] = sick.payan_date;
+                if (openSicksCache.ContainsKey(sick.id.ToString()))
+                    openSicksCache.Remove(sick.id.ToString());
             }
         }
 
         public static String closedDate(String id)
         {
-            if(closedSicksCache.ContainsKey(id.Trim()))
+            if(closeDatesCache.ContainsKey(id.Trim()))
             {
-                Sicks sick = closedSicksCache[id.Trim()];
-                return sick.payan_date;
+                return closeDatesCache[id.Trim()];
             }
 
             return "";
@@ -148,15 +154,7 @@ namespace Mehr.Business_Layers
 
         internal static void updateHesab(string id, long hesab, string status)
         {
-            if (closedSicksCache.ContainsKey(id.Trim()))
-            {
-                Sicks sick = closedSicksCache[id.Trim()];
-                sick.hesab = hesab;
-                sick.status = status;
-
-                closedSicksCache[id.ToString()] = sick;
-            }
-            else if (openSicksCache.ContainsKey(id.Trim()))
+           if (openSicksCache.ContainsKey(id.Trim()))
             {
                 Sicks sick = openSicksCache[id.Trim()];
                 sick.hesab = hesab;
@@ -168,20 +166,35 @@ namespace Mehr.Business_Layers
 
         public static void updateCloseDate(string id, string payan_date)
         {
-            if (closedSicksCache.ContainsKey(id.Trim()))
-            {
-                Sicks sick = closedSicksCache[id.Trim()];
-                sick.payan_date = payan_date;
 
-                putRecord(sick);
+            if (!DateUtils.isCompleteDate(payan_date))
+            {
+                if (openSicksCache.ContainsKey(id.Trim()))
+                {
+                    Sicks sick = openSicksCache[id.Trim()];
+                    sick.payan_date = payan_date;
+
+                    openSicksCache.Remove(id.Trim());
+                    putRecord(sick);
+                }
+                else
+                {
+                    Sicks sick = new Sicks();
+                    sick.id = id;
+                    DataTable dt = sick.Selectforedit();
+                    putRecords(dt);
+                    updateCloseDate(id, payan_date);
+                }
             }
-            else if (openSicksCache.ContainsKey(id.Trim()))
+            else
             {
-                Sicks sick = openSicksCache[id.Trim()];
-                sick.payan_date = payan_date;
+                if (openSicksCache.ContainsKey(id.Trim()))
+                {
+                    openSicksCache.Remove(id.Trim());
+                }
 
-                openSicksCache.Remove(id.Trim());
-                putRecord(sick);
+                closeDatesCache[id.Trim()] = payan_date;
+
             }
         }
 
@@ -218,6 +231,17 @@ namespace Mehr.Business_Layers
         {
             return isDailyReal;
         }
+
+        internal static void generateContents()
+        {
+            Sicks sicks = new Sicks();
+            DataTable allSicks = sicks.Select();
+            putRecords(allSicks);
+
+            Gen_settings genSettings = new Gen_settings();
+            DataTable settings = genSettings.Select();
+        }
+
         public static bool isTakhfifApplied()
         {
             return isTakhfif;

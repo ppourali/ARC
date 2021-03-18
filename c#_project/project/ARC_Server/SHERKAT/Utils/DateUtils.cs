@@ -79,5 +79,10 @@ namespace Mehr.Utils
 
 
         }
+
+        public static bool isCompleteDate(String date)
+        {
+            return date.Trim().Replace(" ", "").Length == 10;
+        }
     }
 }
