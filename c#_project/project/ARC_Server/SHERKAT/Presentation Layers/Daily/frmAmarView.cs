@@ -25,7 +25,7 @@ namespace Mehr.Presentation_Layers
             InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(inp);
 
 
-            if (Program.user.Trim() == "5")
+            if (Program.user_code.Trim() == "5")
             {
                 groupBox2.Visible = false;
                 this.Height = 380;

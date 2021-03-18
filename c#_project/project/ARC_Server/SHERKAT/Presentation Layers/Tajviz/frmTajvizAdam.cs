@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mehr.Business_Layers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -186,8 +187,9 @@ namespace Mehr.Presentation_Layers
                 txtname.Focus();
                 return;
             }
-            
-            string payan_darman_check = new Sicks().Search("SELECT payan_date FROM sicks WHERE (id=N'" + txtid.Text + "')").Rows[0][0].ToString();
+
+            string payan_darman_check = Cache.closedDate(txtid.Text);
+            //string payan_darman_check = new Sicks().Search("SELECT payan_date FROM sicks WHERE (id=N'" + txtid.Text + "')").Rows[0][0].ToString();
 
             tajviz_koli check_exist = new tajviz_koli();
             DataTable chkdt1 = new DataTable();

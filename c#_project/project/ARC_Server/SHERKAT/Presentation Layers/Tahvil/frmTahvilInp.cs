@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mehr.Business_Layers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -308,7 +309,8 @@ namespace Mehr.Presentation_Layers
                 }
             }
 
-            string payan_darman_check = new Sicks().Search("SELECT payan_date FROM sicks WHERE (id=N'" + txtid.Text + "')").Rows[0][0].ToString();
+            string payan_darman_check = Cache.closedDate(txtid.Text);
+            //string payan_darman_check = new Sicks().Search("SELECT payan_date FROM sicks WHERE (id=N'" + txtid.Text + "')").Rows[0][0].ToString();
 
             tahvil_koli check_exist = new tahvil_koli();
             DataTable chkdt1 = new DataTable();
@@ -514,10 +516,8 @@ namespace Mehr.Presentation_Layers
 
                     if (chkGhabzSodoorAutomatic.CheckState == CheckState.Checked)
                     {
-                        Gen_settings gs = new Gen_settings();
-                        DataTable chkTable = gs.Select();
 
-                        if (chkTable.Rows[0]["DaftariPayType"].ToString().Trim().Equals("ماهانه"))
+                        if (Cache.isDaftartiMonthly())
                         {
                             SodoorGhabzMonthly();
                         }
@@ -555,9 +555,7 @@ namespace Mehr.Presentation_Layers
 
         private void sodooreghabzDasti(int datedif, long SumFee, string ghabzname, string ghabzid)
         {
-            Gen_settings gs = new Gen_settings();
-            DataTable chkTable = gs.Select();
-
+     
             bool IsOpen = false;
 
             foreach (Form f in Application.OpenForms)
@@ -569,7 +567,7 @@ namespace Mehr.Presentation_Layers
                     f.Focus();
                     ((frmGhabzDaftariDaryaft)f).txtname.Text = ghabzname;
 
-                    if (chkTable.Rows[0]["DaftariPayType"].ToString().Trim().Equals("ماهانه"))
+                    if (Cache.isDaftartiMonthly())
                     {
                         ((frmGhabzDaftariDaryaft)f).txtmablagh.Text = (datedif * (int.Parse(((frmGhabzDaftariDaryaft)f).txtmonthFee.Text)/30)).ToString();
                     }
@@ -578,7 +576,7 @@ namespace Mehr.Presentation_Layers
                         ((frmGhabzDaftariDaryaft)f).txtmablagh.Text = SumFee.ToString();
                     }
 
-                    if (chkTable.Rows[0]["Takhfif_Inc"].ToString().Trim().Equals("بلی"))
+                    if (Cache.isTakhfifApplied())
                     {
                         ((frmGhabzDaftariDaryaft)f).txtmablagh.Text = (long.Parse(((frmGhabzDaftariDaryaft)f).txtmablagh.Text) - (long.Parse(((frmGhabzDaftariDaryaft)f).txtmablagh.Text) * long.Parse(((frmGhabzDaftariDaryaft)f).txtTakhfif.Text) / 100)).ToString();
                     }
@@ -597,7 +595,7 @@ namespace Mehr.Presentation_Layers
                 fsh.Show();
                
                 fsh.txtname.Text = ghabzname;
-                if (chkTable.Rows[0]["DaftariPayType"].ToString().Trim().Equals("ماهانه"))
+                if (Cache.isDaftartiMonthly())
                 {
 
                     fsh.txtmablagh.Text = (datedif * (int.Parse(fsh.txtmonthFee.Text)/30)).ToString();
@@ -608,7 +606,7 @@ namespace Mehr.Presentation_Layers
                 }
 
 
-                if (chkTable.Rows[0]["Takhfif_Inc"].ToString().Trim().Equals("بلی"))
+                if (Cache.isTakhfifApplied())
                 {
                     fsh.txtmablagh.Text = (long.Parse(fsh.txtmablagh.Text) - (long.Parse(fsh.txtmablagh.Text) * long.Parse(fsh.txtTakhfif.Text) / 100)).ToString();
                 }

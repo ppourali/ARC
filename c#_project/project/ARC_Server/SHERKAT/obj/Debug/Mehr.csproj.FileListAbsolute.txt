@@ -1553,3 +1553,9 @@ C:\Users\Parsaa\Source\Repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug
 C:\Users\Parsaa\Source\Repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\af\ARC.resources.dll
 C:\Users\Parsaa\Source\Repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\ARC.exe
 C:\Users\Parsaa\Source\Repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\ARC.pdb
+C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmAmarView.resources
+C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSelectServers.resources
+C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmHazinehShow.resources
+C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmSickSelPrintViewer.resources
+C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajdidSelectInp.resources
+C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\obj\Debug\Mehr.Presentation_Layers.frmTajvizdaftarView.resources

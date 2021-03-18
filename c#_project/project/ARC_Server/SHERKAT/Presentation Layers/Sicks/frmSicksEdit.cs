@@ -81,8 +81,9 @@ namespace Mehr.Presentation_Layers
 
                         this.Close();
                     }
-                    catch
+                    catch (Exception ex)
                     {
+                        mydataaccess.Log(ex);
                         MessageBox.Show("لطفا تاریخ شروع درمان و پایان درمان را بررسی نمایید");
                     }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mehr.Business_Layers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -482,9 +483,7 @@ namespace Mehr.Presentation_Layers
 
                     if (chkghabz.Checked)
                     {
-                        Gen_settings gs = new Gen_settings();
-                        DataTable chkTable = gs.Select();
-
+           
                         bool IsOpen = false;
 
                         foreach (Form f in Application.OpenForms)
@@ -496,7 +495,7 @@ namespace Mehr.Presentation_Layers
                                 f.Focus();
                                 ((frmGhabzDaryaft)f).txtname.Text = ghabzname;
 
-                                if (chkTable.Rows[0]["PayType"].ToString().Trim().Equals("روزانه"))
+                                if (Cache.isRealDaily())
                                 {
                                     ((frmGhabzDaryaft)f).txtmablagh.Text = (datedif * int.Parse(((frmGhabzDaryaft)f).txtroozaneh.Text)).ToString();
                                 }
@@ -505,7 +504,7 @@ namespace Mehr.Presentation_Layers
                                     ((frmGhabzDaryaft)f).txtmablagh.Text = SumFee.ToString();
                                 }
 
-                                if (chkTable.Rows[0]["Takhfif_Inc"].ToString().Trim().Equals("بلی"))
+                                if (Cache.isTakhfifApplied())
                                 {
                                     ((frmGhabzDaryaft)f).txtmablagh.Text = (long.Parse(((frmGhabzDaryaft)f).txtmablagh.Text) - (long.Parse(((frmGhabzDaryaft)f).txtmablagh.Text) * long.Parse(((frmGhabzDaryaft)f).txtTakhfif.Text) / 100)).ToString();
                                 }
@@ -522,7 +521,8 @@ namespace Mehr.Presentation_Layers
                             fsh.MdiParent = this.MdiParent;
                             fsh.Show();
                             fsh.txtname.Text = ghabzname;
-                            if (chkTable.Rows[0]["PayType"].ToString().Trim().Equals("روزانه")){
+                            if(Cache.isRealDaily())
+                            {
                                 fsh.txtmablagh.Text = (datedif * int.Parse(fsh.txtroozaneh.Text)).ToString();
                             }
                             else
@@ -531,7 +531,8 @@ namespace Mehr.Presentation_Layers
                             }
 
 
-                            if (chkTable.Rows[0]["Takhfif_Inc"].ToString().Trim().Equals("بلی")){
+                            if (Cache.isTakhfifApplied())
+                            {
                                 fsh.txtmablagh.Text = (long.Parse(fsh.txtmablagh.Text) - (long.Parse(fsh.txtmablagh.Text) * long.Parse(fsh.txtTakhfif.Text) / 100)).ToString();
                             }
 

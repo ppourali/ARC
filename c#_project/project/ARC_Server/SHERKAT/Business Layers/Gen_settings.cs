@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
+using Mehr.Business_Layers;
 
 namespace Mehr
 {
@@ -20,6 +21,9 @@ namespace Mehr
             da.Connect();
             da.docommand(s);
             da.disconnect();
+
+            Cache.updatePayPeriod(this.PayType, this.DaftariPayType);
+            Cache.updateTakhfif(this.Takhfif_Inc);
         }
 
         public void Delete()
@@ -28,6 +32,8 @@ namespace Mehr
             da.Connect();
             da.docommand(s);
             da.disconnect();
+
+            Cache.resetGenSettings();
         }
 
      
@@ -39,6 +45,9 @@ namespace Mehr
             da.Connect();
             da.docommand(s);
             da.disconnect();
+
+            Cache.updatePayPeriod(this.PayType, this.DaftariPayType);
+            Cache.updateTakhfif(this.Takhfif_Inc);
         }
 
         public DataTable Select()
@@ -48,6 +57,9 @@ namespace Mehr
             DataTable dt = new DataTable();
             dt = da.select(s);
             da.disconnect();
+
+            Cache.updateGenSettings(dt);
+
             return dt;
         }
 

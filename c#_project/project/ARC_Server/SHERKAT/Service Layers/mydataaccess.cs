@@ -215,6 +215,19 @@ namespace Mehr
             w.WriteLine("-------------------------------");
         }
 
+        public static void Log(Exception e)
+        {
+            using (StreamWriter w = File.AppendText(Application.StartupPath + "\\err.log"))
+            {
+                w.Write("\r\nLog Entry : ");
+                w.WriteLine("{0} {1}", DateTime.Now.ToLongTimeString(),
+                    DateTime.Now.ToLongDateString() + " :");
+                w.WriteLine("Error Msg   ::  {0}", e.Message);
+                w.WriteLine("Error Msg   ::  {0}", e.StackTrace);
+                w.WriteLine("-------------------------------");
+            }
+        }
+
         public void RestoreDB(string Backup_name, int fn, string mediaPass)
         {
             String s = "RESTORE DATABASE [ARC] FROM  DISK = N'{0}' WITH  FILE = {1},  NOUNLOAD,  REPLACE,  STATS = 10, MEDIAPASSWORD='{2}'";

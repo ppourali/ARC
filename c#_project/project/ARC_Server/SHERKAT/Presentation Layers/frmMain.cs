@@ -107,6 +107,11 @@ namespace Mehr.Presentation_Layers
 
             bazrasVorood();
 
+            if (Program.isServerMachine)
+                MI_datas.Enabled = true;
+            else
+                MI_datas.Enabled = false;
+
             menuStrip1.Show();
             toolStrip1.Show();
         }
@@ -1011,7 +1016,10 @@ namespace Mehr.Presentation_Layers
 
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
-              DialogResult dr;
+            if (!Program.isServerMachine)
+                return;
+
+            DialogResult dr;
             dr = MessageBox.Show("آیا مایل به تهیه ی فایل پشتیبان هستید؟", "اخطار", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information);
 
             if (dr == DialogResult.Cancel)

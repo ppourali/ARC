@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mehr.Business_Layers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -212,7 +213,8 @@ namespace Mehr.Presentation_Layers
 
             if (CanTakeCheck == true)
             {
-                string payan_darman_check = new Sicks().Search("SELECT payan_date FROM sicks WHERE (id=N'" + txtid.Text + "')").Rows[0][0].ToString();
+                string payan_darman_check = Cache.closedDate(txtid.Text);
+                //string payan_darman_check = new Sicks().Search("SELECT payan_date FROM sicks WHERE (id=N'" + txtid.Text + "')").Rows[0][0].ToString();
 
                 tahvil_koli check_exist = new tahvil_koli();
                 DataTable chkdt1 = new DataTable();

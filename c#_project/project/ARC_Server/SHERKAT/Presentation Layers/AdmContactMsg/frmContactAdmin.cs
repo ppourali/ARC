@@ -128,8 +128,9 @@ namespace Mehr
                     compressedOrNot = false;
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                mydataaccess.Log(ex);
                 MessageBox.Show("در انجام عملیات فشرده سازی مشکلی رخ داده است");
             }
 
@@ -381,8 +382,9 @@ namespace Mehr
                     return;
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                mydataaccess.Log(ex);
                 MessageBox.Show("ارسال پیام با مشکل مواجه شد");
                 btnSend.Visible = true;
                 backgroundWorker1.CancelAsync();
@@ -473,8 +475,9 @@ namespace Mehr
                     return true;
 
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    mydataaccess.Log(ex);
                     MessageBox.Show("تهیه فایل پشتیبان با مشکل مواجه شد", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return false;
                 }
@@ -496,8 +499,9 @@ namespace Mehr
 
                     return true;
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    mydataaccess.Log(ex);
                     MessageBox.Show("تهیه فایل پشتیبان با مشکل مواجه شد", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return false;
                 }
