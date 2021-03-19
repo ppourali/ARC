@@ -52,6 +52,12 @@ namespace Mehr.Business_Layers
             isDailyReal = false;
         }
 
+        internal static void resetSicksCache()
+        {
+            openSicksCache = new Dictionary<String, Sicks>();
+            closeDatesCache= new Dictionary<String, String>();
+        }
+
         public static void putRecords(DataTable table)
         {
             if (table == null || table.Rows.Count == 0)
@@ -234,6 +240,9 @@ namespace Mehr.Business_Layers
 
         internal static void generateContents()
         {
+            resetSicksCache();
+            resetGenSettings();
+
             Sicks sicks = new Sicks();
             DataTable allSicks = sicks.Select();
             putRecords(allSicks);

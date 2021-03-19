@@ -77,9 +77,12 @@ namespace Mehr.Presentation_Layers
             fc.Location = p;
             fc.Show();
 
+
+            String prodVersion = Application.ProductVersion;
+
             darmangah sh = new darmangah();
             toolStripStatusLabel3.Text = "مرکز مشاوره و درمان سوء مصرف مواد " + sh.Select().Rows[0]["name"].ToString();
-            this.Text = toolStripStatusLabel3.Text;
+            this.Text = toolStripStatusLabel3.Text + "("+ prodVersion+")";
 
 
             acc acnt = new acc();
