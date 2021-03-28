@@ -146,3 +146,17 @@ File 'ARC_log' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC_
 Problems were identified while planning for the RESTORE statement. Previous messages provide details.
 RESTORE DATABASE is terminating abnormally.
 -------------------------------
+
+Log Entry : 4:10:59 PM Sunday, March 28, 2021 :
+Error Msg   ::  Could not find a part of the path 'C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\bin\Debug\latest'.
+Error Msg   ::     at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at Mehr.frmContactAdmin.button1_Click(Object sender, EventArgs e) in C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\Presentation Layers\AdmContactMsg\frmContactAdmin.cs:line 606
+-------------------------------
+
+Log Entry : 4:15:23 PM Sunday, March 28, 2021 :
+Error Msg   ::  Could not find a part of the path 'C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\bin\Debug\latest'.
+Error Msg   ::     at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at Mehr.frmContactAdmin.button1_Click(Object sender, EventArgs e) in C:\Users\Parsaa\source\repos\ARC\c#_project\project\ARC_Server\SHERKAT\Presentation Layers\AdmContactMsg\frmContactAdmin.cs:line 606
+-------------------------------

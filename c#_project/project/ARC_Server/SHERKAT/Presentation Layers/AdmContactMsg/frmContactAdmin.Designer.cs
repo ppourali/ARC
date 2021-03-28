@@ -51,8 +51,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -292,8 +290,6 @@
             // 
             this.groupBox2.AutoSize = true;
             this.groupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.groupBox2.Controls.Add(this.linkLabel1);
-            this.groupBox2.Controls.Add(this.progressBar3);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.button14);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -323,26 +319,6 @@
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
-            // progressBar3
-            // 
-            this.progressBar3.Location = new System.Drawing.Point(6, 48);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.progressBar3.RightToLeftLayout = true;
-            this.progressBar3.Size = new System.Drawing.Size(282, 26);
-            this.progressBar3.TabIndex = 15;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(6, 77);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(280, 13);
-            this.linkLabel1.TabIndex = 16;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "https://github.com/ppourali/Execs/blob/main/ARC/latest";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
             // frmContactAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -366,7 +342,6 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -395,8 +370,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ProgressBar progressBar3;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }

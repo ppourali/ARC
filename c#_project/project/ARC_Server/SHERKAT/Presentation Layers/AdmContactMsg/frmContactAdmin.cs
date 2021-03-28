@@ -21,6 +21,8 @@ namespace Mehr
 
         MailMessage mail = new MailMessage();
 
+        private Boolean sendPressed = false;
+
         private Boolean msgSent = false;
         public string darmangahName;
         string RAR_PATH = "";
@@ -44,6 +46,7 @@ namespace Mehr
             if (InternetCS.IsConnected())
             {
                 msgSent = false;
+                sendPressed = true;
                 backgroundWorker1.RunWorkerAsync();
             }
             else
@@ -434,7 +437,10 @@ namespace Mehr
                 {
                 }
 
-                
+                sendPressed = false;
+
+
+
             }
         }
 
@@ -522,14 +528,15 @@ namespace Mehr
                 lblState.Text = "ارسال پیام با مشکل مواجه شد";
                 MessageBox.Show("Error. Details: " + (e.Error as Exception).ToString());
             }
+            sendPressed = false;
 
-                
+
         }
 
 
         private void frmContactAdmin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (msgSent == false && btnSend.Visible==false)
+            if (sendPressed || (msgSent == false && btnSend.Visible==false))
             {
                 DialogResult dr;
                 dr = MessageBox.Show("با بستن پنجره عملیات ارسال پیام لغو می شود، آیا اطمینان دارید؟", "بستن", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -596,48 +603,18 @@ namespace Mehr
    
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                folderBrowserDialog1.SelectedPath = Application.StartupPath;
-                if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
-                {
-                    string a = folderBrowserDialog1.SelectedPath;
-                
-                    Directory.Delete(a+"\\latest", true);
-
-                    using (WebClient wc = new WebClient())
-                    {
-                        wc.DownloadProgressChanged += wc_DownloadProgressChanged;
-                        wc.DownloadDataCompleted += WebClientDownloadCompleted;
-                        wc.DownloadFileAsync(
-                            // Param1 = Link of file
-                            new System.Uri("https://github.com/ppourali/Execs/blob/main/ARC/latest/ARC.exe"),
-                            // Param2 = Path to save
-                            a+"\\latest\\ARC.exe");
-                    }
-                }
-            }
-            catch
-            {
-                MessageBox.Show("Download failed!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
-
-            }
+            openLink();
         }
 
-        private void WebClientDownloadCompleted(object sender, DownloadDataCompletedEventArgs e)
-        {
-            MessageBox.Show("Download has ended.");
-        }
 
-        // Event to track the progress
-        void wc_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
+        private void openLink()
         {
-           progressBar3.Value = e.ProgressPercentage;
+            System.Diagnostics.Process.Start("https://github.com/ppourali/Execs/blob/main/ARC/latest");
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(((LinkLabel)sender).Text);
+            openLink();
         }
 
         private void chkSendLog_CheckedChanged(object sender, EventArgs e)
