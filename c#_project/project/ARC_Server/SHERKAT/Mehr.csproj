@@ -180,6 +180,7 @@
       <DependentUpon>frmContactAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentation Layers\AdmContactMsg\InternetCS.cs" />
+    <Compile Include="Presentation Layers\AdmContactMsg\Updates.cs" />
     <Compile Include="Presentation Layers\anbar\frmAnbarEdit.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -174,6 +174,7 @@
             this.بازگردانیاطلاعاتخامنرمافزارToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.تغییرنوعکاربریToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ارسالپیامToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.بررسیمجددسروریاکلاینتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.خروجToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
@@ -209,9 +210,8 @@
             this.bg3 = new System.Windows.Forms.ToolStripMenuItem();
             this.bg4 = new System.Windows.Forms.ToolStripMenuItem();
             this.bg5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.بررسیمجددسروریاکلاینتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCacheRefresh = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -1208,6 +1208,12 @@
             this.ارسالپیامToolStripMenuItem.Name = "ارسالپیامToolStripMenuItem";
             this.ارسالپیامToolStripMenuItem.Click += new System.EventHandler(this.ارسالپیامToolStripMenuItem_Click);
             // 
+            // بررسیمجددسروریاکلاینتToolStripMenuItem
+            // 
+            this.بررسیمجددسروریاکلاینتToolStripMenuItem.Name = "بررسیمجددسروریاکلاینتToolStripMenuItem";
+            resources.ApplyResources(this.بررسیمجددسروریاکلاینتToolStripMenuItem, "بررسیمجددسروریاکلاینتToolStripMenuItem");
+            this.بررسیمجددسروریاکلاینتToolStripMenuItem.Click += new System.EventHandler(this.بررسیمجددسروریاکلاینتToolStripMenuItem_Click);
+            // 
             // خروجToolStripMenuItem
             // 
             resources.ApplyResources(this.خروجToolStripMenuItem, "خروجToolStripMenuItem");
@@ -1438,17 +1444,6 @@
             resources.ApplyResources(this.bg5, "bg5");
             this.bg5.Click += new System.EventHandler(this.bg5_Click);
             // 
-            // toolStripSeparator9
-            // 
-            this.toolStripSeparator9.Name = "toolStripSeparator9";
-            resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
-            // 
-            // بررسیمجددسروریاکلاینتToolStripMenuItem
-            // 
-            this.بررسیمجددسروریاکلاینتToolStripMenuItem.Name = "بررسیمجددسروریاکلاینتToolStripMenuItem";
-            resources.ApplyResources(this.بررسیمجددسروریاکلاینتToolStripMenuItem, "بررسیمجددسروریاکلاینتToolStripMenuItem");
-            this.بررسیمجددسروریاکلاینتToolStripMenuItem.Click += new System.EventHandler(this.بررسیمجددسروریاکلاینتToolStripMenuItem_Click);
-            // 
             // btnCacheRefresh
             // 
             this.btnCacheRefresh.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
@@ -1456,6 +1451,11 @@
             this.btnCacheRefresh.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.btnCacheRefresh.Name = "btnCacheRefresh";
             this.btnCacheRefresh.Click += new System.EventHandler(this.btnCacheRefresh_Click);
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
             // 
             // frmMain
             // 

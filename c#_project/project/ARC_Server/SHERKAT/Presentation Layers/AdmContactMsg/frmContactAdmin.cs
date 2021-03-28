@@ -12,6 +12,7 @@ using System.IO;
 using System.Diagnostics;
 using Microsoft.Win32;
 using System.Threading;
+using System.Net;
 
 namespace Mehr
 {
@@ -585,6 +586,58 @@ namespace Mehr
 
             lblState.Text = "انصراف ارسال پیام";
             progressBar1.Value = 0;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+   
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                folderBrowserDialog1.SelectedPath = Application.StartupPath;
+                if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    string a = folderBrowserDialog1.SelectedPath;
+                
+                    Directory.Delete(a+"\\latest", true);
+
+                    using (WebClient wc = new WebClient())
+                    {
+                        wc.DownloadProgressChanged += wc_DownloadProgressChanged;
+                        wc.DownloadDataCompleted += WebClientDownloadCompleted;
+                        wc.DownloadFileAsync(
+                            // Param1 = Link of file
+                            new System.Uri("https://github.com/ppourali/Execs/blob/main/ARC/latest/ARC.exe"),
+                            // Param2 = Path to save
+                            a+"\\latest\\ARC.exe");
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Download failed!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+
+            }
+        }
+
+        private void WebClientDownloadCompleted(object sender, DownloadDataCompletedEventArgs e)
+        {
+            MessageBox.Show("Download has ended.");
+        }
+
+        // Event to track the progress
+        void wc_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
+        {
+           progressBar3.Value = e.ProgressPercentage;
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(((LinkLabel)sender).Text);
         }
 
         private void chkSendLog_CheckedChanged(object sender, EventArgs e)

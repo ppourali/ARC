@@ -3296,5 +3296,7 @@ namespace Mehr.Presentation_Layers
             Cache.generateContents();
             MessageBox.Show("اطلاعات حافظه بروزرسانی شد", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+    
     }
 }

@@ -102,3 +102,47 @@ Error Msg   ::  Timeout expired.  The timeout period elapsed prior to completion
 Processed 26880 pages for database 'ARC', file 'ARC' on file 1.
 Processed 1 pages for database 'ARC', file 'ARC_log' on file 1.
 -------------------------------
+
+Log Entry : 8:28:04 AM Friday, March 19, 2021 :
+SQL Command ::  RESTORE DATABASE [ARC] FROM  DISK = N'C:\Users\Parsaa\source\repos\ARC\c#_project\misc\Backup\1400.bak' WITH  FILE = 1,  NOUNLOAD,  REPLACE,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Directory lookup for the file "D:\ARC\Addiction Recovery Clinic\Data\ARC.mdf" failed with the operating system error 21(The device is not ready.).
+File 'ARC' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC.mdf'. Use WITH MOVE to identify a valid location for the file.
+Directory lookup for the file "D:\ARC\Addiction Recovery Clinic\Data\ARC_log.ldf" failed with the operating system error 21(The device is not ready.).
+File 'ARC_log' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC_log.ldf'. Use WITH MOVE to identify a valid location for the file.
+Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+RESTORE DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 8:30:31 AM Friday, March 19, 2021 :
+SQL Command ::  RESTORE DATABASE [ARC] FROM  DISK = N'C:\Users\Parsaa\source\repos\ARC\c#_project\misc\Backup\1400.bak' WITH  FILE = 1,  NOUNLOAD,  REPLACE,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Directory lookup for the file "D:\ARC\Addiction Recovery Clinic\Data\ARC.mdf" failed with the operating system error 21(The device is not ready.).
+File 'ARC' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC.mdf'. Use WITH MOVE to identify a valid location for the file.
+Directory lookup for the file "D:\ARC\Addiction Recovery Clinic\Data\ARC_log.ldf" failed with the operating system error 21(The device is not ready.).
+File 'ARC_log' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC_log.ldf'. Use WITH MOVE to identify a valid location for the file.
+Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+RESTORE DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 8:33:52 AM Friday, March 19, 2021 :
+SQL Command ::  RESTORE DATABASE [ARC] FROM  DISK = N'C:\Users\Parsaa\source\repos\ARC\c#_project\misc\Backup\1400.bak' WITH  FILE = 1,  NOUNLOAD,  REPLACE,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Directory lookup for the file "D:\ARC\Addiction Recovery Clinic\Data\ARC.mdf" failed with the operating system error 21(The device is not ready.).
+File 'ARC' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC.mdf'. Use WITH MOVE to identify a valid location for the file.
+Directory lookup for the file "D:\ARC\Addiction Recovery Clinic\Data\ARC_log.ldf" failed with the operating system error 21(The device is not ready.).
+File 'ARC_log' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC_log.ldf'. Use WITH MOVE to identify a valid location for the file.
+Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+RESTORE DATABASE is terminating abnormally.
+-------------------------------
+
+Log Entry : 8:25:39 AM Saturday, March 27, 2021 :
+SQL Command ::  RESTORE DATABASE [ARC] FROM  DISK = N'C:\Users\Parsaa\source\repos\ARC\c#_project\misc\Backup\1400.bak' WITH  FILE = 1,  NOUNLOAD,  REPLACE,  STATS = 10, MEDIAPASSWORD='4186'
+
+Error Msg   ::  Directory lookup for the file "D:\ARC\Addiction Recovery Clinic\Data\ARC.mdf" failed with the operating system error 21(The device is not ready.).
+File 'ARC' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC.mdf'. Use WITH MOVE to identify a valid location for the file.
+Directory lookup for the file "D:\ARC\Addiction Recovery Clinic\Data\ARC_log.ldf" failed with the operating system error 21(The device is not ready.).
+File 'ARC_log' cannot be restored to 'D:\ARC\Addiction Recovery Clinic\Data\ARC_log.ldf'. Use WITH MOVE to identify a valid location for the file.
+Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+RESTORE DATABASE is terminating abnormally.
+-------------------------------
