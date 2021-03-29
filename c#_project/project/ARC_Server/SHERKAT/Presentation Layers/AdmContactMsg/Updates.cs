@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -432,7 +432,22 @@ namespace Mehr.Presentation_Layers.AdmContactMsg
 
         public static void normalizePayanDates()
         {
-            new Sicks().Search("UPDATE [ARC].[dbo].[Sicks] SET payan_date='' WHERE (payan_date='13  /  /')");
+            new Sicks().Search("UPDATE [ARC].[dbo].[Sicks] SET payan_date=N'' WHERE (payan_date='13  /  /')");
+            MessageBox.Show("عملیات با موفقیت انجام شد");
+
+        }
+
+        public static void fixMaaliTashkhis()
+        {
+            new sick_history().Search("Update [ARC].[dbo].[sick_history] SET tashkhis=N'بدهکار' WHERE tashkhis =N'ÈÏå˜ÇÑ'");
+            new sick_history_daftari().Search("Update [ARC].[dbo].[sick_history_daftari] SET tashkhis=N'بدهکار' WHERE tashkhis =N'ÈÏå˜ÇÑ'");
+
+            new sick_history().Search("Update [ARC].[dbo].[sick_history] SET tashkhis=N'بستانکار' WHERE tashkhis =N'ÈÓÊÇä˜ÇÑ'");
+            new sick_history_daftari().Search("Update [ARC].[dbo].[sick_history_daftari] SET tashkhis=N'بستانکار' WHERE tashkhis =N'ÈÓÊÇä˜ÇÑ'");
+
+            new Sicks().Search("Update [ARC].[dbo].[Sicks] SET status=N'بدهکار' WHERE status =N'ÈÏå˜ÇÑ'");
+            new Sicks().Search("Update [ARC].[dbo].[Sicks] SET status=N'بستانکار' WHERE status =N'ÈÓÊÇä˜ÇÑ'");
+
             MessageBox.Show("عملیات با موفقیت انجام شد");
 
         }

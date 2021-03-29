@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
@@ -31,12 +31,12 @@ namespace Mehr
 
         public void Add_firstly()
         {
-            if (this.tashkhis.Equals("ÈÏå˜ÇÑ"))
+            if (this.tashkhis.Equals("Ø¨Ø¯Ù‡Ú©Ø§Ø±"))
             {
                 this.bedehkari = this.mandeh;
                 this.bestankari = 0;
             }
-            else if (this.tashkhis.Equals("ÈÓÊÇä˜ÇÑ"))
+            else if (this.tashkhis.Equals("Ø¨Ø³ØªØ§Ù†Ú©Ø§Ø±"))
             {
                 this.bestankari = this.mandeh;
                 this.bedehkari = 0;
@@ -136,11 +136,11 @@ namespace Mehr
 
                 if (lastmandeh > 0)
                 {
-                    tashkhisRow = "ÈÓÊÇä˜ÇÑ";
+                    tashkhisRow = "Ø¨Ø³ØªØ§Ù†Ú©Ø§Ø±";
                 }
                 else if (lastmandeh <= 0)
                 {
-                    tashkhisRow = "ÈÏå˜ÇÑ";
+                    tashkhisRow = "Ø¨Ø¯Ù‡Ú©Ø§Ø±";
                 }
 
                 UpdateAfterHamahangSazi(tashkhisRow, Math.Abs(lastmandeh), long.Parse(dt.Rows[i]["radif"].ToString()), dt.Rows[i]["sick_id"].ToString(), i);

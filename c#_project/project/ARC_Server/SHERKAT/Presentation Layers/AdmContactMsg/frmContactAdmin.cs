@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -537,7 +537,10 @@ namespace Mehr
 
         private void frmContactAdmin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (sendPressed || (msgSent == false && btnSend.Visible==false))
+            if (sendPressed == false)
+                this.Dispose();
+
+            if (msgSent == false && btnSend.Visible==false)
             {
                 DialogResult dr;
                 dr = MessageBox.Show("با بستن پنجره عملیات ارسال پیام لغو می شود، آیا اطمینان دارید؟", "بستن", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -621,6 +624,11 @@ namespace Mehr
         private void button2_Click(object sender, EventArgs e)
         {
             Updates.normalizePayanDates();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Updates.fixMaaliTashkhis();
         }
 
         private void chkSendLog_CheckedChanged(object sender, EventArgs e)

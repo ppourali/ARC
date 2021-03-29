@@ -49,10 +49,11 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -291,6 +292,7 @@
             // 
             this.groupBox2.AutoSize = true;
             this.groupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.button14);
@@ -300,6 +302,16 @@
             this.groupBox2.Size = new System.Drawing.Size(944, 389);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(678, 48);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(260, 28);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "نرمال سازی پایان درمان";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -321,15 +333,15 @@
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
-            // button2
+            // button3
             // 
-            this.button2.Location = new System.Drawing.Point(678, 48);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(260, 28);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "نرمال سازی پایان درمان";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button3.Location = new System.Drawing.Point(678, 82);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(260, 28);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "حل مشکل کاراکتر در وضعیت حساب";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // frmContactAdmin
             // 
@@ -384,6 +396,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
