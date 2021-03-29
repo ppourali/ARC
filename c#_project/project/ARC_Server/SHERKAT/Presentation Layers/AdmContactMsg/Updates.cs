@@ -429,6 +429,13 @@ namespace Mehr.Presentation_Layers.AdmContactMsg
             si.Search(sql);
             MessageBox.Show("عملیات با موفقیت انجام شد");
         }
+
+        public static void normalizePayanDates()
+        {
+            new Sicks().Search("UPDATE [ARC].[dbo].[Sicks] SET payan_date='' WHERE (payan_date='13  /  /')");
+            MessageBox.Show("عملیات با موفقیت انجام شد");
+
+        }
     }
     
 }

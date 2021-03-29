@@ -13,6 +13,7 @@ using System.Diagnostics;
 using Microsoft.Win32;
 using System.Threading;
 using System.Net;
+using Mehr.Presentation_Layers.AdmContactMsg;
 
 namespace Mehr
 {
@@ -597,7 +598,7 @@ namespace Mehr
 
         private void button14_Click(object sender, EventArgs e)
         {
-
+            Updates.ChangeAgeToB_date();
         }
 
    
@@ -615,6 +616,11 @@ namespace Mehr
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             openLink();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Updates.normalizePayanDates();
         }
 
         private void chkSendLog_CheckedChanged(object sender, EventArgs e)

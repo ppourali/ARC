@@ -48,7 +48,7 @@ namespace Mehr.Presentation_Layers
                 DataTable dt = new DataTable();
                 dt = rm.Search("SELECT row_number() over (order by t2.lastdate DESC) as rowid, t1.id,t1.[name], t1.darman_date, t2.lastdate, t1.home, t1.mobile, t1.masrafi_type, t1.ravesh_tark, t1.hesab, t1.status FROM SICKS t1 " +
                                 "left join (select id, max(to_date) as lastdate from tahvil_koli where (tedad>0) GROUP BY id) t2 on t1.id=t2.id " +
-                                "WHERE (t1.id not in(SELECT id FROM Tahvil_koli WHERE from_date<=N'" + txtdarman_date.Text + "' and to_date>N'" + txtdarman_date.Text + "' and tedad>0) and  payan_date='    /  /') order by lastdate desc");
+                                "WHERE (t1.id not in(SELECT id FROM Tahvil_koli WHERE from_date<=N'" + txtdarman_date.Text + "' and to_date>N'" + txtdarman_date.Text + "' and tedad>0) and  trim(payan_date)='') order by lastdate desc");
 
 
                 grdDataViewer.DataSource = dt;

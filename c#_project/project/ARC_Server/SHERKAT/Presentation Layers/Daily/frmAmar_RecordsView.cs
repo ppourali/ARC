@@ -79,6 +79,8 @@ namespace Mehr.Presentation_Layers
             grdAllDataView.Columns[9].DefaultCellStyle.BackColor = Color.MistyRose;
             grdAllDataView.Columns[10].DefaultCellStyle.BackColor = Color.MistyRose;
 
+            if (grdAllDataView.Rows.Count <= 0)
+                return;
             
             Font f = new Font("Tahoma", 9, FontStyle.Bold);
 
@@ -97,9 +99,11 @@ namespace Mehr.Presentation_Layers
             grdAllDataView.CurrentCell = null;
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 MessageBox.Show("لطفا اطلاعات را به صورت درست وارد نمایید!!!");
+                MessageBox.Show(ex.Message);
+                mydataaccess.Log(ex);
                 txtdate.Text = "";
             }
         }

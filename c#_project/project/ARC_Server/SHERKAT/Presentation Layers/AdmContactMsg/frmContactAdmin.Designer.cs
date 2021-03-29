@@ -52,6 +52,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -290,6 +291,7 @@
             // 
             this.groupBox2.AutoSize = true;
             this.groupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.button14);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -318,6 +320,16 @@
             this.button14.Text = "جایگزینی تاریخ تولد به جای سن بیمار";
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(678, 48);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(260, 28);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "نرمال سازی پایان درمان";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmContactAdmin
             // 
@@ -371,6 +383,7 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
