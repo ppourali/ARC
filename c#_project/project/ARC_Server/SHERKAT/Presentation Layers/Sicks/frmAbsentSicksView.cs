@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -74,14 +74,14 @@ namespace Mehr.Presentation_Layers
             // if bazras , no need to find daily average
             if (Program.user_semat.Trim() == "بازرس")
             {
-                dt = rm.Search("SELECT id, name,ravesh_tark, darman_date, '' as period,0 as gheybat, 0 as daftarigheybat, 0 as dailyAverage, monthFee as mandehgheybat  ,'' as last_visit, '' as visit, '' as last_ravan, '' as ravan, '' as last_azm,'' as azm FROM SICKS WHERE ((payan_date>N'" + txtdate.Text + "' or trim(payan_date)='') and id not in(SELECT id FROM TAHVIL WHERE DATE=N'" + txtdate.Text + "'))");
+                dt = rm.Search("SELECT id, name,ravesh_tark, darman_date, '' as period,0 as gheybat, 0 as daftarigheybat, 0 as dailyAverage, monthFee as mandehgheybat  ,'' as last_visit, '' as visit, '' as last_ravan, '' as ravan, '' as last_azm,'' as azm FROM SICKS WHERE ((payan_date>N'" + txtdate.Text + "' or rtrim(ltrim(payan_date))='') and id not in(SELECT id FROM TAHVIL WHERE DATE=N'" + txtdate.Text + "'))");
             }
             else
             {
                 dt = rm.Search("SELECT t0.id, name,ravesh_tark, darman_date, '' as period,0 as gheybat, 0 as daftarigheybat, isnull((t2.mablagh/t1.roozCount),0) as dailyAverage, monthFee as mandehgheybat, '' as last_visit, '' as visit, '' as last_ravan, '' as ravan, '' as last_azm,'' as azm FROM SICKS t0 " +
                     "left join (select id, count(code) as roozCount from tajviz as taj where tajviz_date in (select max (tajviz_date) from tajviz where (id=taj.id)) group by id) t1 on t0.id=t1.id " +
                     "left join (select id, sum(mablagh) as mablagh from ghabz as g where date in (select max (date) from ghabz where (mablagh>0 and id=g.id)) group by id) t2 on t1.id=t2.id " +
-                    "WHERE ((payan_date>N'" + txtdate.Text + "' or trim(payan_date)='') and t0.id not in(SELECT id FROM TAHVIL WHERE DATE=N'" + txtdate.Text + "'))");
+                    "WHERE ((payan_date>N'" + txtdate.Text + "' or rtrim(ltrim(payan_date))='') and t0.id not in(SELECT id FROM TAHVIL WHERE DATE=N'" + txtdate.Text + "'))");
             }
 
             grdDataViewer.DataSource = dt;
@@ -92,14 +92,14 @@ namespace Mehr.Presentation_Layers
             // if bazras , no need to find daily average
             if (Program.user_semat.Trim() == "بازرس")
             {
-                dt2 = rm.Search("SELECT id, name,ravesh_tark, darman_date, '' as period,0 as gheybat, 0 as daftarigheybat, 0 as dailyAverage, monthFee as mandehgheybat  ,'' as last_visit, '' as visit, '' as last_ravan, '' as ravan, '' as last_azm,'' as azm FROM SICKS WHERE ((payan_date>N'" + txtdate.Text + "' or trim(payan_date)='') and id in(SELECT id FROM TAHVIL WHERE tahvil_DATE=N'" + txtdate.Text + "'))");
+                dt2 = rm.Search("SELECT id, name,ravesh_tark, darman_date, '' as period,0 as gheybat, 0 as daftarigheybat, 0 as dailyAverage, monthFee as mandehgheybat  ,'' as last_visit, '' as visit, '' as last_ravan, '' as ravan, '' as last_azm,'' as azm FROM SICKS WHERE ((payan_date>N'" + txtdate.Text + "' or rtrim(ltrim(payan_date))='') and id in(SELECT id FROM TAHVIL WHERE tahvil_DATE=N'" + txtdate.Text + "'))");
             }
             else
             {
                 dt2 = rm.Search("SELECT t0.id, name,ravesh_tark, darman_date, '' as period,0 as gheybat, 0 as daftarigheybat, isnull((t2.mablagh/t1.roozCount),0) as dailyAverage, monthFee as mandehgheybat, '' as last_visit, '' as visit, '' as last_ravan, '' as ravan, '' as last_azm,'' as azm FROM SICKS t0 " +
                     "left join (select id, count(code) as roozCount from tajviz as taj where tajviz_date in (select max (tajviz_date) from tajviz where (id=taj.id)) group by id) t1 on t0.id=t1.id " +
                     "left join (select id, sum(mablagh) as mablagh from ghabz as g where date in (select max (date) from ghabz where (mablagh>0 and id=g.id)) group by id) t2 on t1.id=t2.id " +
-                    "WHERE ((payan_date>N'" + txtdate.Text + "' or trim(payan_date)='') and t0.id in(SELECT id FROM TAHVIL WHERE tahvil_DATE=N'" + txtdate.Text + "'))");
+                    "WHERE ((payan_date>N'" + txtdate.Text + "' or rtrim(ltrim(payan_date))='') and t0.id in(SELECT id FROM TAHVIL WHERE tahvil_DATE=N'" + txtdate.Text + "'))");
             }
 
             //dt2.DefaultView.Sort = "id";
