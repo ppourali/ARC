@@ -1,2 +1,4 @@
 # sql files
 *.bak
+*.mdf
+*.ldf
