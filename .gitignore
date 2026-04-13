@@ -1,2 +1,5 @@
 # sql files
 *.bak
+*.vsidx
+*.ldf
+*.mdf

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,7 +33,7 @@ namespace Mehr.Presentation_Layers
 
             // Create the list to use as the custom source. 
             AutoCompleteStringCollection source = new AutoCompleteStringCollection();
-            acc ac = new acc();
+            Accounts ac = new Accounts();
             DataTable pezeshkdt = new DataTable();
             pezeshkdt = ac.SelectDoctors();
             foreach (DataRow dtrow in pezeshkdt.Rows)

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Accounts.cs",
+              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\Accounts.cs",
+              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Accounts.cs",
+              "RelativeToolTip": "SHERKAT\\Business Layers\\Accounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:29:56.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

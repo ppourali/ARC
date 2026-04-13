@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
 
 namespace Mehr
 {
-    class acc
+    class Accounts
     {
         public string user_code,pass,fname,lname,tel,address, semat;
         

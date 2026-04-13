@@ -159,7 +159,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MehrDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Business Layers\acc.cs" />
+    <Compile Include="Business Layers\Accounts.cs" />
     <Compile Include="Business Layers\DB.cs" />
     <Compile Include="Presentation Layers\Action_Logs\frmActionLogsPrintViewer.cs">
       <SubType>Form</SubType>
@@ -746,7 +746,9 @@
     <Compile Include="Presentation Layers\Hazineh\frmHazinehprintviewer.designer.cs">
       <DependentUpon>frmHazinehprintviewer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation Layers\Hazineh\frmHazinehShow.cs" />
+    <Compile Include="Presentation Layers\Hazineh\frmHazinehShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentation Layers\Hazineh\frmHazinehShow.Designer.cs">
       <DependentUpon>frmHazinehShow.cs</DependentUpon>
     </Compile>
@@ -1002,7 +1004,9 @@
     <Compile Include="Presentation Layers\Sicks\frmSicksEdit.designer.cs">
       <DependentUpon>frmSicksEdit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation Layers\Sicks\frmSickSelPrintViewer.cs" />
+    <Compile Include="Presentation Layers\Sicks\frmSickSelPrintViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentation Layers\Sicks\frmSickSelPrintViewer.designer.cs">
       <DependentUpon>frmSickSelPrintViewer.cs</DependentUpon>
     </Compile>
@@ -1204,7 +1208,9 @@
     <Compile Include="Presentation Layers\Tajviz\frmTajDaftarPrintViewer.designer.cs">
       <DependentUpon>frmTajDaftarPrintViewer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation Layers\Tajviz\frmTajdidSelectInp.cs" />
+    <Compile Include="Presentation Layers\Tajviz\frmTajdidSelectInp.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentation Layers\Tajviz\frmTajdidSelectInp.designer.cs">
       <DependentUpon>frmTajdidSelectInp.cs</DependentUpon>
     </Compile>

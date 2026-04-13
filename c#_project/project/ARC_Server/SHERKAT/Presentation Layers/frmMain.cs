@@ -1,4 +1,4 @@
-﻿using Mehr.Business_Layers;
+using Mehr.Business_Layers;
 using Mehr.Utils;
 using System;
 using System.Collections.Generic;
@@ -85,7 +85,7 @@ namespace Mehr.Presentation_Layers
             this.Text = toolStripStatusLabel3.Text + "("+ prodVersion+")";
 
 
-            acc acnt = new acc();
+            Accounts acnt = new Accounts();
             if (acnt.checkpass().Rows.Count > 0)
             {
                 frmLogin frl = new frmLogin();
@@ -242,7 +242,7 @@ namespace Mehr.Presentation_Layers
         {
             Cursor.Current = Cursors.WaitCursor;
 
-            acc acnt = new acc();
+            Accounts acnt = new Accounts();
             DataTable dt = new DataTable();
             dt = acnt.Search("select semat from acc where (user_code=N'" + Program.user_code + "')");
 
@@ -2647,7 +2647,7 @@ namespace Mehr.Presentation_Layers
         private void تعویضکاربرToolStripMenuItem_Click(object sender, EventArgs e)
         {
             bazrasVorood();
-            acc acnt = new acc();
+            Accounts acnt = new Accounts();
             if (acnt.checkpass().Rows.Count > 0)
             {
                 if (this.MdiChildren.Length > 1)
