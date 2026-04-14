@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -422,7 +422,7 @@ namespace Mehr.Presentation_Layers
             ftpv.filler_kol = kol_Query;
 
 
-            darmangah sh = new darmangah();
+            Darmangah sh = new Darmangah();
             ftpv.markaz_name = sh.Select().Rows[0]["name"].ToString().Trim();
             ftpv.shahr = sh.Select().Rows[0]["address"].ToString().Trim(); ;
             ftpv.mah = txtmonth.Text;
@@ -439,7 +439,7 @@ namespace Mehr.Presentation_Layers
             string lf5 = "0", lf20 = "0", lf40 = "0", lfsp = "0";
             DataTable lastdate_dt, last5_dt, last20_dt, last40_dt, lastsp_dt;
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             factors fa = new factors();
             tahvil_koli tk = new tahvil_koli();
             DataTable temp_db = new DataTable();
@@ -884,7 +884,7 @@ namespace Mehr.Presentation_Layers
             ftpv.filler_kol = kol_Query;
 
 
-            darmangah sh = new darmangah();
+            Darmangah sh = new Darmangah();
             ftpv.markaz_name = sh.Select().Rows[0]["name"].ToString().Trim();
             ftpv.shahr = sh.Select().Rows[0]["address"].ToString().Trim(); ;
             ftpv.mah = txtmonth.Text;
@@ -901,7 +901,7 @@ namespace Mehr.Presentation_Layers
             string lf5 = "0", lf20 = "0", lf40 = "0", lfsp = "0";
             DataTable lastdate_dt, last5_dt, last20_dt, last40_dt, lastsp_dt;
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             factors fa = new factors();
             tahvil_koli tk = new tahvil_koli();
             DataTable temp_db = new DataTable();

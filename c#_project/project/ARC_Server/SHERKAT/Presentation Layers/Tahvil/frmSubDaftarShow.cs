@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -177,7 +177,7 @@ namespace Mehr.Presentation_Layers
         private string auto_calc(string daru_name)
         {
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             DataTable temp_db = new DataTable();
             DataTable lastf_dt = new DataTable();
 

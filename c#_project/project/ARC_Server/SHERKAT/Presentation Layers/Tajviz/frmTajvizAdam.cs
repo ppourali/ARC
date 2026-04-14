@@ -1,4 +1,4 @@
-﻿using Mehr.Business_Layers;
+using Mehr.Business_Layers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -285,7 +285,7 @@ namespace Mehr.Presentation_Layers
                     }
                 }
 
-                new action_logs().Add("تحویل داروی دفتری (عدم مراجعه) به مشخصه ی " + counter_code);
+                new ActionLogs().Add("تحویل داروی دفتری (عدم مراجعه) به مشخصه ی " + counter_code);
 
                 // Show the current record position...
                 ShowPosition();

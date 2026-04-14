@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,7 +23,7 @@ namespace Mehr.Presentation_Layers
             System.Globalization.CultureInfo inp = new System.Globalization.CultureInfo("fa-IR");
             InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(inp);
 
-            contact_anbar an = new contact_anbar();
+            ContactsAnbar an = new ContactsAnbar();
             an.contactid = txtcontactid.Text;
             DataTable dt = new DataTable();
             dt = an.Select();
@@ -34,7 +34,7 @@ namespace Mehr.Presentation_Layers
             objAlternatingCellStyle.BackColor = Color.PaleGreen;
             grdDataViewer.AlternatingRowsDefaultCellStyle = objAlternatingCellStyle;
 
-            contact co = new contact();
+            Contacts co = new Contacts();
             DataTable condt = co.Select();
 
             txtcontactname.DataSource = condt;
@@ -135,7 +135,7 @@ namespace Mehr.Presentation_Layers
                 }
 
 
-                contact_anbar pm = new contact_anbar();
+                ContactsAnbar pm = new ContactsAnbar();
                 pm.contactid = txtcontactid.Text;
                 DataTable dt = new DataTable();
                 dt = pm.Select();
@@ -147,7 +147,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnfilter_Click(object sender, EventArgs e)
         {
-            contact_anbar pm = new contact_anbar();
+            ContactsAnbar pm = new ContactsAnbar();
             pm.contactid = txtcontactid.Text;
             DataTable dt = new DataTable();
             dt = pm.Select();

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +17,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            darmangah da = new darmangah();
+            Darmangah da = new Darmangah();
             DataTable dt = da.Select();
 
             string pass = dt.Rows[0]["Gen_Pass"].ToString();

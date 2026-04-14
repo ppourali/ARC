@@ -84,16 +84,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Business Layers\anbar.cs" />
-    <Compile Include="Business Layers\azmayesh.cs" />
-    <Compile Include="Business Layers\azmayesh_real.cs" />
-    <Compile Include="Business Layers\action_logs.cs" />
-    <Compile Include="Business Layers\assessment.cs" />
-    <Compile Include="Business Layers\black_list.cs" />
-    <Compile Include="Business Layers\amar_records.cs" />
+    <Compile Include="Business Layers\Anbar.cs" />
+    <Compile Include="Business Layers\Azmayesh.cs" />
+    <Compile Include="Business Layers\AzmayeshReal.cs" />
+    <Compile Include="Business Layers\ActionLogs.cs" />
+    <Compile Include="Business Layers\Assessment.cs" />
+    <Compile Include="Business Layers\BlackList.cs" />
+    <Compile Include="Business Layers\AmarRecords.cs" />
     <Compile Include="Business Layers\Cache.cs" />
-    <Compile Include="Business Layers\contact.cs" />
-    <Compile Include="Business Layers\contact_anbar.cs" />
+    <Compile Include="Business Layers\Contacts.cs" />
+    <Compile Include="Business Layers\ContactsAnbar.cs" />
     <Compile Include="Business Layers\sick_history_daftari.cs" />
     <Compile Include="Business Layers\ghabz_daftari.cs" />
     <Compile Include="Business Layers\parastar_anbar.cs" />
@@ -125,7 +125,7 @@
     <Compile Include="Business Layers\mos_list.cs" />
     <Compile Include="Business Layers\MAP_BtoG.cs" />
     <Compile Include="Business Layers\Sicks.cs" />
-    <Compile Include="Business Layers\darmangah.cs" />
+    <Compile Include="Business Layers\Darmangah.cs" />
     <Compile Include="IDTextBox.cs">
       <SubType>Component</SubType>
     </Compile>

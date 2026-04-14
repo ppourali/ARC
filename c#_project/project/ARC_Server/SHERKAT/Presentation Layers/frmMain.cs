@@ -80,7 +80,7 @@ namespace Mehr.Presentation_Layers
 
             String prodVersion = Application.ProductVersion;
 
-            darmangah sh = new darmangah();
+            Darmangah sh = new Darmangah();
             toolStripStatusLabel3.Text = "مرکز مشاوره و درمان سوء مصرف مواد " + sh.Select().Rows[0]["name"].ToString();
             this.Text = toolStripStatusLabel3.Text + "("+ prodVersion+")";
 
@@ -403,7 +403,7 @@ namespace Mehr.Presentation_Layers
                     back.Backup_name = DateUtils.Shamsi() + "-" + DateTime.Now.ToLongTimeString().Substring(0, 8);
                     back.CreateBackup();
 
-                    new action_logs().Add("تهیه ی فایل پشتیبان از پایگاه داده");
+                    new ActionLogs().Add("تهیه ی فایل پشتیبان از پایگاه داده");
                     MessageBox.Show("تهیه فایل پشتیبان با موفقیت انجام شد", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception)
@@ -1592,7 +1592,7 @@ namespace Mehr.Presentation_Layers
             {
                 Cursor.Current = Cursors.WaitCursor;
 
-                darmangah darm = new darmangah();
+                Darmangah darm = new Darmangah();
                 darm.RESET();
 
                 MessageBox.Show("انجام عملیات با موفقیت به پایان رسید. لطفا نرم افزار را مجددا راه اندازی نمایید");
@@ -2731,8 +2731,8 @@ namespace Mehr.Presentation_Layers
         {
             string cur_date = DateUtils.Shamsi();
 
-            action_logs acl = new action_logs();
-            DataTable maxdatedt = acl.SelectMaxDate();
+            ActionLogs action_logs = new ActionLogs();
+            DataTable maxdatedt = action_logs.SelectMaxDate();
 
             if (maxdatedt.Rows.Count > 0)
             {

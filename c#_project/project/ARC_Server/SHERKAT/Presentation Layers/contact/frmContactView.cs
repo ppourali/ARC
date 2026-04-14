@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,7 +23,7 @@ namespace Mehr.Presentation_Layers
             System.Globalization.CultureInfo inp = new System.Globalization.CultureInfo("fa-IR");
             InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(inp);
 
-            contact si = new contact();
+            Contacts si = new Contacts();
             DataTable dt = new DataTable();
             dt = si.Select();
 
@@ -43,7 +43,7 @@ namespace Mehr.Presentation_Layers
             objAlternatingCellStyle.BackColor = Color.Khaki;
             grdDataViewer.AlternatingRowsDefaultCellStyle = objAlternatingCellStyle;
 
-            contact cn = new contact();
+            Contacts cn = new Contacts();
             DataTable cndt = cn.Search("SELECT fullname FROM contact");
 
             AutoCompleteStringCollection collection = new AutoCompleteStringCollection();
@@ -80,7 +80,7 @@ namespace Mehr.Presentation_Layers
                     SQL = SQL.Remove(SQL.Length - 4);
                 }
 
-                contact rm = new contact();
+                Contacts rm = new Contacts();
                 DataTable dt = new DataTable();
                 dt = rm.Search(SQL);
                 grdDataViewer.DataSource = dt;
@@ -104,7 +104,7 @@ namespace Mehr.Presentation_Layers
         {
             if (btnfilter.Enabled == false)
             {
-                contact pm = new contact();
+                Contacts pm = new Contacts();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdDataViewer.DataSource = dt;
@@ -122,11 +122,11 @@ namespace Mehr.Presentation_Layers
                 int irow = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[icol, irow].Value.ToString();
 
-                contact cont = new contact();
+                Contacts cont = new Contacts();
                 cont.id = val;
                 cont.Delete();
 
-                contact pm = new contact();
+                Contacts pm = new Contacts();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdDataViewer.DataSource = dt;
@@ -139,7 +139,7 @@ namespace Mehr.Presentation_Layers
             {
                 btnfilter.Enabled = false;
 
-                contact pm = new contact();
+                Contacts pm = new Contacts();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdDataViewer.DataSource = dt;
@@ -222,7 +222,7 @@ namespace Mehr.Presentation_Layers
             fsi.MdiParent = this.MdiParent;
             fsi.Show();
 
-            contact pm = new contact();
+            Contacts pm = new Contacts();
             DataTable dt = new DataTable();
             dt = pm.Select();
             grdDataViewer.DataSource = dt;
@@ -237,7 +237,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[col, row].Value.ToString();
 
-                contact si = new contact();
+                Contacts si = new Contacts();
                 DataTable datat = new DataTable();
                 si.id = val;
 
@@ -249,7 +249,7 @@ namespace Mehr.Presentation_Layers
                 fse.idsearch_Click(null,null);
                 fse.ShowDialog();
 
-                contact pm = new contact();
+                Contacts pm = new Contacts();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdDataViewer.DataSource = dt;

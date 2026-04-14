@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,7 +33,7 @@ namespace Mehr.Presentation_Layers
 
             try
             {
-                darmangah da = new darmangah();
+                Darmangah da = new Darmangah();
                 DataTable dt = da.Select();
 
                 string pass = dt.Rows[0]["Gen_Pass"].ToString();

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
@@ -121,7 +121,7 @@ namespace Mehr
                 }
                 finally
                 {
-                    darmangah darm = new darmangah();
+                    Darmangah darm = new Darmangah();
 
                     dt = darm.Select();
                 }
@@ -148,7 +148,7 @@ namespace Mehr
 
         private static bool runOnServer()
         {
-            darmangah darm = new darmangah();
+            Darmangah darm = new Darmangah();
             DataTable dt = new DataTable();
 
             try

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +19,7 @@ namespace Mehr.Presentation_Layers
         {
             // Initialize a new instance of the DataSet object...
 
-            anbar dp = new anbar();
+            Anbar dp = new Anbar();
             datat = dp.Select();
             // Set our CurrencyManager object to the DataView object...
             objCurrencyManager = (CurrencyManager)(this.BindingContext[datat]);
@@ -121,7 +121,7 @@ namespace Mehr.Presentation_Layers
         private void btnAdd_Click(object sender, EventArgs e)
         {
             // Inserting the Data to the DataBase
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             an.daru_name = txtdaru_name.Text;
             an.mandeh = float.Parse(txtmandeh.Text);
             an.vahed = txtvahed.Text;

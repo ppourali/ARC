@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,7 +50,7 @@ namespace Mehr.Presentation_Layers
             {
                 # region INSERT INTO MOS_LIST
                 // Inserting the Data to the DataBase  mos_list//
-                assessment ass = new assessment();
+                Assessment ass = new Assessment();
                 ass.sick_id = txtsick_id.Text.Trim();
                 ass.name = txtname.Text;
                 ass.ass_date = txtass_date.Text;
@@ -196,7 +196,7 @@ namespace Mehr.Presentation_Layers
 
         private void txtsick_id_TextChanged(object sender, EventArgs e)
         {
-            assessment tk = new assessment();
+            Assessment tk = new Assessment();
             dataGridView1.DataSource = tk.Search("SELECT top(1) code, sick_id, name, ass_date, sum_all FROM assessment WHERE (sick_id=N'" + txtsick_id.Text + "') order by ass_date desc");
         }
 

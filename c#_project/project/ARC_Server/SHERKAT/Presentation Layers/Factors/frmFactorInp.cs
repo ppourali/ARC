@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -64,7 +64,7 @@ namespace Mehr.Presentation_Layers
             System.Globalization.CultureInfo inp = new System.Globalization.CultureInfo("fa-IR");
             InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(inp);
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             DataTable combosource = new DataTable();
             combosource = an.Search("select distinct daru_name from anbar");
             txtdaru_name.DataSource = combosource;
@@ -161,7 +161,7 @@ namespace Mehr.Presentation_Layers
                 // End of Inserting Data to the DataBase
 
                 // Updating the Data to the DataBase Anbar
-                anbar an = new anbar();
+                Anbar an = new Anbar();
                 an.mandeh = float.Parse(txttedad.Text);
                 an.daru_name = txtdaru_name.Text;
                 an.UpdateAfterFactor();

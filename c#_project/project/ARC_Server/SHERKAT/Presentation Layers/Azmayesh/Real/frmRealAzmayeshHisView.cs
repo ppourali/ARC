@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +25,7 @@ namespace Mehr.Presentation_Layers
             System.Globalization.CultureInfo inp = new System.Globalization.CultureInfo("fa-IR");
             InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(inp);
 
-            azmayesh_real ds = new azmayesh_real();
+            AzmayeshReal ds = new AzmayeshReal();
             ds.sick_id = sid;
             dataGridView1.DataSource = ds.SelectSabegheh();
             dataGridView1.AutoGenerateColumns = true;

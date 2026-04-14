@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -52,7 +52,7 @@ namespace Mehr.Presentation_Layers
             {
                 # region INSERT INTO MOS_LIST
                 // Inserting the Data to the DataBase  mos_list//
-                assessment ass = new assessment();
+                Assessment ass = new Assessment();
                 ass.code = long.Parse(this.ass_code);
                 
                 ass.sick_id = txtsick_id.Text.Trim();
@@ -215,7 +215,7 @@ namespace Mehr.Presentation_Layers
         {
             DataTable dt = new DataTable();
 
-            assessment ass = new assessment();
+            Assessment ass = new Assessment();
             ass.code = long.Parse(ass_code);
             dt = ass.Selectforedit();
 

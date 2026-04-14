@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -429,7 +429,7 @@ namespace Mehr.Presentation_Layers
                     }
                     // End of Updating Data to the DataBase
 
-                    new action_logs().Add("ویرایش تحویل داروی مصرفی  به مشخصه ی " + t_code);
+                    new ActionLogs().Add("ویرایش تحویل داروی مصرفی  به مشخصه ی " + t_code);
 
                     // Show the current record position...
                     ShowPosition();

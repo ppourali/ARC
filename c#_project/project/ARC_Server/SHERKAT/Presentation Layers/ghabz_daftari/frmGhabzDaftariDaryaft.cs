@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -64,7 +64,7 @@ namespace Mehr.Presentation_Layers
             txtmonthFee.DataBindings.Add("Text", dtname, "monthFee");
 
 
-            assessment ass=new assessment();
+            Assessment ass=new Assessment();
             ass.sick_id = txtid.Text;
             txtTakhfif.Text = ass.SelectforGhabz().ToString();
 
@@ -303,7 +303,7 @@ namespace Mehr.Presentation_Layers
             else
                 btnsabegheh.Enabled = false;
 
-            assessment ass = new assessment();
+            Assessment ass = new Assessment();
             ass.sick_id = txtid.Text;
             txtTakhfif.Text = ass.SelectforGhabz().ToString();
 

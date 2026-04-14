@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -103,9 +103,9 @@ namespace Mehr.Presentation_Layers
                     SQL = SQL.Remove(SQL.Length - 4)+" order by date desc, time desc";
                 }
 
-                action_logs rm = new action_logs();
+                ActionLogs action_logs = new ActionLogs();
                 DataTable dt = new DataTable();
-                dt = rm.Search(SQL);
+                dt = action_logs.Search(SQL);
                 grdDataViewer.DataSource = dt;
 
             }
@@ -128,9 +128,9 @@ namespace Mehr.Presentation_Layers
             {
                 btnfilter.Enabled = false;
 
-                action_logs pm = new action_logs();
+                ActionLogs action_logs = new ActionLogs();
                 DataTable dt = new DataTable();
-                dt = pm.Select();
+                dt = action_logs.Select();
                 grdDataViewer.DataSource = dt;
             }
             else
@@ -210,9 +210,9 @@ namespace Mehr.Presentation_Layers
             {
                 btnfilter.Enabled = false;
 
-                action_logs pm = new action_logs();
+                ActionLogs action_logs = new ActionLogs();
                 DataTable dt = new DataTable();
-                dt = pm.Select();
+                dt = action_logs.Select();
                 grdDataViewer.DataSource = dt;
             }
             else
@@ -229,12 +229,11 @@ namespace Mehr.Presentation_Layers
 
             if (dr == DialogResult.Yes)
             {
-                action_logs al = new action_logs();
-                al.DeleteAll();
+                ActionLogs action_logs = new ActionLogs();
+                action_logs.DeleteAll();
 
-                action_logs pm = new action_logs();
                 DataTable dt = new DataTable();
-                dt = pm.Select();
+                dt = action_logs.Select();
                 grdDataViewer.DataSource = dt;
             }
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -158,7 +158,7 @@ namespace Mehr.Presentation_Layers
 
                 tajk.Delete();
 
-                new action_logs().Add("حذف تحویل داروی مصرفی  به مشخصه ی " + val + " - شماره پرونده ی بیمار " + grdDataViewer["id", irow].Value.ToString());
+                new ActionLogs().Add("حذف تحویل داروی مصرفی  به مشخصه ی " + val + " - شماره پرونده ی بیمار " + grdDataViewer["id", irow].Value.ToString());
 
                 if (btnfilter.Enabled == true)
                 {

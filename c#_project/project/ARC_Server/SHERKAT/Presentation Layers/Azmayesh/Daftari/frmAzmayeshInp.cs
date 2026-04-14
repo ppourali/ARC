@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -64,7 +64,7 @@ namespace Mehr.Presentation_Layers
 
             txtdate.Text = cur_date;
 
-            azmayesh azm = new azmayesh();
+            Azmayesh azm = new Azmayesh();
             txtcode.Text = azm.Selectmaxid().ToString();
 
             nemooneh nem = new nemooneh();
@@ -111,7 +111,7 @@ namespace Mehr.Presentation_Layers
 
             if (CanTakeCheck == true)
             {
-                azmayesh azm = new azmayesh();
+                Azmayesh azm = new Azmayesh();
 
                 txtcode.Text = azm.Selectmaxid().ToString();
 

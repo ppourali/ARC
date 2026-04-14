@@ -1,4 +1,4 @@
-﻿using Mehr.Business_Layers;
+using Mehr.Business_Layers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -64,7 +64,7 @@ namespace Mehr.Presentation_Layers
 
         private void fillDataSet()
         {
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             combosource1 = an.Search("select distinct * from anbar");
             combosource2 = an.Search("select distinct * from anbar");
             combosource3 = an.Search("select distinct * from anbar");
@@ -239,7 +239,7 @@ namespace Mehr.Presentation_Layers
             tahk.code = long.Parse(t_code);
             dttedad = tahk.SelectforDelete();
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             foreach (DataRow dr in dttedad.Rows)
             {
                 an.daru_name = dr["daru_name"].ToString().Trim();
@@ -399,7 +399,7 @@ namespace Mehr.Presentation_Layers
                         }
 
                         // Updating the Data to the DataBase Anbar
-                        anbar tan = new anbar();
+                        Anbar tan = new Anbar();
 
                         if (chktahvil1.Checked) //if (txtdaru_name1.Text != "" && txttedad1.Text != "0" && txttedadkol1.Text != "0")
                         {
@@ -428,7 +428,7 @@ namespace Mehr.Presentation_Layers
                         // End of Updating Data to the DataBase
 
 
-                        new action_logs().Add("ویرایش تحویل داروی دفتری  به مشخصه ی " + t_code);
+                        new ActionLogs().Add("ویرایش تحویل داروی دفتری  به مشخصه ی " + t_code);
 
                         // Show the current record position...
                         ShowPosition();

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -354,7 +354,7 @@ namespace Mehr.Presentation_Layers
 
             fbtpv.filler_kol = kol_boop_Query;
 
-            darmangah sh = new darmangah();
+            Darmangah sh = new Darmangah();
             fbtpv.markaz_name = sh.Select().Rows[0]["name"].ToString().Trim();
             fbtpv.shahr = sh.Select().Rows[0]["address"].ToString().Trim(); ;
             fbtpv.mah = txtmonth.Text;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +24,7 @@ namespace Mehr.Presentation_Layers
             System.Globalization.CultureInfo inp = new System.Globalization.CultureInfo("fa-IR");
             InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(inp);
 
-            assessment ml = new assessment();
+            Assessment ml = new Assessment();
             DataTable dt = new DataTable();
             dt = ml.Select();
             dtforprint = ml.Selectforprint();
@@ -95,7 +95,7 @@ namespace Mehr.Presentation_Layers
                     SQLforPrint = SQLforPrint.Remove(SQLforPrint.Length - 4);
                 }
 
-                assessment rm = new assessment();
+                Assessment rm = new Assessment();
                 DataTable dt = new DataTable();
                 dt = rm.Search(SQL);
                 grdDataViewer.DataSource = dt;
@@ -124,7 +124,7 @@ namespace Mehr.Presentation_Layers
             {
                 btnfilter.Enabled = false;
 
-                assessment pm = new assessment();
+                Assessment pm = new Assessment();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdDataViewer.DataSource = dt;
@@ -219,7 +219,7 @@ namespace Mehr.Presentation_Layers
                 fme.ass_code = val;
                 fme.ShowDialog();
 
-                assessment pm = new assessment();
+                Assessment pm = new Assessment();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdDataViewer.DataSource = dt;
@@ -253,12 +253,12 @@ namespace Mehr.Presentation_Layers
                     int irow = grdDataViewer.CurrentRow.Index;
                     string val = grdDataViewer["code", irow].Value.ToString();
 
-                    assessment mo = new assessment();
+                    Assessment mo = new Assessment();
                     mo.code = long.Parse(val);
                     mo.sick_id = grdDataViewer["sick_id", irow].Value.ToString();
                     mo.Delete();
 
-                    assessment pm = new assessment();
+                    Assessment pm = new Assessment();
                     DataTable dt = new DataTable();
                     dt = pm.Select();
                     grdDataViewer.DataSource = dt;

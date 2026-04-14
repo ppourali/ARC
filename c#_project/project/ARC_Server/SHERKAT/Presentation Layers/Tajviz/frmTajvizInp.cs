@@ -1,4 +1,4 @@
-﻿using Mehr.Business_Layers;
+using Mehr.Business_Layers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -290,7 +290,7 @@ namespace Mehr.Presentation_Layers
             }
 
 
-            black_list bl = new black_list();
+            BlackList bl = new BlackList();
             bl.id = txtid.Text;
             string isinblacklist=bl.Selectfortajviz();
             if (!isinblacklist.Trim().Equals(""))
@@ -458,7 +458,7 @@ namespace Mehr.Presentation_Layers
                     }
                     // End of Updating Data to the DataBase
 
-                    new action_logs().Add("تحویل داروی مصرفی  به مشخصه ی " + counter_code);
+                    new ActionLogs().Add("تحویل داروی مصرفی  به مشخصه ی " + counter_code);
 
                     // Show the current record position...
                     ShowPosition();

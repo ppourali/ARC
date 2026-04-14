@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +22,7 @@ namespace Mehr.Presentation_Layers
         {
             comboBox1.SelectedIndex = 0;
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             DataTable combosource = new DataTable();
             combosource = an.Search("select distinct daru_name from anbar");
 
@@ -151,7 +151,7 @@ namespace Mehr.Presentation_Layers
                 tahk.code = long.Parse(val);
                 dttedad = tahk.SelectforDelete();
 
-                anbar an = new anbar();
+                Anbar an = new Anbar();
                 foreach (DataRow dr in dttedad.Rows)
                 {
                     an.daru_name = dr["daru_name"].ToString().Trim();
@@ -161,7 +161,7 @@ namespace Mehr.Presentation_Layers
                 
                 tahk.Delete();
 
-                new action_logs().Add("حذف تحویل داروی دفتری  به مشخصه ی " + val + " - شماره پرونده ی بیمار " + grdDataViewer["id", irow].Value.ToString());
+                new ActionLogs().Add("حذف تحویل داروی دفتری  به مشخصه ی " + val + " - شماره پرونده ی بیمار " + grdDataViewer["id", irow].Value.ToString());
 
                 if (btnfilter.Enabled == true)
                 {

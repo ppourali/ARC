@@ -20,7 +20,7 @@ namespace Mehr
             da.docommand(s);
             da.disconnect();
 
-            new action_logs().Add("ثبت  دستور پزشک (واقعی) برای بیمار با شماره پرونده ی " + this.sick_id + " - مشخصه دستور " + this.code);
+            new ActionLogs().Add("ثبت  دستور پزشک (واقعی) برای بیمار با شماره پرونده ی " + this.sick_id + " - مشخصه دستور " + this.code);
         }
 
         public void Delete()
@@ -31,7 +31,7 @@ namespace Mehr
             da.docommand(s);
             da.disconnect();
 
-            new action_logs().Add("ثبت  دستور پزشک (واقعی) برای بیمار با شماره پرونده ی " + this.sick_id + " - مشخصه دستور " + this.code);
+            new ActionLogs().Add("ثبت  دستور پزشک (واقعی) برای بیمار با شماره پرونده ی " + this.sick_id + " - مشخصه دستور " + this.code);
         }
 
 
@@ -43,7 +43,7 @@ namespace Mehr
             da.docommand(s);
             da.disconnect();
 
-            new action_logs().Add("ویرایش  دستور پزشک (واقعی) برای بیمار با شماره پرونده ی " + this.sick_id + " - مشخصه دستور " + this.code);
+            new ActionLogs().Add("ویرایش  دستور پزشک (واقعی) برای بیمار با شماره پرونده ی " + this.sick_id + " - مشخصه دستور " + this.code);
         }
 
         public long Selectmaxid()

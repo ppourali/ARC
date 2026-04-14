@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -51,7 +51,7 @@ namespace Mehr.Presentation_Layers
                     SQL = SQL.Remove(SQL.Length - 4);
                 }
 
-                amar_records tk = new amar_records();
+                AmarRecords tk = new AmarRecords();
                 DataTable dt = new DataTable();
                 dt = tk.Search(SQL);
                 grdAllDataView.DataSource = dt;

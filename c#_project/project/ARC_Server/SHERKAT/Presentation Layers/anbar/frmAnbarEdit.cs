@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,7 +23,7 @@ namespace Mehr.Presentation_Layers
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             // Updating the Data to the DataBase
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             an.daru_name = txtdaru_name.Text;
             an.mandeh = float.Parse(txtmandeh.Text);
             an.vahed = txtvahed.Text;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -48,7 +48,7 @@ namespace Mehr.Presentation_Layers
                 grdtajvizAnbar.AutoGenerateColumns = false;
 
                 ///////////////////////////////////////////////////////////////////////
-                anbar an = new anbar();
+                Anbar an = new Anbar();
                 DataTable dt = new DataTable();
                 dt = an.Search("SELECT daru_name, mandeh from anbar");
 
@@ -88,7 +88,7 @@ namespace Mehr.Presentation_Layers
         {
             string[] names = { "قرص متادون 5", "قرص متادون 20", "قرص متادون 40", "شربت متادون", "قرص بوپرنورفین 0.4", "قرص بوپرنورفین 2", "قرص بوپرنورفین 8", "قرص سوباکسون 2", "قرص سوباکسون 8" };
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             DataTable temp_db = new DataTable();
             DataTable lastf_dt=new DataTable();
 

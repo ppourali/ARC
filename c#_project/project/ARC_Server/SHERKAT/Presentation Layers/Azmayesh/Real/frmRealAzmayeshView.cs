@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -90,7 +90,7 @@ namespace Mehr.Presentation_Layers
                     SQL = SQL.Remove(SQL.Length - 4)+" ORDER BY Code DESC";
                 }
 
-                azmayesh_real tk=new azmayesh_real();
+                AzmayeshReal tk=new AzmayeshReal();
                 DataTable dt = new DataTable();
                 dt = tk.Search(SQL);
                 grdDataViewer.DataSource = dt;
@@ -121,7 +121,7 @@ namespace Mehr.Presentation_Layers
                 int irow = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[icol, irow].Value.ToString();
 
-                azmayesh_real das = new azmayesh_real();
+                AzmayeshReal das = new AzmayeshReal();
                 das.code = long.Parse(val);
                 das.sick_id = grdDataViewer["sick_id", irow].Value.ToString();
                 das.Delete();
@@ -136,7 +136,7 @@ namespace Mehr.Presentation_Layers
             {
                 btnfilter.Enabled = false;
 
-                azmayesh_real tk = new azmayesh_real();
+                AzmayeshReal tk = new AzmayeshReal();
                 DataTable dt = new DataTable();
                 dt = tk.Select();
                 grdDataViewer.DataSource = dt;

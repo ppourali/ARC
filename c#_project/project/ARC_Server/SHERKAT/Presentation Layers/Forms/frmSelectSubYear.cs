@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -185,7 +185,7 @@ namespace Mehr.Presentation_Layers
 
             ftpv.filler_kol = kol_Query;
 
-            darmangah sh = new darmangah();
+            Darmangah sh = new Darmangah();
             ftpv.markaz_name = sh.Select().Rows[0]["name"].ToString().Trim();
             ftpv.shahr = sh.Select().Rows[0]["address"].ToString().Trim();
             ftpv.sal = txtyear.Value.ToString();

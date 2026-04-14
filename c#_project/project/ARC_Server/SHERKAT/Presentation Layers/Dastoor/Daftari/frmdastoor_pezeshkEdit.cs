@@ -78,7 +78,7 @@ namespace Mehr.Presentation_Layers
             txtnemooneh.DisplayMember = "context";
             txtnemooneh.ValueMember = "context";
 
-            azmayesh azm = new azmayesh();
+            Azmayesh azm = new Azmayesh();
             DataTable dtazm = new DataTable();
             dtazm = azm.Search("SELECT code,type+date as name FROM azmayesh WHERE (sick_id=N'"+txtsick_id.Text+"')");
             txtazmayesh.DataSource = dtazm;

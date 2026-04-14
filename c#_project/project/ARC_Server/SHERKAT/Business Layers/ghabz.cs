@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
@@ -20,7 +20,7 @@ namespace Mehr
             da.docommand(s);
             da.disconnect();
 
-            new action_logs().Add("صدور قبض برای بیمار با شماره پرونده ی " + this.id + " - مشخصه قبض " + this.ghabz_id);
+            new ActionLogs().Add("صدور قبض برای بیمار با شماره پرونده ی " + this.id + " - مشخصه قبض " + this.ghabz_id);
         }
 
         public void Delete()
@@ -31,7 +31,7 @@ namespace Mehr
             da.docommand(s);
             da.disconnect();
 
-            new action_logs().Add("حذف قبض به مشخصه ی " + this.ghabz_id);
+            new ActionLogs().Add("حذف قبض به مشخصه ی " + this.ghabz_id);
         }
 
         
@@ -43,7 +43,7 @@ namespace Mehr
             da.docommand(s);
             da.disconnect();
             
-            new action_logs().Add("ویرایش قبض به مشخصه ی " + this.ghabz_id);
+            new ActionLogs().Add("ویرایش قبض به مشخصه ی " + this.ghabz_id);
         }
 
         public DataTable Select()

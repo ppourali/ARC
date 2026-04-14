@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +19,7 @@ namespace Mehr.Presentation_Layers
         {
             // Initialize a new instance of the DataSet object...
 
-            contact dp = new contact();
+            Contacts dp = new Contacts();
             datat = dp.Select();
             // Set our CurrencyManager object to the DataView object...
             objCurrencyManager = (CurrencyManager)(this.BindingContext[datat]);
@@ -116,7 +116,7 @@ namespace Mehr.Presentation_Layers
             btnCancel.Visible = true;
 
             toolStripStatusLabel1.Text = "لطفا اطلاعات جدید را وارد نمایید";
-            txtid.Text = new contact().Selectmaxid().ToString();
+            txtid.Text = new Contacts().Selectmaxid().ToString();
 
             txtid.Focus();
         }
@@ -125,7 +125,7 @@ namespace Mehr.Presentation_Layers
         {
 
             // Inserting the Data to the DataBase
-            contact cont = new contact();
+            Contacts cont = new Contacts();
             cont.id = txtid.Text;
             cont.fullname = txtFullname.Text;
             cont.phone = txtPhone.Text;

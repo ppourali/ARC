@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -81,7 +81,7 @@ namespace Mehr.Presentation_Layers
         private void GetAzmayeshForSick()
         {
 
-            filler = new azmayesh().Search("SELECT * from azmayesh Where (sick_id=N'" + id + "')");
+            filler = new Azmayesh().Search("SELECT * from azmayesh Where (sick_id=N'" + id + "')");
             reportDataSource1.Name = "MehrDataSet_azmayesh";
             reportDataSource1.Value = filler;
         }

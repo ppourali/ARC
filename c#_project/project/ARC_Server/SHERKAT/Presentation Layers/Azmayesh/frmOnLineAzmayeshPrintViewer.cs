@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -72,9 +72,9 @@ namespace Mehr.Presentation_Layers
         private void GetAzmayeshForSick()
         {
             if (RealOrNot == false)
-                filler = new azmayesh().Search("SELECT * from azmayesh Where (sick_id=N'" + id + "')");
+                filler = new Azmayesh().Search("SELECT * from azmayesh Where (sick_id=N'" + id + "')");
             else
-                filler = new azmayesh().Search("SELECT * from azmayesh_real Where (sick_id=N'" + id + "')");
+                filler = new Azmayesh().Search("SELECT * from azmayesh_real Where (sick_id=N'" + id + "')");
 
             txtname.Text = filler.Rows[0]["name"].ToString();
 

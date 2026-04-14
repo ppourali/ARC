@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -164,7 +164,7 @@ namespace Mehr.Presentation_Layers
         private void idsearch_Click(object sender, EventArgs e)
         {
             //DataTable dt = new DataTable();
-            azmayesh_real azm = new azmayesh_real();
+            AzmayeshReal azm = new AzmayeshReal();
             azm.code = long.Parse(txtcode.Text);
             dt = azm.Selectforedit();
             if (dt.Rows.Count > 0)
@@ -246,7 +246,7 @@ namespace Mehr.Presentation_Layers
 
             if (CanTakeCheck == true)
             {
-                azmayesh_real azm = new azmayesh_real();
+                AzmayeshReal azm = new AzmayeshReal();
                 azm.code = long.Parse(txtcode.Text);
                 azm.sick_id = txtsick_id.Text;
                 azm.name = txtname.Text;

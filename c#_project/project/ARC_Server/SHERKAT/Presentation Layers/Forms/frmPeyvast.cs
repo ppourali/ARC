@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -189,7 +189,7 @@ namespace Mehr.Presentation_Layers
             DataTable mard_dt = new tahvil().Search("select count(id),sex from sicks where (id in (select distinct id from tahvil where (tahvil_date>=N'" + fromdate + "' and tahvil_date <=N'" + todate + "')) and len(payan_date)!=10) group by sex");
 
 
-            darmangah sh = new darmangah();
+            Darmangah sh = new Darmangah();
             ftpv.markaz_name = sh.Select().Rows[0]["name"].ToString().Trim();
             ftpv.shahr = sh.Select().Rows[0]["address"].ToString().Trim(); ;
             ftpv.mah = txtmonth.Text;
@@ -204,7 +204,7 @@ namespace Mehr.Presentation_Layers
             DataTable lastm5_dt, lastm20_dt, lastm40_dt, lastsp_dt, lastb4_dt, lastb2_dt, lastb8_dt, lasts2_dt, lasts8_dt;
 
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             factors fa = new factors();
             tahvil_koli tk = new tahvil_koli();
             DataTable temp_db = new DataTable();

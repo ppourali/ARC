@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -70,7 +70,7 @@ namespace Mehr.Presentation_Layers
                 sh.mandeh = Math.Abs(mandehafter);
                 sh.UpdateAfterMandehChanged();
 
-                new action_logs().Add("ویرایش  مانده حساب بیمار به شماره پرونده ی " + txtid.Text + " مانده قبلی : " + txthesab.Text + "_" + txtstatus.Text + " /// " + " مانده جدید : " + txtmandeh.Text + "_" + txttashkhis.Text);
+                new ActionLogs().Add("ویرایش  مانده حساب بیمار به شماره پرونده ی " + txtid.Text + " مانده قبلی : " + txthesab.Text + "_" + txtstatus.Text + " /// " + " مانده جدید : " + txtmandeh.Text + "_" + txttashkhis.Text);
                 //// Updating the Data to the DataBase
                 //Sicks si = new Sicks();
                 //si.id = txtid.Text;

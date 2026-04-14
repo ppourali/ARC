@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,16 +39,16 @@ namespace Mehr.Presentation_Layers
 
             DataTable vis_date = new dastoor_pezeshk().Search("select sick_id, max (date) as date from dastoor_pezeshk group by sick_id");
             DataTable rav_date = new ravanshenas().Search("select sick_id, max (date) as date from ravanshenas group by sick_id");
-            DataTable az_date = new azmayesh().Search("select sick_id, max (date) as date from azmayesh group by sick_id");
+            DataTable az_date = new Azmayesh().Search("select sick_id, max (date) as date from azmayesh group by sick_id");
             DataTable map_date = new mos_list().Search("select id, max (mos_date) as date from mos_list group by id");
 
             DataTable visitsdata = new dastoor_pezeshk().Search("select sick_id, date from dastoor_pezeshk where (date=N'" + txtdate.Text.ToString() + "')");
             DataTable ravandata = new ravanshenas().Search("select sick_id, date from ravanshenas where (date=N'" + txtdate.Text.ToString() + "')");
-            DataTable azdata = new azmayesh().Search("select sick_id, date, type, result from azmayesh where (date=N'" + txtdate.Text.ToString() + "')");
+            DataTable azdata = new Azmayesh().Search("select sick_id, date, type, result from azmayesh where (date=N'" + txtdate.Text.ToString() + "')");
             DataTable mapdata = new mos_list().Search("select id, mos_date from mos_list where (mos_date=N'" + txtdate.Text.ToString() + "')");
 
-            DataTable AzmayeshdataMosbat = new azmayesh().Search("select sick_id, max( date) as date from azmayesh where (type=N'U/A' and result=N'مثبت') group by sick_id");
-            DataTable AzmayeshdataManfi = new azmayesh().Search("select sick_id, max(date) as date from azmayesh where (type=N'U/A' and result=N'منفی') group by sick_id");
+            DataTable AzmayeshdataMosbat = new Azmayesh().Search("select sick_id, max( date) as date from azmayesh where (type=N'U/A' and result=N'مثبت') group by sick_id");
+            DataTable AzmayeshdataManfi = new Azmayesh().Search("select sick_id, max(date) as date from azmayesh where (type=N'U/A' and result=N'منفی') group by sick_id");
 
             DataTable dt = new DataTable();
             dt.Columns.Add("id");

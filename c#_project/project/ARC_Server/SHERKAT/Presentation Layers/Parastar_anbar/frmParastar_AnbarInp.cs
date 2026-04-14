@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,7 +44,7 @@ namespace Mehr.Presentation_Layers
             lblvahed.DataBindings.Clear();
             lblvahed.DataBindings.Add("Text", combosource, "vahed");
 
-            contact cn = new contact();
+            Contacts cn = new Contacts();
             DataTable dt = cn.Search("select id,fullname from contact");
 
             dt.Rows.Add(new object[] { "0000", "پرستار" });
@@ -116,7 +116,7 @@ namespace Mehr.Presentation_Layers
                 }
                 else
                 {
-                    contact_anbar pa = new contact_anbar();
+                    ContactsAnbar pa = new ContactsAnbar();
                     pa.contactid = txtcontactid.Text;
                     pa.contactname = txtcontactname.Text;
                     pa.daru_name = txtdaru_name.Text;

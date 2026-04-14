@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,7 +27,7 @@ namespace Mehr.Presentation_Layers
             DataTable dt = new DataTable();
             dt = si.SelectForBlackList();
 
-            black_list bl = new black_list();
+            BlackList bl = new BlackList();
             DataTable dt_bl = new DataTable();
             dt_bl = bl.Select();
 
@@ -134,7 +134,7 @@ namespace Mehr.Presentation_Layers
             {
                 btnFilterForBlackList.Enabled = false;
 
-                black_list pm = new black_list();
+                BlackList pm = new BlackList();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdBlackListDataViewer.DataSource = dt;
@@ -260,7 +260,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (DataGridViewRow dgvr in grdDataViewer.SelectedRows)
             {
-                black_list bl = new black_list();
+                BlackList bl = new BlackList();
                 bl.id = dgvr.Cells["id"].Value.ToString();
                 bl.name = dgvr.Cells["name"].Value.ToString();
                 if (checkBox1.Checked)
@@ -294,7 +294,7 @@ namespace Mehr.Presentation_Layers
                 btnFilterForBlackList.PerformClick();
             else
             {
-                black_list pm = new black_list();
+                BlackList pm = new BlackList();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdBlackListDataViewer.DataSource = dt;
@@ -327,7 +327,7 @@ namespace Mehr.Presentation_Layers
             {
                 foreach (DataGridViewRow dgvr in grdBlackListDataViewer.SelectedRows)
                 {
-                    black_list bl = new black_list();
+                    BlackList bl = new BlackList();
                     bl.radif = long.Parse(dgvr.Cells["radif"].Value.ToString());
                     bl.Delete();
                 }
@@ -336,7 +336,7 @@ namespace Mehr.Presentation_Layers
                     btnFilterForBlackList.PerformClick();
                 else
                 {
-                    black_list pm = new black_list();
+                    BlackList pm = new BlackList();
                     DataTable dt = new DataTable();
                     dt = pm.Select();
                     grdBlackListDataViewer.DataSource = dt;
@@ -384,7 +384,7 @@ namespace Mehr.Presentation_Layers
                     SQL = SQL.Remove(SQL.Length - 4);
                 }
 
-                black_list rm = new black_list();
+                BlackList rm = new BlackList();
                 DataTable dt = new DataTable();
                 dt = rm.Search(SQL);
                 grdBlackListDataViewer.DataSource = dt;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -312,7 +312,7 @@ namespace Mehr.Presentation_Layers
 
             fstpv.filler_kol = kol_sub_Query;
 
-            darmangah sh = new darmangah();
+            Darmangah sh = new Darmangah();
             fstpv.markaz_name = sh.Select().Rows[0]["name"].ToString().Trim();
             fstpv.shahr = sh.Select().Rows[0]["address"].ToString().Trim(); ;
             fstpv.mah = txtmonth.Text;

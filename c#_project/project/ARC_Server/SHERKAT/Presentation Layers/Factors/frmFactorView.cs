@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +21,7 @@ namespace Mehr.Presentation_Layers
         private void frmFactorView_Load(object sender, EventArgs e)
         {
             
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             DataTable combosource = new DataTable();
             combosource = an.Search("select distinct daru_name from anbar");
 
@@ -158,7 +158,7 @@ namespace Mehr.Presentation_Layers
                 fac.Delete();
 
                 // Updating the Data to the DataBase Anbar
-                anbar an = new anbar();
+                Anbar an = new Anbar();
                 an.mandeh = -float.Parse( grdDataViewer["tedad", irow].Value.ToString());
                 an.daru_name =  grdDataViewer["daru_name", irow].Value.ToString();
                 an.UpdateAfterFactor();

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +17,7 @@ namespace Mehr
 
         public DB()
         {
-            darmangah da = new darmangah();
+            Darmangah da = new Darmangah();
             DataTable dt = da.Select();
 
             string gen_pass = dt.Rows[0]["Gen_Pass"].ToString();

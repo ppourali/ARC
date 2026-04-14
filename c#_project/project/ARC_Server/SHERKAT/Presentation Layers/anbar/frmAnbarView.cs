@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +21,7 @@ namespace Mehr.Presentation_Layers
             System.Globalization.CultureInfo inp = new System.Globalization.CultureInfo("fa-IR");
             InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(inp);
 
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             DataTable dt = new DataTable();
             dt = an.Select();
 
@@ -57,7 +57,7 @@ namespace Mehr.Presentation_Layers
 
         private void frmAnbarView_Activated(object sender, EventArgs e)
         {
-            anbar pm = new anbar();
+            Anbar pm = new Anbar();
             DataTable dt = new DataTable();
             dt = pm.Select();
             grdDataViewer.DataSource = dt;
@@ -74,12 +74,12 @@ namespace Mehr.Presentation_Layers
                 int irow = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[icol, irow].Value.ToString();
 
-                anbar anb = new anbar();
+                Anbar anb = new Anbar();
                 anb.daru_name = val;
                 anb.mandeh = float.Parse(grdDataViewer["mandeh", irow].Value.ToString());
                 anb.Delete();
 
-                anbar pm = new anbar();
+                Anbar pm = new Anbar();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdDataViewer.DataSource = dt;
@@ -93,7 +93,7 @@ namespace Mehr.Presentation_Layers
             fai.MdiParent = this.MdiParent;
             fai.Show();
 
-            anbar pm = new anbar();
+            Anbar pm = new Anbar();
             DataTable dt = new DataTable();
             dt = pm.Select();
             grdDataViewer.DataSource = dt;
@@ -119,7 +119,7 @@ namespace Mehr.Presentation_Layers
                 fae.txtmandeh.Focus();
                 fae.ShowDialog();
 
-                anbar pm = new anbar();
+                Anbar pm = new Anbar();
                 DataTable dt = new DataTable();
                 dt = pm.Select();
                 grdDataViewer.DataSource = dt;

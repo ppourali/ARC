@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +22,7 @@ namespace Mehr.Presentation_Layers
 
         private void FillDataSetAndView()
         {
-            darmangah st = new darmangah();
+            Darmangah st = new Darmangah();
 
             datat = st.Select();
             // Set our CurrencyManager object
@@ -58,7 +58,7 @@ namespace Mehr.Presentation_Layers
             toolStripStatusLabel1.Text = "آماده عملیات";
             txtname.Enabled = false;
             
-            darmangah st = new darmangah();
+            Darmangah st = new Darmangah();
             st.name = txtname.Text;
 
             SqlDataReader dstdr;
@@ -110,7 +110,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            darmangah da = new darmangah();
+            Darmangah da = new Darmangah();
             if (da.Select().Rows.Count > 0)
             {
                 frmEditPassInput fad = new frmEditPassInput();
@@ -129,7 +129,7 @@ namespace Mehr.Presentation_Layers
         {
             string position;
 
-            darmangah st = new darmangah();
+            Darmangah st = new Darmangah();
 
             st.Delete();
 
@@ -250,7 +250,7 @@ namespace Mehr.Presentation_Layers
                 // Set the SqlCommand object properties...
 
 
-                darmangah st = new darmangah();
+                Darmangah st = new Darmangah();
 
                 st.address = txtaddress.Text;
                 st.name = txtname.Text;
@@ -338,7 +338,7 @@ namespace Mehr.Presentation_Layers
             m = MessageBox.Show("آیا از حذف لوگوی مرکز اطمینان دارید ؟ ", "تایید", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (m == DialogResult.Yes)
             {
-                darmangah st = new darmangah();
+                Darmangah st = new Darmangah();
 
                 st.name = txtname.Text;
                 st.Updateforpic();
@@ -370,7 +370,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            darmangah dar = new darmangah();
+            Darmangah dar = new Darmangah();
             if (dar.Select().Rows.Count == 0)
             {
                 if (MessageBox.Show("برای اجرای صحیح نرم افزار، ثبت اطلاعات مرکز الزامیست! مجددا سعی می کنید؟", "خطا", MessageBoxButtons.YesNo) == DialogResult.No)

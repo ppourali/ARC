@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +24,7 @@ namespace Mehr.Presentation_Layers
         {
 
             // Updating the Data to the DataBase
-            contact cont = new contact();
+            Contacts cont = new Contacts();
             cont.id = txtid.Text;
             cont.fullname = txtFullname.Text;
             cont.phone = txtPhone.Text;
@@ -47,7 +47,7 @@ namespace Mehr.Presentation_Layers
         public void idsearch_Click(object sender, EventArgs e)
         {
             //DataTable dt = new DataTable();
-            contact cu = new contact();
+            Contacts cu = new Contacts();
             cu.id = txtid.Text;
             dt = cu.Selectforedit();
             if (dt.Rows.Count > 0)

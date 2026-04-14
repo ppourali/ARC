@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -52,7 +52,7 @@ namespace Mehr.Presentation_Layers
                     }
                     else
                     {
-                        contact_anbar pa = new contact_anbar();
+                        ContactsAnbar pa = new ContactsAnbar();
                         pa.contactid = cid;
                         pa.daru_name = daru_name;
                         pa.mandeh = -float.Parse(txttedad.Text);

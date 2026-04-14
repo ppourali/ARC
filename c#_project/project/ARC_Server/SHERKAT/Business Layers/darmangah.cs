@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    class darmangah
+    class Darmangah
     {
         public string name, tel, address, Gen_Pass;
         public byte[] photo = null;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -73,7 +73,7 @@ namespace Mehr.Presentation_Layers
             txtstatus.DataBindings.Clear();
             txtstatus.DataBindings.Add("Text", dtname, "status");
 
-            assessment ass=new assessment();
+            Assessment ass=new Assessment();
             ass.sick_id = txtid.Text;
             txtTakhfif.Text = ass.SelectforGhabz().ToString();
 
@@ -317,7 +317,7 @@ namespace Mehr.Presentation_Layers
             else
                 btnsabegheh.Enabled = false;
 
-            assessment ass = new assessment();
+            Assessment ass = new Assessment();
             ass.sick_id = txtid.Text;
             txtTakhfif.Text = ass.SelectforGhabz().ToString();
 

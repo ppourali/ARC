@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,7 +26,7 @@ namespace Mehr.Presentation_Layers
         private void printviewer_Load(object sender, EventArgs e)
         {
 
-            darmangah sh = new darmangah();
+            Darmangah sh = new Darmangah();
             string markaz_name = sh.Select().Rows[0]["name"].ToString().Trim(); 
 
             reportDataSource1.Name = "MehrDataSet_Sicks";

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -49,7 +49,7 @@ namespace Mehr.Presentation_Layers
 
 
                 // DELETE the Data to the DataBase Anbar
-                anbar an = new anbar();
+                Anbar an = new Anbar();
                 an.mandeh = -first_tedad;
                 an.daru_name = first_daru_name;
                 an.UpdateAfterFactor();
@@ -57,7 +57,7 @@ namespace Mehr.Presentation_Layers
 
 
                 // Adding the Data to the DataBase Anbar
-                an = new anbar();
+                an = new Anbar();
                 an.mandeh = float.Parse(txttedad.Text);
                 an.daru_name = txtdaru_name.Text;
                 an.UpdateAfterFactor();
@@ -84,7 +84,7 @@ namespace Mehr.Presentation_Layers
 
         public void idsearch_Click()
         {
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             DataTable combosource = new DataTable();
             combosource = an.Search("select distinct daru_name from anbar");
             txtdaru_name.DataSource = combosource;

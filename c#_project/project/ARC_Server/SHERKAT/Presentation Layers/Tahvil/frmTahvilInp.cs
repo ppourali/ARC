@@ -1,4 +1,4 @@
-﻿using Mehr.Business_Layers;
+using Mehr.Business_Layers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -63,7 +63,7 @@ namespace Mehr.Presentation_Layers
 
         private void fillDataSet()
         {
-            anbar an = new anbar();
+            Anbar an = new Anbar();
             combosource1 = an.Search("select distinct * from anbar");
             combosource2 = an.Search("select distinct * from anbar");
             combosource3 = an.Search("select distinct * from anbar");
@@ -437,7 +437,7 @@ namespace Mehr.Presentation_Layers
                     }
 
                     // Updating the Data to the DataBase Anbar
-                    anbar tan = new anbar();
+                    Anbar tan = new Anbar();
 
                     if (chktahvil1.Checked) //if (txtdaru_name1.Text != "" && txttedad1.Text != "0" && txttedadkol1.Text != "0")
                     {
@@ -486,7 +486,7 @@ namespace Mehr.Presentation_Layers
 
 
                    
-                    new action_logs().Add("تحویل داروی دفتری  به مشخصه ی " + counter_code);
+                    new ActionLogs().Add("تحویل داروی دفتری  به مشخصه ی " + counter_code);
 
                     // Show the current record position...
                     ShowPosition();

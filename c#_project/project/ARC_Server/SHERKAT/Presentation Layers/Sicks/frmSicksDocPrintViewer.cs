@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -132,7 +132,7 @@ namespace Mehr.Presentation_Layers
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource8);
 
 
-            darmangah_name = new darmangah().Search("select name from darmangah").Rows[0]["name"].ToString();
+            darmangah_name = new Darmangah().Search("select name from darmangah").Rows[0]["name"].ToString();
             this.reportViewer1.LocalReport.SetParameters(new ReportParameter[] { new ReportParameter("darmangah_name", darmangah_name) });
 
             reportViewer1.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.PageWidth;
@@ -333,7 +333,7 @@ namespace Mehr.Presentation_Layers
 
         private void Form7()
         {
-            f7 = new azmayesh().Search("SELECT * from AZMAYESH Where (sick_id=N'" + id + "')");
+            f7 = new Azmayesh().Search("SELECT * from AZMAYESH Where (sick_id=N'" + id + "')");
             reportDataSource7.Name = "MehrDataSet_azmayesh";
             reportDataSource7.Value = f7;
         }
