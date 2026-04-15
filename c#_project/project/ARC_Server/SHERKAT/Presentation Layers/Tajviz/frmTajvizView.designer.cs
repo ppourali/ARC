@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmTajvizView
+    partial class FrmTajvizView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTajvizView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTajvizView));
             this.btnprint = new System.Windows.Forms.Button();
             this.btnexit = new System.Windows.Forms.Button();
             this.grdDataViewer = new System.Windows.Forms.DataGridView();

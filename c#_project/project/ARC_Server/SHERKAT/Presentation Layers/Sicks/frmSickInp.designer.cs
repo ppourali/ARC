@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmSickInp
+    partial class FrmSickInp
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSickInp));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSickInp));
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.txtRecordPosition = new System.Windows.Forms.TextBox();

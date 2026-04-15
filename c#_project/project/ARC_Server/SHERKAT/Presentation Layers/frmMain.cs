@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmMain : Form
+    public partial class FrmMain : Form
     {
-        frmCalender fc = new frmCalender();
+        FrmCalender fc = new FrmCalender();
 
-        public frmMain()
+        public FrmMain()
         {
             InitializeComponent();
 
@@ -88,7 +88,7 @@ namespace Mehr.Presentation_Layers
             Accounts acnt = new Accounts();
             if (acnt.checkpass().Rows.Count > 0)
             {
-                frmLogin frl = new frmLogin();
+                FrmLogin frl = new FrmLogin();
                 frl.ShowDialog();
 
                 if (Program.user_semat.Trim() == "بازرس")
@@ -370,7 +370,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmChpass))
+                if (f.GetType() == typeof(FrmChpass))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -380,7 +380,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmChpass fcp = new frmChpass();
+                FrmChpass fcp = new FrmChpass();
                 fcp.MdiParent = this;
                 fcp.Show();
             }
@@ -421,7 +421,7 @@ namespace Mehr.Presentation_Layers
             {
                 string a = openFileDialog1.FileName.ToString();
 
-                frmRestorePassInput fad = new frmRestorePassInput(a);
+                FrmRestorePassInput fad = new FrmRestorePassInput(a);
                 fad.restoreAdvance = false;
                 fad.ShowDialog();
             }
@@ -441,7 +441,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSickInp))
+                if (f.GetType() == typeof(FrmSickInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -451,7 +451,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSickInp fsi = new frmSickInp();
+                FrmSickInp fsi = new FrmSickInp();
                 fsi.cur_date = DateUtils.Shamsi();
                 fsi.MdiParent = this;
                 fsi.Show();
@@ -464,7 +464,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSicksEdit))
+                if (f.GetType() == typeof(FrmSicksEdit))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -474,7 +474,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSicksEdit fse = new frmSicksEdit();
+                FrmSicksEdit fse = new FrmSicksEdit();
                 fse.MdiParent = this;
                 fse.Show();
             }
@@ -487,7 +487,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSicksView))
+                if (f.GetType() == typeof(FrmSicksView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -497,7 +497,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSicksView fsv = new frmSicksView();
+                FrmSicksView fsv = new FrmSicksView();
                 fsv.cur_date = DateUtils.Shamsi();
                 fsv.MdiParent = this;
                 fsv.Show();
@@ -510,7 +510,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmMosahebehInp))
+                if (f.GetType() == typeof(FrmMosahebehInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -520,7 +520,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmMosahebehInp fmi = new frmMosahebehInp();
+                FrmMosahebehInp fmi = new FrmMosahebehInp();
                 fmi.cur_date = DateUtils.Shamsi();
                 fmi.MdiParent = this;
                 fmi.Show();
@@ -534,7 +534,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmMosView))
+                if (f.GetType() == typeof(FrmMosahebehView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -544,7 +544,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmMosView fmv = new frmMosView();
+                FrmMosahebehView fmv = new FrmMosahebehView();
                 fmv.cur_date = DateUtils.Shamsi();
                 fmv.MdiParent = this;
                 fmv.Show();
@@ -557,7 +557,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzDaryaft))
+                if (f.GetType() == typeof(FrmGhabzDaryaft))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -567,7 +567,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzDaryaft fgs = new frmGhabzDaryaft();
+                FrmGhabzDaryaft fgs = new FrmGhabzDaryaft();
                 fgs.cur_date = DateUtils.Shamsi();
                 fgs.MdiParent = this;
                 fgs.Show();
@@ -580,7 +580,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzView))
+                if (f.GetType() == typeof(FrmGhabzView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -590,7 +590,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzView fgv = new frmGhabzView();
+                FrmGhabzView fgv = new FrmGhabzView();
                 fgv.cur_date = DateUtils.Shamsi();
                 fgv.MdiParent = this;
                 fgv.Show();
@@ -603,7 +603,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzEslah))
+                if (f.GetType() == typeof(FrmGhabzEslah))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -613,7 +613,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzEslah fge = new frmGhabzEslah();
+                FrmGhabzEslah fge = new FrmGhabzEslah();
                 fge.MdiParent = this;
                 fge.Show();
             }
@@ -625,7 +625,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAnbarInp))
+                if (f.GetType() == typeof(FrmAnbarInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -635,7 +635,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAnbarInp fai = new frmAnbarInp();
+                FrmAnbarInp fai = new FrmAnbarInp();
                 fai.MdiParent = this;
                 fai.Show();
             }
@@ -647,7 +647,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAnbarView))
+                if (f.GetType() == typeof(FrmAnbarView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -657,7 +657,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAnbarView fav = new frmAnbarView();
+                FrmAnbarView fav = new FrmAnbarView();
                 fav.MdiParent = this;
                 fav.Show();
             }
@@ -669,7 +669,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmFactorInp))
+                if (f.GetType() == typeof(FrmFactorInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -679,7 +679,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmFactorInp ffi = new frmFactorInp();
+                FrmFactorInp ffi = new FrmFactorInp();
                 ffi.MdiParent = this;
                 ffi.Show();
             }
@@ -691,7 +691,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmFactorView))
+                if (f.GetType() == typeof(FrmFactorView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -701,7 +701,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmFactorView ffv = new frmFactorView();
+                FrmFactorView ffv = new FrmFactorView();
                 ffv.MdiParent = this;
                 ffv.Show();
             }
@@ -736,7 +736,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTahvilView))
+                if (f.GetType() == typeof(FrmTahvilView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -746,7 +746,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTahvilView ftv = new frmTahvilView();
+                FrmTahvilView ftv = new FrmTahvilView();
                 ftv.cur_date = DateUtils.Shamsi();
                 ftv.MdiParent = this;
                 ftv.Show();
@@ -759,7 +759,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSelectMet))
+                if (f.GetType() == typeof(FrmSelectMet))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -769,7 +769,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSelectMet fsm = new frmSelectMet();
+                FrmSelectMet fsm = new FrmSelectMet();
                 fsm.MdiParent = this;
                 fsm.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
                 fsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
@@ -783,7 +783,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmadddarmangah))
+                if (f.GetType() == typeof(FrmAddDarmangah))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -793,7 +793,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmadddarmangah fad = new frmadddarmangah();
+                FrmAddDarmangah fad = new FrmAddDarmangah();
                 fad.MdiParent = this;
                 fad.Show();
             }
@@ -805,7 +805,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSelectBoop))
+                if (f.GetType() == typeof(FrmSelectBoop))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -815,7 +815,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSelectBoop fsb = new frmSelectBoop();
+                FrmSelectBoop fsb = new FrmSelectBoop();
                 fsb.MdiParent = this;
                 fsb.txtmonth.SelectedIndex = DateUtils.MonthIndex();
                 fsb.txtyear.Value = DateUtils.YearValue();
@@ -829,7 +829,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSelectSub))
+                if (f.GetType() == typeof(FrmSelectSub))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -839,7 +839,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSelectSub fss = new frmSelectSub();
+                FrmSelectSub fss = new FrmSelectSub();
                 fss.MdiParent = this;
                 fss.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
                 fss.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
@@ -853,7 +853,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajvizView))
+                if (f.GetType() == typeof(FrmTajvizView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -863,7 +863,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajvizView ftv = new frmTajvizView();
+                FrmTajvizView ftv = new FrmTajvizView();
                 ftv.cur_date = DateUtils.Shamsi();
                 ftv.MdiParent = this;
                 ftv.Show();
@@ -900,7 +900,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajvizSelectMet))
+                if (f.GetType() == typeof(FrmTajvizSelectMet))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -910,7 +910,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajvizSelectMet ftsm = new frmTajvizSelectMet();
+                FrmTajvizSelectMet ftsm = new FrmTajvizSelectMet();
                 ftsm.MdiParent = this;
                 ftsm.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
                 ftsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
@@ -924,7 +924,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajvizSelectBoop))
+                if (f.GetType() == typeof(FrmTajvizSelectBoop))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -934,7 +934,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajvizSelectBoop ftsb = new frmTajvizSelectBoop();
+                FrmTajvizSelectBoop ftsb = new FrmTajvizSelectBoop();
                 ftsb.MdiParent = this;
                 ftsb.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
                 ftsb.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
@@ -948,7 +948,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajvizSelectSub))
+                if (f.GetType() == typeof(FrmTajvizSelectSub))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -958,7 +958,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajvizSelectSub ftss = new frmTajvizSelectSub();
+                FrmTajvizSelectSub ftss = new FrmTajvizSelectSub();
                 ftss.MdiParent = this;
                 ftss.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
                 ftss.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
@@ -972,7 +972,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmResultView))
+                if (f.GetType() == typeof(FrmResultView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -983,7 +983,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
 
-                frmResultView frv = new frmResultView();
+                FrmResultView frv = new FrmResultView();
                 frv.MdiParent = this;
                 frv.txtfromdate.Text = DateUtils.Shamsi();
                 frv.txttodate.Text = DateUtils.Shamsi();
@@ -998,7 +998,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAmarKoliView))
+                if (f.GetType() == typeof(FrmAmarKoliView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1008,7 +1008,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAmarKoliView fav = new frmAmarKoliView();
+                FrmAmarKoliView fav = new FrmAmarKoliView();
                 fav.MdiParent = this;
                 fav.cur_date = DateUtils.Shamsi();
                 fav.txtdate.Text = DateUtils.Shamsi();
@@ -1076,7 +1076,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAnbarView))
+                if (f.GetType() == typeof(FrmAnbarView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1086,7 +1086,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAnbarView fav = new frmAnbarView();
+                FrmAnbarView fav = new FrmAnbarView();
                 fav.MdiParent = this;
                 fav.Show();
             }
@@ -1121,7 +1121,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSickInp))
+                if (f.GetType() == typeof(FrmSickInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1131,7 +1131,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSickInp fsi = new frmSickInp();
+                FrmSickInp fsi = new FrmSickInp();
                 fsi.cur_date = DateUtils.Shamsi();
                 fsi.MdiParent = this;
                 fsi.Show();
@@ -1144,7 +1144,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzDaryaft))
+                if (f.GetType() == typeof(FrmGhabzDaryaft))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1154,7 +1154,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzDaryaft fgs = new frmGhabzDaryaft();
+                FrmGhabzDaryaft fgs = new FrmGhabzDaryaft();
                 fgs.cur_date = DateUtils.Shamsi();
                 fgs.MdiParent = this;
                 fgs.Show();
@@ -1169,7 +1169,7 @@ namespace Mehr.Presentation_Layers
             {
                 string a = openFileDialog1.FileName.ToString();
 
-                frmRestorePassInput fad = new frmRestorePassInput(a);
+                FrmRestorePassInput fad = new FrmRestorePassInput(a);
                 fad.restoreAdvance = true;
                 fad.ShowDialog();
             }
@@ -1181,7 +1181,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSickHisView))
+                if (f.GetType() == typeof(FrmSickHisView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1191,7 +1191,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSickHisView fshv = new frmSickHisView();
+                FrmSickHisView fshv = new FrmSickHisView();
                 fshv.MdiParent = this;
                 fshv.Show();
             }
@@ -1203,7 +1203,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajAnbarView))
+                if (f.GetType() == typeof(FrmTajvizAnbarView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1213,7 +1213,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajAnbarView fav = new frmTajAnbarView();
+                FrmTajvizAnbarView fav = new FrmTajvizAnbarView();
                 fav.MdiParent = this;
                 fav.Show();
             }
@@ -1225,7 +1225,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajAnbarInp))
+                if (f.GetType() == typeof(FrmTajvizAnbarInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1235,7 +1235,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajAnbarInp fai = new frmTajAnbarInp();
+                FrmTajvizAnbarInp fai = new FrmTajvizAnbarInp();
                 fai.MdiParent = this;
                 fai.Show();
             }
@@ -1247,7 +1247,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajFactorInp))
+                if (f.GetType() == typeof(FrmTajvizFactorInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1257,7 +1257,7 @@ namespace Mehr.Presentation_Layers
             if (IsOpen == false)
             {
 
-                frmTajFactorInp ffi = new frmTajFactorInp();
+                FrmTajvizFactorInp ffi = new FrmTajvizFactorInp();
                 ffi.MdiParent = this;
                 ffi.Show();
             }
@@ -1269,7 +1269,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajFactorView))
+                if (f.GetType() == typeof(FrmTajvizFactorView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1279,7 +1279,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajFactorView ffv = new frmTajFactorView();
+                FrmTajvizFactorView ffv = new FrmTajvizFactorView();
                 ffv.MdiParent = this;
                 ffv.Show();
             }
@@ -1314,7 +1314,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajAnbarInp))
+                if (f.GetType() == typeof(FrmTajvizAnbarInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1324,7 +1324,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajAnbarInp fti = new frmTajAnbarInp();
+                FrmTajvizAnbarInp fti = new FrmTajvizAnbarInp();
                 fti.MdiParent = this;
                 fti.Show();
             }
@@ -1336,7 +1336,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajAnbarView))
+                if (f.GetType() == typeof(FrmTajvizAnbarView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1346,7 +1346,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajAnbarView fav = new frmTajAnbarView();
+                FrmTajvizAnbarView fav = new FrmTajvizAnbarView();
                 fav.MdiParent = this;
                 fav.Show();
             }
@@ -1358,7 +1358,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajFactorInp))
+                if (f.GetType() == typeof(FrmTajvizFactorInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1368,7 +1368,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajFactorInp ffi = new frmTajFactorInp();
+                FrmTajvizFactorInp ffi = new FrmTajvizFactorInp();
                 ffi.MdiParent = this;
                 ffi.Show();
             }
@@ -1380,7 +1380,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajFactorView))
+                if (f.GetType() == typeof(FrmTajvizFactorView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1390,7 +1390,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajFactorView ffv = new frmTajFactorView();
+                FrmTajvizFactorView ffv = new FrmTajvizFactorView();
                 ffv.MdiParent = this;
                 ffv.Show();
             }
@@ -1402,7 +1402,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmMetDaftarShow))
+                if (f.GetType() == typeof(FrmMetDaftarShow))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1412,7 +1412,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmMetDaftarShow fmdv = new frmMetDaftarShow();
+                FrmMetDaftarShow fmdv = new FrmMetDaftarShow();
                 fmdv.MdiParent = this;
                 fmdv.cur_date = DateUtils.Shamsi();
                 fmdv.Show();
@@ -1425,7 +1425,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmBoopDaftarShow))
+                if (f.GetType() == typeof(FrmBoopDaftarShow))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1435,7 +1435,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmBoopDaftarShow fbdv = new frmBoopDaftarShow();
+                FrmBoopDaftarShow fbdv = new FrmBoopDaftarShow();
                 fbdv.MdiParent = this;
                 fbdv.cur_date = DateUtils.Shamsi();
                 fbdv.Show();
@@ -1448,7 +1448,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSubDaftarShow))
+                if (f.GetType() == typeof(FrmSubDaftarShow))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1458,7 +1458,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSubDaftarShow fsdv = new frmSubDaftarShow();
+                FrmSubDaftarShow fsdv = new FrmSubDaftarShow();
                 fsdv.MdiParent = this;
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.Show();
@@ -1471,7 +1471,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajMetDaftarShow))
+                if (f.GetType() == typeof(FrmTajvizMetDaftarShow))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1481,7 +1481,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajMetDaftarShow fmdv = new frmTajMetDaftarShow();
+                FrmTajvizMetDaftarShow fmdv = new FrmTajvizMetDaftarShow();
                 fmdv.MdiParent = this;
                 fmdv.Show();
             }
@@ -1493,7 +1493,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajBoopDaftarShow))
+                if (f.GetType() == typeof(FrmTajvizBoopDaftarShow))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1503,7 +1503,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajBoopDaftarShow fbdv = new frmTajBoopDaftarShow();
+                FrmTajvizBoopDaftarShow fbdv = new FrmTajvizBoopDaftarShow();
                 fbdv.MdiParent = this;
                 fbdv.Show();
             }
@@ -1515,7 +1515,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajSubDaftarShow))
+                if (f.GetType() == typeof(FrmTajvizSubDaftarShow))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1525,7 +1525,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajSubDaftarShow fsdv = new frmTajSubDaftarShow();
+                FrmTajvizSubDaftarShow fsdv = new FrmTajvizSubDaftarShow();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -1538,7 +1538,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzEslah))
+                if (f.GetType() == typeof(FrmGhabzEslah))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1548,7 +1548,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzEslah fsdv = new frmGhabzEslah();
+                FrmGhabzEslah fsdv = new FrmGhabzEslah();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -1560,7 +1560,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAbsentSicksView))
+                if (f.GetType() == typeof(FrmAbsentSicksView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1570,7 +1570,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAbsentSicksView fsdv = new frmAbsentSicksView();
+                FrmAbsentSicksView fsdv = new FrmAbsentSicksView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1606,7 +1606,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmLastTajvizView))
+                if (f.GetType() == typeof(FrmLastTajvizView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1616,7 +1616,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmLastTajvizView fsdv = new frmLastTajvizView();
+                FrmLastTajvizView fsdv = new FrmLastTajvizView();
                 Point p = new Point(2, this.Height - 500);
                 fsdv.Location = p;
                 fsdv.cur_date = DateUtils.Shamsi();
@@ -1632,7 +1632,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmdastoor_pezeshkInp))
+                if (f.GetType() == typeof(FrmDastoorInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1642,7 +1642,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmdastoor_pezeshkInp fsdv = new frmdastoor_pezeshkInp();
+                FrmDastoorInp fsdv = new FrmDastoorInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1655,7 +1655,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmDastoorView))
+                if (f.GetType() == typeof(FrmDastoorView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1665,7 +1665,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmDastoorView fsdv = new frmDastoorView();
+                FrmDastoorView fsdv = new FrmDastoorView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1678,7 +1678,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRavanshenasInp))
+                if (f.GetType() == typeof(FrmRavanshenasInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1688,7 +1688,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRavanshenasInp fsdv = new frmRavanshenasInp();
+                FrmRavanshenasInp fsdv = new FrmRavanshenasInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1702,7 +1702,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRavanshenasView))
+                if (f.GetType() == typeof(FrmRavanshenasView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1712,7 +1712,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRavanshenasView fsdv = new frmRavanshenasView();
+                FrmRavanshenasView fsdv = new FrmRavanshenasView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1727,7 +1727,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAzmayeshInp))
+                if (f.GetType() == typeof(FrmAzmayeshInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1737,7 +1737,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAzmayeshInp fsdv = new frmAzmayeshInp();
+                FrmAzmayeshInp fsdv = new FrmAzmayeshInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1750,7 +1750,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAzmayeshView))
+                if (f.GetType() == typeof(FrmAzmayeshView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1760,7 +1760,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAzmayeshView fsdv = new frmAzmayeshView();
+                FrmAzmayeshView fsdv = new FrmAzmayeshView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1774,7 +1774,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzJoinTajviz))
+                if (f.GetType() == typeof(FrmGhabzJoinTajviz))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1784,7 +1784,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzJoinTajviz fsdv = new frmGhabzJoinTajviz();
+                FrmGhabzJoinTajviz fsdv = new FrmGhabzJoinTajviz();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1798,7 +1798,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTahvilAdam))
+                if (f.GetType() == typeof(FrmTahvilAdam))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1808,7 +1808,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTahvilAdam fsdv = new frmTahvilAdam();
+                FrmTahvilAdam fsdv = new FrmTahvilAdam();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1822,7 +1822,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTajvizAdam))
+                if (f.GetType() == typeof(FrmTajvizAdam))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1832,7 +1832,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTajvizAdam fsdv = new frmTajvizAdam();
+                FrmTajvizAdam fsdv = new FrmTajvizAdam();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1846,7 +1846,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTodayComersView))
+                if (f.GetType() == typeof(FrmTodayComersView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1856,7 +1856,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTodayComersView fsdv = new frmTodayComersView();
+                FrmTodayComersView fsdv = new FrmTodayComersView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -1870,7 +1870,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmIncomePrintViewer))
+                if (f.GetType() == typeof(FrmIncomePrintViewer))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1880,7 +1880,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmIncomePrintViewer fsm = new frmIncomePrintViewer();
+                FrmIncomePrintViewer fsm = new FrmIncomePrintViewer();
                 fsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsm.Show();
             }
@@ -1892,7 +1892,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmِDarueePrintViewer))
+                if (f.GetType() == typeof(FrmِDarueePrintViewer))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1902,7 +1902,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmِDarueePrintViewer fsm = new frmِDarueePrintViewer();
+                FrmِDarueePrintViewer fsm = new FrmِDarueePrintViewer();
                 fsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsm.Show();
             }
@@ -1914,7 +1914,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmNafarPrintViewer))
+                if (f.GetType() == typeof(FrmNafarPrintViewer))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1924,7 +1924,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmNafarPrintViewer fsm = new frmNafarPrintViewer();
+                FrmNafarPrintViewer fsm = new FrmNafarPrintViewer();
                 fsm.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsm.Show();
             }
@@ -1932,7 +1932,7 @@ namespace Mehr.Presentation_Layers
 
         private void فرمپیگیریبیمارانToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmMasrafiPeygiriPrintViewer fppv = new frmMasrafiPeygiriPrintViewer();
+            FrmMasrafiPeygiriPrintViewer fppv = new FrmMasrafiPeygiriPrintViewer();
             fppv.cur_date = DateUtils.Shamsi();
             fppv.Show();
         }
@@ -1961,7 +1961,7 @@ namespace Mehr.Presentation_Layers
 
         private void toolStripMenuItem11_Click(object sender, EventArgs e)
         {
-            frmDaftariPeygiriPrintViewer fppv = new frmDaftariPeygiriPrintViewer();
+            FrmDaftariPeygiriPrintViewer fppv = new FrmDaftariPeygiriPrintViewer();
             fppv.cur_date = DateUtils.Shamsi();
             fppv.Show();
         }
@@ -1972,7 +1972,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmPeygiriInp))
+                if (f.GetType() == typeof(FrmPeygiriInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -1982,7 +1982,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmPeygiriInp fsm = new frmPeygiriInp();
+                FrmPeygiriInp fsm = new FrmPeygiriInp();
                 fsm.MdiParent = this;
                 fsm.cur_date = DateUtils.Shamsi();
                 fsm.Show();
@@ -1996,7 +1996,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmPeygiriHisView))
+                if (f.GetType() == typeof(FrmPeygiriHisView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2006,7 +2006,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmPeygiriHisView fsdv = new frmPeygiriHisView();
+                FrmPeygiriHisView fsdv = new FrmPeygiriHisView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2021,7 +2021,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmdastoor_pezeshkInp))
+                if (f.GetType() == typeof(FrmDastoorInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2031,7 +2031,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmdastoor_pezeshkInp fsdv = new frmdastoor_pezeshkInp();
+                FrmDastoorInp fsdv = new FrmDastoorInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2044,7 +2044,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmDastoorView))
+                if (f.GetType() == typeof(FrmDastoorView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2054,7 +2054,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmDastoorView fsdv = new frmDastoorView();
+                FrmDastoorView fsdv = new FrmDastoorView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2067,7 +2067,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAzmayeshInp))
+                if (f.GetType() == typeof(FrmAzmayeshInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2077,7 +2077,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAzmayeshInp fsdv = new frmAzmayeshInp();
+                FrmAzmayeshInp fsdv = new FrmAzmayeshInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2090,7 +2090,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAzmayeshView))
+                if (f.GetType() == typeof(FrmAzmayeshView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2100,7 +2100,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAzmayeshView fsdv = new frmAzmayeshView();
+                FrmAzmayeshView fsdv = new FrmAzmayeshView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2114,7 +2114,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRavanshenasInp))
+                if (f.GetType() == typeof(FrmRavanshenasInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2124,7 +2124,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRavanshenasInp fsdv = new frmRavanshenasInp();
+                FrmRavanshenasInp fsdv = new FrmRavanshenasInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2138,7 +2138,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRavanshenasView))
+                if (f.GetType() == typeof(FrmRavanshenasView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2148,7 +2148,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRavanshenasView fsdv = new frmRavanshenasView();
+                FrmRavanshenasView fsdv = new FrmRavanshenasView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2163,7 +2163,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmPeygiriInp))
+                if (f.GetType() == typeof(FrmPeygiriInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2173,7 +2173,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmPeygiriInp fsm = new frmPeygiriInp();
+                FrmPeygiriInp fsm = new FrmPeygiriInp();
                 fsm.MdiParent = this;
                 fsm.cur_date = DateUtils.Shamsi();
                 fsm.Show();
@@ -2187,7 +2187,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmPeygiriHisView))
+                if (f.GetType() == typeof(FrmPeygiriHisView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2197,7 +2197,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmPeygiriHisView fsdv = new frmPeygiriHisView();
+                FrmPeygiriHisView fsdv = new FrmPeygiriHisView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2213,7 +2213,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealdastoor_pezeshkInp))
+                if (f.GetType() == typeof(FromRealDatoorInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2223,7 +2223,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealdastoor_pezeshkInp fsdv = new frmRealdastoor_pezeshkInp();
+                FromRealDatoorInp fsdv = new FromRealDatoorInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2236,7 +2236,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealDastoorView))
+                if (f.GetType() == typeof(FrmRealDatoorView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2246,7 +2246,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealDastoorView fsdv = new frmRealDastoorView();
+                FrmRealDatoorView fsdv = new FrmRealDatoorView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2259,7 +2259,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealAzmayeshInp))
+                if (f.GetType() == typeof(FrmRealAzmayeshInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2269,7 +2269,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealAzmayeshInp fsdv = new frmRealAzmayeshInp();
+                FrmRealAzmayeshInp fsdv = new FrmRealAzmayeshInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2282,7 +2282,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealAzmayeshHisView))
+                if (f.GetType() == typeof(FrmRealAzmayeshHisView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2292,7 +2292,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealAzmayeshView fsdv = new frmRealAzmayeshView();
+                FrmRealAzmayeshView fsdv = new FrmRealAzmayeshView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2306,7 +2306,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealRavanshenasInp))
+                if (f.GetType() == typeof(FrmRealRavanshenasInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2316,7 +2316,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealRavanshenasInp fsdv = new frmRealRavanshenasInp();
+                FrmRealRavanshenasInp fsdv = new FrmRealRavanshenasInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2330,7 +2330,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealRavanshenasView))
+                if (f.GetType() == typeof(FrmRealRavanshenasView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2340,7 +2340,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealRavanshenasView fsdv = new frmRealRavanshenasView();
+                FrmRealRavanshenasView fsdv = new FrmRealRavanshenasView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2355,7 +2355,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealPeygiriInp))
+                if (f.GetType() == typeof(FrmRealPeygiriInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2365,7 +2365,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealPeygiriInp fsm = new frmRealPeygiriInp();
+                FrmRealPeygiriInp fsm = new FrmRealPeygiriInp();
                 fsm.MdiParent = this;
                 fsm.cur_date = DateUtils.Shamsi();
                 fsm.Show();
@@ -2379,7 +2379,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealPeygiriHisView))
+                if (f.GetType() == typeof(FrmRealPeygiriHisView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2389,7 +2389,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealPeygiriHisView fsdv = new frmRealPeygiriHisView();
+                FrmRealPeygiriHisView fsdv = new FrmRealPeygiriHisView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2404,7 +2404,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmDaftariTodayComersView))
+                if (f.GetType() == typeof(FrmDaftariTodayComersView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2414,7 +2414,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmDaftariTodayComersView fsdv = new frmDaftariTodayComersView();
+                FrmDaftariTodayComersView fsdv = new FrmDaftariTodayComersView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2428,7 +2428,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmDaftariPeygiriPattern))
+                if (f.GetType() == typeof(FrmDaftariPeygiriPattern))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2438,7 +2438,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmDaftariPeygiriPattern fsdv = new frmDaftariPeygiriPattern();
+                FrmDaftariPeygiriPattern fsdv = new FrmDaftariPeygiriPattern();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2452,7 +2452,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmHazinehPeygiri))
+                if (f.GetType() == typeof(FrmHazinehPeygiri))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2462,7 +2462,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmHazinehPeygiri fsdv = new frmHazinehPeygiri();
+                FrmHazinehPeygiri fsdv = new FrmHazinehPeygiri();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2477,7 +2477,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAdamTahvilView))
+                if (f.GetType() == typeof(FrmAdamTahvilView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2487,7 +2487,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAdamTahvilView fsdv = new frmAdamTahvilView();
+                FrmAdamTahvilView fsdv = new FrmAdamTahvilView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2501,7 +2501,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAdamTajvizView))
+                if (f.GetType() == typeof(FrmAdamTajvizView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2511,7 +2511,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAdamTajvizView fsdv = new frmAdamTajvizView();
+                FrmAdamTajvizView fsdv = new FrmAdamTajvizView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2549,7 +2549,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmPeyvast))
+                if (f.GetType() == typeof(FrmPeyvast))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2559,7 +2559,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmPeyvast fsdv = new frmPeyvast();
+                FrmPeyvast fsdv = new FrmPeyvast();
                 //fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.txtmonth.SelectedIndex = int.Parse(DateUtils.Shamsi().Substring(5, 2)) - 1;
@@ -2570,7 +2570,7 @@ namespace Mehr.Presentation_Layers
 
         private void فرمتنظیمدوزتوسطپرستارToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTanzimPrintViewer ftpv = new frmTanzimPrintViewer();
+            FrmTanzimPrintViewer ftpv = new FrmTanzimPrintViewer();
             ftpv.cur_date = DateUtils.Shamsi();
             ftpv.Show();
         }
@@ -2581,7 +2581,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmHazinehInp))
+                if (f.GetType() == typeof(FrmHazinehInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2591,7 +2591,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmHazinehInp fsdv = new frmHazinehInp();
+                FrmHazinehInp fsdv = new FrmHazinehInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2604,7 +2604,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmHazinehView))
+                if (f.GetType() == typeof(FrmHazinehView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2614,7 +2614,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmHazinehView fsdv = new frmHazinehView();
+                FrmHazinehView fsdv = new FrmHazinehView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2627,7 +2627,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmMarkazHazinehPeygiri))
+                if (f.GetType() == typeof(FrmMarkazHazinehPeygiri))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2637,7 +2637,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmMarkazHazinehPeygiri fsdv = new frmMarkazHazinehPeygiri();
+                FrmMarkazHazinehPeygiri fsdv = new FrmMarkazHazinehPeygiri();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.Show();
             }
@@ -2679,7 +2679,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAction_LogsView))
+                if (f.GetType() == typeof(FrmAction_LogsView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2689,7 +2689,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAction_LogsView fsdv = new frmAction_LogsView();
+                FrmAction_LogsView fsdv = new FrmAction_LogsView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2703,7 +2703,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzJoinTajviz))
+                if (f.GetType() == typeof(FrmGhabzJoinTajviz))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2713,7 +2713,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzJoinTajviz fsdv = new frmGhabzJoinTajviz();
+                FrmGhabzJoinTajviz fsdv = new FrmGhabzJoinTajviz();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2752,7 +2752,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAssessmentInp))
+                if (f.GetType() == typeof(FrmAssessmentInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2762,7 +2762,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAssessmentInp fsdv = new frmAssessmentInp();
+                FrmAssessmentInp fsdv = new FrmAssessmentInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2777,7 +2777,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAssessmentView))
+                if (f.GetType() == typeof(FrmAssessmentView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2787,7 +2787,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAssessmentView fsdv = new frmAssessmentView();
+                FrmAssessmentView fsdv = new FrmAssessmentView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2801,7 +2801,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmTakhfifInp))
+                if (f.GetType() == typeof(FrmTakhfifInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2811,7 +2811,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmTakhfifInp fsdv = new frmTakhfifInp();
+                FrmTakhfifInp fsdv = new FrmTakhfifInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2821,7 +2821,7 @@ namespace Mehr.Presentation_Layers
 
         private void toolStripMenuItem15_Click(object sender, EventArgs e)
         {
-            frmGen_Settings fsdv = new frmGen_Settings(ورودبازرسToolStripMenuItem);
+            FrmGeneralSettings fsdv = new FrmGeneralSettings(ورودبازرسToolStripMenuItem);
             fsdv.ShowDialog();
         }
 
@@ -2831,7 +2831,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmBlackListView))
+                if (f.GetType() == typeof(FrmBlackListView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2841,7 +2841,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmBlackListView fsdv = new frmBlackListView();
+                FrmBlackListView fsdv = new FrmBlackListView();
                 //fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2854,7 +2854,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmAmar_RecordsView))
+                if (f.GetType() == typeof(FrmAmar_RecordsView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2864,7 +2864,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmAmar_RecordsView fsdv = new frmAmar_RecordsView();
+                FrmAmar_RecordsView fsdv = new FrmAmar_RecordsView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2877,7 +2877,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSelSicksFor))
+                if (f.GetType() == typeof(FrmSelSicksFor))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2887,7 +2887,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSelSicksFor fsdv = new frmSelSicksFor();
+                FrmSelSicksFor fsdv = new FrmSelSicksFor();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2900,7 +2900,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmParastar_AnbarInp))
+                if (f.GetType() == typeof(FrmParastarAnbarInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2910,7 +2910,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmParastar_AnbarInp fsdv = new frmParastar_AnbarInp();
+                FrmParastarAnbarInp fsdv = new FrmParastarAnbarInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2923,7 +2923,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmContactInp))
+                if (f.GetType() == typeof(FrmContactInp))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2933,7 +2933,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmContactInp fsdv = new frmContactInp();
+                FrmContactInp fsdv = new FrmContactInp();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2946,7 +2946,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmContactView))
+                if (f.GetType() == typeof(FrmContactView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2956,7 +2956,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmContactView fsdv = new frmContactView();
+                FrmContactView fsdv = new FrmContactView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2969,7 +2969,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmParastar_AnbarView))
+                if (f.GetType() == typeof(FrmParastarAnbarView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -2979,7 +2979,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmParastar_AnbarView fsdv = new frmParastar_AnbarView();
+                FrmParastarAnbarView fsdv = new FrmParastarAnbarView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -2993,7 +2993,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmtaj_anbar_historyView))
+                if (f.GetType() == typeof(FrmTajvizAnbarHistoryView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3003,7 +3003,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmtaj_anbar_historyView fsdv = new frmtaj_anbar_historyView();
+                FrmTajvizAnbarHistoryView fsdv = new FrmTajvizAnbarHistoryView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -3016,7 +3016,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmContact_AnbarView))
+                if (f.GetType() == typeof(FrmContact_AnbarView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3026,7 +3026,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmContact_AnbarView fsdv = new frmContact_AnbarView();
+                FrmContact_AnbarView fsdv = new FrmContact_AnbarView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -3075,7 +3075,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSelectMetYear))
+                if (f.GetType() == typeof(FrmSelectMetYear))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3085,7 +3085,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSelectMetYear fsdv = new frmSelectMetYear();
+                FrmSelectMetYear fsdv = new FrmSelectMetYear();
                 fsdv.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -3099,7 +3099,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSelectBoopYear))
+                if (f.GetType() == typeof(FrmSelectBoopYear))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3109,7 +3109,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSelectBoopYear fsdv = new frmSelectBoopYear();
+                FrmSelectBoopYear fsdv = new FrmSelectBoopYear();
                 fsdv.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -3123,7 +3123,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSelectSubYear))
+                if (f.GetType() == typeof(FrmSelectSubYear))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3133,7 +3133,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSelectSubYear fsdv = new frmSelectSubYear();
+                FrmSelectSubYear fsdv = new FrmSelectSubYear();
                 fsdv.txtyear.Value = decimal.Parse(DateUtils.Shamsi().Substring(0, 4));
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -3146,7 +3146,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSicksStatusView))
+                if (f.GetType() == typeof(FrmSicksStatusView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3156,7 +3156,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSicksStatusView fsdv = new frmSicksStatusView();
+                FrmSicksStatusView fsdv = new FrmSicksStatusView();
                 fsdv.cur_date = DateUtils.Shamsi();
                 fsdv.MdiParent = this;
                 fsdv.Show();
@@ -3169,7 +3169,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzDaftariDaryaft))
+                if (f.GetType() == typeof(FrmGhabzDaftariDaryaft))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3179,7 +3179,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzDaftariDaryaft fgs = new frmGhabzDaftariDaryaft();
+                FrmGhabzDaftariDaryaft fgs = new FrmGhabzDaftariDaryaft();
                 fgs.cur_date = DateUtils.Shamsi();
                 fgs.MdiParent = this;
                 fgs.Show();
@@ -3192,7 +3192,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzDaftariEslah))
+                if (f.GetType() == typeof(FrmGhabzDaftariEslah))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3202,7 +3202,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzDaftariEslah fsdv = new frmGhabzDaftariEslah();
+                FrmGhabzDaftariEslah fsdv = new FrmGhabzDaftariEslah();
                 fsdv.MdiParent = this;
                 fsdv.Show();
             }
@@ -3214,7 +3214,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmGhabzDaftariView))
+                if (f.GetType() == typeof(FrmGhabzDaftariView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3224,7 +3224,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmGhabzDaftariView fgv = new frmGhabzDaftariView();
+                FrmGhabzDaftariView fgv = new FrmGhabzDaftariView();
                 fgv.cur_date = DateUtils.Shamsi();
                 fgv.MdiParent = this;
                 fgv.Show();
@@ -3237,7 +3237,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmSickDaftariHisView))
+                if (f.GetType() == typeof(FrmSickDaftariHisView))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3247,7 +3247,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmSickDaftariHisView fshv = new frmSickDaftariHisView();
+                FrmSickDaftariHisView fshv = new FrmSickDaftariHisView();
                 fshv.MdiParent = this;
                 fshv.Show();
             }
@@ -3259,7 +3259,7 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmContactAdmin))
+                if (f.GetType() == typeof(FrmContactAdmin))
                 {
                     IsOpen = true;
                     f.Focus();
@@ -3269,7 +3269,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmContactAdmin fshv = new frmContactAdmin();
+                FrmContactAdmin fshv = new FrmContactAdmin();
                 fshv.MdiParent = this;
                 fshv.darmangahName = this.Text.Trim();
                 fshv.Show();

@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmMetTahvilPrintViewer
+    partial class FrmMetTahvilPrintViewer
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMetTahvilPrintViewer));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMetTahvilPrintViewer));
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.SuspendLayout();
             // 

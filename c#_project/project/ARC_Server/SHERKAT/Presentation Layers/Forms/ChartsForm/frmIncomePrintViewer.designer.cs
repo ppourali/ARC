@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmIncomePrintViewer
+    partial class FrmIncomePrintViewer
     {
         /// <summary>
         /// Required designer variable.

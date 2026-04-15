@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmMetTahvilPrintViewer : Form
+    public partial class FrmMetTahvilPrintViewer : Form
     {
         public string markaz_name = "", shahr = "", mah = "0", sal = "0", mard = "0", zan = "0";
         //public string ghabl5, ghabl20, ghabl40, ghablsp;
@@ -22,7 +22,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
        
-        public frmMetTahvilPrintViewer()
+        public FrmMetTahvilPrintViewer()
         {
             InitializeComponent();
         }

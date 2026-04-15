@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmHazinehInp : Form
+    public partial class FrmHazinehInp : Form
     {
         CurrencyManager objCurrencyManager;
         DataTable datat = new DataTable();
@@ -66,7 +66,7 @@ namespace Mehr.Presentation_Layers
             toolStripStatusLabel1.Text = "آماده عملیات";
         }
 
-        public frmHazinehInp()
+        public FrmHazinehInp()
         {
             InitializeComponent();
         }
@@ -357,7 +357,7 @@ namespace Mehr.Presentation_Layers
         
         private void button1_Click(object sender, EventArgs e)
         {
-            frmShortHazinehInp fbi = new frmShortHazinehInp();
+            FrmShortHazinehInp fbi = new FrmShortHazinehInp();
             fbi.ShowDialog();
 
             hazineh_types ba = new hazineh_types();

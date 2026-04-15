@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +13,7 @@ using System.Drawing.Imaging;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmOnLineResidPrintViewer : Form
+    public partial class FrmOnLineResidPrintViewer : Form
     {
         public string cur_date;
 
@@ -26,7 +26,7 @@ namespace Mehr.Presentation_Layers
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
    
 
-        public frmOnLineResidPrintViewer()
+        public FrmOnLineResidPrintViewer()
         {
             InitializeComponent();
         }

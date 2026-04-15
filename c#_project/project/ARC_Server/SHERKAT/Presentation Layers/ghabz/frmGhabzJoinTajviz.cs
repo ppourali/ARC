@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmGhabzJoinTajviz : Form
+    public partial class FrmGhabzJoinTajviz : Form
     {
-        public frmGhabzJoinTajviz()
+        public FrmGhabzJoinTajviz()
         {
             InitializeComponent();
         }
@@ -286,7 +286,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.CurrentRow!=null)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
                 
                 if (Program.user_semat.Trim() == "بازرس")
@@ -302,7 +302,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.CurrentRow != null)
             {
-                frmSickHisView fsh = new frmSickHisView();
+                FrmSickHisView fsh = new FrmSickHisView();
                 fsh.txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                 fsh.sabegheh = true;
                 fsh.Show();

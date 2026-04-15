@@ -10,12 +10,12 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAnbarEdit : Form
+    public partial class FrmAnbarEdit : Form
     {
         DataTable dt = new DataTable();
         public string old_daru_name="",old_mandeh="";
 
-        public frmAnbarEdit()
+        public FrmAnbarEdit()
         {
             InitializeComponent();
         }

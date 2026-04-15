@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAbsentSicksView : Form
+    public partial class FrmAbsentSicksView : Form
     {
-        public frmAbsentSicksView()
+        public FrmAbsentSicksView()
         {
             InitializeComponent();
         }
@@ -805,7 +805,7 @@ namespace Mehr.Presentation_Layers
         {
             if (comboBox1.SelectedIndex == 0)
             {
-                frmOnLineResidPrintViewer ftkpv = new frmOnLineResidPrintViewer();
+                FrmOnLineResidPrintViewer ftkpv = new FrmOnLineResidPrintViewer();
 
                 DataTable dt = new MehrDataSet.tahvil_residDataTable().Clone();
                 foreach (DataGridViewRow dgvr in dataGridView1.SelectedRows)
@@ -825,7 +825,7 @@ namespace Mehr.Presentation_Layers
             }
             else if (comboBox1.SelectedIndex == 1)
             {
-                frmTahvil_Resid_Empty_PrintViewer ftkpv = new frmTahvil_Resid_Empty_PrintViewer();
+                FrmTahvilResidEmptyPrintViewer ftkpv = new FrmTahvilResidEmptyPrintViewer();
 
                 DataTable dt = new MehrDataSet.tahvil_residDataTable().Clone();
                 foreach (DataGridViewRow dgvr in grdDataViewer.Rows)
@@ -837,7 +837,7 @@ namespace Mehr.Presentation_Layers
             }
             else if (comboBox1.SelectedIndex == 2)
             {
-                frmSicksAbsentsPrintViewer fsgpv = new frmSicksAbsentsPrintViewer();
+                FrmSicksAbsentsPrintViewer fsgpv = new FrmSicksAbsentsPrintViewer();
                 fsgpv.filler = (DataTable)(grdDataViewer.DataSource);
                 fsgpv.Show();
             }
@@ -847,7 +847,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
 
                 //if (Program.user.Trim() == "بازرس")
@@ -863,7 +863,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.CurrentRow != null)
             {
-                frmSickHisView fsh = new frmSickHisView();
+                FrmSickHisView fsh = new FrmSickHisView();
                 fsh.txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                 fsh.sabegheh = true;
                 fsh.Show();
@@ -947,14 +947,14 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmTahvilAdam))
+                    if (f.GetType() == typeof(FrmTahvilAdam))
                     {
                         IsOpen = true;
-                        ((frmTahvilAdam)f).cur_date = txtdate.Text;
+                        ((FrmTahvilAdam)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmTahvilAdam)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmTahvilAdam)f).txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmTahvilAdam)f).idsearch_Click(null, null);
+                        ((FrmTahvilAdam)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmTahvilAdam)f).txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmTahvilAdam)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -963,7 +963,7 @@ namespace Mehr.Presentation_Layers
                 if (IsOpen == false)
                 {
 
-                    frmTahvilAdam fsh = new frmTahvilAdam();
+                    FrmTahvilAdam fsh = new FrmTahvilAdam();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
@@ -998,13 +998,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmdastoor_pezeshkInp))
+                    if (f.GetType() == typeof(FrmDastoorInp))
                     {
                         IsOpen = true;
-                        ((frmdastoor_pezeshkInp)f).cur_date = txtdate.Text;
+                        ((FrmDastoorInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmdastoor_pezeshkInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmdastoor_pezeshkInp)f).idsearch_Click(null, null);
+                        ((FrmDastoorInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmDastoorInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -1012,7 +1012,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmdastoor_pezeshkInp fsh = new frmdastoor_pezeshkInp();
+                    FrmDastoorInp fsh = new FrmDastoorInp();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
@@ -1035,13 +1035,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmRavanshenasInp))
+                    if (f.GetType() == typeof(FrmRavanshenasInp))
                     {
                         IsOpen = true;
-                        ((frmRavanshenasInp)f).cur_date = txtdate.Text;
+                        ((FrmRavanshenasInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmRavanshenasInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmRavanshenasInp)f).idsearch_Click(null, null);
+                        ((FrmRavanshenasInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmRavanshenasInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -1049,7 +1049,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmRavanshenasInp fsh = new frmRavanshenasInp();
+                    FrmRavanshenasInp fsh = new FrmRavanshenasInp();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
@@ -1072,13 +1072,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmAzmayeshInp))
+                    if (f.GetType() == typeof(FrmAzmayeshInp))
                     {
                         IsOpen = true;
-                        ((frmAzmayeshInp)f).cur_date = txtdate.Text;
+                        ((FrmAzmayeshInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmAzmayeshInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmAzmayeshInp)f).idsearch_Click(null, null);
+                        ((FrmAzmayeshInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmAzmayeshInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -1086,7 +1086,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmAzmayeshInp fsh = new frmAzmayeshInp();
+                    FrmAzmayeshInp fsh = new FrmAzmayeshInp();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;

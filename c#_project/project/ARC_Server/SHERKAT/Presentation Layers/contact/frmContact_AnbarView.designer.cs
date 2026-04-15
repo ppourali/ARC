@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmContact_AnbarView
+    partial class FrmContact_AnbarView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmContact_AnbarView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmContact_AnbarView));
             this.btnexit = new System.Windows.Forms.Button();
             this.grdDataViewer = new System.Windows.Forms.DataGridView();
             this.contactid = new System.Windows.Forms.DataGridViewTextBoxColumn();

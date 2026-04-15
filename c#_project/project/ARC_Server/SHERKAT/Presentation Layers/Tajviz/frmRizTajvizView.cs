@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRizTajvizView : Form
+    public partial class FrmRizTajvizView : Form
     {
-        public frmRizTajvizView()
+        public FrmRizTajvizView()
         {
             InitializeComponent();
         }
@@ -130,7 +130,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmTajvizPrintViewer ftpv = new frmTajvizPrintViewer();
+            FrmTajvizPrintViewer ftpv = new FrmTajvizPrintViewer();
             ftpv.filler = (DataTable)(grdDataViewer.DataSource);
             ftpv.Show();
         }

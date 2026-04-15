@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Mehr
 {
-    public partial class frmAuthurize : Form
+    public partial class FrmAuthurize : Form
     {
-        public frmAuthurize(string str)
+        public FrmAuthurize(string str)
         {
 
             InitializeComponent();

@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmPeygiriHisView
+    partial class FrmPeygiriHisView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPeygiriHisView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPeygiriHisView));
             this.btnexit = new System.Windows.Forms.Button();
             this.btnfilter = new System.Windows.Forms.Button();
             this.txtid = new Mehr.IDTextBox();

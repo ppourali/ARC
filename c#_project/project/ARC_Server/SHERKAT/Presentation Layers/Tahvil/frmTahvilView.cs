@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTahvilView : Form
+    public partial class FrmTahvilView : Form
     {
-        public frmTahvilView()
+        public FrmTahvilView()
         {
             InitializeComponent();
         }
@@ -281,7 +281,7 @@ namespace Mehr.Presentation_Layers
         {
                 if (comboBox1.SelectedIndex == 0)
                 {
-                    frmTahvil_koliPrintViewer ftkpv = new frmTahvil_koliPrintViewer();
+                    FrmTahvilKoliPrintViewer ftkpv = new FrmTahvilKoliPrintViewer();
                     ftkpv.filler = (DataTable)(grdDataViewer.DataSource);
                     ftkpv.Show();
                 }
@@ -307,7 +307,7 @@ namespace Mehr.Presentation_Layers
                     }
 
 
-                    frmTanzimPrintViewerOnline fgkpv = new frmTanzimPrintViewerOnline();
+                    FrmTanzimPrintViewerOnline fgkpv = new FrmTanzimPrintViewerOnline();
                     //fgkpv.cur_code = grdDataViewer.CurrentRow.Cells["code"].Value.ToString();
                     fgkpv.idandcodestable = idsandcodes;
                     fgkpv.cur_date = grdDataViewer.CurrentRow.Cells["from_date"].Value.ToString();
@@ -326,13 +326,13 @@ namespace Mehr.Presentation_Layers
                     }
                     else if (!txtdate.MaskCompleted && !txttodate.MaskCompleted && checkBox1.Checked)
                     {
-                        frmTahvil_ResidPrintViewer ftkpv = new frmTahvil_ResidPrintViewer();
+                        FrmTahvilResidPrintViewer ftkpv = new FrmTahvilResidPrintViewer();
                         ftkpv.filler = new tahvil_koli().TahvilResidByDate(cur_date, cur_date);
                         ftkpv.Show();
                     }
                     else
                     {
-                        frmTahvil_ResidPrintViewer ftkpv = new frmTahvil_ResidPrintViewer();
+                        FrmTahvilResidPrintViewer ftkpv = new FrmTahvilResidPrintViewer();
                         ftkpv.ResidById = false;
                         ftkpv.txtdate.Text = txtdate.Text;
                         ftkpv.txttodate.Text = txttodate.Text;
@@ -346,7 +346,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmRizTahvilView frtv = new frmRizTahvilView();
+                FrmRizTahvilView frtv = new FrmRizTahvilView();
                 frtv.code = long.Parse(grdDataViewer["code", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
                 frtv.MdiParent = this.MdiParent; 
                 frtv.Show();
@@ -387,7 +387,7 @@ namespace Mehr.Presentation_Layers
                 tk.code = long.Parse(val);
                 datat = tk.SelectforEdit();
 
-                frmTahvilEdit te = new frmTahvilEdit();
+                FrmTahvilEdit te = new FrmTahvilEdit();
                 te.t_code = datat.Rows[0]["code"].ToString();
                 te.sickname = datat.Rows[0]["name"].ToString();
                 te.id = datat.Rows[0]["id"].ToString();

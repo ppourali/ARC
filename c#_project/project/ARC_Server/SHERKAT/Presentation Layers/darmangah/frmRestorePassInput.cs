@@ -8,13 +8,13 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRestorePassInput : Form
+    public partial class FrmRestorePassInput : Form
     {
         public int position;
         string path;
         public bool restoreAdvance;
 
-        public frmRestorePassInput(string p)
+        public FrmRestorePassInput(string p)
         {
             InitializeComponent();
             this.path = p;
@@ -55,7 +55,7 @@ namespace Mehr.Presentation_Layers
                     {
                         dtRestHeaders = rest.restoreheader(mediaPassWord);
 
-                        frmBackupView fbv = new frmBackupView();
+                        FrmBackupView fbv = new FrmBackupView();
                         fbv.bname = path;
                         fbv.grddt = dtRestHeaders;
                         fbv.mp = mediaPassWord;

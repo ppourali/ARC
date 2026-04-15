@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTodayComersView : Form
+    public partial class FrmTodayComersView : Form
     {
-        public frmTodayComersView()
+        public FrmTodayComersView()
         {
             InitializeComponent();
         }
@@ -197,7 +197,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.CurrentRow!=null)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
                 
                 if (Program.user_semat.Trim() == "بازرس")
@@ -213,7 +213,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.CurrentRow != null)
             {
-                frmSickHisView fsh = new frmSickHisView();
+                FrmSickHisView fsh = new FrmSickHisView();
                 fsh.txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                 fsh.sabegheh = true;
                 fsh.Show();
@@ -229,13 +229,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmRealPeygiriInp))
+                    if (f.GetType() == typeof(FrmRealPeygiriInp))
                     {
                         IsOpen = true;
-                        ((frmRealPeygiriInp)f).cur_date = cur_date;
+                        ((FrmRealPeygiriInp)f).cur_date = cur_date;
                         f.Focus();
-                        ((frmRealPeygiriInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmRealPeygiriInp)f).idsearch_Click(null, null);
+                        ((FrmRealPeygiriInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmRealPeygiriInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -243,7 +243,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmRealPeygiriInp fsh = new frmRealPeygiriInp();
+                    FrmRealPeygiriInp fsh = new FrmRealPeygiriInp();
                     fsh.sentbyadamview = true; 
                     fsh.cur_date = cur_date;
                     fsh.Left = this.Left;

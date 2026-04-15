@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmEditPassInput : Form
+    public partial class FrmEditPassInput : Form
     {
-        public frmEditPassInput()
+        public FrmEditPassInput()
         {
             InitializeComponent();
         }

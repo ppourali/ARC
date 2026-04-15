@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmOnLineResidPrintViewer
+    partial class FrmOnLineResidPrintViewer
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOnLineResidPrintViewer));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOnLineResidPrintViewer));
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();

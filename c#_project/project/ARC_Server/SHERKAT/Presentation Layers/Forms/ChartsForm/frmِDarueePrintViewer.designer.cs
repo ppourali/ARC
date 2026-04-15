@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmِDarueePrintViewer
+    partial class FrmِDarueePrintViewer
     {
         /// <summary>
         /// Required designer variable.

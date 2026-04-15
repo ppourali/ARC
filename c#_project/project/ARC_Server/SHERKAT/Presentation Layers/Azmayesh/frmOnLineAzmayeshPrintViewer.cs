@@ -13,7 +13,7 @@ using System.Drawing.Imaging;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmOnLineAzmayeshPrintViewer : Form
+    public partial class FrmOnLineAzmayeshPrintViewer : Form
     {
         CurrencyManager objCurrencyManager;
         public string id = "";
@@ -28,7 +28,7 @@ namespace Mehr.Presentation_Layers
        string cur_code = "";
 
 
-        public frmOnLineAzmayeshPrintViewer()
+        public FrmOnLineAzmayeshPrintViewer()
         {
             InitializeComponent();
         }

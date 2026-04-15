@@ -3,52 +3,8 @@
   "WorkspaceRootPath": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\presentation layers\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\presentation layers\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\presentation layers\\action_logs\\frmaction_logsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\presentation layers\\action_logs\\frmaction_logsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\anbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\anbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\darmangah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\darmangah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\contactsanbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\contactsanbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\blacklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\blacklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\azmayeshreal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\azmayeshreal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\azmayesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\azmayesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\assessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\assessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\amarrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\amarrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\business layers\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\business layers\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|d:\\arc\\arc\\c#_project\\project\\arc_server\\sherkat\\presentation layers\\anbar\\frmanbarinp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C059DECE-365B-467E-83E3-626C360E76CF}|SHERKAT\\Mehr.csproj|solutionrelative:sherkat\\presentation layers\\anbar\\frmanbarinp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,158 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Presentation Layers\\frmMain.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Presentation Layers\\frmMain.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Presentation Layers\\frmMain.cs",
-              "RelativeToolTip": "SHERKAT\\Presentation Layers\\frmMain.cs",
-              "ViewState": "AgIAALIKAAAAAAAAAAAUwLsKAAAAAAAAAAAAAA==",
+              "Title": "FrmAnbarInp.cs [Design]",
+              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Presentation Layers\\Anbar\\FrmAnbarInp.cs",
+              "RelativeDocumentMoniker": "SHERKAT\\Presentation Layers\\Anbar\\FrmAnbarInp.cs",
+              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Presentation Layers\\Anbar\\FrmAnbarInp.cs [Design]",
+              "RelativeToolTip": "SHERKAT\\Presentation Layers\\Anbar\\FrmAnbarInp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T04:26:45.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Darmangah.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Darmangah.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\Darmangah.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Darmangah.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\Darmangah.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:45:48.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContactsAnbar.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\ContactsAnbar.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\ContactsAnbar.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\ContactsAnbar.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\ContactsAnbar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:45:38.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Contacts.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Contacts.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\Contacts.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Contacts.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\Contacts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:45:26.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BlackList.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\BlackList.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\BlackList.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\BlackList.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\BlackList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:45:19.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AzmayeshReal.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\AzmayeshReal.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\AzmayeshReal.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\AzmayeshReal.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\AzmayeshReal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:45:04.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Azmayesh.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Azmayesh.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\Azmayesh.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Azmayesh.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\Azmayesh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:44:58.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Assessment.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Assessment.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\Assessment.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Assessment.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\Assessment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:44:49.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Anbar.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Anbar.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\Anbar.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Anbar.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\Anbar.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAvwBcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:44:34.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AmarRecords.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\AmarRecords.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\AmarRecords.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\AmarRecords.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\AmarRecords.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:44:15.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmAction_LogsView.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Presentation Layers\\Action_Logs\\frmAction_LogsView.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Presentation Layers\\Action_Logs\\frmAction_LogsView.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Presentation Layers\\Action_Logs\\frmAction_LogsView.cs",
-              "RelativeToolTip": "SHERKAT\\Presentation Layers\\Action_Logs\\frmAction_LogsView.cs",
-              "ViewState": "AgIAANsAAAAAAAAAAAAvwOcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:41:57.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Accounts.cs",
-              "DocumentMoniker": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Accounts.cs",
-              "RelativeDocumentMoniker": "SHERKAT\\Business Layers\\Accounts.cs",
-              "ToolTip": "D:\\ARC\\ARC\\c#_project\\project\\ARC_Server\\SHERKAT\\Business Layers\\Accounts.cs",
-              "RelativeToolTip": "SHERKAT\\Business Layers\\Accounts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:29:56.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T04:45:38.264Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

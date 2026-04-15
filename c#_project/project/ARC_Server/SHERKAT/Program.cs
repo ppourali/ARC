@@ -31,7 +31,7 @@ namespace Mehr
 
             if (key != Auth_code)
             {
-                Application.Run(new frmAuthurize(Auth_code));
+                Application.Run(new FrmAuthurize(Auth_code));
             }
 
             else
@@ -82,7 +82,7 @@ namespace Mehr
         {
             if (Properties.Settings.Default.ServerName.ToString().Trim() == "")
             {
-                frmSelectServers fss = new frmSelectServers();
+                FrmSelectServers fss = new FrmSelectServers();
                 fss.ShowDialog();
             }
 
@@ -102,7 +102,7 @@ namespace Mehr
                     if (se.Message.ToLower().Contains("login failed for user".ToLower()))
                     {
                         MessageBox.Show("عملیات ثبت کاربر پایگاه داده با مشکل مواجه شد، لطفا عملیات 'بررسی تنظیمات مرتبط با شبکه' را از سیستم سرور پیگیری نمایید و مجددا سعی نمایید", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
-                        frmSelectServers fss = new frmSelectServers();
+                        FrmSelectServers fss = new FrmSelectServers();
                         fss.isClient = true;
                         fss.ShowDialog();
                         if (fss.isClient == false)
@@ -112,7 +112,7 @@ namespace Mehr
                     else
                     {
                         MessageBox.Show(" نمی باشد" + Properties.Settings.Default.ServerName.ToString() + "سیستم قادر به شناسایی سیستم سرور ", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
-                        frmSelectServers fss = new frmSelectServers();
+                        FrmSelectServers fss = new FrmSelectServers();
                         fss.isClient = true;
                         fss.ShowDialog();
                         if (fss.isClient == false)
@@ -132,7 +132,7 @@ namespace Mehr
                 isServerMachine = false;
                 if (dt.Rows.Count == 0)
                 {
-                    frmadddarmangah fad = new frmadddarmangah();
+                    FrmAddDarmangah fad = new FrmAddDarmangah();
 
                     if (fad.ShowDialog() != DialogResult.Abort)
                         startApp();
@@ -193,7 +193,7 @@ namespace Mehr
 
             if (dt.Rows.Count == 0)
             {
-                frmadddarmangah fad = new frmadddarmangah();
+                FrmAddDarmangah fad = new FrmAddDarmangah();
 
                 if (fad.ShowDialog() != DialogResult.Abort)
                     startApp();
@@ -208,7 +208,7 @@ namespace Mehr
         {
             Cache.generateContents();
 
-            Application.Run(new frmMain());
+            Application.Run(new FrmMain());
         }
     }
 }

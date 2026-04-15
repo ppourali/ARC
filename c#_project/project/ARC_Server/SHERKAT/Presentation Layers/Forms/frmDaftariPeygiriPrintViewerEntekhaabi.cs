@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmDaftariPeygiriPrintViewerEntekhaabi : Form
+    public partial class FrmDaftariPeygiriPrintViewerEntekhaabi : Form
     {
 
         public string cur_date;
@@ -29,7 +29,7 @@ namespace Mehr.Presentation_Layers
 
         
 
-        public frmDaftariPeygiriPrintViewerEntekhaabi()
+        public FrmDaftariPeygiriPrintViewerEntekhaabi()
         {
             InitializeComponent();
         }

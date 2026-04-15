@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmGhabzEslah : Form
+    public partial class FrmGhabzEslah : Form
     {
-        public frmGhabzEslah()
+        public FrmGhabzEslah()
         {
             InitializeComponent();
         }
@@ -208,7 +208,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnsabegheh_Click(object sender, EventArgs e)
         {
-            frmSickHisView fsh = new frmSickHisView();
+            FrmSickHisView fsh = new FrmSickHisView();
             fsh.txtid.Text = this.txtid.Text;
             fsh.sabegheh = true;
             fsh.Show();

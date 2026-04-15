@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTajvizEdit : Form
+    public partial class FrmTajvizEdit : Form
     {
         DataTable datat = new DataTable();
         DataTable combosource1, combosource2, combosource3, combosource4;
@@ -114,7 +114,7 @@ namespace Mehr.Presentation_Layers
             toolStripStatusLabel1.Text = "آماده عملیات";
         }
 
-        public frmTajvizEdit()
+        public FrmTajvizEdit()
         {
             InitializeComponent();
         }
@@ -808,7 +808,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnSabegheh_Click(object sender, EventArgs e)
         {
-            frmSabeghehView frtv = new frmSabeghehView();
+            FrmSabeghehView frtv = new FrmSabeghehView();
             frtv.id = txtid.Text;
             frtv.tahORtaj = true; 
             frtv.ShowDialog();

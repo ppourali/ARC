@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAssessmentView : Form
+    public partial class FrmAssessmentView : Form
     {
-        public frmAssessmentView()
+        public FrmAssessmentView()
         {
             InitializeComponent();
         }
@@ -214,7 +214,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer["code", row].Value.ToString();
 
-                frmAssessmentEdit fme = new frmAssessmentEdit();
+                FrmAssessmentEdit fme = new FrmAssessmentEdit();
 
                 fme.ass_code = val;
                 fme.ShowDialog();
@@ -233,7 +233,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.CurrentRow != null)
             {
-                frmAssessmentprintviewer fmpv = new frmAssessmentprintviewer();
+                FrmAssessmentprintviewer fmpv = new FrmAssessmentprintviewer();
                 fmpv.P = dtforprint;
                 
                 fmpv.Show();

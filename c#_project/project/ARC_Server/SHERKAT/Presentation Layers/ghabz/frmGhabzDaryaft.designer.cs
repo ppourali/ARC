@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmGhabzDaryaft
+    partial class FrmGhabzDaryaft
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGhabzDaryaft));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGhabzDaryaft));
             this.btnexit = new System.Windows.Forms.Button();
             this.txtid = new Mehr.IDTextBox();
             this.label1 = new System.Windows.Forms.Label();

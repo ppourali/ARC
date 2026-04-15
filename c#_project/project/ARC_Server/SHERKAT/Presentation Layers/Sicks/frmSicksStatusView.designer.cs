@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmSicksStatusView
+    partial class FrmSicksStatusView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSicksStatusView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSicksStatusView));
             this.btnexit = new System.Windows.Forms.Button();
             this.grdDataViewer = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();

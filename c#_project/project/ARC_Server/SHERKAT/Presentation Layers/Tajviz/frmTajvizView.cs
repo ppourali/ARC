@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTajvizView : Form
+    public partial class FrmTajvizView : Form
     {
-        public frmTajvizView()
+        public FrmTajvizView()
         {
             InitializeComponent();
         }
@@ -276,7 +276,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmTajviz_koliPrintViewer ftkpv = new frmTajviz_koliPrintViewer();
+            FrmTajvizKoliPrintViewer ftkpv = new FrmTajvizKoliPrintViewer();
             ftkpv.filler = (DataTable)(grdDataViewer.DataSource);
             ftkpv.Show();
         }
@@ -285,7 +285,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmRizTajvizView frtv = new frmRizTajvizView();
+                FrmRizTajvizView frtv = new FrmRizTajvizView();
                 frtv.code = long.Parse(grdDataViewer["code", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
                 frtv.MdiParent = this.MdiParent;
                 frtv.Show();
@@ -326,7 +326,7 @@ namespace Mehr.Presentation_Layers
                 tk.code = long.Parse(val);
                 datat = tk.SelectforEdit();
 
-                frmTajvizEdit te = new frmTajvizEdit();
+                FrmTajvizEdit te = new FrmTajvizEdit();
                 te.t_code = datat.Rows[0]["code"].ToString();
                 te.sickname = datat.Rows[0]["name"].ToString();
                 te.id = datat.Rows[0]["id"].ToString();

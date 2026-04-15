@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSabeghehView : Form
+    public partial class FrmSabeghehView : Form
     {
-        public frmSabeghehView()
+        public FrmSabeghehView()
         {
             InitializeComponent();
         }
@@ -160,13 +160,13 @@ namespace Mehr.Presentation_Layers
         {
             if (tahORtaj == false)
             {
-                frmTahvilPrintViewer ftpv = new frmTahvilPrintViewer();
+                FrmTahvilPrintViewer ftpv = new FrmTahvilPrintViewer();
                 ftpv.filler = (DataTable)(grdDataViewer.DataSource);
                 ftpv.ShowDialog();
             }
             else if (tahORtaj == true)
             {
-                frmTajvizPrintViewer ftpv = new frmTajvizPrintViewer();
+                FrmTajvizPrintViewer ftpv = new FrmTajvizPrintViewer();
                 ftpv.filler = (DataTable)(grdDataViewer.DataSource);
                 ftpv.ShowDialog();
             }

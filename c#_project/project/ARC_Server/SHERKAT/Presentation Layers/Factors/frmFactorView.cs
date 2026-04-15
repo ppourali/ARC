@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmFactorView : Form
+    public partial class FrmFactorView : Form
     {
-        public frmFactorView()
+        public FrmFactorView()
         {
             InitializeComponent();
         }
@@ -258,7 +258,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmFactorInp ffi = new frmFactorInp();
+            FrmFactorInp ffi = new FrmFactorInp();
             ffi.MdiParent = this.MdiParent;
             ffi.Show();
 
@@ -311,7 +311,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click_1(object sender, EventArgs e)
         {
-            frmFactorPrintViewer fgkpv = new frmFactorPrintViewer();
+            FrmFactorPrintViewer fgkpv = new FrmFactorPrintViewer();
             fgkpv.filler = (DataTable)(grdDataViewer.DataSource);
             fgkpv.Show();
         }
@@ -324,7 +324,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer["code", row].Value.ToString();
 
-                frmFactorEdit fse = new frmFactorEdit();
+                FrmFactorEdit fse = new FrmFactorEdit();
 
                 fse.txtcode.Text = val;
                 fse.first_tedad = float.Parse(grdDataViewer["tedad", row].Value.ToString());

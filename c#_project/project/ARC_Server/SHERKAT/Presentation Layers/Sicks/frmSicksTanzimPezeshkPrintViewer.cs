@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +12,7 @@ using Mehr.Utils;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSicksTanzimPezeshkPrintViewer : Form
+    public partial class FrmSicksTanzimPezeshkPrintViewer : Form
     {
         public bool f6got = false;
 
@@ -28,7 +28,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmSicksTanzimPezeshkPrintViewer()
+        public FrmSicksTanzimPezeshkPrintViewer()
         {
             InitializeComponent();
         }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmHazinehView : Form
+    public partial class FrmHazinehView : Form
     {
-        public frmHazinehView()
+        public FrmHazinehView()
         {
             InitializeComponent();
         }
@@ -226,7 +226,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmHazinehInp ffi = new frmHazinehInp();
+            FrmHazinehInp ffi = new FrmHazinehInp();
             ffi.MdiParent = this.MdiParent;
             ffi.Show();
 
@@ -287,7 +287,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer["radif", row].Value.ToString();
 
-                frmHazinehEdit fse = new frmHazinehEdit();
+                FrmHazinehEdit fse = new FrmHazinehEdit();
 
                 fse.txtradif.Text = val;
                 fse.idsearch_Click();

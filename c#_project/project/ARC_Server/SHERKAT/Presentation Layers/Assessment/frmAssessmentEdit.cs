@@ -10,13 +10,13 @@ using System.Windows.Forms;
 namespace Mehr.Presentation_Layers
 {
    
-    public partial class frmAssessmentEdit : Form
+    public partial class FrmAssessmentEdit : Form
     {
         DataTable datat = new DataTable();
 
         public string ass_code = "";
 
-        public frmAssessmentEdit()
+        public FrmAssessmentEdit()
         {
             InitializeComponent();
         }

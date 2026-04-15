@@ -1,6 +1,6 @@
-﻿namespace Mehr
+namespace Mehr
 {
-    partial class frmCalender
+    partial class FrmCalender
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCalender));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCalender));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblDayofWeek = new System.Windows.Forms.Label();
             this.lblDay = new System.Windows.Forms.Label();

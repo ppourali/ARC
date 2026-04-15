@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmBlackListView : Form
+    public partial class FrmBlackListView : Form
     {
-        public frmBlackListView()
+        public FrmBlackListView()
         {
             InitializeComponent();
         }
@@ -218,7 +218,7 @@ namespace Mehr.Presentation_Layers
         private void btnprint_Click(object sender, EventArgs e)
         {
 
-            frmBlackListPrintViewer fd = new frmBlackListPrintViewer();
+            FrmBlackListPrintViewer fd = new FrmBlackListPrintViewer();
             fd.filler = (DataTable)(grdBlackListDataViewer.DataSource);
             fd.ShowDialog();
         }
@@ -227,7 +227,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
                 frtv.tahORtaj = true;
                 frtv.ShowDialog();
@@ -238,7 +238,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmSickHisView fsh = new frmSickHisView();
+                FrmSickHisView fsh = new FrmSickHisView();
                 fsh.txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                 fsh.sabegheh = true;
                 fsh.Show();
@@ -310,7 +310,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmRealAzmayeshHisView fsh = new frmRealAzmayeshHisView();
+                FrmRealAzmayeshHisView fsh = new FrmRealAzmayeshHisView();
                 fsh.sid = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
                 fsh.cur_date = this.cur_date;
                 fsh.name = (grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
@@ -348,7 +348,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmRealRavanshenasHisView fsh = new frmRealRavanshenasHisView();
+                FrmRealRavanshenasHisView fsh = new FrmRealRavanshenasHisView();
                 fsh.sid = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
                 fsh.cur_date = this.cur_date;
                 fsh.name = (grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString());

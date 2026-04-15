@@ -11,11 +11,11 @@ using System.Threading;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSelectBoopYear : Form
+    public partial class FrmSelectBoopYear : Form
     {
         DataTable dt = new DataTable();
 
-        public frmSelectBoopYear()
+        public FrmSelectBoopYear()
         {
             InitializeComponent();
         }
@@ -113,7 +113,7 @@ namespace Mehr.Presentation_Layers
             DataTable id_dt = new tahvil().Search("select distinct id from tahvil where (daru_name like N'%بوپر%' and tahvil_date>=N'" + fromdate + "' and tahvil_date <=N'" + todate + "')");
 
 
-            frmBoopYearTahvilPrintViewer ftpv = new frmBoopYearTahvilPrintViewer();
+            FrmBoopYearTahvilPrintViewer ftpv = new FrmBoopYearTahvilPrintViewer();
 
             DataTable kol_Query = new MehrDataSet.metyearDataTable();
 

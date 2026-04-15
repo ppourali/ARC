@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,9 +9,9 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSicksStatusView : Form
+    public partial class FrmSicksStatusView : Form
     {
-        public frmSicksStatusView()
+        public FrmSicksStatusView()
         {
             InitializeComponent();
         }
@@ -203,7 +203,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
 
                 frtv.tahORtaj = false;
@@ -214,7 +214,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnsabegheh_Click(object sender, EventArgs e)
         {
-            frmSickHisView fsh = new frmSickHisView();
+            FrmSickHisView fsh = new FrmSickHisView();
             fsh.txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
             fsh.sabegheh = true;
             fsh.Show();
@@ -245,7 +245,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
 
                 frtv.tahORtaj = true;

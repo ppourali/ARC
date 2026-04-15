@@ -10,7 +10,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmadddarmangah : Form
+    public partial class FrmAddDarmangah : Form
     {
         CurrencyManager objCurrencyManager;
         DataTable datat = new DataTable();
@@ -98,7 +98,7 @@ namespace Mehr.Presentation_Layers
         }
 
 
-        public frmadddarmangah()
+        public FrmAddDarmangah()
         {
             InitializeComponent();
         }
@@ -113,7 +113,7 @@ namespace Mehr.Presentation_Layers
             Darmangah da = new Darmangah();
             if (da.Select().Rows.Count > 0)
             {
-                frmEditPassInput fad = new frmEditPassInput();
+                FrmEditPassInput fad = new FrmEditPassInput();
                 if (fad.ShowDialog() != DialogResult.Abort)
                 {
                     Add();
@@ -239,7 +239,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            frmEditPassInput fad = new frmEditPassInput();
+            FrmEditPassInput fad = new FrmEditPassInput();
             if (fad.ShowDialog() != DialogResult.Abort)
             {
                 // Declare local variables and objects...

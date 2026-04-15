@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmGhabzView : Form
+    public partial class FrmGhabzView : Form
     {
-        public frmGhabzView()
+        public FrmGhabzView()
         {
             InitializeComponent();
         }
@@ -244,7 +244,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmGhabzDaryaft fgd = new frmGhabzDaryaft();
+            FrmGhabzDaryaft fgd = new FrmGhabzDaryaft();
             fgd.cur_date = this.cur_date;
             fgd.MdiParent = this.MdiParent;
             fgd.Show();
@@ -269,7 +269,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmGhabz_koliPrintViewer fgkpv = new frmGhabz_koliPrintViewer();
+            FrmGhabzKoliPrintViewer fgkpv = new FrmGhabzKoliPrintViewer();
             fgkpv.filler = (DataTable)(grdDataViewer.DataSource);
             fgkpv.Show();
         }
@@ -320,7 +320,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnedit_Click_1(object sender, EventArgs e)
         {
-            frmEditPassInput fad = new frmEditPassInput();
+            FrmEditPassInput fad = new FrmEditPassInput();
             if (fad.ShowDialog() != DialogResult.Abort)
             {
                 if (grdDataViewer.CurrentRow != null)
@@ -329,7 +329,7 @@ namespace Mehr.Presentation_Layers
                     int row = grdDataViewer.CurrentRow.Index;
                     string val = grdDataViewer["ghabz_id", row].Value.ToString();
 
-                    frmGhabzEslah fge = new frmGhabzEslah();
+                    FrmGhabzEslah fge = new FrmGhabzEslah();
 
                     fge.txtghabz_id.Text = val;
                     fge.idsearch_Click(null, null);
@@ -361,7 +361,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.CurrentRow != null)
             {
-                frmSickHisView fsh = new frmSickHisView();
+                FrmSickHisView fsh = new FrmSickHisView();
                 fsh.txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                 fsh.sabegheh = true;
                 fsh.Show();

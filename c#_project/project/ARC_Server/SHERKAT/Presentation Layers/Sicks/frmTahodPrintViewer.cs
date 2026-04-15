@@ -11,14 +11,14 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTahodPrintViewer : Form
+    public partial class FrmTahodPrintViewer : Form
     {
        
         public DataTable filler = new DataTable();
        
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmTahodPrintViewer()
+        public FrmTahodPrintViewer()
         {
             InitializeComponent();
         }

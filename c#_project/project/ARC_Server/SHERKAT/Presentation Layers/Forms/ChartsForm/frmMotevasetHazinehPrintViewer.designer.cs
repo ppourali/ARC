@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmMotevasetHazinehPrintViewer
+    partial class FrmMotevasetHazinehPrintViewer
     {
         /// <summary>
         /// Required designer variable.

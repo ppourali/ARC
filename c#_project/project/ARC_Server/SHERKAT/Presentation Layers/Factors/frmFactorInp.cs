@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmFactorInp : Form
+    public partial class FrmFactorInp : Form
     {
         CurrencyManager objCurrencyManager;
         DataTable datat = new DataTable();
@@ -52,7 +52,7 @@ namespace Mehr.Presentation_Layers
             toolStripStatusLabel1.Text = "آماده عملیات";
         }
 
-        public frmFactorInp()
+        public FrmFactorInp()
         {
             InitializeComponent();
         }

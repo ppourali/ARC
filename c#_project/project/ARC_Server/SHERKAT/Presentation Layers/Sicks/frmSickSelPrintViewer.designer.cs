@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmSickSelPrintViewer
+    partial class FrmSickSelPrintViewer
     {
         /// <summary>
         /// Required designer variable.

@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAzmayeshEdit : Form
+    public partial class FrmAzmayeshEdit : Form
     {
         DataTable datat = new DataTable();
 
@@ -24,7 +24,7 @@ namespace Mehr.Presentation_Layers
             toolStripStatusLabel1.Text = "آماده عملیات";
         }
 
-        public frmAzmayeshEdit()
+        public FrmAzmayeshEdit()
         {
             InitializeComponent();
         }
@@ -218,7 +218,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmAzmayeshHisView fsh = new frmAzmayeshHisView();
+            FrmAzmayeshHisView fsh = new FrmAzmayeshHisView();
             fsh.sid = this.txtsick_id.Text;
             fsh.ShowDialog();
         }

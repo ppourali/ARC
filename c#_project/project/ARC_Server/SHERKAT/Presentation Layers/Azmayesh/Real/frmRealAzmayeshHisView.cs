@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRealAzmayeshHisView : Form
+    public partial class FrmRealAzmayeshHisView : Form
     {
-        public frmRealAzmayeshHisView()
+        public FrmRealAzmayeshHisView()
         {
             InitializeComponent();
         }
@@ -50,7 +50,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmAzmayeshPrintViewer fgkpv = new frmAzmayeshPrintViewer();
+            FrmAzmayeshPrintViewer fgkpv = new FrmAzmayeshPrintViewer();
             fgkpv.filler = (DataTable)(dataGridView1.DataSource);
             fgkpv.Show();
         }
@@ -121,13 +121,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmRealAzmayeshInp))
+                    if (f.GetType() == typeof(FrmRealAzmayeshInp))
                     {
                         IsOpen = true;
-                        ((frmRealAzmayeshInp)f).cur_date = this.cur_date;
+                        ((FrmRealAzmayeshInp)f).cur_date = this.cur_date;
                         f.Focus();
-                        ((frmRealAzmayeshInp)f).txtname.Text = this.name;
-                        ((frmRealAzmayeshInp)f).idsearch_Click(null, null);
+                        ((FrmRealAzmayeshInp)f).txtname.Text = this.name;
+                        ((FrmRealAzmayeshInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -135,7 +135,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmRealAzmayeshInp fsh = new frmRealAzmayeshInp();
+                    FrmRealAzmayeshInp fsh = new FrmRealAzmayeshInp();
                     //fsh.sentbyadamview = true;
                     fsh.cur_date = this.cur_date;
                     fsh.Left = this.Left;

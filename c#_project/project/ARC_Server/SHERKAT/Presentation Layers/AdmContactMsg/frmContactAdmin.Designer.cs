@@ -1,6 +1,6 @@
-﻿namespace Mehr
+namespace Mehr
 {
-    partial class frmContactAdmin
+    partial class FrmContactAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmContactAdmin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmContactAdmin));
             this.btnSend = new System.Windows.Forms.Button();
             this.txtSubject = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();

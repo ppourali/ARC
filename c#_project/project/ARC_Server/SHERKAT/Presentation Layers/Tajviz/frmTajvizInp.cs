@@ -488,35 +488,35 @@ namespace Mehr.Presentation_Layers
 
                         foreach (Form f in Application.OpenForms)
                         {
-                            if (f.GetType() == typeof(frmGhabzDaryaft))
+                            if (f.GetType() == typeof(FrmGhabzDaryaft))
                             {
                                 IsOpen = true;
-                                ((frmGhabzDaryaft)f).cur_date = cur_date;
+                                ((FrmGhabzDaryaft)f).cur_date = cur_date;
                                 f.Focus();
-                                ((frmGhabzDaryaft)f).txtname.Text = ghabzname;
+                                ((FrmGhabzDaryaft)f).txtname.Text = ghabzname;
 
                                 if (Cache.isRealDaily())
                                 {
-                                    ((frmGhabzDaryaft)f).txtmablagh.Text = (datedif * int.Parse(((frmGhabzDaryaft)f).txtroozaneh.Text)).ToString();
+                                    ((FrmGhabzDaryaft)f).txtmablagh.Text = (datedif * int.Parse(((FrmGhabzDaryaft)f).txtroozaneh.Text)).ToString();
                                 }
                                 else
                                 {
-                                    ((frmGhabzDaryaft)f).txtmablagh.Text = SumFee.ToString();
+                                    ((FrmGhabzDaryaft)f).txtmablagh.Text = SumFee.ToString();
                                 }
 
                                 if (Cache.isTakhfifApplied())
                                 {
-                                    ((frmGhabzDaryaft)f).txtmablagh.Text = (long.Parse(((frmGhabzDaryaft)f).txtmablagh.Text) - (long.Parse(((frmGhabzDaryaft)f).txtmablagh.Text) * long.Parse(((frmGhabzDaryaft)f).txtTakhfif.Text) / 100)).ToString();
+                                    ((FrmGhabzDaryaft)f).txtmablagh.Text = (long.Parse(((FrmGhabzDaryaft)f).txtmablagh.Text) - (long.Parse(((FrmGhabzDaryaft)f).txtmablagh.Text) * long.Parse(((FrmGhabzDaryaft)f).txtTakhfif.Text) / 100)).ToString();
                                 }
 
-                                ((frmGhabzDaryaft)f).txtmablagh.Focus();
+                                ((FrmGhabzDaryaft)f).txtmablagh.Focus();
                                 break;
                             }
                         }
 
                         if (IsOpen == false)
                         {
-                            frmGhabzDaryaft fsh = new frmGhabzDaryaft();
+                            FrmGhabzDaryaft fsh = new FrmGhabzDaryaft();
                             fsh.cur_date = cur_date;
                             fsh.MdiParent = this.MdiParent;
                             fsh.Show();
@@ -996,7 +996,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnDaruSabegheh_Click(object sender, EventArgs e)
         {
-            frmSabeghehView frtv = new frmSabeghehView();
+            FrmSabeghehView frtv = new FrmSabeghehView();
             frtv.id = txtid.Text;
             frtv.tahORtaj = true;
             frtv.ShowDialog();
@@ -1006,7 +1006,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnMaliSabegheh_Click(object sender, EventArgs e)
         {
-            frmSickHisView fsh = new frmSickHisView();
+            FrmSickHisView fsh = new FrmSickHisView();
             fsh.txtid.Text = txtid.Text;
             fsh.sabegheh = true;
             fsh.Show();
@@ -1014,7 +1014,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnAzmayeshSabegheh_Click(object sender, EventArgs e)
         {
-            frmRealAzmayeshHisView fsh = new frmRealAzmayeshHisView();
+            FrmRealAzmayeshHisView fsh = new FrmRealAzmayeshHisView();
             fsh.sid = this.txtid.Text;
             fsh.cur_date = this.cur_date;
             fsh.name = txtname.Text;
@@ -1023,7 +1023,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnDastoorSabegheh_Click(object sender, EventArgs e)
         {
-            frmRealDastoorHisView fsh = new frmRealDastoorHisView();
+            FrmRealDastoorHisView fsh = new FrmRealDastoorHisView();
             fsh.sid = this.txtid.Text;
             fsh.cur_date = this.cur_date;
             fsh.name = this.txtname.Text;
@@ -1032,7 +1032,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnRavanshenasSabegheh_Click(object sender, EventArgs e)
         {
-            frmRealRavanshenasHisView fsh = new frmRealRavanshenasHisView();
+            FrmRealRavanshenasHisView fsh = new FrmRealRavanshenasHisView();
             fsh.sid = this.txtid.Text;
             fsh.cur_date = this.cur_date;
             fsh.name = this.txtname.Text;
@@ -1041,7 +1041,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnHazinehAverage_Click(object sender, EventArgs e)
         {
-            frmHazinehEnferadiPeygiri fhepv = new frmHazinehEnferadiPeygiri();
+            FrmHazinehEnferadiPeygiri fhepv = new FrmHazinehEnferadiPeygiri();
 
 
             string AveragePrice = Properties.Settings.Default.AveragePrices.ToString().Trim();

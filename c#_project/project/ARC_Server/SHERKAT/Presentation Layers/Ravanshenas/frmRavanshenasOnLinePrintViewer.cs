@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRavanshenasOnLinePrintViewer : Form
+    public partial class FrmRavanshenasOnLinePrintViewer : Form
     {
         CurrencyManager objCurrencyManager;
         public string id = "";
@@ -23,7 +23,7 @@ namespace Mehr.Presentation_Layers
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
        string cur_code = "";
 
-        public frmRavanshenasOnLinePrintViewer()
+        public FrmRavanshenasOnLinePrintViewer()
         {
             InitializeComponent();
         }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmDaftariPeygiriPrintViewerAllInOne : Form
+    public partial class FrmDaftariPeygiriPrintViewerAllInOne : Form
     {
 
         public string cur_date;
@@ -21,7 +21,7 @@ namespace Mehr.Presentation_Layers
 
         public DataTable idtable = new DataTable();        
 
-        public frmDaftariPeygiriPrintViewerAllInOne()
+        public FrmDaftariPeygiriPrintViewerAllInOne()
         {
             InitializeComponent();
         }

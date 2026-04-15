@@ -1,7 +1,7 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 namespace Mehr.Presentation_Layers
 {
-    partial class frmBackupView
+    partial class FrmBackupView
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Mehr.Presentation_Layers
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBackupView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBackupView));
             this.btnexit = new System.Windows.Forms.Button();
             this.grdDataViewer = new System.Windows.Forms.DataGridView();
             this.position = new System.Windows.Forms.DataGridViewTextBoxColumn();

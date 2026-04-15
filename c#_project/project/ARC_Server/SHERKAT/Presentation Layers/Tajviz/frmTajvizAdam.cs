@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTajvizAdam : Form
+    public partial class FrmTajvizAdam : Form
     {
         DataTable datat = new DataTable();
 
@@ -66,7 +66,7 @@ namespace Mehr.Presentation_Layers
             toolStripStatusLabel1.Text = "آماده عملیات";
         }
 
-        public frmTajvizAdam()
+        public FrmTajvizAdam()
         {
             InitializeComponent();
         }
@@ -595,7 +595,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmSabeghehView frtv = new frmSabeghehView();
+            FrmSabeghehView frtv = new FrmSabeghehView();
             frtv.id = txtid.Text;
             frtv.tahORtaj = false;
             frtv.ShowDialog();

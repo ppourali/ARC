@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAzmayeshView : Form
+    public partial class FrmAzmayeshView : Form
     {
-        public frmAzmayeshView()
+        public FrmAzmayeshView()
         {
             InitializeComponent();
         }
@@ -212,7 +212,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmAzmayeshInp fdi = new frmAzmayeshInp();
+            FrmAzmayeshInp fdi = new FrmAzmayeshInp();
             fdi.cur_date = this.cur_date;
             fdi.ShowDialog();
 
@@ -242,7 +242,7 @@ namespace Mehr.Presentation_Layers
                         idsandcodes.Rows.Add(new object[] { dgvr.Cells["sick_id"].Value.ToString(), dgvr.Cells["code"].Value.ToString() });
                     }
 
-                    frmOnLineAzmayeshPrintViewer fd = new frmOnLineAzmayeshPrintViewer();
+                    FrmOnLineAzmayeshPrintViewer fd = new FrmOnLineAzmayeshPrintViewer();
                     fd.RealOrNot = false;
                     fd.idtable = ids;
                     fd.idandcodestable = idsandcodes;
@@ -260,14 +260,14 @@ namespace Mehr.Presentation_Layers
                             ids.Rows.Add(new object[] { dgvr.Cells["sick_id"].Value.ToString() });
                     }
 
-                    frmSicksAzmayeshPrintViewer fd = new frmSicksAzmayeshPrintViewer();
+                    FrmSicksAzmayeshPrintViewer fd = new FrmSicksAzmayeshPrintViewer();
                     fd.cur_date = cur_date;
                     fd.idtable = ids;
                     fd.Show();
                 }
                 else if (comboBox1.SelectedIndex == 2)
                 {
-                    frmAzmayeshPrintViewer fgkpv = new frmAzmayeshPrintViewer();
+                    FrmAzmayeshPrintViewer fgkpv = new FrmAzmayeshPrintViewer();
                     fgkpv.filler = (DataTable)(grdDataViewer.DataSource);
                     fgkpv.Show();
                 }
@@ -289,7 +289,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[col, row].Value.ToString();
 
-                frmAzmayeshEdit fde = new frmAzmayeshEdit();
+                FrmAzmayeshEdit fde = new FrmAzmayeshEdit();
                 fde.txtcode.Text = val;
                 //fde.idsearch_Click(null, null);
                 fde.ShowDialog();
@@ -325,7 +325,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmAzmayeshHisView fsh = new frmAzmayeshHisView();
+            FrmAzmayeshHisView fsh = new FrmAzmayeshHisView();
             int irow = grdDataViewer.CurrentRow.Index;
             fsh.sid = grdDataViewer["sick_id", irow].Value.ToString();
             fsh.ShowDialog();

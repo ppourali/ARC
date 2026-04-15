@@ -11,11 +11,11 @@ using System.Threading;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmPeyvast : Form
+    public partial class FrmPeyvast : Form
     {
         DataTable dt = new DataTable();
 
-        public frmPeyvast()
+        public FrmPeyvast()
         {
             InitializeComponent();
         }
@@ -184,7 +184,7 @@ namespace Mehr.Presentation_Layers
             # endregion
 
 
-            frmPeyvastPrintViewer ftpv = new frmPeyvastPrintViewer();
+            FrmPeyvastPrintViewer ftpv = new FrmPeyvastPrintViewer();
 
             DataTable mard_dt = new tahvil().Search("select count(id),sex from sicks where (id in (select distinct id from tahvil where (tahvil_date>=N'" + fromdate + "' and tahvil_date <=N'" + todate + "')) and len(payan_date)!=10) group by sex");
 

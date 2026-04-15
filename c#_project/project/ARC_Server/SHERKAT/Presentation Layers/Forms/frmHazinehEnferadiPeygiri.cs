@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmHazinehEnferadiPeygiri : Form
+    public partial class FrmHazinehEnferadiPeygiri : Form
     {
 
         public string  operand;
@@ -23,7 +23,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmHazinehEnferadiPeygiri()
+        public FrmHazinehEnferadiPeygiri()
         {
             InitializeComponent();
         }
@@ -419,7 +419,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmMotevasetHazinehPrintViewer f = new frmMotevasetHazinehPrintViewer();
+            FrmMotevasetHazinehPrintViewer f = new FrmMotevasetHazinehPrintViewer();
 
             //DataTable dt = new DataTable();
             //dt.Columns.Add("income");

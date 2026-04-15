@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmPeygiriHisView : Form
+    public partial class FrmPeygiriHisView : Form
     {
-        public frmPeygiriHisView()
+        public FrmPeygiriHisView()
         {
             InitializeComponent();
         }
@@ -184,7 +184,7 @@ namespace Mehr.Presentation_Layers
                 int row = dataGridView1.CurrentRow.Index;
                 string val = dataGridView1[col, row].Value.ToString();
 
-                frmPeygiriEdit fde = new frmPeygiriEdit();
+                FrmPeygiriEdit fde = new FrmPeygiriEdit();
                 fde.txtcode.Text = val;
                 //fde.idsearch_Click(null, null);
                 fde.ShowDialog();
@@ -196,7 +196,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmPeygiriInp fdi = new frmPeygiriInp();
+            FrmPeygiriInp fdi = new FrmPeygiriInp();
             fdi.cur_date = this.cur_date;
             fdi.ShowDialog();
 
@@ -205,7 +205,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmPeygiriPrintViewer fgkpv = new frmPeygiriPrintViewer();
+            FrmPeygiriPrintViewer fgkpv = new FrmPeygiriPrintViewer();
             fgkpv.filler = (DataTable)(dataGridView1.DataSource);
             fgkpv.Show();
         }

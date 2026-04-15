@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTakhfifInp : Form
+    public partial class FrmTakhfifInp : Form
     {
         CurrencyManager objCurrencyManager;
         DataTable datat = new DataTable();
@@ -17,7 +17,7 @@ namespace Mehr.Presentation_Layers
         public string cur_date;
 
 
-        public frmTakhfifInp()
+        public FrmTakhfifInp()
         {
             InitializeComponent();
         }

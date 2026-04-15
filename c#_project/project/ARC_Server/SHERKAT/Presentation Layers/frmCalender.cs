@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Mehr
 {
-    public partial class frmCalender : Form
+    public partial class FrmCalender : Form
     {
-        public frmCalender()
+        public FrmCalender()
         {
             InitializeComponent();
         }

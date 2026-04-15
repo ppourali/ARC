@@ -10,11 +10,11 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSelectBoop : Form
+    public partial class FrmSelectBoop : Form
     {
         DataTable dt = new DataTable();
 
-        public frmSelectBoop()
+        public FrmSelectBoop()
         {
             InitializeComponent();
         }
@@ -187,7 +187,7 @@ namespace Mehr.Presentation_Layers
             }
             # endregion
 
-            frmBoopTahvilPrintViewer fbtpv = new frmBoopTahvilPrintViewer();
+            FrmBoopTahvilPrintViewer fbtpv = new FrmBoopTahvilPrintViewer();
 
             DataTable id_dt = new tahvil().Search("select distinct id from tahvil where (daru_name like N'%بوپر%' and tahvil_date>='" + fromdate + "' and tahvil_date <='" + todate + "')");
 
@@ -576,7 +576,7 @@ namespace Mehr.Presentation_Layers
             }
             # endregion
 
-            frmBoopTahvilPrintViewer fbtpv = new frmBoopTahvilPrintViewer();
+            FrmBoopTahvilPrintViewer fbtpv = new FrmBoopTahvilPrintViewer();
 
             DataTable id_dt = new tahvil().Search("select distinct id from tahvil where (daru_name like N'%بوپر%' and tahvil_date>='" + fromdate + "' and tahvil_date <='" + todate + "')");
 

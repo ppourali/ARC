@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAnbarView : Form
+    public partial class FrmAnbarView : Form
     {
-        public frmAnbarView()
+        public FrmAnbarView()
         {
             InitializeComponent();
         }
@@ -89,7 +89,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmAnbarInp fai = new frmAnbarInp();
+            FrmAnbarInp fai = new FrmAnbarInp();
             fai.MdiParent = this.MdiParent;
             fai.Show();
 
@@ -108,7 +108,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[col, row].Value.ToString();
 
-                frmAnbarEdit fae = new frmAnbarEdit();
+                FrmAnbarEdit fae = new FrmAnbarEdit();
 
                 fae.txtdaru_name.Text = val;
                 fae.old_daru_name = val;

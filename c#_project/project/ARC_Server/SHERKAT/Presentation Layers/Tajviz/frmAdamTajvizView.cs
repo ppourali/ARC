@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAdamTajvizView : Form
+    public partial class FrmAdamTajvizView : Form
     {
-        public frmAdamTajvizView()
+        public FrmAdamTajvizView()
         {
             InitializeComponent();
         }
@@ -205,14 +205,14 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmRealPeygiriInp))
+                    if (f.GetType() == typeof(FrmRealPeygiriInp))
                     {
                         IsOpen = true;
-                        ((frmRealPeygiriInp)f).cur_date = grdDataViewer["date", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmRealPeygiriInp)f).cur_date = grdDataViewer["date", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                         f.Focus();
-                        ((frmRealPeygiriInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmRealPeygiriInp)f).txtsick_id.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmRealPeygiriInp)f).idsearch_Click(null, null);   
+                        ((FrmRealPeygiriInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmRealPeygiriInp)f).txtsick_id.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmRealPeygiriInp)f).idsearch_Click(null, null);   
                         //f.Focus();
                         break;
                     }
@@ -220,7 +220,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmRealPeygiriInp fsh = new frmRealPeygiriInp();
+                    FrmRealPeygiriInp fsh = new FrmRealPeygiriInp();
                     fsh.sentbyadamview = true; 
                     fsh.cur_date = grdDataViewer["date", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                     fsh.Left = this.Left;

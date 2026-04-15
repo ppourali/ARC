@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmEditPassInput
+    partial class FrmEditPassInput
     {
         /// <summary>
         /// Required designer variable.

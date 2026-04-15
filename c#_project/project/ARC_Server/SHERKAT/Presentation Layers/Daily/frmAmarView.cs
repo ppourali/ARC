@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAmarView : Form
+    public partial class FrmAmarView : Form
     {
-        public frmAmarView()
+        public FrmAmarView()
         {
             InitializeComponent();
         }

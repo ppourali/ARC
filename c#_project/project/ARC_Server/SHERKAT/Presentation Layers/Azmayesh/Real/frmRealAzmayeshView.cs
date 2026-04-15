@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRealAzmayeshView : Form
+    public partial class FrmRealAzmayeshView : Form
     {
-        public frmRealAzmayeshView()
+        public FrmRealAzmayeshView()
         {
             InitializeComponent();
         }
@@ -212,7 +212,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmRealAzmayeshInp fdi = new frmRealAzmayeshInp();
+            FrmRealAzmayeshInp fdi = new FrmRealAzmayeshInp();
             fdi.cur_date = this.cur_date;
             fdi.ShowDialog();
             btnfilter.PerformClick();
@@ -235,14 +235,14 @@ namespace Mehr.Presentation_Layers
                             ids.Rows.Add(new object[] { dgvr.Cells["sick_id"].Value.ToString() });
                     }
 
-                    frmSicksAzmayeshPrintViewer fd = new frmSicksAzmayeshPrintViewer();
+                    FrmSicksAzmayeshPrintViewer fd = new FrmSicksAzmayeshPrintViewer();
                     fd.cur_date = cur_date;
                     fd.idtable = ids;
                     fd.Show();
                 }
                 else if (comboBox1.SelectedIndex == 1)
                 {
-                    frmAzmayeshPrintViewer fgkpv = new frmAzmayeshPrintViewer();
+                    FrmAzmayeshPrintViewer fgkpv = new FrmAzmayeshPrintViewer();
                     fgkpv.filler = (DataTable)(grdDataViewer.DataSource);
                     fgkpv.Show();
                 }
@@ -263,7 +263,7 @@ namespace Mehr.Presentation_Layers
                         idsandcodes.Rows.Add(new object[] { dgvr.Cells["sick_id"].Value.ToString(), dgvr.Cells["code"].Value.ToString() });
                     }
 
-                    frmOnLineAzmayeshPrintViewer fd = new frmOnLineAzmayeshPrintViewer();
+                    FrmOnLineAzmayeshPrintViewer fd = new FrmOnLineAzmayeshPrintViewer();
                     fd.RealOrNot = true;
                     fd.idtable = ids;
                     fd.idandcodestable = idsandcodes;
@@ -286,7 +286,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[col, row].Value.ToString();
 
-                frmRealAzmayeshEdit fde = new frmRealAzmayeshEdit();
+                FrmRealAzmayeshEdit fde = new FrmRealAzmayeshEdit();
                 fde.txtcode.Text = val;
                 //fde.idsearch_Click(null, null);
                 fde.ShowDialog();
@@ -322,7 +322,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmRealAzmayeshHisView fsh = new frmRealAzmayeshHisView();
+            FrmRealAzmayeshHisView fsh = new FrmRealAzmayeshHisView();
             int irow = grdDataViewer.CurrentRow.Index;
             fsh.sid = grdDataViewer["sick_id", irow].Value.ToString();
             fsh.cur_date = this.cur_date;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTajvizdaftarView : Form
+    public partial class FrmTajvizDaftarView : Form
     {
-        public frmTajvizdaftarView()
+        public FrmTajvizDaftarView()
         {
             InitializeComponent();
         }

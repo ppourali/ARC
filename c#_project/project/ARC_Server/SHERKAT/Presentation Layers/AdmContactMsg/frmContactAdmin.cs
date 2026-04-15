@@ -17,7 +17,7 @@ using Mehr.Presentation_Layers.AdmContactMsg;
 
 namespace Mehr
 {
-    public partial class frmContactAdmin : Form
+    public partial class FrmContactAdmin : Form
     {
 
         MailMessage mail = new MailMessage();
@@ -31,7 +31,7 @@ namespace Mehr
         string current_date = "";
         string destFilePath = "";
         private Boolean chk1, chk2, chk3,chkBackUpCreated;
-        public frmContactAdmin()
+        public FrmContactAdmin()
         {
             InitializeComponent();
 

@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmDaftariPeygiriPattern : Form
+    public partial class FrmDaftariPeygiriPattern : Form
     {
 
         public string cur_date;
@@ -19,7 +19,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmDaftariPeygiriPattern()
+        public FrmDaftariPeygiriPattern()
         {
             InitializeComponent();
         }
@@ -488,13 +488,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmdastoor_pezeshkInp))
+                    if (f.GetType() == typeof(FrmDastoorInp))
                     {
                         IsOpen = true;
-                        ((frmdastoor_pezeshkInp)f).cur_date = txtdate.Text;
+                        ((FrmDastoorInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmdastoor_pezeshkInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
-                        ((frmdastoor_pezeshkInp)f).idsearch_Click(null, null);
+                        ((FrmDastoorInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmDastoorInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -502,7 +502,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmdastoor_pezeshkInp fsh = new frmdastoor_pezeshkInp();
+                    FrmDastoorInp fsh = new FrmDastoorInp();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
@@ -524,13 +524,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmRavanshenasInp))
+                    if (f.GetType() == typeof(FrmRavanshenasInp))
                     {
                         IsOpen = true;
-                        ((frmRavanshenasInp)f).cur_date = txtdate.Text;
+                        ((FrmRavanshenasInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmRavanshenasInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
-                        ((frmRavanshenasInp)f).idsearch_Click(null, null);
+                        ((FrmRavanshenasInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmRavanshenasInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -538,7 +538,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmRavanshenasInp fsh = new frmRavanshenasInp();
+                    FrmRavanshenasInp fsh = new FrmRavanshenasInp();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
@@ -561,13 +561,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmAzmayeshInp))
+                    if (f.GetType() == typeof(FrmAzmayeshInp))
                     {
                         IsOpen = true;
-                        ((frmAzmayeshInp)f).cur_date = txtdate.Text;
+                        ((FrmAzmayeshInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmAzmayeshInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
-                        ((frmAzmayeshInp)f).idsearch_Click(null, null);
+                        ((FrmAzmayeshInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmAzmayeshInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -575,7 +575,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmAzmayeshInp fsh = new frmAzmayeshInp();
+                    FrmAzmayeshInp fsh = new FrmAzmayeshInp();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
@@ -598,13 +598,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmMosahebehInp))
+                    if (f.GetType() == typeof(FrmMosahebehInp))
                     {
                         IsOpen = true;
-                        ((frmMosahebehInp)f).cur_date = txtdate.Text;
+                        ((FrmMosahebehInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmMosahebehInp)f).txtid.Text = grdvisit["id", grdvisit.CurrentCell.RowIndex].Value.ToString();
-                        ((frmMosahebehInp)f).idsearch_Click(null, null);
+                        ((FrmMosahebehInp)f).txtid.Text = grdvisit["id", grdvisit.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmMosahebehInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -612,7 +612,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmMosahebehInp fsh = new frmMosahebehInp();
+                    FrmMosahebehInp fsh = new FrmMosahebehInp();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
@@ -628,7 +628,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmPeygiriPatternPrintViewer fsgpv = new frmPeygiriPatternPrintViewer();
+            FrmPeygiriPatternPrintViewer fsgpv = new FrmPeygiriPatternPrintViewer();
             fsgpv.filler = (DataTable)(grdvisit.DataSource);
             fsgpv.Show();
         }

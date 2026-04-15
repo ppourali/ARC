@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,11 +9,11 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTajdidSelectInp : Form
+    public partial class FrmTajdidSelectInp : Form
     {
         DataTable datat = new DataTable();
 
-        public frmTajdidSelectInp()
+        public FrmTajdidSelectInp()
         {
             InitializeComponent();
         }
@@ -54,7 +54,7 @@ namespace Mehr.Presentation_Layers
                 tk.code = long.Parse(val);
                 datat = tk.SelectforEdit();
 
-                frmTajvizEdit te = new frmTajvizEdit();
+                FrmTajvizEdit te = new FrmTajvizEdit();
                 te.t_code = datat.Rows[0]["code"].ToString();
                 te.sickname = datat.Rows[0]["name"].ToString();
                 te.txtid.Text = datat.Rows[0]["id"].ToString();
@@ -198,7 +198,7 @@ namespace Mehr.Presentation_Layers
         
         private void btnSabegheh_Click(object sender, EventArgs e)
         {
-            frmSabeghehView frtv = new frmSabeghehView();
+            FrmSabeghehView frtv = new FrmSabeghehView();
             frtv.id = txtid.Text;
             frtv.tahORtaj = true; 
             frtv.ShowDialog();

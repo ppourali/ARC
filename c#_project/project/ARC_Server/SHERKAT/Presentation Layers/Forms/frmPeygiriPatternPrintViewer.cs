@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,14 +11,14 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmPeygiriPatternPrintViewer : Form
+    public partial class FrmPeygiriPatternPrintViewer : Form
     {
        
         public DataTable filler = new DataTable();
        
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmPeygiriPatternPrintViewer()
+        public FrmPeygiriPatternPrintViewer()
         {
             InitializeComponent();
         }

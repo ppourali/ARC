@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmHazinehShow : Form
+    public partial class FrmHazinehShow : Form
     {
-        public frmHazinehShow()
+        public FrmHazinehShow()
         {
             InitializeComponent();
         }
@@ -155,7 +155,7 @@ namespace Mehr.Presentation_Layers
                 int row = dataGridView1.CurrentRow.Index;
                 string val = dataGridView1["radif", row].Value.ToString();
 
-                frmHazinehEdit fde = new frmHazinehEdit();
+                FrmHazinehEdit fde = new FrmHazinehEdit();
                 fde.txtradif.Text = val;
                 //fde.idsearch_Click(null, null);
                 fde.ShowDialog();

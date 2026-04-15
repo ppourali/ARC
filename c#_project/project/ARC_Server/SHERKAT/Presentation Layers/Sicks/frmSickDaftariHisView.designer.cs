@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmSickDaftariHisView
+    partial class FrmSickDaftariHisView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSickDaftariHisView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSickDaftariHisView));
             this.btnexit = new System.Windows.Forms.Button();
             this.btnfilter = new System.Windows.Forms.Button();
             this.txtid = new Mehr.IDTextBox();

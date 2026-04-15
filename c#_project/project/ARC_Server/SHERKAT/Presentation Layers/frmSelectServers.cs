@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,10 +10,10 @@ using System.Data.Sql;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSelectServers : Form
+    public partial class FrmSelectServers : Form
     {
         public bool isClient = true;
-        public frmSelectServers()
+        public FrmSelectServers()
         {
             InitializeComponent();
         }

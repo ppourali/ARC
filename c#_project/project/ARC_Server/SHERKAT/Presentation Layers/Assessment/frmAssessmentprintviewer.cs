@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,14 +11,14 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAssessmentprintviewer : Form
+    public partial class FrmAssessmentprintviewer : Form
     {
 
         public DataTable P = new DataTable();
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmAssessmentprintviewer()
+        public FrmAssessmentprintviewer()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
-﻿namespace Mehr
+namespace Mehr
 {
-    partial class frmAuthurize
+    partial class FrmAuthurize
     {
         /// <summary>
         /// Required designer variable.

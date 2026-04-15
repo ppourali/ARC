@@ -1,7 +1,7 @@
-﻿using Microsoft.Reporting.WinForms;
+using Microsoft.Reporting.WinForms;
 namespace Mehr.Presentation_Layers
 {
-    partial class frmSicksTanzimPezeshkPrintViewerAllInOne
+    partial class FrmSicksTanzimPezeshkPrintViewerAllInOne
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Mehr.Presentation_Layers
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSicksTanzimPezeshkPrintViewerAllInOne));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSicksTanzimPezeshkPrintViewerAllInOne));
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.SuspendLayout();
             // 

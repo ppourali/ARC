@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmHazinehPeygiri : Form
+    public partial class FrmHazinehPeygiri : Form
     {
         int tedadforchartprint = 0;
 
@@ -22,7 +22,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmHazinehPeygiri()
+        public FrmHazinehPeygiri()
         {
             InitializeComponent();
         }
@@ -404,13 +404,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmdastoor_pezeshkInp))
+                    if (f.GetType() == typeof(FrmDastoorInp))
                     {
                         IsOpen = true;
-                        ((frmdastoor_pezeshkInp)f).cur_date = txtdate.Text;
+                        ((FrmDastoorInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmdastoor_pezeshkInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
-                        ((frmdastoor_pezeshkInp)f).idsearch_Click(null, null);
+                        ((FrmDastoorInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmDastoorInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -418,7 +418,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmdastoor_pezeshkInp fsh = new frmdastoor_pezeshkInp();
+                    FrmDastoorInp fsh = new FrmDastoorInp();
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
                     fsh.Top = this.Top;
@@ -439,13 +439,13 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmRavanshenasInp))
+                    if (f.GetType() == typeof(FrmRavanshenasInp))
                     {
                         IsOpen = true;
-                        ((frmRavanshenasInp)f).cur_date = txtdate.Text;
+                        ((FrmRavanshenasInp)f).cur_date = txtdate.Text;
                         f.Focus();
-                        ((frmRavanshenasInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
-                        ((frmRavanshenasInp)f).idsearch_Click(null, null);
+                        ((FrmRavanshenasInp)f).txtname.Text = grdvisit["name", grdvisit.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmRavanshenasInp)f).idsearch_Click(null, null);
                         //f.Focus();
                         break;
                     }
@@ -453,7 +453,7 @@ namespace Mehr.Presentation_Layers
 
                 if (IsOpen == false)
                 {
-                    frmRavanshenasInp fsh = new frmRavanshenasInp();
+                    FrmRavanshenasInp fsh = new FrmRavanshenasInp();
                     fsh.cur_date = txtdate.Text;
                     fsh.Left = this.Left;
                     fsh.Top = this.Top;
@@ -501,7 +501,7 @@ namespace Mehr.Presentation_Layers
             {
                 int rindex = grdvisit.CurrentCell.RowIndex;
 
-                frmHazinehEnferadiPeygiri fhepv = new frmHazinehEnferadiPeygiri();
+                FrmHazinehEnferadiPeygiri fhepv = new FrmHazinehEnferadiPeygiri();
 
                 fhepv.txtmet5.Text = txtmet5.Text;
                 fhepv.txtboop4.Text = txtboop4.Text;
@@ -810,7 +810,7 @@ namespace Mehr.Presentation_Layers
             }
 
 
-            frmAverageHazinehChartPrintViewer fahc = new frmAverageHazinehChartPrintViewer();
+            FrmAverageHazinehChartPrintViewer fahc = new FrmAverageHazinehChartPrintViewer();
             fahc.filler = dt;
             fahc.Show();
         }
@@ -819,7 +819,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdvisit.CurrentRow != null)
             {
-                frmSickHisView fsh = new frmSickHisView();
+                FrmSickHisView fsh = new FrmSickHisView();
                 fsh.txtid.Text = grdvisit["id", grdvisit.CurrentCell.RowIndex].Value.ToString();
                 fsh.sabegheh = true;
                 fsh.Show();

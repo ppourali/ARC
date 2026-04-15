@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSickSelPrintViewer : Form
+    public partial class FrmSickSelPrintViewer : Form
     {
        
         public DataTable filler = new DataTable();
@@ -19,7 +19,7 @@ namespace Mehr.Presentation_Layers
         public string sick_name = "";
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmSickSelPrintViewer()
+        public FrmSickSelPrintViewer()
         {
             InitializeComponent();
         }

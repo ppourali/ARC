@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmSickMandehEdit
+    partial class FrmSickMandehEdit
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSickMandehEdit));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSickMandehEdit));
             this.btnUpdate = new System.Windows.Forms.Button();
             this.grpinfo_box = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();

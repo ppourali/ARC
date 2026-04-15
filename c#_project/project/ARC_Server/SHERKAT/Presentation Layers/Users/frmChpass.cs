@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmChpass : Form
+    public partial class FrmChpass : Form
     {
         CurrencyManager objCurrencyManager;
         DataTable datat = new DataTable();
@@ -57,7 +57,7 @@ namespace Mehr.Presentation_Layers
 
         }
 
-        public frmChpass()
+        public FrmChpass()
         {
             InitializeComponent();
 

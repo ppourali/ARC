@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAdamTahvilView : Form
+    public partial class FrmAdamTahvilView : Form
     {
-        public frmAdamTahvilView()
+        public FrmAdamTahvilView()
         {
             InitializeComponent();
         }
@@ -185,7 +185,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmTahvil_koliPrintViewer ftkpv = new frmTahvil_koliPrintViewer();
+            FrmTahvilKoliPrintViewer ftkpv = new FrmTahvilKoliPrintViewer();
             ftkpv.filler = (DataTable)(grdDataViewer.DataSource);
             ftkpv.Show();
         }
@@ -212,14 +212,14 @@ namespace Mehr.Presentation_Layers
 
                 foreach (Form f in Application.OpenForms)
                 {
-                    if (f.GetType() == typeof(frmPeygiriInp))
+                    if (f.GetType() == typeof(FrmPeygiriInp))
                     {
                         IsOpen = true;
-                        ((frmPeygiriInp)f).cur_date = grdDataViewer["date", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmPeygiriInp)f).cur_date = grdDataViewer["date", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                         f.Focus();
-                        ((frmPeygiriInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmPeygiriInp)f).txtsick_id.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                        ((frmPeygiriInp)f).idsearch_Click(null, null);   
+                        ((FrmPeygiriInp)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmPeygiriInp)f).txtsick_id.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                        ((FrmPeygiriInp)f).idsearch_Click(null, null);   
                         //f.Focus();
                         break;
                     }
@@ -228,7 +228,7 @@ namespace Mehr.Presentation_Layers
                 if (IsOpen == false)
                 {
 
-                    frmPeygiriInp fsh = new frmPeygiriInp();
+                    FrmPeygiriInp fsh = new FrmPeygiriInp();
                     fsh.sentbyadamview = true;
                     fsh.cur_date = grdDataViewer["date", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                     fsh.Left = this.Left;

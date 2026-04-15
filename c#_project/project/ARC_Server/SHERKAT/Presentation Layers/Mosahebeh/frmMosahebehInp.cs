@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmMosahebehInp : Form
+    public partial class FrmMosahebehInp : Form
     {
         DataTable datat = new DataTable();
 
@@ -17,7 +17,7 @@ namespace Mehr.Presentation_Layers
 
         public string cur_date = "";
            
-        public frmMosahebehInp()
+        public FrmMosahebehInp()
         {
             InitializeComponent();
         }

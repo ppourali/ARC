@@ -9,13 +9,13 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAssessmentInp : Form
+    public partial class FrmAssessmentInp : Form
     {
         DataTable datat = new DataTable();
 
         public string cur_date = "";
 
-        public frmAssessmentInp()
+        public FrmAssessmentInp()
         {
             InitializeComponent();
         }

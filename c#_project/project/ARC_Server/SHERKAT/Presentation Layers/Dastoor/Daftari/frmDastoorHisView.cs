@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmDastoorHisView : Form
+    public partial class FrmDastoorHisView : Form
     {
-        public frmDastoorHisView()
+        public FrmDastoorHisView()
         {
             InitializeComponent();
         }
@@ -53,7 +53,7 @@ namespace Mehr.Presentation_Layers
         {
             if (dataGridView1.CurrentRow != null)
             {
-                frmDastoorPrintViewer fgkpv = new frmDastoorPrintViewer();
+                FrmDastoorPrintViewer fgkpv = new FrmDastoorPrintViewer();
                 fgkpv.filler = (DataTable)(dataGridView1.DataSource);
                 fgkpv.Show();
             }

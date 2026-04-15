@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSubDaftarShow : Form
+    public partial class FrmSubDaftarShow : Form
     {
-        public frmSubDaftarShow()
+        public FrmSubDaftarShow()
         {
             InitializeComponent();
         }
@@ -350,7 +350,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmDaftarPrintViewer fdpv = new frmDaftarPrintViewer();
+            FrmDaftarPrintViewer fdpv = new FrmDaftarPrintViewer();
             fdpv.choose = 2;
             fdpv.fromdate = txtdate.Text;
             fdpv.todate = txttodate.Text;

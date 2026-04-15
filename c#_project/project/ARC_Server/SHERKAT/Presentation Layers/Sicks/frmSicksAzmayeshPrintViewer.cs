@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSicksAzmayeshPrintViewer : Form
+    public partial class FrmSicksAzmayeshPrintViewer : Form
     {
         public bool f6got = false;
 
@@ -27,7 +27,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmSicksAzmayeshPrintViewer()
+        public FrmSicksAzmayeshPrintViewer()
         {
             InitializeComponent();
         }

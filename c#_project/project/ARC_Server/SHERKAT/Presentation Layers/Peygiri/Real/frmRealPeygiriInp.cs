@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRealPeygiriInp : Form
+    public partial class FrmRealPeygiriInp : Form
     {
         DataTable datat = new DataTable();
 
@@ -23,7 +23,7 @@ namespace Mehr.Presentation_Layers
             toolStripStatusLabel1.Text = "آماده عملیات";
         }
 
-        public frmRealPeygiriInp()
+        public FrmRealPeygiriInp()
         {
             InitializeComponent();
         }
@@ -331,7 +331,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmRealPeygiriHisView fsh = new frmRealPeygiriHisView();
+            FrmRealPeygiriHisView fsh = new FrmRealPeygiriHisView();
             fsh.txtid.Text = this.txtsick_id.Text;
             fsh.txtname.Text = this.txtname.Text;
             fsh.sabegheh = true;

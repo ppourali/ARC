@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmSelectBoop
+    partial class FrmSelectBoop
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSelectBoop));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSelectBoop));
             this.grpinfo_box = new System.Windows.Forms.GroupBox();
             this.txtmonth = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();

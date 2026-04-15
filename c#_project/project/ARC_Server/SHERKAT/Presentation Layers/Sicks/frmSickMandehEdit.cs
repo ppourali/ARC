@@ -10,12 +10,12 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSickMandehEdit : Form
+    public partial class FrmSickMandehEdit : Form
     {
         DataTable dt = new DataTable();
         public string cur_date;
 
-        public frmSickMandehEdit()
+        public FrmSickMandehEdit()
         {
             InitializeComponent();
         }

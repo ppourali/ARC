@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,14 +11,14 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAmar_koliPrintViewer : Form
+    public partial class FrmAmar_koliPrintViewer : Form
     {
         public string fd = "", td = "";
         public DataTable filler = new DataTable();
        
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmAmar_koliPrintViewer()
+        public FrmAmar_koliPrintViewer()
         {
             InitializeComponent();
         }

@@ -11,11 +11,11 @@ using System.Threading;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSelectMet : Form
+    public partial class FrmSelectMet : Form
     {
         DataTable dt = new DataTable();
 
-        public frmSelectMet()
+        public FrmSelectMet()
         {
             InitializeComponent();
         }
@@ -196,7 +196,7 @@ namespace Mehr.Presentation_Layers
             # endregion
 
 
-            frmMetTahvilPrintViewer ftpv = new frmMetTahvilPrintViewer();
+            FrmMetTahvilPrintViewer ftpv = new FrmMetTahvilPrintViewer();
 
             DataTable id_dt = new tahvil().Search("select distinct id from tahvil where (daru_name like N'%متادون%' and tahvil_date>=N'" + fromdate + "' and tahvil_date <=N'" + todate + "')");
             //int mard = new tahvil().Search("select count(id) from tahvil where (daru_name like N'%متادون%' and date>='" + fromdate + "' and date <='" + todate + "')");
@@ -686,7 +686,7 @@ namespace Mehr.Presentation_Layers
             # endregion
 
 
-            frmMetTahvilPrintViewer ftpv = new frmMetTahvilPrintViewer();
+            FrmMetTahvilPrintViewer ftpv = new FrmMetTahvilPrintViewer();
 
             DataTable id_dt = new tahvil().Search("select distinct id from tahvil where (daru_name like N'%متادون%' and tahvil_date>=N'" + fromdate + "' and tahvil_date <=N'" + todate + "')");
             //int mard = new tahvil().Search("select count(id) from tahvil where (daru_name like N'%متادون%' and date>='" + fromdate + "' and date <='" + todate + "')");

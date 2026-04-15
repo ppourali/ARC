@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,12 +10,12 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSicksEdit : Form
+    public partial class FrmSicksEdit : Form
     {
         DataTable dt = new DataTable();
         public string cur_date;
 
-        public frmSicksEdit()
+        public FrmSicksEdit()
         {
             InitializeComponent();
         }

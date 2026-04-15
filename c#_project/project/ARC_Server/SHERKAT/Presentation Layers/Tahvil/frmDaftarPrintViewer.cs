@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmDaftarPrintViewer : Form
+    public partial class FrmDaftarPrintViewer : Form
     {
         public string fromdate = "", todate = "";
         public DataTable filler = new DataTable();
@@ -19,7 +19,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmDaftarPrintViewer()
+        public FrmDaftarPrintViewer()
         {
             InitializeComponent();
         }

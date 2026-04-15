@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSelSicksFor : Form
+    public partial class FrmSelSicksFor : Form
     {
-        public frmSelSicksFor()
+        public FrmSelSicksFor()
         {
             InitializeComponent();
         }
@@ -44,7 +44,7 @@ namespace Mehr.Presentation_Layers
         {
             if (dataGridView1.CurrentRow != null)
             {
-                frmAzmayeshHisView fsh = new frmAzmayeshHisView();
+                FrmAzmayeshHisView fsh = new FrmAzmayeshHisView();
                 int irow = dataGridView1.CurrentRow.Index;
                 fsh.sid = dataGridView1["id", irow].Value.ToString();
                 fsh.ShowDialog();
@@ -55,7 +55,7 @@ namespace Mehr.Presentation_Layers
         {
             if (dataGridView1.CurrentRow != null)
             {
-                frmDastoorHisView fsh = new frmDastoorHisView();
+                FrmDastoorHisView fsh = new FrmDastoorHisView();
                 int irow = dataGridView1.CurrentRow.Index;
                 fsh.sid = dataGridView1["id", irow].Value.ToString();
                 fsh.ShowDialog();
@@ -66,7 +66,7 @@ namespace Mehr.Presentation_Layers
         {
             if (dataGridView1.CurrentRow != null)
             {
-                frmRavanshenasHisView fsh = new frmRavanshenasHisView();
+                FrmRavanshenasHisView fsh = new FrmRavanshenasHisView();
                 int irow = dataGridView1.CurrentRow.Index;
                 fsh.sid = dataGridView1["id", irow].Value.ToString();
                 fsh.ShowDialog();
@@ -214,7 +214,7 @@ namespace Mehr.Presentation_Layers
         {
             if (dataGridView1.Rows.Count > 0)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (dataGridView1["id", dataGridView1.CurrentCell.RowIndex].Value.ToString());
 
                 frtv.tahORtaj = false;
@@ -293,7 +293,7 @@ namespace Mehr.Presentation_Layers
 
                 if (ids.Rows.Count > 0)
                 {
-                    frmDastoorOnLinePrintViewer fd = new frmDastoorOnLinePrintViewer();
+                    FrmDastoorOnLinePrintViewer fd = new FrmDastoorOnLinePrintViewer();
                     fd.RealOrNot = false;
                     fd.idtable = ids;
                     fd.idandcodestable = idsandcodes;
@@ -323,7 +323,7 @@ namespace Mehr.Presentation_Layers
 
                 if (ids.Rows.Count > 0)
                 {
-                    frmRavanshenasOnLinePrintViewer fd = new frmRavanshenasOnLinePrintViewer();
+                    FrmRavanshenasOnLinePrintViewer fd = new FrmRavanshenasOnLinePrintViewer();
                     fd.RealOrNot = false;
                     fd.idtable = ids;
                     fd.idandcodestable = idsandcodes;
@@ -352,7 +352,7 @@ namespace Mehr.Presentation_Layers
 
                 if (ids.Rows.Count > 0)
                 {
-                    frmOnLineAzmayeshPrintViewer fd = new frmOnLineAzmayeshPrintViewer();
+                    FrmOnLineAzmayeshPrintViewer fd = new FrmOnLineAzmayeshPrintViewer();
                     fd.RealOrNot = false;
                     fd.idtable = ids;
                     fd.idandcodestable = idsandcodes;
@@ -384,7 +384,7 @@ namespace Mehr.Presentation_Layers
                 }
                 if (ids.Rows.Count > 0)
                 {
-                    frmTanzimPrintViewerOnline fgkpv = new frmTanzimPrintViewerOnline();
+                    FrmTanzimPrintViewerOnline fgkpv = new FrmTanzimPrintViewerOnline();
                     fgkpv.idandcodestable = idsandcodes;
                     fgkpv.cur_date = dataGridView1.CurrentRow.Cells["from_date"].Value.ToString();
                     ids.DefaultView.Sort = "id";

@@ -10,11 +10,11 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSelectSub : Form
+    public partial class FrmSelectSub : Form
     {
         DataTable dt = new DataTable();
 
-        public frmSelectSub()
+        public FrmSelectSub()
         {
             InitializeComponent();
         }
@@ -188,7 +188,7 @@ namespace Mehr.Presentation_Layers
             }
             # endregion
 
-            frmSubTahvilPrintViewer fstpv = new frmSubTahvilPrintViewer();
+            FrmSubTahvilPrintViewer fstpv = new FrmSubTahvilPrintViewer();
 
             DataTable id_dt = new tahvil().Search("select distinct id from tahvil where (daru_name like N'%سوبا%' and tahvil_date>='" + fromdate + "' and tahvil_date<='" + todate + "')");
 
@@ -505,7 +505,7 @@ private void printbytahvil()
             }
             # endregion
 
-            frmSubTahvilPrintViewer fstpv = new frmSubTahvilPrintViewer();
+            FrmSubTahvilPrintViewer fstpv = new FrmSubTahvilPrintViewer();
 
             DataTable id_dt = new tahvil().Search("select distinct id from tahvil where (daru_name like N'%سوبا%' and tahvil_date>='" + fromdate + "' and tahvil_date<='" + todate + "')");
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRavanshenasHisView : Form
+    public partial class FrmRavanshenasHisView : Form
     {
-        public frmRavanshenasHisView()
+        public FrmRavanshenasHisView()
         {
             InitializeComponent();
         }
@@ -54,7 +54,7 @@ namespace Mehr.Presentation_Layers
             if (dataGridView1.CurrentRow != null)
             {
 
-                frmRavanshenasPrintViewer fgkpv = new frmRavanshenasPrintViewer();
+                FrmRavanshenasPrintViewer fgkpv = new FrmRavanshenasPrintViewer();
                 fgkpv.filler = new ravanshenas().Search("select * from ravanshenas where (sick_id=N'" + dataGridView1.CurrentRow.Cells["sick_id"].Value.ToString() + "')");
                 fgkpv.Show();
             } 

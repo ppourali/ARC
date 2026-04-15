@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +10,11 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmHazinehEdit : Form
+    public partial class FrmHazinehEdit : Form
     {
         DataTable dt = new DataTable();
 
-        public frmHazinehEdit()
+        public FrmHazinehEdit()
         {
             InitializeComponent();
         }
@@ -231,7 +231,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            frmShortHazinehInp fbi = new frmShortHazinehInp();
+            FrmShortHazinehInp fbi = new FrmShortHazinehInp();
             fbi.ShowDialog();
 
             hazineh_types ba = new hazineh_types();

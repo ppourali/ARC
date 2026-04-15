@@ -12,7 +12,7 @@ using Mehr.Utils;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSicksDocPrintViewer : Form
+    public partial class FrmSicksDocPrintViewer : Form
     {
         public bool f6got = false;
 
@@ -51,7 +51,7 @@ namespace Mehr.Presentation_Layers
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource8 = new Microsoft.Reporting.WinForms.ReportDataSource();
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource9 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmSicksDocPrintViewer()
+        public FrmSicksDocPrintViewer()
         {
             InitializeComponent();
         }

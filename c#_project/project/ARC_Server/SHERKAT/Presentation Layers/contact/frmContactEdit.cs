@@ -10,12 +10,12 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmContactEdit : Form
+    public partial class FrmContactEdit : Form
     {
         DataTable dt = new DataTable();
         public string cur_date;
 
-        public frmContactEdit()
+        public FrmContactEdit()
         {
             InitializeComponent();
         }

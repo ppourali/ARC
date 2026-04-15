@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmDaftariPeygiriPrintViewerEntekhaabi
+    partial class FrmDaftariPeygiriPrintViewerEntekhaabi
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDaftariPeygiriPrintViewerEntekhaabi));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDaftariPeygiriPrintViewerEntekhaabi));
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.btnMoveFirst = new System.Windows.Forms.Button();
             this.txtRecordPosition = new System.Windows.Forms.TextBox();

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSickHisView : Form
+    public partial class FrmSickHisView : Form
     {
-        public frmSickHisView()
+        public FrmSickHisView()
         {
             InitializeComponent();
         }
@@ -187,7 +187,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            frmSickHisPrintViewer pv = new frmSickHisPrintViewer();
+            FrmSickHisPrintViewer pv = new FrmSickHisPrintViewer();
             pv.filler = ((DataTable)dataGridView1.DataSource);
             pv.sick_name = txtname.Text.Trim();
             pv.ShowDialog(); 
@@ -197,7 +197,7 @@ namespace Mehr.Presentation_Layers
         {
             if (dataGridView1.Rows.Count > 0)
             {
-                frmSickMandehEdit fsmhe = new frmSickMandehEdit();
+                FrmSickMandehEdit fsmhe = new FrmSickMandehEdit();
                 fsmhe.txtid.Text = dataGridView1["sick_id", 0].Value.ToString();
                 fsmhe.ShowDialog();
 

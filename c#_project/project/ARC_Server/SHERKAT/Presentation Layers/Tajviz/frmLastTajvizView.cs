@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmLastTajvizView : Form
+    public partial class FrmLastTajvizView : Form
     {
-        public frmLastTajvizView()
+        public FrmLastTajvizView()
         {
             InitializeComponent();
         }
@@ -77,7 +77,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.CurrentRow != null)
             {
-                frmRizTajvizView frtv = new frmRizTajvizView();
+                FrmRizTajvizView frtv = new FrmRizTajvizView();
                 frtv.code = long.Parse(grdDataViewer["code", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
                 frtv.MdiParent = this.MdiParent;
                 frtv.Show();
@@ -111,21 +111,21 @@ namespace Mehr.Presentation_Layers
 
                     foreach (Form f in Application.OpenForms)
                     {
-                        if (f.GetType() == typeof(frmGhabzDaryaft))
+                        if (f.GetType() == typeof(FrmGhabzDaryaft))
                         {
                             IsOpen = true;
-                            ((frmGhabzDaryaft)f).cur_date = cur_date;
+                            ((FrmGhabzDaryaft)f).cur_date = cur_date;
                             f.Focus();
-                            ((frmGhabzDaryaft)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
-                            ((frmGhabzDaryaft)f).txtmablagh.Text = (datedif * int.Parse(((frmGhabzDaryaft)f).txtroozaneh.Text)).ToString();
-                            ((frmGhabzDaryaft)f).txtmablagh.Focus();
+                            ((FrmGhabzDaryaft)f).txtname.Text = grdDataViewer["name", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
+                            ((FrmGhabzDaryaft)f).txtmablagh.Text = (datedif * int.Parse(((FrmGhabzDaryaft)f).txtroozaneh.Text)).ToString();
+                            ((FrmGhabzDaryaft)f).txtmablagh.Focus();
                             break;
                         }
                     }
 
                     if (IsOpen == false)
                     {
-                        frmGhabzDaryaft fsh = new frmGhabzDaryaft();
+                        FrmGhabzDaryaft fsh = new FrmGhabzDaryaft();
                         fsh.cur_date = cur_date;
                         fsh.MdiParent = this.MdiParent;
                         fsh.Show();

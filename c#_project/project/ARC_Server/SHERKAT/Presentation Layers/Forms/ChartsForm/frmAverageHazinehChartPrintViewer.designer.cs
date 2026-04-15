@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmAverageHazinehChartPrintViewer
+    partial class FrmAverageHazinehChartPrintViewer
     {
         /// <summary>
         /// Required designer variable.

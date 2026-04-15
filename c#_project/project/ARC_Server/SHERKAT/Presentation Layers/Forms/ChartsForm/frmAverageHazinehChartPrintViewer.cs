@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,14 +11,14 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAverageHazinehChartPrintViewer : Form
+    public partial class FrmAverageHazinehChartPrintViewer : Form
     {
        
         public DataTable filler = new DataTable();
        
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmAverageHazinehChartPrintViewer()
+        public FrmAverageHazinehChartPrintViewer()
         {
             InitializeComponent();
         }

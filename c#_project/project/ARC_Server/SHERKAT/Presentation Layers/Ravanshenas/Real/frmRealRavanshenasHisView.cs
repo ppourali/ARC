@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRealRavanshenasHisView : Form
+    public partial class FrmRealRavanshenasHisView : Form
     {
-        public frmRealRavanshenasHisView()
+        public FrmRealRavanshenasHisView()
         {
             InitializeComponent();
         }
@@ -52,7 +52,7 @@ namespace Mehr.Presentation_Layers
         {
             if (dataGridView1.CurrentRow != null)
             {
-                frmRavanshenasPrintViewer fgkpv = new frmRavanshenasPrintViewer();
+                FrmRavanshenasPrintViewer fgkpv = new FrmRavanshenasPrintViewer();
                 fgkpv.filler = new ravanshenas().Search("select * from ravanshenas where (sick_id=N'" + dataGridView1.CurrentRow.Cells["sick_id"].Value.ToString() + "')");
                 fgkpv.Show();
             }
@@ -123,13 +123,13 @@ namespace Mehr.Presentation_Layers
 
             foreach (Form f in Application.OpenForms)
             {
-                if (f.GetType() == typeof(frmRealRavanshenasInp))
+                if (f.GetType() == typeof(FrmRealRavanshenasInp))
                 {
                     IsOpen = true;
-                    ((frmRealRavanshenasInp)f).cur_date = this.cur_date;
+                    ((FrmRealRavanshenasInp)f).cur_date = this.cur_date;
                     f.Focus();
-                    ((frmRealRavanshenasInp)f).txtname.Text = this.name;
-                    ((frmRealRavanshenasInp)f).idsearch_Click(null, null);
+                    ((FrmRealRavanshenasInp)f).txtname.Text = this.name;
+                    ((FrmRealRavanshenasInp)f).idsearch_Click(null, null);
                     //f.Focus();
                     break;
                 }
@@ -137,7 +137,7 @@ namespace Mehr.Presentation_Layers
 
             if (IsOpen == false)
             {
-                frmRealRavanshenasInp fsh = new frmRealRavanshenasInp();
+                FrmRealRavanshenasInp fsh = new FrmRealRavanshenasInp();
                 //fsh.sentbyadamview = true;
                 fsh.cur_date = this.cur_date;
                 fsh.Left = this.Left;

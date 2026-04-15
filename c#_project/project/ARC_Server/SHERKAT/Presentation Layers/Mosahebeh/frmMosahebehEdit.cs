@@ -9,11 +9,11 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmMosahebehEdit : Form
+    public partial class FrmMosahebehEdit : Form
     {
         DataTable datat = new DataTable();
 
-        public frmMosahebehEdit()
+        public FrmMosahebehEdit()
         {
             InitializeComponent();
         }

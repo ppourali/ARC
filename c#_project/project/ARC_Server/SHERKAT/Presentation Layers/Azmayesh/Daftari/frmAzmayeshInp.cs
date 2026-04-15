@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAzmayeshInp : Form
+    public partial class FrmAzmayeshInp : Form
     {
         DataTable datat = new DataTable();
 
@@ -23,7 +23,7 @@ namespace Mehr.Presentation_Layers
             toolStripStatusLabel1.Text = "آماده عملیات";
         }
 
-        public frmAzmayeshInp()
+        public FrmAzmayeshInp()
         {
             InitializeComponent();
         }
@@ -154,7 +154,7 @@ namespace Mehr.Presentation_Layers
 
                     idsandcodes.Rows.Add(new object[] { txtsick_id.Text, txtcode.Text });
 
-                    frmOnLineAzmayeshPrintViewer fd = new frmOnLineAzmayeshPrintViewer();
+                    FrmOnLineAzmayeshPrintViewer fd = new FrmOnLineAzmayeshPrintViewer();
                     fd.RealOrNot = false;
                     fd.idtable = ids;
                     fd.idandcodestable = idsandcodes;
@@ -328,7 +328,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmAzmayeshHisView fsh = new frmAzmayeshHisView();
+            FrmAzmayeshHisView fsh = new FrmAzmayeshHisView();
             fsh.sid = this.txtsick_id.Text;
             fsh.ShowDialog();
         }
@@ -341,7 +341,7 @@ namespace Mehr.Presentation_Layers
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            frmDastoorHisView fsh = new frmDastoorHisView();
+            FrmDastoorHisView fsh = new FrmDastoorHisView();
             fsh.sid = this.txtsick_id.Text;
             fsh.ShowDialog();
         }

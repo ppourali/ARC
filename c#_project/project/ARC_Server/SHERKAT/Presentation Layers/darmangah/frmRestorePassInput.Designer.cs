@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmRestorePassInput
+    partial class FrmRestorePassInput
     {
         /// <summary>
         /// Required designer variable.

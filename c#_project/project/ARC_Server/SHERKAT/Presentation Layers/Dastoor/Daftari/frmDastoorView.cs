@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmDastoorView : Form
+    public partial class FrmDastoorView : Form
     {
-        public frmDastoorView()
+        public FrmDastoorView()
         {
             InitializeComponent();
         }
@@ -211,7 +211,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmdastoor_pezeshkInp fdi = new frmdastoor_pezeshkInp();
+            FrmDastoorInp fdi = new FrmDastoorInp();
             fdi.cur_date = this.cur_date;
             fdi.ShowDialog();
 
@@ -241,7 +241,7 @@ namespace Mehr.Presentation_Layers
                         idsandcodes.Rows.Add(new object[] { dgvr.Cells["sick_id"].Value.ToString(), dgvr.Cells["code"].Value.ToString() });
                     }
 
-                    frmDastoorOnLinePrintViewer fd = new frmDastoorOnLinePrintViewer();
+                    FrmDastoorOnLinePrintViewer fd = new FrmDastoorOnLinePrintViewer();
                     fd.RealOrNot = false;
                     fd.idtable = ids;
                     fd.idandcodestable = idsandcodes;
@@ -257,14 +257,14 @@ namespace Mehr.Presentation_Layers
                         if (ids.Select("id='" + dgvr.Cells["sick_id"].Value.ToString() + "'").Length == 0)
                             ids.Rows.Add(new object[] { dgvr.Cells["sick_id"].Value.ToString() });
                     }
-                    frmSicksDastoorPrintViewer fd = new frmSicksDastoorPrintViewer();
+                    FrmSicksDastoorPrintViewer fd = new FrmSicksDastoorPrintViewer();
                     fd.cur_date = cur_date;
                     fd.idtable = ids;
                     fd.Show();
                 }
                 else if (comboBox1.SelectedIndex == 2)
                 {
-                    frmDastoorPrintViewer fgkpv = new frmDastoorPrintViewer();
+                    FrmDastoorPrintViewer fgkpv = new FrmDastoorPrintViewer();
                     fgkpv.filler = (DataTable)(grdDataViewer.DataSource);
                     fgkpv.Show();
                 }
@@ -285,7 +285,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[col, row].Value.ToString();
 
-                frmdastoor_pezeshkEdit fde = new frmdastoor_pezeshkEdit();
+                FrmDastoorEdit fde = new FrmDastoorEdit();
                 fde.txtcode.Text = val;
                 //fde.idsearch_Click(null, null);
                 fde.ShowDialog();
@@ -321,7 +321,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmDastoorHisView fsh = new frmDastoorHisView();
+            FrmDastoorHisView fsh = new FrmDastoorHisView();
             int irow = grdDataViewer.CurrentRow.Index;
             fsh.sid = grdDataViewer["sick_id", irow].Value.ToString();
             fsh.ShowDialog();

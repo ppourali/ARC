@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +13,7 @@ using Mehr.Utils;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTanzimPrintViewerOnline : Form
+    public partial class FrmTanzimPrintViewerOnline : Form
     {
         CurrencyManager objCurrencyManager;
 
@@ -25,7 +25,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmTanzimPrintViewerOnline()
+        public FrmTanzimPrintViewerOnline()
         {
             InitializeComponent();
         }

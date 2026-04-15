@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmMarkazHazinehPeygiri
+    partial class FrmMarkazHazinehPeygiri
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMarkazHazinehPeygiri));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMarkazHazinehPeygiri));
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnexit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();

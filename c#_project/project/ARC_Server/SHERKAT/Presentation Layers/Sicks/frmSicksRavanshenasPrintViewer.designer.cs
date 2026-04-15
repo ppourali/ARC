@@ -1,7 +1,7 @@
-﻿using Microsoft.Reporting.WinForms;
+using Microsoft.Reporting.WinForms;
 namespace Mehr.Presentation_Layers
 {
-    partial class frmSicksRavanshenasPrintViewer
+    partial class FrmSicksRavanshenasPrintViewer
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Mehr.Presentation_Layers
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSicksRavanshenasPrintViewer));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSicksRavanshenasPrintViewer));
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.txtRecordPosition = new System.Windows.Forms.TextBox();
             this.btnMoveLast = new System.Windows.Forms.Button();

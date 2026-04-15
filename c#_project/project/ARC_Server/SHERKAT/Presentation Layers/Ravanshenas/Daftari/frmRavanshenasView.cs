@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmRavanshenasView : Form
+    public partial class FrmRavanshenasView : Form
     {
-        public frmRavanshenasView()
+        public FrmRavanshenasView()
         {
             InitializeComponent();
         }
@@ -212,7 +212,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmRavanshenasInp fdi = new frmRavanshenasInp();
+            FrmRavanshenasInp fdi = new FrmRavanshenasInp();
             fdi.cur_date = this.cur_date;
             fdi.ShowDialog();
 
@@ -242,7 +242,7 @@ namespace Mehr.Presentation_Layers
                         idsandcodes.Rows.Add(new object[] { dgvr.Cells["sick_id"].Value.ToString(), dgvr.Cells["code"].Value.ToString() });
                     }
 
-                    frmRavanshenasOnLinePrintViewer fd = new frmRavanshenasOnLinePrintViewer();
+                    FrmRavanshenasOnLinePrintViewer fd = new FrmRavanshenasOnLinePrintViewer();
                     fd.RealOrNot = false;
                     fd.idtable = ids;
                     fd.idandcodestable = idsandcodes;
@@ -259,14 +259,14 @@ namespace Mehr.Presentation_Layers
                         if (ids.Select("id='" + dgvr.Cells["sick_id"].Value.ToString() + "'").Length == 0)
                             ids.Rows.Add(new object[] { dgvr.Cells["sick_id"].Value.ToString() });
                     }
-                    frmSicksRavanshenasPrintViewer fd = new frmSicksRavanshenasPrintViewer();
+                    FrmSicksRavanshenasPrintViewer fd = new FrmSicksRavanshenasPrintViewer();
                     fd.cur_date = cur_date;
                     fd.idtable = ids;
                     fd.Show();
                 }
                 else if (comboBox1.SelectedIndex == 2)
                 {
-                    frmRavanshenasPrintViewer fgkpv = new frmRavanshenasPrintViewer();
+                    FrmRavanshenasPrintViewer fgkpv = new FrmRavanshenasPrintViewer();
                     fgkpv.filler = (DataTable)(grdDataViewer.DataSource);
                     fgkpv.Show();
                 }
@@ -287,7 +287,7 @@ namespace Mehr.Presentation_Layers
                 int row = grdDataViewer.CurrentRow.Index;
                 string val = grdDataViewer[col, row].Value.ToString();
 
-                frmRavanshenasEdit fde = new frmRavanshenasEdit();
+                FrmRavanshenasEdit fde = new FrmRavanshenasEdit();
                 fde.txtcode.Text = val;
                 //fde.idsearch_Click(null, null);
                 fde.ShowDialog();
@@ -323,7 +323,7 @@ namespace Mehr.Presentation_Layers
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmRavanshenasHisView fsh = new frmRavanshenasHisView();
+            FrmRavanshenasHisView fsh = new FrmRavanshenasHisView();
             int irow = grdDataViewer.CurrentRow.Index;
             fsh.sid = grdDataViewer["sick_id", irow].Value.ToString();
             fsh.ShowDialog();

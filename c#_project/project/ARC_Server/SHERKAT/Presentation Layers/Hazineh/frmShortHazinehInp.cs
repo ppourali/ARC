@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmShortHazinehInp : Form
+    public partial class FrmShortHazinehInp : Form
     {
 
         CurrencyManager objCurrencyManager;
@@ -59,7 +59,7 @@ namespace Mehr.Presentation_Layers
         }
 
 
-        public frmShortHazinehInp()
+        public FrmShortHazinehInp()
         {
             InitializeComponent();
         }

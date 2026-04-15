@@ -1,6 +1,6 @@
-﻿namespace Mehr.Presentation_Layers
+namespace Mehr.Presentation_Layers
 {
-    partial class frmHazinehEnferadiPeygiri
+    partial class FrmHazinehEnferadiPeygiri
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHazinehEnferadiPeygiri));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHazinehEnferadiPeygiri));
             this.btnexit = new System.Windows.Forms.Button();
             this.grdvisit = new System.Windows.Forms.DataGridView();
             this.txtdarman_date = new System.Windows.Forms.TextBox();

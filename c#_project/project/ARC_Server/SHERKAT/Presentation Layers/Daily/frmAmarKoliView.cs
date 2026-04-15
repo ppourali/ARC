@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAmarKoliView : Form
+    public partial class FrmAmarKoliView : Form
     {
-        public frmAmarKoliView()
+        public FrmAmarKoliView()
         {
             InitializeComponent();
         }
@@ -499,7 +499,7 @@ namespace Mehr.Presentation_Layers
             }
 
 
-            frmAmar_koliPrintViewer fsipv = new frmAmar_koliPrintViewer();
+            FrmAmar_koliPrintViewer fsipv = new FrmAmar_koliPrintViewer();
             fsipv.filler = (DataTable)(qdt);
             fsipv.fd = txtdate.Text;
             fsipv.td = txttodate.Text;

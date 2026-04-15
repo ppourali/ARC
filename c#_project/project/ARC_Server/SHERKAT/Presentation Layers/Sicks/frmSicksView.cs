@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,9 +9,9 @@ using System.IO;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSicksView : Form
+    public partial class FrmSicksView : Form
     {
-        public frmSicksView()
+        public FrmSicksView()
         {
             InitializeComponent();
         }
@@ -343,7 +343,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmSickInp fsi = new frmSickInp();
+            FrmSickInp fsi = new FrmSickInp();
             fsi.cur_date = this.cur_date;
             //fsi.MdiParent = this.MdiParent;
             fsi.ShowDialog();
@@ -377,7 +377,7 @@ namespace Mehr.Presentation_Layers
 
                 datat = si.Selectforedit();
 
-                frmSicksEdit fse = new frmSicksEdit();
+                FrmSicksEdit fse = new FrmSicksEdit();
 
                 fse.txtoldid.Text = val;
                 fse.idsearch_Click(null, null);
@@ -410,7 +410,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksDocPrintViewer fd = new frmSicksDocPrintViewer();
+                FrmSicksDocPrintViewer fd = new FrmSicksDocPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -424,7 +424,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksAzmayeshPrintViewer fd = new frmSicksAzmayeshPrintViewer();
+                FrmSicksAzmayeshPrintViewer fd = new FrmSicksAzmayeshPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -438,7 +438,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksDastoorPrintViewer fd = new frmSicksDastoorPrintViewer();
+                FrmSicksDastoorPrintViewer fd = new FrmSicksDastoorPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -452,7 +452,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksRavanshenasPrintViewer fd = new frmSicksRavanshenasPrintViewer();
+                FrmSicksRavanshenasPrintViewer fd = new FrmSicksRavanshenasPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -469,7 +469,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString(), dgvr.Cells["name"].Value.ToString(), dgvr.Cells["darman_date"].Value.ToString() });
                 }
-                frmDaftariPeygiriPrintViewerEntekhaabi fd = new frmDaftariPeygiriPrintViewerEntekhaabi();
+                FrmDaftariPeygiriPrintViewerEntekhaabi fd = new FrmDaftariPeygiriPrintViewerEntekhaabi();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -485,7 +485,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString(), dgvr.Cells["name"].Value.ToString(), dgvr.Cells["darman_date"].Value.ToString() });
                 }
-                frmDaftariPeygiriPrintViewerAllInOne fd = new frmDaftariPeygiriPrintViewerAllInOne();
+                FrmDaftariPeygiriPrintViewerAllInOne fd = new FrmDaftariPeygiriPrintViewerAllInOne();
                 fd.idtable = ids;
                 fd.cur_date = cur_date;
                 fd.Show();
@@ -499,7 +499,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksTanzimPezeshkPrintViewer fd = new frmSicksTanzimPezeshkPrintViewer();
+                FrmSicksTanzimPezeshkPrintViewer fd = new FrmSicksTanzimPezeshkPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -515,7 +515,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString(), dgvr.Cells["name"].Value.ToString(), dgvr.Cells["darman_date"].Value.ToString() });
                 }
-                frmSicksTanzimPezeshkPrintViewerAllInOne fd = new frmSicksTanzimPezeshkPrintViewerAllInOne();
+                FrmSicksTanzimPezeshkPrintViewerAllInOne fd = new FrmSicksTanzimPezeshkPrintViewerAllInOne();
                 fd.idtable = ids;
                 fd.Show();
             }
@@ -528,7 +528,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksTanzimParastarPrintViewer fd = new frmSicksTanzimParastarPrintViewer();
+                FrmSicksTanzimParastarPrintViewer fd = new FrmSicksTanzimParastarPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -544,31 +544,31 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString(), dgvr.Cells["name"].Value.ToString(), dgvr.Cells["darman_date"].Value.ToString() });
                 }
-                frmSicksTanzimParastarPrintViewerAllInOne fd = new frmSicksTanzimParastarPrintViewerAllInOne();
+                FrmSicksTanzimParastarPrintViewerAllInOne fd = new FrmSicksTanzimParastarPrintViewerAllInOne();
                 fd.idtable = ids;
                 fd.Show();
             }
             else if (comboBox1.SelectedIndex == 10)
             {
-                frmSicksIndiPrintViewer fsipv = new frmSicksIndiPrintViewer();
+                FrmSicksIndividualPrintViewer fsipv = new FrmSicksIndividualPrintViewer();
                 fsipv.filler = (DataTable)(grdDataViewer.DataSource);
                 fsipv.Show();
             }
             else if (comboBox1.SelectedIndex == 11)
             {
-                frmSicksGroupPrintViewer fsgpv = new frmSicksGroupPrintViewer();
+                FrmSicksGroupPrintViewer fsgpv = new FrmSicksGroupPrintViewer();
                 fsgpv.filler = (DataTable)(grdDataViewer.DataSource);
                 fsgpv.Show();
             }
             else if (comboBox1.SelectedIndex == 12)
             {
-                frmTahodPrintViewer ftpv = new frmTahodPrintViewer();
+                FrmTahodPrintViewer ftpv = new FrmTahodPrintViewer();
                 ftpv.filler = (DataTable)(grdDataViewer.DataSource);
                 ftpv.Show();
             }
             else if (comboBox1.SelectedIndex == 13)
             {
-                frmSicksHesabPrintViewer ftpv = new frmSicksHesabPrintViewer();
+                FrmSicksHesabPrintViewer ftpv = new FrmSicksHesabPrintViewer();
                 ftpv.filler = (DataTable)(grdDataViewer.DataSource);
                 ftpv.Show();
             }
@@ -582,7 +582,7 @@ namespace Mehr.Presentation_Layers
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
 
-                frmTahvil_ResidPrintViewer ftkpv = new frmTahvil_ResidPrintViewer();
+                FrmTahvilResidPrintViewer ftkpv = new FrmTahvilResidPrintViewer();
                 ftkpv.ResidById = true;;
                 ftkpv.idTable = ids;
                 ftkpv.Show();
@@ -593,7 +593,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
 
                 frtv.tahORtaj = false;
@@ -606,14 +606,14 @@ namespace Mehr.Presentation_Layers
         {
             if (Program.user_semat.Trim() == "بازرس")
             {
-                frmSickDaftariHisView fsh = new frmSickDaftariHisView();
+                FrmSickDaftariHisView fsh = new FrmSickDaftariHisView();
                 fsh.txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                 fsh.sabegheh = true;
                 fsh.Show();
             }
             else
             {
-                frmSickHisView fsh = new frmSickHisView();
+                FrmSickHisView fsh = new FrmSickHisView();
                 fsh.txtid.Text = grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString();
                 fsh.sabegheh = true;
                 fsh.Show();
@@ -648,7 +648,7 @@ namespace Mehr.Presentation_Layers
         {
             if (grdDataViewer.Rows.Count > 0)
             {
-                frmSabeghehView frtv = new frmSabeghehView();
+                FrmSabeghehView frtv = new FrmSabeghehView();
                 frtv.id = (grdDataViewer["id", grdDataViewer.CurrentCell.RowIndex].Value.ToString());
 
                 frtv.tahORtaj = true;
@@ -716,7 +716,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksDocPrintViewer fd = new frmSicksDocPrintViewer();
+                FrmSicksDocPrintViewer fd = new FrmSicksDocPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -730,7 +730,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksAzmayeshPrintViewer fd = new frmSicksAzmayeshPrintViewer();
+                FrmSicksAzmayeshPrintViewer fd = new FrmSicksAzmayeshPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -744,7 +744,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksDastoorPrintViewer fd = new frmSicksDastoorPrintViewer();
+                FrmSicksDastoorPrintViewer fd = new FrmSicksDastoorPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -758,7 +758,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksRavanshenasPrintViewer fd = new frmSicksRavanshenasPrintViewer();
+                FrmSicksRavanshenasPrintViewer fd = new FrmSicksRavanshenasPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -772,7 +772,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksTanzimPezeshkPrintViewer fd = new frmSicksTanzimPezeshkPrintViewer();
+                FrmSicksTanzimPezeshkPrintViewer fd = new FrmSicksTanzimPezeshkPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -788,7 +788,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString(), dgvr.Cells["name"].Value.ToString(), dgvr.Cells["darman_date"].Value.ToString() });
                 }
-                frmSicksTanzimPezeshkPrintViewerAllInOne fd = new frmSicksTanzimPezeshkPrintViewerAllInOne();
+                FrmSicksTanzimPezeshkPrintViewerAllInOne fd = new FrmSicksTanzimPezeshkPrintViewerAllInOne();
                 fd.idtable = ids;
                 fd.Show();
             }
@@ -801,7 +801,7 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString() });
                 }
-                frmSicksTanzimParastarPrintViewer fd = new frmSicksTanzimParastarPrintViewer();
+                FrmSicksTanzimParastarPrintViewer fd = new FrmSicksTanzimParastarPrintViewer();
                 fd.cur_date = cur_date;
                 fd.idtable = ids;
                 fd.Show();
@@ -817,31 +817,31 @@ namespace Mehr.Presentation_Layers
                 {
                     ids.Rows.Add(new object[] { dgvr.Cells["id"].Value.ToString(), dgvr.Cells["name"].Value.ToString(), dgvr.Cells["darman_date"].Value.ToString() });
                 }
-                frmSicksTanzimParastarPrintViewerAllInOne fd = new frmSicksTanzimParastarPrintViewerAllInOne();
+                FrmSicksTanzimParastarPrintViewerAllInOne fd = new FrmSicksTanzimParastarPrintViewerAllInOne();
                 fd.idtable = ids;
                 fd.Show();
             }
             else if (sender == p8)
             {
-                frmSicksIndiPrintViewer fsipv = new frmSicksIndiPrintViewer();
+                FrmSicksIndividualPrintViewer fsipv = new FrmSicksIndividualPrintViewer();
                 fsipv.filler = (DataTable)(grdDataViewer.DataSource);
                 fsipv.Show();
             }
             else if (sender == p9)
             {
-                frmSicksGroupPrintViewer fsgpv = new frmSicksGroupPrintViewer();
+                FrmSicksGroupPrintViewer fsgpv = new FrmSicksGroupPrintViewer();
                 fsgpv.filler = (DataTable)(grdDataViewer.DataSource);
                 fsgpv.Show();
             }
             else if (sender == p10)
             {
-                frmTahodPrintViewer ftpv = new frmTahodPrintViewer();
+                FrmTahodPrintViewer ftpv = new FrmTahodPrintViewer();
                 ftpv.filler = (DataTable)(grdDataViewer.DataSource);
                 ftpv.Show();
             }
             else if (sender == p11)
             {
-                frmSicksHesabPrintViewer ftpv = new frmSicksHesabPrintViewer();
+                FrmSicksHesabPrintViewer ftpv = new FrmSicksHesabPrintViewer();
                 ftpv.filler = (DataTable)(grdDataViewer.DataSource);
                 ftpv.Show();
             }

@@ -10,11 +10,11 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmTajvizSelectBoop : Form
+    public partial class FrmTajvizSelectBoop : Form
     {
         DataTable dt = new DataTable();
 
-        public frmTajvizSelectBoop()
+        public FrmTajvizSelectBoop()
         {
             InitializeComponent();
         }
@@ -174,7 +174,7 @@ namespace Mehr.Presentation_Layers
             }
             # endregion
 
-            frmBoopTahvilPrintViewer fbtpv = new frmBoopTahvilPrintViewer();
+            FrmBoopTahvilPrintViewer fbtpv = new FrmBoopTahvilPrintViewer();
 
             DataTable id_dt = new tajviz().Search("select distinct id from Tajviz where (daru_name like N'%بوپر%' and tajviz_date>='" + fromdate + "' and tajviz_date <='" + todate + "')");
             

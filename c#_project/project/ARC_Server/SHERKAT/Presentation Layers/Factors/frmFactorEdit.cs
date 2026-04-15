@@ -10,14 +10,14 @@ using System.Data.SqlClient;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmFactorEdit : Form
+    public partial class FrmFactorEdit : Form
     {
         DataTable dt = new DataTable();
 
         public string cur_date, first_daru_name;
         public float first_tedad = 0;
 
-        public frmFactorEdit()
+        public FrmFactorEdit()
         {
             InitializeComponent();
         }

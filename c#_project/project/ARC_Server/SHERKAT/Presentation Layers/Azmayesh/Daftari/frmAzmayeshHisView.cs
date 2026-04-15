@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmAzmayeshHisView : Form
+    public partial class FrmAzmayeshHisView : Form
     {
-        public frmAzmayeshHisView()
+        public FrmAzmayeshHisView()
         {
             InitializeComponent();
         }
@@ -51,7 +51,7 @@ namespace Mehr.Presentation_Layers
             if (dataGridView1.CurrentRow != null)
             {
             
-                    frmAzmayeshPrintViewer fgkpv = new frmAzmayeshPrintViewer();
+                    FrmAzmayeshPrintViewer fgkpv = new FrmAzmayeshPrintViewer();
                     fgkpv.filler = (DataTable)(dataGridView1.DataSource);
                     fgkpv.Show();
             }

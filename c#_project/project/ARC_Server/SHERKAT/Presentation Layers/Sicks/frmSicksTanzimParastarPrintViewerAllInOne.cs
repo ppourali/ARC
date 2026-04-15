@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +12,7 @@ using Mehr.Utils;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmSicksTanzimParastarPrintViewerAllInOne : Form
+    public partial class FrmSicksTanzimParastarPrintViewerAllInOne : Form
     {
        
         public string cur_date = "";
@@ -24,7 +24,7 @@ namespace Mehr.Presentation_Layers
 
         Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
 
-        public frmSicksTanzimParastarPrintViewerAllInOne()
+        public FrmSicksTanzimParastarPrintViewerAllInOne()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
-﻿
+
 namespace Mehr.Presentation_Layers
 {
-    partial class frmShortHazinehInp
+    partial class FrmShortHazinehInp
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Mehr.Presentation_Layers
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmShortHazinehInp));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmShortHazinehInp));
             this.label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.btnMoveLast = new System.Windows.Forms.Button();

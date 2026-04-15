@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmContactView : Form
+    public partial class FrmContactView : Form
     {
-        public frmContactView()
+        public FrmContactView()
         {
             InitializeComponent();
         }
@@ -217,7 +217,7 @@ namespace Mehr.Presentation_Layers
 
         private void btnadd_Click(object sender, EventArgs e)
         {
-            frmContactInp fsi = new frmContactInp();
+            FrmContactInp fsi = new FrmContactInp();
             fsi.cur_date = this.cur_date;
             fsi.MdiParent = this.MdiParent;
             fsi.Show();
@@ -243,7 +243,7 @@ namespace Mehr.Presentation_Layers
 
                 datat = si.Selectforedit();
 
-                frmContactEdit fse = new frmContactEdit();
+                FrmContactEdit fse = new FrmContactEdit();
 
                 fse.txtid.Text = val;
                 fse.idsearch_Click(null,null);

@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Mehr.Presentation_Layers
 {
-    public partial class frmContact_AnbarView : Form
+    public partial class FrmContact_AnbarView : Form
     {
-        public frmContact_AnbarView()
+        public FrmContact_AnbarView()
         {
             InitializeComponent();
         }
@@ -120,7 +120,7 @@ namespace Mehr.Presentation_Layers
                 string mandeh = grdDataViewer["mandeh", e.RowIndex].Value.ToString();
                 if (float.Parse(mandeh) > 0)
                 {
-                    frmDaruReturnTedad fdrt = new frmDaruReturnTedad();
+                    FrmDaruReturnTedad fdrt = new FrmDaruReturnTedad();
                     fdrt.maxcanreturn = mandeh;
                     fdrt.daru_name = grdDataViewer["daru_name", e.RowIndex].Value.ToString();
                     fdrt.cur_date = this.cur_date;
